@@ -1,6 +1,6 @@
 id: a2a-discovery
 name: A2A protocol, agent discovery
-org: Linux Foundation
+org: AAIF
 kind: work-item
 tier: core
 status: 'A2A registers /.well-known/agent-card.json for a single AgentCard; proposals for hosts serving several agents (PR #2240, issues #2276 and #2248) were open on 2026-10-13: PR #2240 and issue #2248 have no comment, and issue #2276 has no comment after 2026-10-02.'
@@ -10,6 +10,9 @@ committed_next: []
 boundary: 'A maintainer wrote on PR #418 that the A2A working group "will not be building any kind of registry standard".'
 participation: 'The author of this map took part in issue #2276 (two comments, 2026-10-02); see Disclosure.'
 sources:
+- url: https://aaif.io/blog/a2a-joins-aaif
+  read: 2026-10-18
+  class: decision
 - url: https://github.com/a2aproject/A2A/pull/2240
   read: 2026-10-02
   class: third-party
@@ -34,9 +37,9 @@ overlaps:
 - a2a-core
 seams:
 - S1
-verified: 2026-10-13
+verified: 2026-10-18
 evidence:
-  read: 'Repository items read (updated 2026-01-01 to 2026-10-02): discovery threads in full, the rest by keyword search; docs/roadmap.md and agent-discovery.md on main, 2026-10-03.'
+  read: 'On 2026-10-18: the AAIF announcement of 2026-08-17 (A2A is a hosted project of AAIF). Repository items read (updated 2026-01-01 to 2026-10-02): discovery threads in full, the rest by keyword search; docs/roadmap.md and agent-discovery.md on main, 2026-10-03.'
   not_read: 'Technical Steering Committee (TSC) minutes and recordings, the diff of PR #2240, the Discord, long identity threads, replies on #2276 after 2026-10-02 (none found: the thread has three comments, the last of 2026-10-02).'
   not_found: 'On 2026-10-13 (main at commit 7c861a5): the state, comment count and last update of PR #2240 and issues #2276 and #2248, the latest release (v1.0.1, 2026-05-28), docs/topics/agent-discovery.md (the quoted sentence present; AI Catalog not found in it) and the history of GOVERNANCE.md (last change 2026-08-25). Not found in roadmap.md: discovery.'
 open_proposals:

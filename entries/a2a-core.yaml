@@ -1,10 +1,10 @@
 id: a2a-core
 name: Agent2Agent (A2A) protocol, core specification
-org: Linux Foundation
+org: AAIF
 kind: specification
 tier: context
-status: 'Latest release v1.0.1, 2026-05-28. Technical Steering Committee of eight company seats: Google, Microsoft, Cisco, AWS, Salesforce, ServiceNow, SAP, IBM.'
-status_as_of: 2026-10-13
+status: 'Hosted project of the Agentic AI Foundation (AAIF, under the Linux Foundation): the AAIF announced on 2026-08-17 that A2A "is joining the Agentic AI Foundation (AAIF) as a hosted project", and the A2A blog of 2026-08-27 says it was "accepted as a Growth Stage project". Latest release v1.0.1, 2026-05-28. Technical Steering Committee of eight company seats: Google, Microsoft, Cisco, AWS, Salesforce, ServiceNow, SAP, IBM.'
+status_as_of: 2026-10-18
 relevance: 'The AgentCard is defined in specification/a2a.proto as "A self-describing manifest for an agent."; how cards are found is in a2a-discovery. PR #2081, merged on 2026-07-30, added section 7.6.4 to the specification: "Agents MUST NOT treat the TASK_STATE_AUTH_REQUIRED state transition, by itself, as authorization for any particular operation."; the PR description calls the state "a coordination signal, not an authorization grant".'
 sources:
 - url: https://github.com/a2aproject/A2A/blob/main/specification/a2a.proto
@@ -16,6 +16,15 @@ sources:
 - url: https://www.linuxfoundation.org/press/linux-foundation-launches-the-agent2agent-protocol-project-to-enable-secure-intelligent-communication-between-ai-agents
   read: 2026-10-03
   class: decision
+- url: https://aaif.io/blog/a2a-joins-aaif
+  read: 2026-10-18
+  class: decision
+- url: https://a2a-protocol.org/latest/blog/2026/08/27/a-new-chapter-for-a2a-joining-the-agentic-ai-foundation/
+  read: 2026-10-18
+  class: statement
+- url: https://aaif.io/projects
+  read: 2026-10-18
+  class: statement
 - url: https://github.com/a2aproject/A2A/blob/main/docs/specification.md
   read: 2026-10-08
   class: normative
@@ -30,7 +39,8 @@ overlaps:
 - mcp-core
 seams:
 - S1
-verified: 2026-10-13
+verified: 2026-10-18
 evidence:
-  read: 'On 2026-10-13: the release list (latest v1.0.1, 2026-05-28),. On 2026-10-03: a2a.proto, docs/specification.md, GOVERNANCE.md, the release list.'
+  read: 'On 2026-10-18: the AAIF announcement of 2026-08-17, the A2A blog post of 2026-08-27, the AAIF projects page (A2A listed with MCP, goose, AGENTS.md, agentgateway and Agent Router) and the release list (latest still v1.0.1). On 2026-10-13: the release list (latest v1.0.1, 2026-05-28). On 2026-10-03: a2a.proto, docs/specification.md, GOVERNANCE.md, the release list.'
+  not_found: 'Not found in the repository README on 2026-10-18: AAIF; the README still says "an open source project under the Linux Foundation, contributed by Google".'
   not_read: Technical Steering Committee (TSC) minutes and recordings, specification chapters beyond the definitions, the project's later announcements.

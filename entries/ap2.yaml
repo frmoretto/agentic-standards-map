@@ -3,8 +3,8 @@ name: Agent Payments Protocol (AP2)
 org: Industry
 kind: specification
 tier: core
-status: Open protocol in the GitHub organisation google-agentic-commerce (Apache-2.0); latest release v0.2.0 of 2026-04-28, which "focuses on providing Human Not Present flows"; core specification donated to FIDO.
-status_as_of: 2026-10-13
+status: 'Donated by Google to the FIDO Alliance on 2026-04-28 (Google: "We’re donating Agent Payments Protocol to the FIDO Alliance"); standardisation continues in the FIDO Payments and Agentic Authentication Technical Working Groups. The reference repository stays in the GitHub organisation google-agentic-commerce (Apache-2.0); latest release v0.2.0 of 2026-04-28, which "focuses on providing Human Not Present flows".'
+status_as_of: 2026-10-18
 relevance: 'AP2 is available as an extension for A2A and for UCP; its objects are mandates, signed Verifiable Digital Credentials, and the FIDO blog of 2026-05-26 names "Checkout Mandate: This captures the details about and conditions on what the user wants to buy." and "Payment Mandate : This captures the details about and conditions on how the user wants to pay (amount, instrument, timing)." The docs say the Checkout Mandate is shared with the merchant, so the seller is a recipient of the user''s signed purchase terms. The record the other way, the Mandate Receipt that the Verifier signs, is described with a `result` field in docs/ap2/agent_authorization.md and with a `status` field in the normative schemas, at the same commit e1ea56d (see issue #374 in the open proposals). UCP''s AP2 mandates extension has businesses embed a signature over the checkout terms.
 
   '
@@ -19,6 +19,9 @@ committed_next:
   source: https://fidoalliance.org/fido-alliance-to-develop-standards-for-trusted-ai-agent-interactions/
   class: decision
 sources:
+- url: https://blog.google/products-and-platforms/platforms/google-pay/agent-payments-protocol-fido-alliance/
+  read: 2026-10-18
+  class: decision
 - url: https://github.com/google-agentic-commerce/AP2/releases/tag/v0.2.0
   read: 2026-10-13
   class: decision
@@ -62,13 +65,13 @@ overlaps:
 - acp
 seams:
 - S4
-verified: 2026-10-14
+verified: 2026-10-18
 evidence:
-  read: 'On 2026-10-13: the release list (latest v0.2.0, 2026-04-28), the head of main (commit e1ea56d, 2026-04-29, unchanged since the reading of 2026-10-05), docs/index.md, docs/ap2/agent_authorization.md, checkout_receipt.json and receipt_status.json at that commit, and issue #374,. Also on 2026-10-13, at the same commit: docs/ap2/specification.md (section Checkout Mandate, which holds the sentence "Once the Merchant has accepted or rejected the Checkout Mandate, it MUST return a Checkout Receipt."), flows.md (receipt passages), the Checkout Receipt section of checkout_mandate.md (which holds the schema fields), and a search of the seven documents of docs/ap2 for the words refund, cancel and fulfil(l), recounted on 2026-10-14. google-agentic-commerce/AP2, 2026-10-03: metadata, releases v0.2.0 and v0.1.0, README, CONTRIBUTING.md, docs/index.md, docs/faq.md; FIDO release of 2026-04-28 and blog of 2026-05-26, in full; at commit e1ea56d on 2026-10-05: docs/ap2/specification.md, docs/ap2/agent_authorization.md and code/sdk/schemas/ap2/checkout_receipt.json.'
+  read: 'On 2026-10-18: the Google blog post of 2026-04-28 ("Google donates Agent Payments Protocol to FIDO Alliance"), the FIDO release of 2026-04-28 and docs/index.md on main. On 2026-10-13: the release list (latest v0.2.0, 2026-04-28), the head of main (commit e1ea56d, 2026-04-29, unchanged since the reading of 2026-10-05), docs/index.md, docs/ap2/agent_authorization.md, checkout_receipt.json and receipt_status.json at that commit, and issue #374,. Also on 2026-10-13, at the same commit: docs/ap2/specification.md (section Checkout Mandate, which holds the sentence "Once the Merchant has accepted or rejected the Checkout Mandate, it MUST return a Checkout Receipt."), flows.md (receipt passages), the Checkout Receipt section of checkout_mandate.md (which holds the schema fields), and a search of the seven documents of docs/ap2 for the words refund, cancel and fulfil(l), recounted on 2026-10-14. google-agentic-commerce/AP2, 2026-10-03: metadata, releases v0.2.0 and v0.1.0, README, CONTRIBUTING.md, docs/index.md, docs/faq.md; FIDO release of 2026-04-28 and blog of 2026-05-26, in full; at commit e1ea56d on 2026-10-05: docs/ap2/specification.md, docs/ap2/agent_authorization.md and code/sdk/schemas/ap2/checkout_receipt.json.'
   not_read: The mandate pages checkout_mandate.md and payment_mandate.md beyond the receipt sections, other code, commits, issues, FIDO working group charters.
   not_found: 'Not found in the seven documents of docs/ap2 at commit e1ea56d (agent_authorization, checkout_mandate, flows, implementation_considerations, payment_mandate, security_and_privacy_considerations, specification), 2026-10-14: refund and cancel (0 occurrences each).'
 matrix:
-  governance: Organisation google-agentic-commerce, Apache-2.0; core specification donated to FIDO (repository); FIDO Payments TWG to develop it
+  governance: FIDO Alliance (donated by Google, 2026-04-28; Payments and Agentic Authentication TWGs); reference repository in the organisation google-agentic-commerce, Apache-2.0
   version_state: v0.2.0 (2026-04-28), v0.1.0 (2025-09-16); standardisation continues in FIDO working groups
   signs: 'Mandates (signed Verifiable Digital Credentials): Checkout Mandate (shared with merchant), Payment Mandate (instrument, amount)'
   signer: 'Closed mandates: the User (Human Present) or an Agent key (Human Not Present), whose trust "is provided by open Mandates that are signed by the User or a trust list of Agent Providers"; the Merchant provides "a merchant-signed JWT containing the Checkout" (docs/ap2/specification.md, Modes and Checkout Mandate, commit e1ea56d, 2026-10-05); FAQ: "user-signed Checkout Mandate"'

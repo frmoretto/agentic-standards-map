@@ -3,10 +3,13 @@ name: AAIF structure, Technical Committee and working groups
 org: AAIF
 kind: venue
 tier: context
-status: AAIF has a Governing Board, a Technical Committee and working groups, each with a repository; Agentic Commerce has its own entry.
-status_as_of: 2026-10-13
+status: 'AAIF has a Governing Board, a Technical Committee and working groups, each with a repository; Agentic Commerce has its own entry. Hosted projects listed on aaif.io/projects (2026-10-18): Model Context Protocol, goose, AGENTS.md, agentgateway, Agent2Agent (A2A) and Agent Router.'
+status_as_of: 2026-10-18
 relevance: 'aaif.io describes AAIF as "a neutral, open foundation under the Linux Foundation". Its Identity and Trust group aims at standards so "agents can be discovered across platforms, prove who they are, who they act for". Taxonomy and Landscape Workstream (repository ws-taxonomy-landscape, read on 2026-10-09 at commit 6ac90f5 of main): its charter lists the deliverables "Shared Taxonomy Explorer (v1.0)" with the date 2026-08-15 and "Ecosystem Architecture Map (v1.0)", `landscape.yml` plus a web application, with the date 2026-10-15; these are dates of a charter table, not a commitment of the workstream. On 2026-10-13 a portal titled "Taxonomy and Landscape Portal" is published at aaif.github.io/ws-taxonomy-landscape (page marked updated 2026-10-11, 8:13 pm) with links to a Shared Taxonomy Explorer and an Ecosystem Landscape Map; neither is called v1.0 on the page, the repository has no release (0) and no tag read, its commits to 2026-10-12 define taxonomy terms, and the date 2026-10-15 of the Ecosystem Architecture Map is still ahead. Its README says "The Landscape remains on the future roadmap, but its contribution and review process has not yet been accepted." and that "pull requests that propose Landscape changes will be closed"; the text was added by PR #61 ("docs: clarify current taxonomy-only contribution scope", merged 2026-09-16). PR #83 ("Clarify taxonomy contribution process", merged 2026-10-07) rewrote CONTRIBUTING.md: a term is raised in a Working Group, a delegate adds it to the taxonomy spreadsheet, the weekly workstream meeting votes KEEP, CULL or DEBATE, and only then does a delegate open a pull request, which needs approval from delegates of two different Working Groups before it is merged and the term is marked FINALIZED; the guide adds "A pull request for a term that has not received a KEEP vote will be closed."'
 sources:
+- url: https://aaif.io/projects
+  read: 2026-10-18
+  class: statement
 - url: https://aaif.io/about
   read: 2026-10-03
   class: statement
@@ -39,8 +42,8 @@ overlaps:
 - a2a-discovery
 - mcp-server-card
 - lf-ai-catalog
-verified: 2026-10-13
+verified: 2026-10-18
 evidence:
-  read: 'On 2026-10-13: the file listing, the commits to 2026-10-12, the releases and the issue and pull request list of ws-taxonomy-landscape, the portal page at aaif.github.io/ws-taxonomy-landscape, and the README (last changed 2026-09-16, unchanged on the Landscape sentence).'
+  read: 'On 2026-10-18: aaif.io/projects (six hosted projects). On 2026-10-13: the file listing, the commits to 2026-10-12, the releases and the issue and pull request list of ws-taxonomy-landscape, the portal page at aaif.github.io/ws-taxonomy-landscape, and the README (last changed 2026-09-16, unchanged on the Landscape sentence).'
   not_read: Discord, mailing lists, recordings, Google Documents.
   not_found: 'Not found in the proposals repositories, 2026-10-03: AI Catalog, Agentic Resource Discovery (ARD), DAWN, UCP, Verifiable Intent.'

@@ -50,6 +50,10 @@ Archive copies: snapshots of the cited sources were requested on 2026-10-14 from
 
 **Since 1.0.1 (not a numbered version).**
 
+- 2026-10-18, `a2a-core`, `a2a-discovery`: org corrected from Linux Foundation to AAIF; A2A joined AAIF as a hosted project (AAIF, 2026-08-17).
+- 2026-10-18, `mcp-core`, `mcp-server-card`: org corrected from Linux Foundation to AAIF; MCP is listed among AAIF's projects (aaif.io/projects).
+- 2026-10-18, `ap2`, `fido-agentic-standards`: AP2 described as donated by Google to the FIDO Alliance (Google, 2026-04-28); governance row of the matrix updated.
+- 2026-10-18, `aaif-structure`: hosted projects listed.
 - 2026-10-15, `dif-trusted-ai-agents`: org corrected to Linux Foundation, reported by a DIF participant on the AAIF Taxonomy list.
 - 2026-10-15, CONTRIBUTING and issue template: proposals now state the proposer's role and any employer or commercial interest.
 - 2026-10-15, header: the citable version and the date of the live site are shown separately.

@@ -1,6 +1,6 @@
 id: mcp-server-card
 name: MCP Server Cards (ext-server-card, SEP-2127)
-org: Linux Foundation
+org: AAIF
 kind: specification
 tier: core
 status: 'Experimental extension of MCP: the README of the extension repository still reads "not an accepted or official MCP extension" (2026-10-13). SEP-2127 (PR #2127, "MCP Server Cards - HTTP Server Discovery", Extensions Track) was merged on 2026-10-06 (14:43 UTC, merge commit 0a11bf6) by a maintainer of the MCP repository; the Specification Enhancement Proposal (SEP) file, read 2026-10-13, carries "Status: Final" and says the full extension specification stays in the extension repository, graduating to a repository named ext-server-card on acceptance. The last commit of the extension repository on main is of 2026-08-12 (PR #47); latest activity read: issue #30 (2026-10-10, 9 comments).'
@@ -17,6 +17,9 @@ committed_next:
   class: statement
 boundary: The README says a Server Card "describes remote connectivity only"; local installation metadata stays in the MCP Registry server.json.
 sources:
+- url: https://aaif.io/projects
+  read: 2026-10-18
+  class: statement
 - url: https://github.com/modelcontextprotocol/ext-server-card
   read: 2026-10-13
   class: normative
@@ -45,9 +48,9 @@ overlaps:
 - mcp-core
 seams:
 - S1
-verified: 2026-10-13
+verified: 2026-10-18
 evidence:
-  read: 'On 2026-10-13: PR #2127 with its labels and files, the SEP file seps/2127-mcp-server-cards.md, the README of the extension repository and the state of PR #47 and issues #13, #30, #43, #44, #48 and #50. ext-server-card: README, discovery.md, all issues and PRs in full; core repository since 2026-01-01: PR #2127, notes, Discussions #2831, #2896.'
+  read: 'On 2026-10-18: the AAIF projects page (MCP, whose GitHub organisation holds this extension, is an AAIF project). On 2026-10-13: PR #2127 with its labels and files, the SEP file seps/2127-mcp-server-cards.md, the README of the extension repository and the state of PR #47 and issues #13, #30, #43, #44, #48 and #50. ext-server-card: README, discovery.md, all issues and PRs in full; core repository since 2026-01-01: PR #2127, notes, Discussions #2831, #2896.'
   not_read: 'Issue #1649 comments, Core Maintainer meetings, external links.'
   not_found: 'Not found there (2026-10-03): GTIN, GS1.'
 open_proposals:

@@ -5,10 +5,13 @@ kind: work-item
 tier: context
 status: 'Announced 2026-04-28: an Agentic Authentication Technical Working Group, and work in the Payments Technical Working Group starting from Google (AP2) and Mastercard (Verifiable Intent) contributions.'
 status_as_of: 2026-10-14
-relevance: The release says the Payments Technical Working Group is "chaired by members from Mastercard and Visa"; it says contributed, while the AP2 repository says its core specification has been donated to FIDO. For the Agentic Authentication Technical Working Group the release says it is "chaired by members from CVS Health, Google and OpenAI and vice-chaired by members from Amazon, Google and Okta" (read in a browser on 2026-10-14); it names companies, not persons.
+relevance: The release says the Payments Technical Working Group is "chaired by members from Mastercard and Visa"; it says contributed; Google's announcement of the same day says "We’re donating Agent Payments Protocol to the FIDO Alliance", and the AP2 repository says its core specification has been donated to FIDO. For the Agentic Authentication Technical Working Group the release says it is "chaired by members from CVS Health, Google and OpenAI and vice-chaired by members from Amazon, Google and Okta" (read in a browser on 2026-10-14); it names companies, not persons.
 sources:
 - url: https://fidoalliance.org/fido-alliance-to-develop-standards-for-trusted-ai-agent-interactions/
   read: 2026-10-14
+  class: decision
+- url: https://blog.google/products-and-platforms/platforms/google-pay/agent-payments-protocol-fido-alliance/
+  read: 2026-10-18
   class: decision
 - url: https://github.com/google-agentic-commerce/AP2/blob/main/CONTRIBUTING.md
   read: 2026-10-03
@@ -20,8 +23,8 @@ overlaps:
 - ap2
 seams:
 - S4
-verified: 2026-10-14
+verified: 2026-10-18
 evidence:
-  read: 'FIDO release of 2026-04-28 in full, read again in a browser on 2026-10-14 (page metadata: published and modified 2026-04-28); blog of 2026-05-26 in full, 2026-10-03, not read again; AP2 CONTRIBUTING.md and docs/index.md, 2026-10-03.'
+  read: 'Google blog post of 2026-04-28 announcing the donation of AP2 to FIDO, 2026-10-18. FIDO release of 2026-04-28 in full, read again in a browser on 2026-10-14 (page metadata: published and modified 2026-04-28); blog of 2026-05-26 in full, 2026-10-03, not read again; AP2 CONTRIBUTING.md and docs/index.md, 2026-10-03.'
   not_read: Working group charters, membership, specification text.
   not_found: 'Not found in pages read, 2026-10-03: AAIF coordination; Visa TAP among contributions.'
