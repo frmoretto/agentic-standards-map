@@ -1,0 +1,97 @@
+id: gs1-epcis
+name: GS1 EPCIS Standard 2.0.1 and Core Business Vocabulary 2.0.0
+org: GS1
+kind: specification
+tier: context
+status: 'The archive page on ref.gs1.org lists EPCIS "Version 2.0.1 Published 1 July 2025" as "The latest version (currently version 2.0.1)" and the Core Business Vocabulary (CBV) "Version 2.0.0 Published 22 June 2022" as its latest, while the PDF served at the 2.0.1 address prints "Release 2.0, Ratified, Jun 2022" (Document Version 2.0, no issue number). EPCIS 2.0 is also ISO/IEC 19987:2024, edition 3.0 of 2024-03-22, which the IEC webstore describes as "a GS1 standard that defines Version 2.0 of EPC Information Services (EPCIS)".'
+status_as_of: 2026-10-30
+relevance: >-
+  "The goal of EPCIS is to enable disparate applications to create and share visibility event data, both
+  within and across enterprises." (section 1); an event has five dimensions, in the standard's words
+  "conveniently remembered as" what, when, where, why and how, and the CBV "specifies the
+  structure of vocabularies and specific values for the vocabulary elements to be utilised in
+  conjunction with the GS1 EPCIS standard" (its cover). Objects are identified by EPC URNs or by GS1
+  Digital Link URIs, and in the query interface "Implementations SHALL understand queries expressed in
+  both EPC URN and GS1 Digital Link URI syntaxes" (see gs1-digital-link). The REST binding, published as
+  the OpenAPI document "EPCIS 2.0 REST Bindings" (version 2.0.1, OpenAPI 3.0.3), defines capture and
+  query endpoints and named queries; "A named EPCIS events query SHALL support subscription using HTTP
+  callbacks (aka Webhooks) and MAY support subscription using WebSockets." (section 12.8.3), and "In
+  addition to Webhooks, EPCIS 2.0 adds the WebSocket protocol, which maintains a persistent connection
+  without requiring the client to run a Web server. An EPCIS server MAY support query subscription based
+  on the WebSocket protocol for scheduled queries and for streaming queries." (section 12.8.3.4). In the
+  OpenAPI document the GET on /queries/{queryName}/events "can also be used to subscribe to queries
+  using Websocket", with the query schedule or the parameter stream set to true in the query string, and
+  /queries/{queryName}/subscriptions creates and lists webhook subscriptions. The artefacts page lists
+  the OpenAPI file, a JSON Schema, a JSON-LD context, SHACL shapes, XML schemas and a WSDL, and the
+  EPCIS and CBV ontologies are published at ref.gs1.org/epcis and ref.gs1.org/cbv ("EPCIS and CBV
+  Linked Data Model"). The GS1 Web Vocabulary defines the link type gs1:epcisRepository, "A link to an
+  EPCIS repository of visibility event data." (term status stable; gs1:epcis is deprecated and replaced
+  by it), by which the linkset of a GS1-Conformant Resolver can point from a product identifier to an
+  EPCIS repository (see gs1-conformant-resolver and gs1-web-vocabulary). The UN Transparency Protocol's
+  Digital Traceability Events 0.7.0 define an "EPCIS Profile — using GS1 EPCIS 2.0 events that conform
+  to the constrained profile" and say that "implementers operating an EPCIS 2.0 capture/query interface
+  should follow the EPCIS Profile." (see untp-identity-resolver). Agents: the word agent is not found in
+  the text of the EPCIS 2.0.1 PDF (2026-10-30). At the W3C/GS1 workshop, position statement 31 (Sven
+  Böckelmann, benelog) gives as its failure case an agent that "gets a signed DPP and EPCIS recall event
+  from a non-authoritative resolver, every signature verifies, and it proceeds", and position statement
+  15 (Trace Labs) names EPCIS among the GS1 standards it has worked with, "where we helped roll out
+  EPCIS 2.0"; each is the statement of its author (see w3c-gs1-ecommerce-workshop). EPCIS is not found
+  in the UCP repository (issues, pull requests and a code search) nor in the ACP issues, 2026-10-30. On a
+  next version: the GitHub repository gs1/EPCIS, whose README describes the public review of EPCIS and
+  CBV 2.0 that ended on 11 November 2021, holds a folder named public_review_2_1 with one file,
+  epcis-context.jsonld, committed on 2026-09-04; the GS1 public reviews page could not be read (HTTP
+  403 to automated reads, 2026-10-30).
+sources:
+- url: https://ref.gs1.org/standards/epcis/
+  read: 2026-10-30
+  class: normative
+- url: https://ref.gs1.org/standards/epcis/2.0.1/
+  read: 2026-10-30
+  class: normative
+- url: https://ref.gs1.org/standards/epcis/archive
+  read: 2026-10-30
+  class: decision
+- url: https://ref.gs1.org/standards/cbv/
+  read: 2026-10-30
+  class: normative
+- url: https://ref.gs1.org/standards/cbv/archive
+  read: 2026-10-30
+  class: decision
+- url: https://ref.gs1.org/standards/epcis/openapi.json
+  read: 2026-10-30
+  class: normative
+- url: https://ref.gs1.org/standards/epcis/artefacts
+  read: 2026-10-30
+  class: normative
+- url: https://ref.gs1.org/epcis/
+  read: 2026-10-30
+  class: normative
+- url: https://webstore.iec.ch/publication/93438
+  read: 2026-10-30
+  class: decision
+- url: https://ref.gs1.org/voc/data/gs1Voc.jsonld
+  read: 2026-10-30
+  class: normative
+- url: https://untp.unece.org/docs/0.7.0/specification/DigitalTraceabilityEvents
+  read: 2026-10-30
+  class: normative
+- url: https://github.com/w3c/ecommerce-for-humans-and-AI-Agents-workshop/issues/31
+  read: 2026-10-30
+  class: third-party
+- url: https://github.com/w3c/ecommerce-for-humans-and-AI-Agents-workshop/issues/15
+  read: 2026-10-30
+  class: third-party
+- url: https://github.com/gs1/EPCIS
+  read: 2026-10-30
+  class: statement
+overlaps:
+- gs1-digital-link
+- gs1-conformant-resolver
+- untp-identity-resolver
+- w3c-gs1-ecommerce-workshop
+- cen-clc-jtc24-dpp
+verified: 2026-10-30
+evidence:
+  read: 'On 2026-10-30: the EPCIS PDF served at the 2.0.1 address (text extracted in full, 229 pages), quoted from sections 1, 12.8.3 and 12.8.3.4 and the query interface; the cover of the CBV 2.0.0 PDF; the OpenAPI document (paths and descriptions); the EPCIS and CBV archive pages and the artefacts page; the ontology landing page; the IEC webstore record; the GS1 Web Vocabulary JSON-LD (gs1:epcisRepository, gs1:epcis); the UNTP Digital Traceability Events page 0.7.0; workshop issues 31 and 15; the file listing, README and commit list of gs1/EPCIS; a GitHub search for EPCIS in the UCP repository (issues, pull requests, code) and in the ACP issues.'
+  not_read: 'The pages of www.gs1.org on EPCIS and on public reviews (HTTP 403 to automated reads); the body of the CBV 2.0.0 PDF; the EPCIS and CBV implementation guideline; the XML and SOAP bindings; the examples at ref.gs1.org/docs/epcis; the content of the file in public_review_2_1.'
+  not_found: 'Not found in the text of the EPCIS 2.0.1 PDF, 2026-10-30: agent (as a whole word). Not found in the UCP repository (issues, pull requests, code search) nor in the ACP issues, 2026-10-30: EPCIS.'
