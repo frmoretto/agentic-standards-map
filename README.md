@@ -68,9 +68,9 @@ Corrections and missing sources: [open an issue on the repository](https://githu
 
 ### How to cite
 
-Marinoni Moretto, F. (2026). Agentic Standards Map (Version 1.3) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23357361
+Marinoni Moretto, F. (2026). Agentic Standards Map (Version 1.3) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23882108
 
-Please cite the entry id, the date it was read and the DOI. The version DOI of 1.3 is assigned by Zenodo when this release is archived; it is listed in the Zenodo record and on the live site.
+Please cite the entry id, the date it was read and the DOI. To cite the map in general, use https://doi.org/10.5281/zenodo.23357361.
 
 ## Contributing
 
