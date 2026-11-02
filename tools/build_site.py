@@ -42,6 +42,7 @@ PLACEHOLDER_BASE = "https://example.invalid/"
 DEFAULT_REPO = "https://github.com/frmoretto/agentic-standards-map"
 SITE_TITLE = "Agentic standards map"
 SITE_NAME = "Agentic Standards Map"   # the name in the header of every page and in the breadcrumb of the entries
+TAGLINE = "Who is standardising agentic commerce, where, and what they have committed to next."   # under the name in the header of every page; also the second line of public/README.md
 INTRO_STRIP = ("An open, dated map of who is standardising agentic commerce (W3C, IETF, GS1, AAIF and the industry protocols) and what each "
                "venue has committed to next. Every statement points to a public source. Maintained by %s.<br><strong>New here?</strong> Start with the %s.")
 AUTHOR = "Francesco Marinoni Moretto"
@@ -559,7 +560,7 @@ body{margin:0;font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-seri
 header.site,footer.site{padding-left:max(var(--pad),calc((100% - var(--measure))/2 + var(--pad)));padding-right:max(var(--pad),calc((100% - var(--measure))/2 + var(--pad)))}
 header.site{padding-top:.6rem;padding-bottom:.6rem;background:linear-gradient(var(--line),var(--line)) center bottom/min(var(--measure),100%) 1px no-repeat}
 header.site{display:flex;flex-wrap:wrap;row-gap:.2rem}
-header.site a{margin-right:1rem;color:var(--accent);text-decoration:none;font-weight:600;white-space:nowrap}header.site a.brand{flex-basis:100%;font-size:1.85rem;font-weight:700;margin-bottom:.2rem}header.site .menuw{flex-basis:100%;overflow:hidden}header.site nav.menu{display:flex;flex-wrap:wrap;row-gap:.2rem;margin-left:-.75rem}header.site nav.menu a{margin-right:.75rem;padding-left:.75rem}header.site nav.menu a::before{content:"";display:inline-block;height:.6em;vertical-align:0;border-left:1px solid var(--sep);margin-left:-.75rem;margin-right:calc(.75rem - 1px)}header.site .cadence{flex-basis:100%;margin:0;font-size:.85rem;color:var(--muted)}header.site .cadence a{margin-right:0;font-weight:400;text-decoration:underline}footer.site .cadence{margin:0 0 .4rem}
+header.site a{margin-right:1rem;color:var(--accent);text-decoration:none;font-weight:600;white-space:nowrap}header.site a.brand{flex-basis:100%;font-size:1.85rem;font-weight:700;margin-bottom:.2rem}header.site .menuw{flex-basis:100%;overflow:hidden}header.site nav.menu{display:flex;flex-wrap:wrap;row-gap:.2rem;margin-left:-.75rem}header.site nav.menu a{margin-right:.75rem;padding-left:.75rem}header.site nav.menu a::before{content:"";display:inline-block;height:.6em;vertical-align:0;border-left:1px solid var(--sep);margin-left:-.75rem;margin-right:calc(.75rem - 1px)}header.site .cadence{flex-basis:100%;margin:0;font-size:.85rem;color:var(--muted)}header.site h1.brand{flex-basis:100%;margin:0;font-size:inherit;line-height:inherit}header.site .tagline{flex-basis:100%;margin:0 0 .3rem;font-size:.95rem;color:var(--muted)}header.site .cadence a{margin-right:0;font-weight:400;text-decoration:underline}footer.site .cadence{margin:0 0 .4rem}
 div.strip{max-width:var(--measure);margin:.8rem auto 0;padding:.55rem var(--pad);background:var(--strip);border-radius:.4rem;font-size:.9rem}div.strip p{margin:0}
 @media (max-width:56rem){div.strip{border-radius:0;margin-top:0}}
 p.crumbs{font-size:.85rem;color:var(--muted);margin:.6rem 0 -.4rem}p.crumbs+h1::before{content:"\\25B8";content:"\\25B8" / "";margin-right:.35em}
@@ -647,6 +648,9 @@ class Site:
         rel = "../" * depth
         alt = "".join('<link rel="alternate" type="%s" href="%s">\n' % (attr(t_), attr(h_)) for t_, h_ in (alternates or []))
         nav = '<a class="brand" href="%sindex.html">%s</a>' % (rel, esc(SITE_NAME))
+        if path == "index.html":   # one h1 per page: on the home page it is the name in the header, elsewhere the title of the page
+            nav = '<h1 class="brand">%s</h1>' % nav
+        nav += '<p class="tagline">%s</p>' % esc(TAGLINE)
         nav += '<div class="menuw"><nav class="menu" aria-label="Site">%s</nav></div>' % "".join(  # the wrapper hides the separator at the start of each row
             '<a href="%s%s">%s</a>' % (rel, h, t) for h, t in (("index.html#entries", "Entries"), ("graph.html", "Graph"), ("seams.html", "Seams"),
                                                                ("calendar.html", "Calendar"), ("intro.html", "Introduction"),
@@ -1097,6 +1101,11 @@ def main():
         md = Md(ids, a.repo_url)
         readme = (src / "README.md").read_text(encoding="utf-8")
         head = readme.split("## Next on the calendar")[0]
+        # the name and the tagline are in the header of the page; the README opens with both, and the home page starts after them
+        opening = "# %s\n\n**%s**\n\n" % (SITE_NAME, TAGLINE)
+        if not head.replace("\r\n", "\n").startswith(opening):
+            raise SystemExit("README.md does not open with the name and the tagline of the header: %r" % head[:160])
+        head = head.replace("\r\n", "\n")[len(opening):]
         nextsec = "## Next on the calendar" + readme.split("## Next on the calendar", 1)[1].split("## Start here")[0]
         tail = "## Start here" + readme.split("## Start here", 1)[1]
         miss = check_readme_block(readme)
@@ -1242,6 +1251,18 @@ def report(a, out, site, entries, seams, edges, unknown_overlap, unknown_seam, e
     print("[CHECK] JSON-LD blocks: %d, invalid as JSON: %d; map.json parses: True" % (n_ld, bad_ld))
     canon = sum(1 for f in out.rglob("*.html") if 'rel="canonical"' in f.read_text(encoding="utf-8") and 'lang="en"' in f.read_text(encoding="utf-8"))
     print("[CHECK] pages with canonical link and lang=en: %d of %d" % (canon, len(pages)))
+    h1_bad, tag_bad = [], []
+    for f in sorted(out.rglob("*.html")):
+        t = f.read_text(encoding="utf-8")
+        if len(re.findall(r"<h1[ >]", t)) != 1:
+            h1_bad.append(f.relative_to(out).as_posix())
+        hdr = t.split("</header>", 1)[0]
+        if t.count(esc(TAGLINE)) != 1 or esc(TAGLINE) not in hdr or re.search(r"<h[1-6][^>]*>[^<]*" + re.escape(esc(TAGLINE)), t):
+            tag_bad.append(f.relative_to(out).as_posix())
+    home = (out / "index.html").read_text(encoding="utf-8")
+    home_h1_in_header = bool(re.search(r"<h1[ >]", home.split("</header>", 1)[0]))
+    print("[CHECK] pages with exactly one h1: %d of %d %s; home h1 in the header: %s; tagline once per page, in the header, not a heading: %d of %d %s"
+          % (len(pages) - len(h1_bad), len(pages), h1_bad[:5], home_h1_in_header, len(pages) - len(tag_bad), len(pages), tag_bad[:5]))
     # texts that must not reach the site: read at run time from the working repository when it holds the internal summary, never written in this file
     excluded = []
     pv = ROOT / "notes" / "exec-summary.md"

@@ -210,6 +210,10 @@ Archive copies: snapshots of the cited sources were requested on 2026-10-14 from
 
 **Changelog.**
 
+**Since 1.3 (not a numbered version).** Corrections to the living version, for the next numbered version.
+
+- Site header: the one-line description of the map is shown under its name on every page; the home page no longer repeats the name and the tagline above its text, and each page has one h1 (presentation only, no change to the data).
+
 **1.3 (2026-11-02).** No entry added; corrections and additions to the living version. Facts dated after Friday 2026-10-30 are deferred to 1.4 (among them UCP pull request #998 on identity linking, the UCP Governing Council minutes of 2026-10-30, draft-hulea-wimse-agent-mandate-01 and draft-zambo-aer1-wimse-mapping-02), except contributions of the author of this map and proposals made to this map in its own issues.
 
 Corrections:
