@@ -1,0 +1,52 @@
+id: gs1-web-vocabulary
+name: GS1 Web Vocabulary 1.18
+org: GS1
+kind: specification
+tier: context
+status: 'The ontology file gs1Voc.jsonld carries owl:versionInfo "1.18" and dct:modified 2026-06-01; the change log published next to it lists 1.17.0 as its most recent record (GSMP work request 25-195, source Visibility SMG) and no record for 1.18 (2026-10-30). Terms are "developed and ratified according to the Global Standards Management Process" and "may be suggested and commented on in the vocabulary''s GitHub repository" (gs1/WebVoc, last push 2026-01-29).'
+status_as_of: 2026-10-30
+relevance: >-
+  "The GS1 Web Vocabulary collects terms defined in various GS1 standards and data systems and made
+  available for general use following Linked Data principles. It is designed as an extension to
+  schema.org and, where relevant, mappings and relationships arising from that vocabulary are made
+  explicit."; it "includes the definition of parties and of a product offer (a product offered by a
+  party for a price)", and gs1:Product is defined as "Any item (product or service) upon which there is
+  a need to retrieve pre-defined information and that may be priced, or ordered, or invoiced at any
+  point in any supply chain." (see schemaorg-baseline). The vocabulary "includes the link types used in
+  GS1 Digital Link to annotate links to related resources, such as product information pages,
+  instruction manuals, related videos, certification information, brand owner APIs, traceability
+  information and more": gs1:linkType "provides a super property for all other link types in the GS1
+  ecosystem", among them gs1:pip, gs1:hasRetailers, gs1:allergenInfo, gs1:defaultLink and
+  gs1:epcisRepository ("A link to an EPCIS repository of visibility event data.", see gs1-epcis). The
+  GS1-Conformant Resolver Standard 1.2.1 says that the IANA registry of link relations does not include
+  the detailed set its resolvers need, "Therefore, the GS1 Web vocabulary [GS1Voc] defines a set of
+  link relation types (link types). The Web Vocabulary is managed under the GS1 Standards Management
+  Process.", requires that resolvers "SHALL recognise the link types defined in the gs1: namespace",
+  and records that its earlier recommendation that resolvers "SHOULD also recognise relevant terms in
+  schema.org" "has been removed although, of course, resolvers MAY use such terms." (see
+  gs1-conformant-resolver and gs1-digital-link).
+sources:
+- url: https://ref.gs1.org/voc/
+  read: 2026-10-30
+  class: normative
+- url: https://ref.gs1.org/voc/data/gs1Voc.jsonld
+  read: 2026-10-30
+  class: normative
+- url: https://ref.gs1.org/voc/data/changeLog.json
+  read: 2026-10-30
+  class: decision
+- url: https://github.com/gs1/WebVoc
+  read: 2026-10-30
+  class: statement
+- url: https://ref.gs1.org/standards/resolver/
+  read: 2026-10-30
+  class: normative
+overlaps:
+- schemaorg-baseline
+- gs1-digital-link
+- gs1-conformant-resolver
+- gs1-epcis
+verified: 2026-10-30
+evidence:
+  read: 'On 2026-10-30: the vocabulary landing page (introduction), the JSON-LD ontology file (the ontology node, gs1:Product, gs1:linkType and the link-type properties: 59 with term status stable), the change log JSON (five records, 1.13.0 to 1.17.0), the repository metadata of gs1/WebVoc, and section 2.14 and the revision notes of the GS1-Conformant Resolver Standard 1.2.1.'
+  not_read: 'The term pages of the vocabulary beyond those named; the Turtle file; the JSON-LD context files; the issues of gs1/WebVoc; the www.gs1.org pages.'
