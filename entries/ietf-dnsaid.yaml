@@ -3,7 +3,7 @@ name: DNS for AI Discovery (DNS-AID, draft-mozleywilliams-dnsop-dnsaid)
 org: IETF
 kind: work-item
 tier: context
-status: 'Individual Internet-Draft -02 (2026-05-27), "(No stream defined)", not adopted by a Working Group (WG); expires 2026-11-28. Related individual proposals, none adopted by a WG (datatracker, 2026-10-13): draft-ihsanullah-dnsid-01 (2026-06-29), draft-ferro-dnsop-apertoid-02 (2026-08-12), draft-morrison-mcp-dns-discovery-08 (2026-10-09) and draft-ranjbar-dane-did-01 (2026-08-01), and a fifth, draft-ranjbar-dane-anchored-identity-00 (2026-07-21; datatracker, 2026-10-15); DNS-AID is not among them. The IETF Secretariat announced on 2026-10-09 (15:20 UTC) a non-WG list, dns-underscore-keys (area INT), whose purpose is "To compare existing proposals for publishing keys, or references to them, under underscore labels in DNS" and names those four drafts; its public archive held three messages on 2026-10-13. The first post, by an author of one of the four drafts (2026-10-10), compares them on five axes: who the record is about, where the key sits, what makes the record trustworthy, revocation, and continuity of holding after a domain changes hands; it leaves open the enumeration of names in a zone, record size, and TXT against a new RRTYPE. On 2026-10-12 an author of another of the four wrote that "A 3 1 1 TLSA with SHA-256 is 35 bytes of RDATA" and "The full signed answer with the DO bit set is 271 bytes", measured on one live record (figures declared by the source, not reproduced here). The draft texts were not read for this entry; their content is as the list messages describe it.'
+status: 'Individual Internet-Draft -02 (2026-05-27), "(No stream defined)", not adopted by a Working Group (WG); expires 2026-11-28. Related individual proposals, none adopted by a WG (datatracker, 2026-10-13): draft-ihsanullah-dnsid-01 (2026-06-29), draft-ferro-dnsop-apertoid-02 (2026-08-12), draft-morrison-mcp-dns-discovery-08 (2026-10-09; revision -09 posted 2026-10-22, datatracker, read 2026-11-02) and draft-ranjbar-dane-did-01 (2026-08-01), and a fifth, draft-ranjbar-dane-anchored-identity-00 (2026-07-21; datatracker, 2026-10-15); DNS-AID is not among them. The IETF Secretariat announced on 2026-10-09 (15:20 UTC) a non-WG list, dns-underscore-keys (area INT), whose purpose is "To compare existing proposals for publishing keys, or references to them, under underscore labels in DNS" and names those four drafts; its public archive held three messages on 2026-10-13. The first post, by an author of one of the four drafts (2026-10-10), compares them on five axes: who the record is about, where the key sits, what makes the record trustworthy, revocation, and continuity of holding after a domain changes hands; it leaves open the enumeration of names in a zone, record size, and TXT against a new RRTYPE. On 2026-10-12 an author of another of the four wrote that "A 3 1 1 TLSA with SHA-256 is 35 bytes of RDATA" and "The full signed answer with the DO bit set is 271 bytes", measured on one live record (figures declared by the source, not reproduced here). The draft texts were not read for this entry; their content is as the list messages describe it.'
 status_as_of: 2026-10-13
 relevance: The abstract says the document "standardizes an approach for publishing AI agents in the Domain Name System (DNS) so that other agents can discover them". The draft publishes AI agents in DNS; Section 5.6 reserves SvcParamKeys for "commercial signaling such as cost-per-unit-of-input, unit-of-input definitions, billing tiers, or rate-limit hints".
 sources:
@@ -26,7 +26,7 @@ sources:
   read: 2026-10-13
   class: third-party
 - url: https://datatracker.ietf.org/doc/draft-morrison-mcp-dns-discovery/
-  read: 2026-10-13
+  read: 2026-11-02
   class: third-party
 - url: https://datatracker.ietf.org/doc/draft-ranjbar-dane-did/
   read: 2026-10-13
@@ -51,7 +51,7 @@ sources:
   class: third-party
 seams:
 - S1
-verified: 2026-10-19
+verified: 2026-11-02
 evidence:
   read: 'On 2026-10-19: the archive page of the message of 2026-07-11 on the public-credentials list of the W3C, and issue #3 of this repository, in which the addition for draft-ranjbar-dane-did was proposed on 2026-10-15; the draft is not linked in the message.'
   not_read: A DNS-AID thread under another subject on dnsop; the texts of the four related drafts.

@@ -107,6 +107,36 @@ def hash_selftest():
     assert find_plain_hash(quiet) == [], find_plain_hash(quiet)
 
 
+class UniqueKeyLoader(yaml.SafeLoader):
+    """safe_load that refuses a key repeated in the same mapping: plain YAML keeps the last value and drops the first without a word"""
+
+    def construct_mapping(self, node, deep=False):
+        seen = {}
+        for k, _ in node.value:
+            key = self.construct_object(k, deep=deep)
+            if key in seen:
+                raise yaml.constructor.ConstructorError(
+                    "while constructing a mapping", node.start_mark,
+                    f"key {key!r} repeated (line {seen[key] + 1} and line {k.start_mark.line + 1})", k.start_mark)
+            seen[key] = k.start_mark.line
+        return super().construct_mapping(node, deep=deep)
+
+
+def load_unique(text):
+    return yaml.load(text, Loader=UniqueKeyLoader)
+
+
+def dupkey_selftest():
+    """the loader must refuse a repeated key at the top and inside a list item, and accept the same key in two items or two levels"""
+    for bad in ("a: 1\nb: 2\na: 3\n", "s:\n  - url: x\n    class: a\n    read: 1\n    class: b\n"):
+        try:
+            load_unique(bad)
+        except yaml.constructor.ConstructorError:
+            continue
+        raise AssertionError(f"repeated key not refused: {bad!r}")
+    assert load_unique("s:\n  - url: x\n    class: a\n  - url: y\n    class: b\nclass: c\n")["class"] == "c"
+
+
 def seam_members(text):
     """sections of notes/seams.md whose first line is a list of backticked ids -> {key: (title, [ids])};
     the key is S1..S4 for the numbered seams and a slug of the title for the other sections"""
@@ -166,8 +196,11 @@ def as_date(v):
 
 def check_entry(p):
     text = Path(p).read_text(encoding="utf-8")
-    e = yaml.safe_load(text)
     name = Path(p).name
+    try:
+        e = load_unique(text)
+    except yaml.constructor.ConstructorError as x:
+        raise SystemExit(f"{name}: {x.problem}; YAML would keep the last value and drop the first")
     cut = find_plain_hash(text)
     if cut:
         raise SystemExit("\n".join(f"{name}: line {n}, key {k!r}: unquoted value followed by {r[:40]!r}; YAML reads it as a comment "
@@ -221,6 +254,7 @@ def check_entry(p):
 
 
 def load():
+    dupkey_selftest()
     entries = [check_entry(p) for p in sorted((ROOT / "entries").glob("*.yaml"))]
     ids = {e["id"] for e in entries}
     for e in entries:
@@ -410,6 +444,7 @@ def render(entries):
 if __name__ == "__main__":
     if len(sys.argv) > 2 and sys.argv[1] == "--check":
         hash_selftest()
+        dupkey_selftest()
         sp = ROOT / "notes" / "seams.md"
         for f in sys.argv[2:]:
             e = check_entry(f)
@@ -420,7 +455,7 @@ if __name__ == "__main__":
             print("ok", f)
         print("[SCOPE] --check looks at: tier, org, required fields, seams against notes/seams.md, source and committed_next classes, "
               "committed_next 'when' format, open_proposals state enum, verified not earlier than status_as_of or than any source read, and that every '  - url:' line of the file is a parsed source (an item pasted inside another field is refused), "
-              "and that no unquoted value is cut by ' #' (read on the source text, with a self-test run first). "
+              "and that no unquoted value is cut by ' #' (read on the source text, with a self-test run first), and that no key is repeated in the same mapping (a loader that refuses it, with a self-test run first). "
               "It does NOT check: that a URL answers, that a quote is in its source (check_sources.py does), or that the dates are true.")
         sys.exit(0)
     md = render(load())

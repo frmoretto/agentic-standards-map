@@ -33,6 +33,12 @@ sources:
 - url: https://developers.openai.com/commerce/guides/key-concepts
   read: 2026-10-14
   class: statement
+- url: https://github.com/agentic-commerce-protocol/agentic-commerce-protocol/pull/316
+  read: 2026-11-02
+  class: statement
+- url: https://trilatic.com/atdrp/v0.1
+  read: 2026-11-02
+  class: statement
 - url: https://github.com/agentic-commerce-protocol/agentic-commerce-protocol/blob/main/docs/governance.md
   read: 2026-10-03
   class: normative
@@ -45,7 +51,7 @@ seams:
 - S2
 - S3
 - S4
-verified: 2026-10-14
+verified: 2026-11-02
 evidence:
   read: 'On 2026-10-13: the head of main and the README and MAINTAINERS.md of a fresh fetch of the repository (commit 7fdd78d), the tag and release lists, spec/unreleased, and the state of issues #231 and #303 and Discussions #265 and #304.'
   not_read: Discord, TSC meetings, GitHub organisation membership.
@@ -66,6 +72,11 @@ open_proposals:
   date: 2026-09-09
   state: open
   url: https://github.com/agentic-commerce-protocol/agentic-commerce-protocol/issues/303
+- what: 'PR #316, the implementation of SEP #303 (ATDRP): a `dispute_resolution` capability by which merchant and agent platform agree a dispute resolution provider at checkout, and a dispute record whose evidence fields are the AP2 mandates and receipts and the ACP Order; status "`proposal` (awaiting sponsor)", open on 2026-11-02. The proposer, Trilatic (trade name of Ripplarity Inc), publishes the Agent Transaction Dispute Resolution Policy ATDRP-0.1 as "the rules under which this entity resolves them", so the company that proposes the extension would itself offer the service it describes (trilatic.com/atdrp/v0.1, read 2026-11-02). Issue #304, the sponsor request, now redirects to Discussion #304 (2026-11-02).'
+  author: a participant
+  date: 2026-10-16
+  state: open
+  url: https://github.com/agentic-commerce-protocol/agentic-commerce-protocol/pull/316
 matrix:
   governance: 'OpenAI and Stripe maintainers; TSC of up to 7 seats; MAINTAINERS.md lists Meta; PR #236 "ADMIN: Add Meta as TSC member"'
   version_state: 'Beta; dated versions 2025-09-29 to 2026-04-17 plus an unreleased folder; tag or release: not found in the repository, 2026-10-03 (main unchanged at commit 7fdd78d on 2026-10-14)'

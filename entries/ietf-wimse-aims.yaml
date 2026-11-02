@@ -3,8 +3,8 @@ name: IETF WIMSE, AI Identity Management System (draft-ietf-wimse-aims)
 org: IETF
 kind: work-item
 tier: context
-status: Working Group (WG) document draft-ietf-wimse-aims-00 (2026-09-15), Informational; adopted 2026-09-09, expires 2027-03-19; replaces draft-klrc-aiagent-auth. The datatracker record of 2026-10-13 gives revision 00 (time 2026-09-15 14:40 UTC) and no later revision.
-status_as_of: 2026-10-13
+status: 'Working Group (WG) document draft-ietf-wimse-aims-00 (2026-09-15), Informational; adopted 2026-09-09, expires 2027-03-19; replaces draft-klrc-aiagent-auth. The datatracker record of 2026-10-13 gives revision 00 (time 2026-09-15 14:40 UTC) and no later revision. On 2026-11-02 the datatracker still gives revision 00. The individual draft draft-zambo-aer1 (AER-1, revision -26 posted 2026-10-23; datatracker, read 2026-11-02) specifies "a small vocabulary for recording one AI agent tool call as a portable, independently checkable execution receipt"; it is not a WG document, and its author proposed it in issue #19 of this map''s repository. The individual draft draft-hulea-wimse-agent-mandate-00 (2026-10-24, not a WG document) cites draft-ietf-wimse-aims and defines how a relying party in one administrative domain validates the mandate under which an agent acts for a principal in another domain, adding evidence that the delegator was entitled to grant it, kept separate from the grant itself; its examples include an agent initiating a payment at a bank (text read 2026-11-02; revision -01 of 2026-11-01 not read for this map).'
+status_as_of: 2026-11-02
 relevance: 'The draft "proposes best practices for authentication and authorization of AI agent interactions"; commerce, merchant, seller or purchase text: not found in -00, 2026-10-02. ACP and AP2 appear only in the references.'
 committed_next:
 - what: 'WIMSE session at IETF 127: Wednesday 2026-11-18, 14:00 to 16:00 San Francisco time (UTC-8), room Golden Gate 4-5 (datatracker agenda of the meeting, read 2026-10-26).'
@@ -25,7 +25,13 @@ sources:
 - url: https://datatracker.ietf.org/meeting/127/agenda.json
   read: 2026-10-26
   class: decision
-verified: 2026-10-26
+- url: https://datatracker.ietf.org/doc/draft-zambo-aer1/
+  read: 2026-11-02
+  class: third-party
+- url: https://www.ietf.org/archive/id/draft-hulea-wimse-agent-mandate-00.txt
+  read: 2026-11-02
+  class: third-party
+verified: 2026-11-02
 evidence:
   read: 'On 2026-10-26: the agenda of IETF 127 on the datatracker (agenda.json: day, time and room of the two wimse sessions) and the meeting record (time zone America/Los_Angeles).'
   not_read: Issues of the draft repository; section numbers quoted by participants are from an earlier draft, not checked against -00.

@@ -43,6 +43,9 @@ sources:
 - url: https://fidoalliance.org/fido-alliance-agentic-ai/
   read: 2026-10-23
   class: decision
+- url: https://github.com/google-agentic-commerce/AP2/issues/338
+  read: 2026-11-02
+  class: statement
 - url: https://github.com/frmoretto/agentic-standards-map/issues/11
   read: 2026-10-19
   class: third-party
@@ -74,7 +77,7 @@ overlaps:
 - acp
 seams:
 - S4
-verified: 2026-10-23
+verified: 2026-11-02
 evidence:
   read: 'On 2026-10-23: docs/index.md at commit b4587ac (2026-04-28) and at the head of main (e1ea56d, same text), and the FIDO page "Agentic AI" (published 2026-04-28, modified 2026-08-20), for point 1 of issue #11 on this map''s repository.'
   not_read: The mandate pages checkout_mandate.md and payment_mandate.md beyond the receipt sections, other code, commits, issues, FIDO working group charters.
@@ -93,3 +96,8 @@ open_proposals:
   date: 2026-10-11
   state: open
   url: https://github.com/google-agentic-commerce/AP2/issues/374
+- what: 'Issue #338: a self-contained dispute evidence file holding the mandates in compact serialization and a snapshot of the key material used to verify them, tagged by provenance class, so that a mandate can be re-verified offline years later; presented as "format discussion, not a normative change"; open with 34 comments, the last on 2026-10-25 (read 2026-11-02).'
+  author: a participant
+  date: 2026-08-21
+  state: open
+  url: https://github.com/google-agentic-commerce/AP2/issues/338

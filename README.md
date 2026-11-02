@@ -8,7 +8,7 @@ Every statement is dated and points to a public source. The map makes no predict
 
 This map documents public standardisation activity, specifications and declared commitments. It does not measure market adoption, transaction volume, cross-protocol interoperability or the reliability of deployed implementations. Implementation claims are reported only where supported by dated public evidence and are not treated as evidence of interoperability.
 
-*Version 1.2 (2026-10-26) · site updated 2026-10-27. The map is updated as venues move; each entry carries its own read date.*
+*Version 1.3 (2026-11-02) · site updated 2026-11-02. The map is updated as venues move; each entry carries its own read date.*
 
 DOI (all versions): [10.5281/zenodo.23357361](https://doi.org/10.5281/zenodo.23357361)
 
@@ -16,7 +16,7 @@ DOI (all versions): [10.5281/zenodo.23357361](https://doi.org/10.5281/zenodo.233
 
 ## Four things you see only when you look across venues
 
-**1. The map identifies at least eight discovery mechanisms or publication paths.** `/.well-known/ucp`, A2A's `agent-card.json`, schema.org, ARD, AI Catalog, MCP Server Cards, DNS-AID and the `/.well-known/poppy.json` of the Personal Agent Protocol. Of these eight, two are in the IANA well-known registry: `agent-card.json` (permanent) and `/.well-known/ucp` (provisional, registered 2026-10-26) (registry updated 2026-10-26, read 2026-10-27). Two venues have discovery-charter work in progress: IETF DAWN became a working group on 2026-10-22 (approved charter charter-ietf-dawn-01), and the W3C Agentic Web WG charter is in refinement. [Seam S1](map-bundle.md#part-seams)
+**1. The map identifies at least nine discovery mechanisms or publication paths.** `/.well-known/ucp`, A2A's `agent-card.json`, schema.org, ARD, AI Catalog, MCP Server Cards, DNS-AID, the `/.well-known/poppy.json` of the Personal Agent Protocol, and `/.well-known/x402`, under discussion in the Domain Discovery working group of the x402 Foundation. Of these nine, two are in the IANA well-known registry: `agent-card.json` (permanent) and `/.well-known/ucp` (provisional, registered 2026-10-26) (registry updated 2026-10-26, read 2026-10-27). Two venues have discovery-charter work in progress: IETF DAWN became a working group on 2026-10-22 (approved charter charter-ietf-dawn-01), and the W3C Agentic Web WG charter is in refinement. [Seam S1](map-bundle.md#part-seams)
 
 **2. Product identity: one ratified route and one route marked at risk.** GS1 Digital Link gives a ratified route to product identifiers; the DID route cited for Digital Product Passports rests on a feature that the DID Resolution Candidate Recommendation Draft marks at risk. One workshop position statement (#31, Sven Böckelmann) frames the open question as three checks: "Where. Who signed. Who may." [Seam S2](map-bundle.md#part-seams)
 
@@ -26,11 +26,11 @@ DOI (all versions): [10.5281/zenodo.23357361](https://doi.org/10.5281/zenodo.233
 
 ## Next on the calendar
 
-- **26 to 30 Oct** TPAC 2026, Dublin. Proposed breakouts on agents
-- **28 Oct** TPAC 2026 breakout #34, Report and follow-ups from the E-commerce for Humans and AI Agents workshop:
-- **28 Oct** Advisory Committee review of the DID Methods WG charter closes
-- **29 Oct** TPAC 2026: deadline, at noon local time, for breakout proposals made once TPAC is under way
-- **29 Oct** AAIF Workflows and Process Integration group: target of the Best Practices deliverable in the charter
+- **approx. 2 Nov** Charter refinement of the Digital Policy WG ends
+- **5 Nov** Public comments on the proposed maintenance charter of the Decentralized Identifier
+- **approx. 10 Nov** Charter refinement of the Agentic Web WG ends
+- **14 to 20 Nov** IETF 127, San Francisco
+- **16 Nov** IETF 127: agentproto session, 14:00 to 16:00 San Francisco time, room Continental 5
 
 Full 60-day calendar: [Calendar](map-bundle.md#part-calendar)
 
@@ -68,9 +68,9 @@ Corrections and missing sources: [open an issue on the repository](https://githu
 
 ### How to cite
 
-Marinoni Moretto, F. (2026). Agentic Standards Map (Version 1.2) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23655852
+Marinoni Moretto, F. (2026). Agentic Standards Map (Version 1.3) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23357361
 
-Please cite the entry id, the date it was read and the DOI. To cite the map in general, use https://doi.org/10.5281/zenodo.23357361.
+Please cite the entry id, the date it was read and the DOI. The version DOI of 1.3 is assigned by Zenodo when this release is archived; it is listed in the Zenodo record and on the live site.
 
 ## Contributing
 

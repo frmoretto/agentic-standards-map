@@ -44,7 +44,7 @@ An Internet-Draft is not an IETF decision, and the map says which kind of draft 
 
 ## Versions and citation
 
-The website is the living version and changes as venues move. Each DOI identifies a frozen snapshot: version 1.2 (2026-10-26) is the tag v1.2 of the repository and has the version DOI 10.5281/zenodo.23655852; version 1.1 (2026-10-19) is the tag v1.1 of the repository and has the version DOI 10.5281/zenodo.23464332; version 1.0.1 (2026-10-14) is the tag v1.0.1 and has the version DOI 10.5281/zenodo.23377309; version 1.0.0 is the tag v1.0.0 and has the version DOI 10.5281/zenodo.23357362. The concept DOI 10.5281/zenodo.23357361 always resolves to the latest version; cite the version DOI for the text you read.
+The website is the living version and changes as venues move. Each DOI identifies a frozen snapshot: version 1.3 (2026-11-02) is the tag v1.3 of the repository, and its version DOI is recorded here once Zenodo assigns it; version 1.2 (2026-10-26) is the tag v1.2 of the repository and has the version DOI 10.5281/zenodo.23655852; version 1.1 (2026-10-19) is the tag v1.1 of the repository and has the version DOI 10.5281/zenodo.23464332; version 1.0.1 (2026-10-14) is the tag v1.0.1 and has the version DOI 10.5281/zenodo.23377309; version 1.0.0 is the tag v1.0.0 and has the version DOI 10.5281/zenodo.23357362. The concept DOI 10.5281/zenodo.23357361 always resolves to the latest version; cite the version DOI for the text you read.
 
 Changes verified by Friday evening enter the following Monday's release; a Monday with no change to citable content produces no new version. Corrections and proposals go through issues on the repository, one per entry, so that each change has a public trail.
 
@@ -52,7 +52,44 @@ Archive copies: snapshots of the cited sources were requested on 2026-10-14 from
 
 **Changelog.**
 
-**Since 1.2 (not a numbered version).** Corrections to the living version, for the next numbered version.
+**1.3 (2026-11-02).** No entry added; corrections and additions to the living version. Facts dated after Friday 2026-10-30 are deferred to 1.4 (among them UCP pull request #998 on identity linking, the UCP Governing Council minutes of 2026-10-30, draft-hulea-wimse-agent-mandate-01 and draft-zambo-aer1-wimse-mapping-02), except contributions of the author of this map and proposals made to this map in its own issues.
+
+Corrections:
+
+- `ucp`: pull request #634, the return policy extension, was merged into main on 2026-10-23; the entry said it was open.
+- `ucp` and Calendar: the two dates of issue #924 (nominations by 2026-10-23, initial package on 2026-11-02) are removed: the issue was revised on 2026-10-23, nominations were due by 2026-10-30, and no date for a package remains.
+- `w3c-agenticweb-wg`: after pull requests #901 and #907 to #910 (2026-10-29 and 2026-10-30) the draft charter has five normative deliverables and a threat model, no longer WebMCP alone, and two more out-of-scope items.
+- `w3c-agent-identity-registry-cg`: the minutes the entry said were not found are in the group's repository; the minutes of 2026-10-20 and the next meeting (2026-11-17) are reported.
+- `ietf-individual-seller-drafts`: the sentence quoted from draft-hood-agtp-merchant-identity is attributed to -02; it is not in -03.
+- `x402` and seam S1: pull request #8 of the Domain Discovery working group and pull request #2979 of the core repository are no longer reachable (404 on 2026-11-02; how they were removed is not known); the entry keeps them among the open proposals, as closed, and says that the discussion on the content of `/.well-known/x402` continues in issue #11 of the working group.
+- `w3c-tpac-2026`: TPAC is reported in the past; breakout #25 was canceled; no other session is recorded as held, since no minutes were found.
+- Tools: `build_map.py --check` refuses a key repeated in the same mapping, which YAML would otherwise keep once and drop silently; it runs a self-test first.
+
+Additions:
+
+- `aaif-structure`: 305 members as AAIF states it, the AAIF Landscape at landscape.aaif.io, and the date of 2026-10-15 of the Ecosystem Architecture Map, passed with no release.
+- `ucp`: the Identity Linking capability and the Loyalty extension; issue #947 (B2B Procurement charter); the release train decided by the Shopping Tech Council on 2026-09-25, with the difference between the dates in the minutes and the linked milestones; pull requests #1017 to #1020 on business identity and seller attribution; lodging booking and cancellation policy on main since 2026-09-24; a census by Kin Lane of 2026-10-30, cited with its licence (CC BY-NC-SA 4.0) and not incorporated; participation and Disclosure.
+- Disclosure: contributions of the author of this map from 2026-10-23 to 2026-11-02 (UCP, W3C, Lighthouse, AI Catalog).
+- `w3c-agenticweb-wg`: the W3C TAG Group Note "User Agents" (2026-10-22), as a statement; issues #905 and #906 open; participation (charter text proposed by the author of this map and merged with pull request #908).
+- `w3c-ai-agent-protocol-cg`: the white paper and what it compares; the WebAgents Community Group meeting at TPAC with a talk by this group's co-chairs.
+- `ard`: pull request #111, informative observability guidance; participation.
+- `lf-ai-catalog`: participation.
+- `ietf-dawn`: overlap with `ietf-dnsaid`; draft-king-dawn-requirements-02; draft-jakab-dawn-agent-discovery-mdns-01 (issue #18); the individual drafts draft-artamokhov-dawn-marketplace-discovery-01, draft-artamokhov-dawn-index-federation-01 and draft-dinuzzo-best-protocol-02, as candidates not counted on the home page.
+- `mcp-server-card` and `ietf-dnsaid`: draft-morrison-mcp-dns-discovery-09, DNS discovery of MCP servers, with its author's disclosure (issue #22).
+- `ietf-individual-seller-drafts`: draft-hood-agtp-merchant-identity-03 and draft-hood-agtp-commerce-01.
+- `ietf-wimse-aims` and seam S4: AER-1, draft-zambo-aer1-26, execution receipts for agent tool calls (issue #19); draft-hulea-wimse-agent-mandate-00.
+- Seam S3: the OAuth WG document draft-ietf-oauth-delegate-sd-jwt-00; the individual drafts draft-martinez-itp-agent-mandates-00 and draft-kroehl-agentic-trust-aae-02 (issue #20); prior work on attenuated delegation (SPKI, Macaroons, Biscuit, zcap, UCAN, AAuth).
+- Seam S2: product classifications (ETIM, ECLASS, GS1 GPC), as distinct from product identity.
+- `gs1-conformant-resolver`: the success path of the standard (redirect, linkType, linkset, default link, 300 Multiple Choices).
+- `acp`: pull request #316 (dispute resolution extension) as an open proposal, with the note that its proposer publishes a policy under which it would resolve such disputes; issue #304 is now a Discussion.
+- `ap2`: issue #338 (dispute-time evidence file) as an open proposal.
+- `aaif-identity-trust`: the brief posted on issue #15 on 2026-10-31 after MintID's presentation to the AAIF Agentic Commerce Working Group, as a statement of the party; MintID stays an open proposal.
+- `w3c-gs1-ecommerce-workshop`: the KYA-OS position statement and the three position-statement PDFs (issue #21).
+- Home page: at least nine discovery mechanisms or publication paths, with `/.well-known/x402`.
+- Repository: an issue template for proposing a new entry.
+- Credit: proposals by Marc Molas (issue #15), ljakab (issue #18), zambodotdev (issue #19), MoltyCel (issue #20), H0BB5 (issue #21) and maxchop (issue #22).
+
+Between 1.2 and 1.3, on the living version:
 
 - `ietf-agentproto`: the IETF 127 session is scheduled on 2026-11-16, 14:00 to 16:00 San Francisco time, room Continental 5 (datatracker agenda, read on 2026-10-26).
 - `ietf-webbotauth`: the IETF 127 session is scheduled on 2026-11-17, 16:30 to 18:30 San Francisco time, room Continental 4 (datatracker agenda, read on 2026-10-26).

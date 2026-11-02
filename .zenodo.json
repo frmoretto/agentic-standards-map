@@ -1,7 +1,7 @@
 {
   "title": "Agentic Standards Map",
   "upload_type": "dataset",
-  "version": "1.2",
+  "version": "1.3",
   "language": "eng",
   "access_right": "open",
   "description": "<p>A map of who is standardising agentic commerce, where, and what each venue has committed to next: 62 entries, one per specification, draft or working group, in W3C, IETF, GS1, UN/CEFACT, AAIF, the Linux Foundation and industry protocols.</p><p>Every entry is dated and carries its sources (over 250 primary sources and over 500 links in all); the map also follows four seams where the pieces do not yet meet, with a calendar of dated public events. Each fact is read at the primary source, and an absence is reported as not found in a named corpus on a date.</p><p>Site: https://frmoretto.github.io/agentic-standards-map/</p>",

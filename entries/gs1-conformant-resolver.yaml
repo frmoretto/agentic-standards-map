@@ -5,7 +5,7 @@ kind: specification
 tier: core
 status: Release 1.2.1 ratified August 2026 (standards page and PDF print no day); the archive page on ref.gs1.org lists "Published 19 August 2026".
 status_as_of: 2026-10-13
-relevance: The standard defines how a GS1 Digital Link URI, which carries a product or location key such as a GTIN or a Global Location Number (GLN), is resolved to related information sources. The query string "carries attributes of the identified entity and does not form part of the entity's identifier"; for an invalid request URI "the resolver SHALL respond with an HTTP response code of 400 (Bad Request)", and for a valid URI with no information it "SHALL return a simple 404 Not Found response" (sections 2.12, 2.4.1). A conformant resolver publishes a Resolver Description File at /.well-known/gs1resolver.
+relevance: 'The standard defines how a GS1 Digital Link URI, which carries a product or location key such as a GTIN or a Global Location Number (GLN), is resolved to related information sources. The query string "carries attributes of the identified entity and does not form part of the entity''s identifier"; for an invalid request URI "the resolver SHALL respond with an HTTP response code of 400 (Bad Request)", and for a valid URI with no information it "SHALL return a simple 404 Not Found response" (sections 2.12, 2.4.1). A conformant resolver publishes a Resolver Description File at /.well-known/gs1resolver. On success the resolver redirects: it "SHALL redirect to the default link unless there is information in the request that can be used to determine a better response" (section 2.6.1), and redirects to a requested `linkType` if one is available, answering 404 if it is not (section 2.6.2); the prose gives no status code for the redirect, and the flowchart in Figure 2-1 shows 307. With `linkType=linkset` or the Accept header `application/linkset+json` the resolver does not redirect and returns the list of links as an RFC 9264 linkset, which must validate against a GS1 linkset schema; for `text/html` it should return an HTML page with the linkset embedded as JSON-LD (sections 2.9, 2.10). Each entity has exactly one default link, typed `gs1:defaultLink`; optional `gs1:defaultLinkMulti` links are chosen by request headers such as Accept-Language, and when no best match exists the resolver should answer 300 Multiple Choices with the list (sections 2.5.8, 2.6.3).'
 committed_next: []
 boundary: 'Out of scope: identical targets or linksets across resolvers, and any particular behaviour for query string parameters.'
 sources:
@@ -13,7 +13,7 @@ sources:
   read: 2026-10-13
   class: normative
 - url: https://ref.gs1.org/standards/resolver/1.2.1/GS1_Conformant_Resolver_standard_i1.2.1-r-2026-08-07
-  read: 2026-10-03
+  read: 2026-11-02
   class: normative
 - url: https://ref.gs1.org/standards/resolver/archive
   read: 2026-10-13
@@ -24,7 +24,7 @@ overlaps:
 - gs1-digital-link
 seams:
 - S2
-verified: 2026-10-13
+verified: 2026-11-02
 evidence:
-  read: Standards page, PDF (text extracted) and archive page of the Resolver, in full, 2026-10-03; for dates also the URI Syntax standard page and archive.
+  read: 'On 2026-11-02: the PDF again (text extracted), sections 2.2, 2.5.4, 2.5.8, 2.6 to 2.6.3, 2.9 to 2.12, 5 and the text of Figure 2-1, for the success path; the redirect status code 307 occurs only in Figure 2-1.'
   not_read: The www.gs1.org standards page.
