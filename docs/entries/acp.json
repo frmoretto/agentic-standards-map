@@ -55,6 +55,16 @@
    "class": "statement"
   },
   {
+   "url": "https://github.com/agentic-commerce-protocol/agentic-commerce-protocol/pull/316",
+   "read": "2026-11-02",
+   "class": "statement"
+  },
+  {
+   "url": "https://trilatic.com/atdrp/v0.1",
+   "read": "2026-11-02",
+   "class": "statement"
+  },
+  {
    "url": "https://github.com/agentic-commerce-protocol/agentic-commerce-protocol/blob/main/docs/governance.md",
    "archived": "https://web.archive.org/web/20261014060508/https://github.com/agentic-commerce-protocol/agentic-commerce-protocol/blob/main/docs/governance.md",
    "read": "2026-10-03",
@@ -72,7 +82,7 @@
   "S3",
   "S4"
  ],
- "verified": "2026-10-14",
+ "verified": "2026-11-02",
  "evidence": {
   "read": "On 2026-10-13: the head of main and the README and MAINTAINERS.md of a fresh fetch of the repository (commit 7fdd78d), the tag and release lists, spec/unreleased, and the state of issues #231 and #303 and Discussions #265 and #304.",
   "not_read": "Discord, TSC meetings, GitHub organisation membership.",
@@ -102,6 +112,13 @@
    "state": "open",
    "url": "https://github.com/agentic-commerce-protocol/agentic-commerce-protocol/issues/303",
    "archived": "https://web.archive.org/web/20261014060900/https://github.com/agentic-commerce-protocol/agentic-commerce-protocol/issues/303"
+  },
+  {
+   "what": "PR #316, the implementation of SEP #303 (ATDRP): a `dispute_resolution` capability by which merchant and agent platform agree a dispute resolution provider at checkout, and a dispute record whose evidence fields are the AP2 mandates and receipts and the ACP Order; status \"`proposal` (awaiting sponsor)\", open on 2026-11-02. The proposer, Trilatic (trade name of Ripplarity Inc), publishes the Agent Transaction Dispute Resolution Policy ATDRP-0.1 as \"the rules under which this entity resolves them\", so the company that proposes the extension would itself offer the service it describes (trilatic.com/atdrp/v0.1, read 2026-11-02). Issue #304, the sponsor request, now redirects to Discussion #304 (2026-11-02).",
+   "author": "a participant",
+   "date": "2026-10-16",
+   "state": "open",
+   "url": "https://github.com/agentic-commerce-protocol/agentic-commerce-protocol/pull/316"
   }
  ],
  "matrix": {
@@ -114,6 +131,6 @@
   "source": "https://github.com/agentic-commerce-protocol/agentic-commerce-protocol/blob/main/README.md"
  },
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/acp.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/ef3607c93e300b7d9feef08c1e6180bc2930a870/entries/acp.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/0c91458422036ab9581ef018cb3f57735e3296cf/entries/acp.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }

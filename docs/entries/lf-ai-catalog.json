@@ -74,7 +74,7 @@
    "class": "third-party"
   }
  ],
- "participation": "The author of this map commented on PR #117 of the AI Catalog repository on 2026-10-06, on the policy URLs of the extension; see Disclosure.",
+ "participation": "The author of this map commented on PR #117 of the AI Catalog repository on 2026-10-06, on the policy URLs of the extension, and on 2026-10-28, supporting a V0.9 release (PR #117, \"Support independently signed Trust Manifest contributions\", merged on 2026-10-28); see Disclosure.",
  "overlaps": [
   "ard",
   "a2a-discovery",
@@ -157,6 +157,6 @@
   }
  ],
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/lf-ai-catalog.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/ef3607c93e300b7d9feef08c1e6180bc2930a870/entries/lf-ai-catalog.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/0c91458422036ab9581ef018cb3f57735e3296cf/entries/lf-ai-catalog.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }

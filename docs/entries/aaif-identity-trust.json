@@ -192,13 +192,18 @@
    "url": "https://github.com/aaif/wg-identity-and-trust/issues/13#issuecomment-6267821238",
    "read": "2026-10-19",
    "class": "third-party"
+  },
+  {
+   "url": "https://github.com/frmoretto/agentic-standards-map/issues/15#issuecomment-6549432598",
+   "read": "2026-11-02",
+   "class": "statement"
   }
  ],
  "committed_next": [],
  "overlaps": [
   "trace"
  ],
- "verified": "2026-10-23",
+ "verified": "2026-11-02",
  "evidence": {
   "read": "On 2026-10-23: issue #15 on this map's repository (https://github.com/frmoretto/agentic-standards-map/issues/15), a proposed context entry for MintID recorded here as an open proposal, whose proposer declared a commercial interest as the founder of MintID. On 2026-10-21: the state, labels, assignees and the 9 comments of aaif/project-proposals issue #42 (the last in full, the others by their opening lines) and the status paragraph of the README of trace-spec; nothing else in this entry was re-read on that day.",
   "not_read": "The mailing list archive pages (they require JavaScript, and its published rules ask for a licence for automated AI access; only six messages supplied by the author were used), the TRACE specification text under spec/, the source of any repository (no code was executed), the full Parmana repository; the archive and checksum manifest linked by the Round 1 record of 2026-10-19 (not downloaded); the commit history of the MintID repository (excluded by the access rules that GitLab publishes for automated clients); the GitLab Releases page as a list (it loads with JavaScript); the PyPI records of mintid-verifier-sdk, mintid-proof-core and mintid-agent named in issue #15 (the access rules that PyPI publishes for automated clients exclude its JSON API, and the project page answered a JavaScript challenge, 2026-10-23); messages 14 and 16 of the AAIF Agentic Commerce list cited in issue #15 (the access rules that the archive publishes for automated clients ask AI readers to obtain a licence).",
@@ -206,7 +211,7 @@
  },
  "open_proposals": [
   {
-   "what": "A context entry for MintID, an identity chain with KYC-backed agent credentials and zero-knowledge presentations, proposed to this map by its founder (issue #15); MintID's row on issue #13 is described in the status.",
+   "what": "A context entry for MintID, an identity chain with KYC-backed agent credentials and zero-knowledge presentations, proposed to this map by its founder (issue #15); MintID's row on issue #13 is described in the status. On 2026-10-31 the founder posted on issue #15 a brief of MintID's presentation to the AAIF Agentic Commerce Working Group of 2026-10-28, a statement of the party not verified by this map: the agent answers a seller with a zero-knowledge proof bound to the seller's one-time challenge, revocation belongs to the person, and a recorded run showed the first refusal 22 seconds after a kill under a 185-second bound; the brief says that the only production deployment is operated by the founder's company, \"so it is not independent evidence\".",
    "author": "a participant",
    "date": "2026-10-19",
    "state": "open",
@@ -214,6 +219,6 @@
   }
  ],
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/aaif-identity-trust.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/ef3607c93e300b7d9feef08c1e6180bc2930a870/entries/aaif-identity-trust.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/0c91458422036ab9581ef018cb3f57735e3296cf/entries/aaif-identity-trust.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }

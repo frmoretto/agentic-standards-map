@@ -4,8 +4,8 @@
  "org": "Independent",
  "kind": "specification",
  "tier": "core",
- "status": "Specification v0.91 on main (header \"Status: Proposal\", dated 2026-08-26; header unchanged and last change to spec/ard.md on 2026-10-12, read 2026-10-13); no tag or release in ard-spec (not found, 2026-10-13); Maintainers decide by majority vote; an Oversight Board (Google, Hugging Face, Microsoft, Amazon, Cisco) is published. On 2026-10-11 and 2026-10-12 the maintainers merged PRs #97, #99, #104, #105, #106 and #80 (namespace segments in Appendix C, base URL and search endpoint in section 5.3, ADR 0010, recognized media types in section 3.3, CDDL for explore facets, attestation scopes in section 4.5.2).",
- "status_as_of": "2026-10-13",
+ "status": "Specification v0.91 on main (header \"Status: Proposal\", dated 2026-08-26; header unchanged and last change to spec/ard.md on 2026-10-12, read 2026-10-13); no tag or release in ard-spec (not found, 2026-10-13); Maintainers decide by majority vote; an Oversight Board (Google, Hugging Face, Microsoft, Amazon, Cisco) is published. On 2026-10-11 and 2026-10-12 the maintainers merged PRs #97, #99, #104, #105, #106 and #80 (namespace segments in Appendix C, base URL and search endpoint in section 5.3, ADR 0010, recognized media types in section 3.3, CDDL for explore facets, attestation scopes in section 4.5.2). PR #111, \"feat(spec): add informative observability guidance\", was merged on 2026-10-25 (commit f073b1e): it adds section 5.5 \"Observability (Informative)\" to spec/ard.md, non-normative guidance on W3C Trace Context headers for registry operations (search, explore, agents) and on federated registries as trust boundaries (read 2026-11-02).",
+ "status_as_of": "2026-11-02",
  "relevance": "Agentic Resource Discovery (ARD) defines a manifest of typed entries (A2A agent cards, MCP servers, other resources by media type): \"A consumer resolving a domain's entries MUST fetch /.well-known/ard.json\"; \"a publisher on the predecessor path SHOULD move to ard.json\". The chair recorded in issue #61 (2026-07-09): \"We decided that at least for now, we will only have a loose coupling between ARD entries and ai-catalog entries.\" The decision is recorded as ADR 0010 (status Accepted, meeting of 2026-07-09, merged by PR #104 on 2026-10-11): \"Loose coupling between ARD and `ai-catalog`\". Commerce enters through a \"local-business storefront\" example (PR #60); issue #20 says \"Resources discovered via ARD may require payment or have access restrictions.\" and \"Deferred from v0.9.\" Lighthouse PR #17295 (merged on 2026-10-09) makes the robots-txt and llms-txt audits fail on HTTP 429, because Google's robots.txt specification makes an exception for 429 \"to be treated as a server error\"; on PR #17260 (ard-schema) a reviewer wrote on 2026-10-07 \"status code 200 is too restrictive. See how other audits (robots-txt, llms-txt) handle status codes.\"",
  "committed_next": [
   {
@@ -24,7 +24,7 @@
   }
  ],
  "boundary": "Payment and access signalling were \"Deferred from v0.9.\" (issue #20, still open on 2026-10-13). A maintainer wrote there on 2026-10-11 \"With v0.91 and #86 merged, the core mechanism for access and monetization signaling is now in place\", carried as namespaced JSON-LD terms rather than payment fields in the base entry; on issue #78 (discovery results and referrals must not confer contact or invocation authority, open) a maintainer wrote \"discovery is not authorization\" and proposed an editorial clarification in section 3.6 without new normative rules (2026-10-11).",
- "participation": "The author of this map took part in Lighthouse audit issue #17251 on ARD support (closed as completed on 2026-10-09), PR #17260, issue #17271 and PR #17272, and opened PR #100 on ard-spec (merged on 2026-10-11, with a comment of the author on 2026-10-10); see Disclosure.",
+ "participation": "The author of this map took part in Lighthouse audit issue #17251 on ARD support (closed as completed on 2026-10-09), PR #17260, issue #17271 and PR #17272, and opened PR #100 on ard-spec (merged on 2026-10-11, with a comment of the author on 2026-10-10) and Lighthouse Discussion #17441 (2026-10-25, on the llms-txt gatherer and on structured alternates in the Link header); see Disclosure.",
  "sources": [
   {
    "url": "https://github.com/ards-project/ard-spec/blob/main/spec/ard.md",
@@ -75,6 +75,11 @@
    "class": "statement"
   },
   {
+   "url": "https://github.com/ards-project/ard-spec/pull/111",
+   "read": "2026-11-02",
+   "class": "decision"
+  },
+  {
    "url": "https://github.com/ards-project/ard-spec/pull/60",
    "archived": "https://web.archive.org/web/20261014062715/https://github.com/ards-project/ard-spec/pull/60",
    "read": "2026-10-03",
@@ -96,9 +101,9 @@
  "seams": [
   "S1"
  ],
- "verified": "2026-10-13",
+ "verified": "2026-11-02",
  "evidence": {
-  "read": "On 2026-10-13: spec/ard.md on main (header and sections 5.1 and 3), the governance page, ADR 0010, the head of ard-spec and the state of its pull requests #74, #80, #97 to #106 and issues #20, #43, #61, #78, #79, #86, #88, #92, and the state of Lighthouse #17258 to #17261, #17294, #17295, #17297, #17160 and #17271.",
+  "read": "On 2026-11-02: PR #111 of ard-spec (title, merge, diff of spec/ard.md).",
   "not_read": "The Discord, Lighthouse files on main, ADR files other than ADR 0010 beyond titles, the comments of ard-spec issues and pull requests other than those named, ard-docs after 2026-09-13.",
   "not_found": "Not found in both repositories: UCP, commerce, merchant, GTIN, Know Your Agent (KYA) (2026-10-03, not repeated). Not found in ard-spec: a tag or release (2026-10-03 and again 2026-10-13)."
  },
@@ -137,6 +142,6 @@
   }
  ],
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/ard.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/ef3607c93e300b7d9feef08c1e6180bc2930a870/entries/ard.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/0c91458422036ab9581ef018cb3f57735e3296cf/entries/ard.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }

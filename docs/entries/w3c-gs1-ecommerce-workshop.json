@@ -6,7 +6,7 @@
  "tier": "core",
  "status": "Workshop held 2026-09-08/09 at Google Zurich, co-organised by W3C and GS1. A report and follow-up session is proposed for Technical Plenary and Advisory Committee (TPAC) 2026 (breakout #34, open on 2026-10-13 with one comment and no assigned slot). A workshop report: not found in the root of the workshop repository nor in its commits (the last push is of 2026-09-09), read 2026-10-13.",
  "status_as_of": "2026-10-13",
- "relevance": "The workshop covers merchants' context, legal accountability, protocols, trust and ownership, product data, identity and authorisation, and payment; position statements (issues #10 to #34 and #45) are each the statement of its author. On seller authority and product identity, position statement #31 by Sven Böckelmann says \"Resolution says where the data is; a signature says who signed it. Neither says who may speak for the product.\"; #21 (GS1 Digital Link) is related. On agent identity, delegation and consent, statements include #22 (FIDO Alliance Payments Technical Working Group (TWG), which says AP2 and Verifiable Intent are \"now under review within the PTWG\") and #26 (Skyfire).",
+ "relevance": "The workshop covers merchants' context, legal accountability, protocols, trust and ownership, product data, identity and authorisation, and payment; position statements (issues #10 to #34 and #45, and three PDFs in position_statement/ added by PR #43, merged 2026-07-17: Fabacus, KYA-OS, P&G) are each the statement of its author. On seller authority and product identity, position statement #31 by Sven Böckelmann says \"Resolution says where the data is; a signature says who signed it. Neither says who may speak for the product.\"; #21 (GS1 Digital Link) is related. On agent identity, delegation and consent, statements include #22 (FIDO Alliance Payments Technical Working Group (TWG), which says AP2 and Verifiable Intent are \"now under review within the PTWG\") #26 (Skyfire) and the KYA-OS position statement (PDF), which says agent authorization should be \"a rail-agnostic, cross-protocol grant: bounded by scope, spend, and time, chained to an accountable party\" and that \"a delegation can scope authority to a schema.org Offer or a GS1 Digital Link-identified product class\"; its author proposed this addition in issue #21 of this map's repository and states being the editor of the KYA-OS specification, stewarded by the DIF Trusted AI Agents Working Group, and working at Vouched, which donated KYA-OS to DIF and sells commercial products built on it.",
  "committed_next": [
   {
    "what": "TPAC breakout \"Report and follow-ups from the E-commerce for Humans and AI Agents\" (#34); no slot assigned in the sources read",
@@ -39,6 +39,16 @@
    "class": "statement"
   },
   {
+   "url": "https://github.com/w3c/ecommerce-for-humans-and-AI-Agents-workshop/blob/7024354903dd691cee2e144515bb84ec33c89e8a/position_statement/KYA-OS_Position_Statement.pdf",
+   "read": "2026-11-02",
+   "class": "third-party"
+  },
+  {
+   "url": "https://github.com/frmoretto/agentic-standards-map/issues/21",
+   "read": "2026-11-02",
+   "class": "statement"
+  },
+  {
    "url": "https://github.com/w3c/ecommerce-for-humans-and-AI-Agents-workshop/blob/main/slides/Sven_Boeckelmann_benelog_trusted-resolution-v1.pptx",
    "read": "2026-10-05",
    "class": "third-party"
@@ -51,12 +61,12 @@
  "seams": [
   "S2"
  ],
- "verified": "2026-10-13",
+ "verified": "2026-11-02",
  "evidence": {
-  "read": "On 2026-10-13: the file listing and the latest commits of the workshop repository and breakout issue #34.",
-  "not_read": "The other slide files (PRs #57 to #85) and the position-statement PDFs in position_statement/ (Fabacus, KYA-OS, P&G); report and agenda pages, pre-recordings."
+  "read": "On 2026-11-02: the KYA-OS position statement (PDF, three pages; blob 7e5a195, identical at the head of main 7024354), the listing of position_statement/ (three PDFs), PR #43 (merge date), and issue #21 of this map's repository (proposal and disclosure).",
+  "not_read": "The other slide files (PRs #57 to #85) and the position-statement PDFs in position_statement/ (Fabacus, P&G); report and agenda pages, pre-recordings."
  },
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/w3c-gs1-ecommerce-workshop.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/ef3607c93e300b7d9feef08c1e6180bc2930a870/entries/w3c-gs1-ecommerce-workshop.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/0c91458422036ab9581ef018cb3f57735e3296cf/entries/w3c-gs1-ecommerce-workshop.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }

@@ -4,8 +4,8 @@
  "org": "W3C",
  "kind": "venue",
  "tier": "core",
- "status": "Active Community Group (created 2025-05-08); agent identity is DID-method-agnostic (did:wba, did:web, did:webvh) since 2026-08-13. Bi-weekly meetings; the meeting of 2026-10-07 was announced as canceled (calendar notice of 2026-10-01), and a meeting was held on 2026-10-21, whose minutes were added to the repository on 2026-10-22; the W3C group data list two chairs. Pull request #46, \"Add Agent Authorization specification\", opened on 2026-10-21, was open and not merged on 2026-10-23, with no comments or reviews; two ways of identifying the agent as an OAuth client were discussed (a DID as the client identifier, or the HTTPS client identifier of a Client ID Metadata Document bound to a DID), and no choice between them is recorded; commits of 2026-10-22 to the pull request move it to DID-associated Client ID Metadata Document URLs.",
- "status_as_of": "2026-10-23",
+ "status": "Active Community Group (created 2025-05-08); agent identity is DID-method-agnostic (did:wba, did:web, did:webvh) since 2026-08-13. Bi-weekly meetings; the meeting of 2026-10-07 was announced as canceled (calendar notice of 2026-10-01), and a meeting was held on 2026-10-21, whose minutes were added to the repository on 2026-10-22; the W3C group data list two chairs. Pull request #46, \"Add Agent Authorization specification\", opened on 2026-10-21, was open and not merged on 2026-10-23, with no comments or reviews; two ways of identifying the agent as an OAuth client were discussed (a DID as the client identifier, or the HTTPS client identifier of a Client ID Metadata Document bound to a DID), and no choice between them is recorded; commits of 2026-10-22 to the pull request move it to DID-associated Client ID Metadata Document URLs. On 2026-11-02 PR #46 is still open and not merged. The group's white paper (\"Agent Network Protocol White Paper\", CG-DRAFT, index.html last changed on 2026-01-14) compares MCP, A2A, ANP, Agent Connect Protocol and Agent Communication Protocol; UCP, AP2, x402 and commerce are not found in it (read 2026-11-02). The agenda of the meeting of the W3C Autonomous Agents on the Web Community Group (WebAgents) at TPAC on 2026-10-26 (Dublin, 09:00 to 12:30) includes a talk by this group's co-chairs; no minutes were found in the WebAgents repository on 2026-11-02. WebAgents, created 2023-03-20, studies Web-based multi-agent systems built on Linked Data and hypermedia, and its charter says \"No specifications will be produced under the current charter.\"",
+ "status_as_of": "2026-11-02",
  "relevance": "The protocol draft defines an Agent Discovery Service Protocol in JSON-LD, with active discovery at https://{domain}/.well-known/agent-descriptions and an Agent Description \"Information\" that covers \"products, or services\". The use_case.html draft includes a hotel booking scenario (Personal Agent, Search Agent, hotel Service Agent) with the requirement \"Agent Transactions\". The agent identity draft uses a Decentralized Identifier (DID) URL as the HTTP signature keyid with RFC 9421 and RFC 9530.",
  "committed_next": [
   {
@@ -54,6 +54,21 @@
    "class": "third-party"
   },
   {
+   "url": "https://w3c-cg.github.io/ai-agent-protocol/",
+   "read": "2026-11-02",
+   "class": "statement"
+  },
+  {
+   "url": "https://github.com/w3c-cg/webagents/blob/main/Meetings/2026-10-26-TPAC/Readme.md",
+   "read": "2026-11-02",
+   "class": "statement"
+  },
+  {
+   "url": "https://www.w3.org/community/webagents/charter/",
+   "read": "2026-11-02",
+   "class": "normative"
+  },
+  {
    "url": "https://api.w3.org/groups/cg/agentprotocol",
    "read": "2026-10-02",
    "class": "normative"
@@ -79,12 +94,12 @@
  "seams": [
   "S1"
  ],
- "verified": "2026-10-23",
+ "verified": "2026-11-02",
  "evidence": {
-  "read": "On 2026-10-23: the minutes of the meeting of 2026-10-21 (meetings/2026-10-21.md, added by commit 25848af on 2026-10-22), pull request #46 (state, commits, comments, reviews) and the October 2026 index of public-agentprotocol.",
+  "read": "On 2026-11-02: the white paper at w3c-cg.github.io/ai-agent-protocol (title, status, comparison table; last commit to index.html 2026-01-14) and the state of PR #46.",
   "not_read": "Meeting minutes (2026-09-09, 2026-09-23), attachments, Google Docs and slides."
  },
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/w3c-ai-agent-protocol-cg.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/ef3607c93e300b7d9feef08c1e6180bc2930a870/entries/w3c-ai-agent-protocol-cg.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/0c91458422036ab9581ef018cb3f57735e3296cf/entries/w3c-ai-agent-protocol-cg.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }

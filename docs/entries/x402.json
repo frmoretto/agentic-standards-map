@@ -4,8 +4,8 @@
  "org": "Linux Foundation",
  "kind": "specification",
  "tier": "core",
- "status": "Open payment protocol under the x402 Foundation (Linux Foundation): intent announced 2026-04-02; operational launch and completed contribution by Coinbase announced 2026-07-14, with 40 member organisations at launch. On 2026-10-13 main is at commit 6c470a8 and the core specification header reads \"Protocol Version: 2\" (specs/x402-specification-v2.md); no release is listed on GitHub (not found, 2026-10-13). The file ROADMAP.md, which read \"(update coming soon)\" on 2026-10-03, was removed from main on 2026-10-13 by PR #3789, \"chore: remove outdated ROADMAP.md and PROJECT-IDEAS.md\".",
- "status_as_of": "2026-10-13",
+ "status": "Open payment protocol under the x402 Foundation (Linux Foundation): intent announced 2026-04-02; operational launch and completed contribution by Coinbase announced 2026-07-14, with 40 member organisations at launch. On 2026-10-13 main is at commit 6c470a8 and the core specification header reads \"Protocol Version: 2\" (specs/x402-specification-v2.md); no release is listed on GitHub (not found, 2026-10-13). The file ROADMAP.md, which read \"(update coming soon)\" on 2026-10-03, was removed from main on 2026-10-13 by PR #3789, \"chore: remove outdated ROADMAP.md and PROJECT-IDEAS.md\". PR #8 of the Domain Discovery working group and PR #2979 of the core repository are no longer reachable (404 on 2026-11-02); how they were removed is not known. The discussion on the content of `/.well-known/x402` continues in issue #11 of wg-domain-discovery, and PR #4 of the working group, which proposes a small entry at `/.well-known/x402` linking to OpenAPI documents, is open.",
+ "status_as_of": "2026-11-02",
  "relevance": "The README says \"x402 is an open standard for internet native payments.\"; the server answers 402 with a PAYMENT-REQUIRED header, the client replies with PAYMENT-SIGNATURE, and an http-message-signatures extension identifies the paying agent. The offer-and-receipt extension lets the server \"cryptographically commit to the payment terms it presents in\" accepts[] (the payment terms of the offer, not the commercial terms of the sale) and sign a receipt; it says \"Wire shape and field placement are not considered stable\". The FAQ describes the exact scheme as a push payment, \"irreversible once executed\". Discovery (seam S1), read 2026-10-23: in the Domain Discovery working group of the x402 Foundation (x402-foundation/wg-domain-discovery) a verifier response schema was merged on 2026-10-02 (PR #6, proposal/verifier-schema.md); PR #8, open since 2026-10-11, proposes `/.well-known/x402` as a single canonical discovery path with a JSON schema, and issue #11, open since 2026-10-14, discusses the shape of that entry and its alignment with x402; in the core repository PR #2979, open since 2026-07-29, proposes DNS and `.well-known` records for facilitators. `/.well-known/x402`: not found in a GitHub code search of x402-foundation/x402 (default branch), 2026-10-23.\n",
  "boundary": "The FAQ answers \"Not natively.\" on credit-card deposits, placing fiat rails outside the protocol.",
  "committed_next": [],
@@ -47,13 +47,18 @@
   },
   {
    "url": "https://github.com/x402-foundation/wg-domain-discovery/issues/11",
-   "read": "2026-10-23",
+   "read": "2026-11-02",
    "class": "third-party"
   },
   {
    "url": "https://github.com/x402-foundation/x402/pull/2979",
    "read": "2026-10-23",
    "class": "third-party"
+  },
+  {
+   "url": "https://github.com/x402-foundation/wg-domain-discovery/pull/4",
+   "read": "2026-11-02",
+   "class": "statement"
   },
   {
    "url": "https://github.com/x402-foundation/x402/blob/main/python/legacy/README.md",
@@ -83,7 +88,7 @@
   "S3",
   "S4"
  ],
- "verified": "2026-10-23",
+ "verified": "2026-11-02",
  "evidence": {
   "read": "On 2026-10-23, after issue #17 on this map's repository, whose proposer wrote \"Disclosure: I opened issue #9 in that working group (on the verifier schema), have commented there, and expect to propose a change to the verifier schema in a pull request.",
   "not_read": "Slack, the tsc and wg-identity repositories, x402.org member and calendar pages, older items; usage figures on x402.org (self-reported)."
@@ -125,17 +130,17 @@
    "url": "https://github.com/x402-foundation/x402/pull/3656"
   },
   {
-   "what": "Discovery: DNS and .well-known records for facilitators",
+   "what": "Discovery: DNS and .well-known records for facilitators. No longer reachable (404 on 2026-11-02); how it was removed is not known. The discussion on the content of /.well-known/x402 continues in issue #11 of wg-domain-discovery.",
    "author": "a participant",
    "date": "2026-07-29",
-   "state": "open",
+   "state": "closed",
    "url": "https://github.com/x402-foundation/x402/pull/2979"
   },
   {
-   "what": "Domain Discovery working group: /.well-known/x402 as a single canonical discovery path with a JSON schema",
+   "what": "Domain Discovery working group: /.well-known/x402 as a single canonical discovery path with a JSON schema. No longer reachable (404 on 2026-11-02); how it was removed is not known. The discussion on the content of /.well-known/x402 continues in issue #11 of wg-domain-discovery.",
    "author": "a participant",
    "date": "2026-10-11",
-   "state": "open",
+   "state": "closed",
    "url": "https://github.com/x402-foundation/wg-domain-discovery/pull/8"
   },
   {
@@ -156,6 +161,6 @@
   "source": "https://github.com/x402-foundation/x402/blob/main/specs/extensions/extension-offer-and-receipt.md"
  },
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/x402.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/ef3607c93e300b7d9feef08c1e6180bc2930a870/entries/x402.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/0c91458422036ab9581ef018cb3f57735e3296cf/entries/x402.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }

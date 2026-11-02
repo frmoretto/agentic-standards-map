@@ -4,9 +4,9 @@
  "org": "IETF",
  "kind": "work-item",
  "tier": "core",
- "status": "Three individual Internet-Drafts on the seller side of agent transactions, none adopted by a Working Group (WG): anders merchant-identity-assertions -01, kavian offering-discovery-protocol -01, hood agtp-merchant-identity (-02, an individual submission dated 26 May 2026, Informational, expires 27 November 2026; -00 and -02 read).",
- "status_as_of": "2026-10-13",
- "relevance": "draft-anders-merchant-identity-assertions defines a Merchant Identity Assertion, a signed JSON document binding a legal identity to the merchant receiving a payment, so that an automated client can verify the merchant before completing it. draft-kavian-offering-discovery-protocol lets an agent discover a Service's Collections and Offerings and find links to subsequent operations, for \"catalogs ranging from a few Offerings to large marketplaces without imposing a universal product taxonomy\". draft-hood-agtp-merchant-identity states \"This is the merchant identity gap.\" and treats merchant identity as the receiving side of a purchase.",
+ "status": "Three individual Internet-Drafts on the seller side of agent transactions, none adopted by a Working Group (WG): anders merchant-identity-assertions -01, kavian offering-discovery-protocol -01, hood agtp-merchant-identity (-03, dated 30 October 2026, Informational, expires 3 May 2027; -00, -02 and -03 read). The same author's draft-hood-agtp-commerce-01 (30 October 2026, Informational, read 2026-11-02) specifies a message format for agent-to-agent transactions over AGTP and says that it \"moves no money, holds no funds, and operates as no payment processor\".",
+ "status_as_of": "2026-11-02",
+ "relevance": "draft-anders-merchant-identity-assertions defines a Merchant Identity Assertion, a signed JSON document binding a legal identity to the merchant receiving a payment, so that an automated client can verify the merchant before completing it. draft-kavian-offering-discovery-protocol lets an agent discover a Service's Collections and Offerings and find links to subsequent operations, for \"catalogs ranging from a few Offerings to large marketplaces without imposing a universal product taxonomy\". draft-hood-agtp-merchant-identity treats merchant identity as the receiving side of a purchase (-02: \"This is the merchant identity gap.\"); in -03 a merchant is an agent whose Agent Identity Document carries role \"merchant\", and the abstract says of the asymmetry between the two sides \"That asymmetry is the gap this document closes.\"",
  "committed_next": [],
  "boundary": "draft-kavian-offering-discovery-protocol declines a product identifier scheme: its discovery is \"without imposing a universal product taxonomy\".",
  "sources": [
@@ -33,6 +33,16 @@
    "archived": "https://web.archive.org/web/20261015040938/https://www.ietf.org/archive/id/draft-hood-agtp-merchant-identity-02.txt",
    "read": "2026-10-13",
    "class": "third-party"
+  },
+  {
+   "url": "https://www.ietf.org/archive/id/draft-hood-agtp-merchant-identity-03.txt",
+   "read": "2026-11-02",
+   "class": "third-party"
+  },
+  {
+   "url": "https://www.ietf.org/archive/id/draft-hood-agtp-commerce-01.txt",
+   "read": "2026-11-02",
+   "class": "third-party"
   }
  ],
  "overlaps": [
@@ -41,13 +51,13 @@
   "ard",
   "ietf-dawn"
  ],
- "verified": "2026-10-13",
+ "verified": "2026-11-02",
  "evidence": {
-  "read": "On 2026-10-13: the datatracker records of the three drafts (anders -01 of 2026-07-04, kavian -01 of 2026-09-04, hood -02 of 2026-05-26; no later revision) and the text of hood -02.",
+  "read": "On 2026-11-02: the texts of draft-hood-agtp-merchant-identity-03 and draft-hood-agtp-commerce-01 (status, dates, abstract).",
   "not_read": "Full texts of the anders and kavian drafts, authors' next steps, WG agendas, whether the kavian draft names UCP, ACP or GS1.",
   "not_found": "Not found in the DAWN list (2026-08-01 to 2026-10-02) and dnsop list text, 2026-10-03: names of the three drafts."
  },
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/ietf-individual-seller-drafts.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/ef3607c93e300b7d9feef08c1e6180bc2930a870/entries/ietf-individual-seller-drafts.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/0c91458422036ab9581ef018cb3f57735e3296cf/entries/ietf-individual-seller-drafts.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }

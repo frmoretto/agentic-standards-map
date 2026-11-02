@@ -4,13 +4,13 @@
  "org": "AAIF",
  "kind": "venue",
  "tier": "context",
- "status": "AAIF has a Governing Board, a Technical Committee and working groups, each with a repository; Agentic Commerce has its own entry. Hosted projects listed on aaif.io/projects (read 2026-10-23): Agent Router, Agent Skills, Agent2Agent, AGENTS.md, agentgateway, Goose, Model Context Protocol, Open Responses, OpenEnv and OpenSandbox. AAIF announced on 2026-10-22 \"four new projects: Agent Skills, contributed by Anthropic; Open Responses, contributed by OpenAI; OpenEnv, contributed by Hugging Face; and OpenSandbox, contributed by Alibaba\", and wrote \"The additions bring AAIF to 10 hosted projects in its first year, up from its three launch projects in December 2025.\"",
- "status_as_of": "2026-10-13",
- "relevance": "aaif.io describes AAIF as \"a neutral, open foundation under the Linux Foundation\". Its Identity and Trust group aims at standards so \"agents can be discovered across platforms, prove who they are, who they act for\". Taxonomy and Landscape Workstream (repository ws-taxonomy-landscape, read on 2026-10-09 at commit 6ac90f5 of main): its charter lists the deliverables \"Shared Taxonomy Explorer (v1.0)\" with the date 2026-08-15 and \"Ecosystem Architecture Map (v1.0)\", `landscape.yml` plus a web application, with the date 2026-10-15; these are dates of a charter table, not a commitment of the workstream. On 2026-10-13 a portal titled \"Taxonomy and Landscape Portal\" is published at aaif.github.io/ws-taxonomy-landscape (page marked updated 2026-10-11, 8:13 pm) with links to a Shared Taxonomy Explorer and an Ecosystem Landscape Map; neither is called v1.0 on the page, the repository has no release (0) and no tag read, its commits to 2026-10-12 define taxonomy terms, and the date 2026-10-15 of the Ecosystem Architecture Map is still ahead. Its README says \"The Landscape remains on the future roadmap, but its contribution and review process has not yet been accepted.\" and that \"pull requests that propose Landscape changes will be closed\"; the text was added by PR #61 (\"docs: clarify current taxonomy-only contribution scope\", merged 2026-09-16). PR #83 (\"Clarify taxonomy contribution process\", merged 2026-10-07) rewrote CONTRIBUTING.md: a term is raised in a Working Group, a delegate adds it to the taxonomy spreadsheet, the weekly workstream meeting votes KEEP, CULL or DEBATE, and only then does a delegate open a pull request, which needs approval from delegates of two different Working Groups before it is merged and the term is marked FINALIZED; the guide adds \"A pull request for a term that has not received a KEEP vote will be closed.\"",
+ "status": "AAIF has a Governing Board, a Technical Committee and working groups, each with a repository; Agentic Commerce has its own entry. Hosted projects listed on aaif.io/projects (read 2026-11-02): Agent Router, Agent Skills, Agent2Agent, AGENTS.md, agentgateway, Goose, Model Context Protocol, Open Responses, OpenEnv and OpenSandbox, unchanged since 2026-10-23. AAIF announced on 2026-10-22 \"four new projects: Agent Skills, contributed by Anthropic; Open Responses, contributed by OpenAI; OpenEnv, contributed by Hugging Face; and OpenSandbox, contributed by Alibaba\", and wrote \"The additions bring AAIF to 10 hosted projects in its first year, up from its three launch projects in December 2025.\" AAIF announced on 2026-10-22 that it \"has reached 305 members in under a year since its launch in December 2025\" (read 2026-11-02).",
+ "status_as_of": "2026-11-02",
+ "relevance": "aaif.io describes AAIF as \"a neutral, open foundation under the Linux Foundation\". Its Identity and Trust group aims at standards so \"agents can be discovered across platforms, prove who they are, who they act for\". Taxonomy and Landscape Workstream (repository ws-taxonomy-landscape, read on 2026-10-09 at commit 6ac90f5 of main): its charter lists the deliverables \"Shared Taxonomy Explorer (v1.0)\" with the date 2026-08-15 and \"Ecosystem Architecture Map (v1.0)\", `landscape.yml` plus a web application, with the date 2026-10-15; these are dates of a charter table, not a commitment of the workstream. On 2026-10-13 a portal titled \"Taxonomy and Landscape Portal\" is published at aaif.github.io/ws-taxonomy-landscape (page marked updated 2026-10-11, 8:13 pm) with links to a Shared Taxonomy Explorer and an Ecosystem Landscape Map; neither is called v1.0 on the page, the repository has no release (0) and no tag read, its commits to 2026-10-12 define taxonomy terms, and the date 2026-10-15 of the Ecosystem Architecture Map has passed with no release and no tag in the repository (read 2026-11-02). A Landscape is published at landscape.aaif.io, linked as \"Landscape\" from the aaif.io menu (read 2026-11-02): a Members category (174 entries in four tiers) and an \"Agentic AI Momentum Watchlist\" of 178 projects in five subcategories, whose Protocols & Interfaces subcategory lists, among others, the Universal Commerce Protocol (UCP), the Agentic Commerce Protocol (ACP), the Agent Payments Protocol (AP2), the Agent2Agent (A2A) Protocol, Agentic Resource Discovery (ARD), the Machine Payments Protocol (MPP), WebMCP and x402. The workstream README still carries the sentence on the Landscape quoted below (read 2026-11-02). Its README says \"The Landscape remains on the future roadmap, but its contribution and review process has not yet been accepted.\" and that \"pull requests that propose Landscape changes will be closed\"; the text was added by PR #61 (\"docs: clarify current taxonomy-only contribution scope\", merged 2026-09-16). PR #83 (\"Clarify taxonomy contribution process\", merged 2026-10-07) rewrote CONTRIBUTING.md: a term is raised in a Working Group, a delegate adds it to the taxonomy spreadsheet, the weekly workstream meeting votes KEEP, CULL or DEBATE, and only then does a delegate open a pull request, which needs approval from delegates of two different Working Groups before it is merged and the term is marked FINALIZED; the guide adds \"A pull request for a term that has not received a KEEP vote will be closed.\"",
  "sources": [
   {
    "url": "https://aaif.io/projects",
-   "read": "2026-10-23",
+   "read": "2026-11-02",
    "class": "statement"
   },
   {
@@ -39,7 +39,7 @@
   {
    "url": "https://github.com/aaif/ws-taxonomy-landscape/blob/main/README.md",
    "archived": "https://web.archive.org/web/20261014054554/https://github.com/aaif/ws-taxonomy-landscape/blob/main/README.md",
-   "read": "2026-10-09",
+   "read": "2026-11-02",
    "class": "normative"
   },
   {
@@ -73,6 +73,16 @@
    "class": "statement"
   },
   {
+   "url": "https://aaif.io/news/agentic-ai-foundation-surpasses-300-members",
+   "read": "2026-11-02",
+   "class": "statement"
+  },
+  {
+   "url": "https://landscape.aaif.io/",
+   "read": "2026-11-02",
+   "class": "statement"
+  },
+  {
    "url": "https://github.com/frmoretto/agentic-standards-map/issues/13",
    "read": "2026-10-19",
    "class": "third-party"
@@ -84,13 +94,13 @@
   "mcp-server-card",
   "lf-ai-catalog"
  ],
- "verified": "2026-10-23",
+ "verified": "2026-11-02",
  "evidence": {
-  "read": "On 2026-10-23: aaif.io/projects (ten projects) and the AAIF news page of 2026-10-22 on the four new projects; the number of members was not read.",
-  "not_read": "Discord, mailing lists, recordings, Google Documents.",
+  "read": "On 2026-11-02: aaif.io/projects (ten projects), /news and the AAIF release of 2026-10-22 on 305 members, /board and /tc; landscape.aaif.io and its data file (categories, subcategories, entries); the README, commits since 2026-10-13, releases (0) and tags (0) of ws-taxonomy-landscape.",
+  "not_read": "The AAIF newsletter of 2026-10-26 (aaif.io/newsletter answered 404 on 2026-11-02); the names of the members, shown on aaif.io/members as logos.",
   "not_found": "Not found in the proposals repositories, 2026-10-03: AI Catalog, Agentic Resource Discovery (ARD), DAWN, UCP, Verifiable Intent."
  },
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/aaif-structure.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/ef3607c93e300b7d9feef08c1e6180bc2930a870/entries/aaif-structure.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/0c91458422036ab9581ef018cb3f57735e3296cf/entries/aaif-structure.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }
