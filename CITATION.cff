@@ -17,6 +17,9 @@ identifiers:
     value: "10.5281/zenodo.23357361"
     description: "Concept DOI: all versions of the Agentic Standards Map; always resolves to the latest version."
   - type: doi
+    value: "10.5281/zenodo.24073152"
+    description: "Version DOI: version 1.4."
+  - type: doi
     value: "10.5281/zenodo.23882108"
     description: "Version DOI: version 1.3."
   - type: doi

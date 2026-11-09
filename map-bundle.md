@@ -59,7 +59,7 @@ Corrections and missing sources: [open an issue on the repository](https://githu
 
 ### How to cite
 
-Marinoni Moretto, F. (2026). Agentic Standards Map (Version 1.4) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23357361
+Marinoni Moretto, F. (2026). Agentic Standards Map (Version 1.4) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24073152
 
 Please cite the entry id, the date it was read and the DOI. To cite the map in general, use https://doi.org/10.5281/zenodo.23357361.
 
@@ -204,7 +204,7 @@ An Internet-Draft is not an IETF decision, and the map says which kind of draft 
 
 ## Versions and citation
 
-The website is the living version and changes as venues move. Each DOI identifies a frozen snapshot: version 1.4 (2026-11-09) is the tag v1.4 of the repository, and its version DOI is recorded here once Zenodo assigns it; version 1.3 (2026-11-02) is the tag v1.3 of the repository and has the version DOI 10.5281/zenodo.23882108; version 1.2 (2026-10-26) is the tag v1.2 of the repository and has the version DOI 10.5281/zenodo.23655852; version 1.1 (2026-10-19) is the tag v1.1 of the repository and has the version DOI 10.5281/zenodo.23464332; version 1.0.1 (2026-10-14) is the tag v1.0.1 and has the version DOI 10.5281/zenodo.23377309; version 1.0.0 is the tag v1.0.0 and has the version DOI 10.5281/zenodo.23357362. The concept DOI 10.5281/zenodo.23357361 always resolves to the latest version; cite the version DOI for the text you read.
+The website is the living version and changes as venues move. Each DOI identifies a frozen snapshot: version 1.4 (2026-11-09) is the tag v1.4 of the repository and has the version DOI 10.5281/zenodo.24073152; version 1.3 (2026-11-02) is the tag v1.3 of the repository and has the version DOI 10.5281/zenodo.23882108; version 1.2 (2026-10-26) is the tag v1.2 of the repository and has the version DOI 10.5281/zenodo.23655852; version 1.1 (2026-10-19) is the tag v1.1 of the repository and has the version DOI 10.5281/zenodo.23464332; version 1.0.1 (2026-10-14) is the tag v1.0.1 and has the version DOI 10.5281/zenodo.23377309; version 1.0.0 is the tag v1.0.0 and has the version DOI 10.5281/zenodo.23357362. The concept DOI 10.5281/zenodo.23357361 always resolves to the latest version; cite the version DOI for the text you read.
 
 Changes verified by Friday evening enter the following Monday's release; a Monday with no change to citable content produces no new version. Corrections and proposals go through issues on the repository, one per entry, so that each change has a public trail.
 
