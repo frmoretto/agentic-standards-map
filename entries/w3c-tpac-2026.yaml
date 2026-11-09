@@ -3,11 +3,12 @@ name: W3C TPAC 2026 breakouts on agents (Dublin, 2026-10-26/30)
 org: W3C
 kind: event
 tier: core
-status: 'Technical Plenary and Advisory Committee (TPAC) 2026 took place from 2026-10-26 to 2026-10-30 in Dublin (hybrid). On 2026-11-02 breakout #25 (permissions, actions and alignment) is marked "Canceled" on the TPAC calendar, and its issue was closed on 2026-10-28 "by request of the proponent"; for #22, #34, #69, #71 and #84 the calendar shows the session as past and "Confirmed", a scheduling status, and no minutes were found linked from the issues or the calendar pages, so this map does not record them as held. The deadline for breakout proposals to be scheduled in advance was 2026-10-08 and has passed; the README (read 2026-10-13) says that "Around 19 October" the schedule of the breakout sessions for Monday to Wednesday is added to the TPAC calendar, and the calendar page of breakout sessions listed no session in its text on 2026-10-13. On 2026-10-14 (09:35 UTC) that page lists 85 sessions, all marked "Tentative", each with a day, a time shown in Greenwich Mean Time and a room.'
-status_as_of: 2026-11-02
+status: 'Technical Plenary and Advisory Committee (TPAC) 2026 took place from 2026-10-26 to 2026-10-30 in Dublin (hybrid). On 2026-11-02 breakout #25 (permissions, actions and alignment) is marked "Canceled" on the TPAC calendar, and its issue was closed on 2026-10-28 "by request of the proponent"; for #22, #34, #69, #71 and #84 the calendar showed the session as past and "Confirmed", a scheduling status. Read 2026-11-09: draft minutes are published on w3.org for #22 (2026-10-30, an IRC log with no resolutions; the co-chairs also posted, linked from the issue on 2026-11-02, a summary "reconstructed from the Zoom recording and transcript", "a summary, not verbatim"), #34 (2026-10-28), #69 (2026-10-26), #71 (2026-10-28) and #84 (2026-10-28, an IRC log without a scribe), so this map records these five sessions as held. Breakout #95, on identity and payments of agents, was not held: its issue was closed on 2026-10-26 and the proposer wrote on 2026-10-31 of a slot at a W3C meeting in March 2027. The deadline for breakout proposals to be scheduled in advance was 2026-10-08 and has passed; the README (read 2026-10-13) says that "Around 19 October" the schedule of the breakout sessions for Monday to Wednesday is added to the TPAC calendar, and the calendar page of breakout sessions listed no session in its text on 2026-10-13. On 2026-10-14 (09:35 UTC) that page lists 85 sessions, all marked "Tentative", each with a day, a time shown in Greenwich Mean Time and a room.'
+status_as_of: 2026-11-09
 relevance: 'Breakouts on agents carry the label agentic web in w3c/tpac2026-breakouts; on 2026-10-13 twelve are open and none is closed or withdrawn: #22 The Agentic Web, #23 AI-friendly webpages, #24 declarative and imperative solutions, #25 permissions, actions and alignment, #31 the future of agentic web experiences, #34 Zurich workshop report, #36 extending WebMCP, #39 KYAPay, #56 agents and developer experience, #69 action semantics for agents, #71 user consent when browsers act, #84 WebMCP in WebExtensions. Two proposals without that label matter to this map: #37 a pre-kickoff meeting for the Decentralized Identifier (DID) Methods Working Group (WG) (opened 2026-09-30) and #17 the proposed Digital Policy Working Group charter. On 2026-10-13 the issues carried no slot (labels session and agentic web only); on 2026-10-23 each carries its slot in its body, as a day and a time with no time zone: #69 action semantics for agents, Monday 17:00 to 18:00; #25 permissions, actions and alignment, Wednesday 10:30 to 11:30; #84 WebMCP in WebExtensions, Wednesday 14:00 to 15:00; #34 Zurich workshop report, Wednesday 15:15 to 16:15; #71 user consent when browsers act, Wednesday 16:30 to 17:30; #22 The Agentic Web, Friday 08:30 to 09:30. On the calendar page of 2026-10-14 (09:35 UTC) these proposals appear with provisional slots, matched by title, times as listed in Greenwich Mean Time: #39 KYAPay on 26 Oct 17:00 to 18:00; #69 action semantics for agents on 26 Oct 17:00 to 18:00; #24 declarative and imperative solutions on 27 Oct 15:30 to 16:30; #17 the Digital Policy Working Group charter on 27 Oct 15:30 to 16:30; #36 extending WebMCP on 28 Oct 09:00 to 10:00; #25 permissions, actions and alignment on 28 Oct 10:30 to 11:30; #23 AI-friendly webpages on 28 Oct 10:30 to 11:30; #84 WebMCP in WebExtensions on 28 Oct 14:00 to 15:00; #34 the report and follow-ups from the E-commerce for Humans and AI Agents workshop on 28 Oct 15:15 to 16:15; #56 agents and developer experience on 28 Oct 15:15 to 16:15; #71 user consent when browsers act on 28 Oct 16:30 to 17:30; #31 the future of agentic web experiences on 29 Oct 17:00 to 18:00; #37 the DID Methods WG pre-kickoff meeting on 29 Oct 17:00 to 18:00; #22 The Agentic Web on 30 Oct 08:30 to 09:30. All are marked "Tentative". Issue #22 (opened 2026-09-16, with #24 and #25 on 2026-09-17, all by marcoscaceres) has the goal "Directions for future work at the W3C around enabling the web to work well with AI agents." On 2026-10-23 it names sarony and yoavweiss as additional chairs, its agenda field reads "_No response_", and a comment of 2026-10-01 by a member of the W3C staff says that it "Would be a good place to discuss the charter" of the Agentic Web Working Group (Strategy issue #576; see w3c-agenticweb-wg). The repository w3c/tpac2026-miniworkshops hosts mini-workshops on AI and Society, Age Assurance, and Data Governance and Ownership, with submissions on product data discoverable by agents (#32) and agentic payments (#25).'
 committed_next: []
 boundary: 'Breakouts are sessions proposed by participants, not Working Group work: TPAC has "a series of breakout sessions determined by the attendees."'
+participation: 'The author of this map is listed among those present in the minutes of breakout #34 (2026-10-28) and among those "Also seen on Zoom" in the co-chairs'' summary of breakout #22 (2026-10-30); see Disclosure.'
 sources:
 - url: https://www.w3.org/events/tpac/2026/
   read: 2026-10-03
@@ -33,12 +34,33 @@ sources:
 - url: https://www.w3.org/events/meetings/38d7b975-61b0-44ae-9d72-c68ed9876153/
   read: 2026-11-02
   class: decision
+- url: https://www.w3.org/2026/10/30-the-agentic-web-minutes.html
+  read: 2026-11-09
+  class: decision
+- url: https://gist.github.com/yoavweiss/211c446c914a5abf03548652e31de9a8
+  read: 2026-11-09
+  class: statement
+- url: https://www.w3.org/2026/10/28-ecommerce-minutes.html
+  read: 2026-11-09
+  class: decision
+- url: https://www.w3.org/2026/10/26-agentic-action-semantics-minutes.html
+  read: 2026-11-09
+  class: decision
+- url: https://www.w3.org/2026/10/28-browsers-acting-for-you-minutes.html
+  read: 2026-11-09
+  class: decision
+- url: https://www.w3.org/2026/10/28-webmcp-webextensions-minutes.html
+  read: 2026-11-09
+  class: decision
+- url: https://github.com/w3c/tpac2026-breakouts/issues/95
+  read: 2026-11-09
+  class: third-party
 overlaps:
 - w3c-agenticweb-wg
 - w3c-gs1-ecommerce-workshop
 - w3c-webmcp-cg-report
 - browsers-webmcp
-verified: 2026-11-02
+verified: 2026-11-09
 evidence:
-  read: 'On 2026-11-02: issues #22, #25, #34, #69, #71 and #84 of w3c/tpac2026-breakouts (state, closing, comments) and their calendar pages (status, past, links); minutes pages of W3C were not searched.'
+  read: 'On 2026-11-09: the draft minutes of breakouts #22, #34, #69, #71 and #84 on w3.org (attendees, resolutions and actions), the co-chairs'' summary of #22 (gist, created 2026-11-02, one revision), and issue #95 of w3c/tpac2026-breakouts.'
   not_read: Dates of the mini-workshops (not stated in the items read); the matching of the sessions to issue numbers is by title, not by a link on the calendar page.

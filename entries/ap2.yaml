@@ -77,7 +77,7 @@ overlaps:
 - acp
 seams:
 - S4
-verified: 2026-11-02
+verified: 2026-11-09
 evidence:
   read: 'On 2026-10-23: docs/index.md at commit b4587ac (2026-04-28) and at the head of main (e1ea56d, same text), and the FIDO page "Agentic AI" (published 2026-04-28, modified 2026-08-20), for point 1 of issue #11 on this map''s repository.'
   not_read: The mandate pages checkout_mandate.md and payment_mandate.md beyond the receipt sections, other code, commits, issues, FIDO working group charters.
@@ -91,6 +91,11 @@ matrix:
   dispute: 'FAQ: in a dispute the network adjudicator can use the user-signed Checkout Mandate; dispute process: "outside the scope of this specification" (docs/ap2/specification.md, section Dispute Evidence, commit e1ea56d, read 2026-10-14)'
   source: https://github.com/google-agentic-commerce/AP2/blob/main/docs/index.md
 open_proposals:
+- what: 'Issue #393: version 0.2 removed the Intent Mandate, so which mandate settles a dispute of the kind "Mispick, Unapproved by User"? At the tag v0.2.0 (commit b4587ac) the documentation, README and changelog contain neither "Intent Mandate" nor that row, which docs/specification.md at v0.1.0 has (lines 582 to 583); the changelog has no entry for 0.2.0 (read 2026-11-09). No maintainer reply on 2026-11-06.'
+  author: a participant
+  date: 2026-11-03
+  state: open
+  url: https://github.com/google-agentic-commerce/AP2/issues/393
 - what: 'Issue #374: the Mandate Receipt is described with a `result` field of `["success", "error"]` (docs/ap2/agent_authorization.md, lines 503 to 516) and with a `status` field of `Success` or `Error` (code/sdk/schemas/ap2/checkout_receipt.json and types/receipt_status.json), both read at commit e1ea56d; no comment on the issue on 2026-10-13.'
   author: a participant
   date: 2026-10-11

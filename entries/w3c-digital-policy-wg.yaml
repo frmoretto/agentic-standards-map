@@ -3,8 +3,8 @@ name: W3C Digital Policy Working Group (ODRL, draft charter)
 org: W3C
 kind: charter
 tier: context
-status: 'Draft charter in refinement until approx. 2026-11-02 (public-new-work, 2026-09-30); TPAC breakout #17 aims to discuss it.'
-status_as_of: 2026-10-03
+status: 'Draft charter in refinement until approx. 2026-11-02 (public-new-work, 2026-09-30); the TPAC session "Proposed Digital Policy Working Group Charter" of 2026-10-28 has draft minutes that record only links, no discussion. Read 2026-11-09: the draft charter of this entry is unchanged since 2026-10-05, and since 2026-11-03 a second draft, "Digital Policy Platform Working Group Charter", sits next to it in the repository w3c/odrl (last changed 2026-11-06).'
+status_as_of: 2026-11-09
 relevance: 'Mission: "to develop and maintain the foundational digital policy layer for the digital economy", by extending the two ODRL recommendations.'
 sources:
 - url: https://lists.w3.org/Archives/Public/public-new-work/2026Sep/0012.html
@@ -13,8 +13,14 @@ sources:
 - url: https://w3c.github.io/odrl/w3c-wg-draft-charter-2026/dpwg-draft-charter.html
   read: 2026-10-02
   class: normative
-verified: 2026-10-03
+- url: https://github.com/w3c/odrl/blob/2bad2c5/w3c-wg-draft-charter-2026/dppwg-draft-charter.html
+  read: 2026-11-09
+  class: normative
+- url: https://www.w3.org/2026/10/28-digital-policy-wg-minutes.html
+  read: 2026-11-09
+  class: decision
+verified: 2026-11-09
 evidence:
   read: 'Charter read in full as published HTML on 2026-10-02; refinement announcement and breakout #17 read on 2026-10-03.'
-  not_read: GitHub source of the charter in w3c/odrl; ODRL lists and repositories.
-  not_found: 'Not found in the charter text, 2026-10-02: agent, commerce, merchant, product.'
+  not_read: ODRL lists; the published page of the second draft (read at the commit in the repository).
+  not_found: 'On 2026-11-09: the commit history of w3c-wg-draft-charter-2026/ in w3c/odrl (the draft of this entry last changed on 2026-10-05; the second draft added on 2026-11-03, retitled on 2026-11-04, last changed on 2026-11-06), the second draft at commit 2bad2c5 (not found: agent, commerce, merchant, product), and the minutes of the TPAC session of 2026-10-28. Not found in the charter text, 2026-10-02: agent, commerce, merchant, product.'

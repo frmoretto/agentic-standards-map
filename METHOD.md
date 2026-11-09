@@ -44,7 +44,7 @@ An Internet-Draft is not an IETF decision, and the map says which kind of draft 
 
 ## Versions and citation
 
-The website is the living version and changes as venues move. Each DOI identifies a frozen snapshot: version 1.3 (2026-11-02) is the tag v1.3 of the repository and has the version DOI 10.5281/zenodo.23882108; version 1.2 (2026-10-26) is the tag v1.2 of the repository and has the version DOI 10.5281/zenodo.23655852; version 1.1 (2026-10-19) is the tag v1.1 of the repository and has the version DOI 10.5281/zenodo.23464332; version 1.0.1 (2026-10-14) is the tag v1.0.1 and has the version DOI 10.5281/zenodo.23377309; version 1.0.0 is the tag v1.0.0 and has the version DOI 10.5281/zenodo.23357362. The concept DOI 10.5281/zenodo.23357361 always resolves to the latest version; cite the version DOI for the text you read.
+The website is the living version and changes as venues move. Each DOI identifies a frozen snapshot: version 1.4 (2026-11-09) is the tag v1.4 of the repository, and its version DOI is recorded here once Zenodo assigns it; version 1.3 (2026-11-02) is the tag v1.3 of the repository and has the version DOI 10.5281/zenodo.23882108; version 1.2 (2026-10-26) is the tag v1.2 of the repository and has the version DOI 10.5281/zenodo.23655852; version 1.1 (2026-10-19) is the tag v1.1 of the repository and has the version DOI 10.5281/zenodo.23464332; version 1.0.1 (2026-10-14) is the tag v1.0.1 and has the version DOI 10.5281/zenodo.23377309; version 1.0.0 is the tag v1.0.0 and has the version DOI 10.5281/zenodo.23357362. The concept DOI 10.5281/zenodo.23357361 always resolves to the latest version; cite the version DOI for the text you read.
 
 Changes verified by Friday evening enter the following Monday's release; a Monday with no change to citable content produces no new version. Corrections and proposals go through issues on the repository, one per entry, so that each change has a public trail.
 
@@ -52,9 +52,51 @@ Archive copies: snapshots of the cited sources were requested on 2026-10-14 from
 
 **Changelog.**
 
-**Since 1.3 (not a numbered version).** Corrections to the living version, for the next numbered version.
+**1.4 (2026-11-09).** Two entries added (`gs1-epcis`, `gs1-web-vocabulary`); corrections and additions to the living version. Facts dated after Friday 2026-11-06 are deferred to 1.5, except corrections of the state of a source already cited (the move of the agentproto use cases draft to the working group stream on 2026-11-07) and contributions of the author of this map.
+
+Between 1.3 and 1.4, on the living version:
 
 - Site header: the one-line description of the map is shown under its name on every page; the home page no longer repeats the name and the tagline above its text, and each page has one h1 (presentation only, no change to the data).
+
+Corrections:
+
+- `x402` and seam S1: pull request #8 of the Domain Discovery working group and pull request #2979 of the core repository, which version 1.3 called no longer reachable (404 on 2026-11-02), are reachable and open again on 2026-11-09; the two open proposals are open again.
+- `ietf-agentproto`: draft-agentic-ai-usecases-requirements is at -07, published on 2026-11-02, and on 2026-11-07 it moved to the IETF stream in the agentproto group as "Candidate for WG Adoption".
+- `kyapay`: kyapay-token-03 and using-kyapay-tokens-02 (2026-11-02), still individual submissions; the -03 text replaces the -02 as source.
+- `ietf-vcon`: draft-ietf-vcon-vcon-core is at -05 (2026-10-31).
+- `w3c-did-resolution`: Candidate Recommendation Draft of 2026-11-03.
+- `lf-ai-catalog`: pull request #117 merged on 2026-10-28 and pull request #91 closed without merge on 2026-10-29, both out of the open proposals.
+- `a2a-core`: the Technical Steering Committee has nine seats since 2026-10-20, with Bloomberg.
+- `ucp`: the status is rewritten as the state at 2026-11-06; the readings of 1.3 are kept word for word in the evidence. The passed target of issue #682 is replaced by the lodging milestone of 2026-12-08.
+- `w3c-tpac-2026`: breakouts #22, #34, #69, #71 and #84 are recorded as held, on their published draft minutes; breakout #95 was not held.
+- `w3c-digital-policy-wg`: the draft charter of the entry is unchanged since 2026-10-05; a second draft charter, Digital Policy Platform Working Group, sits next to it.
+
+Additions:
+
+- `gs1-epcis` and `gs1-web-vocabulary` (new entries, issues #27 and #29), and the relevance of `gs1-conformant-resolver` and `gs1-digital-link` rewritten from the standards (issues #23 and #25); read on ref.gs1.org on 2026-11-09. The EPCIS archive gives version 2.0.1, while the PDF it serves prints Release 2.0; an ISO/IEC 19987 equivalence is not stated on the pages read. Seam S2 gains both entries.
+- `ucp`: governance from GOVERNANCE.md and TC_ELECTIONS.md (four councils, founders and seats, minutes published, the Local Services and B2B Procurement charters approved on 2026-11-04 and 2026-11-05, the domain working groups and two Payments working group charters proposed on 2026-11-05); lodging as a working draft on main, not in a published release, milestone 2026-12-08; identity linking pull request #998 (2026-10-31); a method note on the WooCommerce discovery fixes for censuses of `/.well-known/ucp`.
+- `ard` and `ietf-dawn`: the three ARD drafts of 2026-10-30 taken to DAWN and on the IETF 127 agenda; third-party implementations declared in ard-spec issues; the `TrustManifest` key of the entry schema; the DAWN charter sentence on initial discovery only; current revisions of the individual DAWN drafts. The discovery paths counted on the home page are unchanged (ARD was already counted).
+- `ietf-audit`: draft-gruszka-audit-decision-receipts-05; the state of the charter text on VCON (a review suggestion, not merged); the vCon AI agent extension draft.
+- `ietf-vcon`: draft-birkholz-vcon-ai-agent-extension-00.
+- `ietf-wimse-aims`: the AER-1 conformance corpus (issue #19); revisions of draft-hulea-wimse-agent-mandate and draft-zambo-aer1-wimse-mapping.
+- `ietf-webbotauth`: agent-census pull request #143 (2026-11-01).
+- `ap2`: issue #393, with the fact checked at the source that version 0.2.0 has no Intent Mandate.
+- `pap`: versions 0.2 and 0.3; the reference implementation promised for about 2026-11-09 not published by 2026-11-06.
+- `w3c-agenticweb-wg`, `w3c-webmcp-cg-report`, `w3c-ai-agent-protocol-cg`, `w3c-web-payment-security-ig`: TPAC minutes and the co-chairs' summary of breakout #22, the WebMCP resolutions of 2026-10-27, the state of the charter at 2026-11-06, the WebKit explainer of a digital credential payment method.
+- `shopify`: toolkit release v2.3.0.
+- Seams: ARD at DAWN and the Lighthouse `agentmap` directive, GS1 at breakout #22 (S1); schema.org identifiers over http and https (S2).
+- Disclosure: contributions and presence of the author of this map from 2026-10-28 to 2026-11-07.
+- Site: the current version as a pill next to the name in the header; the blue strip of the entry pages keeps the maintainer and the Introduction link.
+
+Deferred to 1.5:
+
+- An EU Digital Product Passport Registry note for seams S1 and S2: the guidelines were read by the author's chat on 2026-11-03 but their addresses could not be re-read for this version.
+- UCP: purchase options (pull request #890, not merged, based on another branch); the lodging council minutes of 2026-11-03 (published 2026-11-07); issue #969; a row on schema.org-shaped attributes and published JSON-LD.
+- A2A pull request #2378; the bazatap census; AAIF identity and trust issue #21; vCon pull request #43; WooCommerce agent readiness pull requests #70499 and #70509; KYAPay pull requests merged on 2026-11-02 (their text in the published revision not checked); the AUDIT agenda for IETF 127 (2026-11-08).
+- The same status rewrite as `ucp` for nine other entries whose status has piled up readings.
+
+Credit: Sven Böckelmann (issues #23, #25, #27 and #29; his disclosure is in the evidence of the four entries) and zambodotdev (issue #19).
+
 
 **1.3 (2026-11-02).** No entry added; corrections and additions to the living version. Facts dated after Friday 2026-10-30 are deferred to 1.4 (among them UCP pull request #998 on identity linking, the UCP Governing Council minutes of 2026-10-30, draft-hulea-wimse-agent-mandate-01 and draft-zambo-aer1-wimse-mapping-02), except contributions of the author of this map and proposals made to this map in its own issues.
 

@@ -3,8 +3,8 @@ name: KYAPay (Skyfire)
 org: Industry
 kind: specification
 tier: core
-status: 'Individual Internet-Drafts named for the OAuth Working Group (WG) (draft-skyfire-oauth-*); WG stream or adoption: not found on the datatracker, 2026-10-13 (the pages of kyapay-token and using-kyapay-tokens show "(No stream defined)"). On 2026-10-02 the author announced new revisions of five drafts: kyapay-token-02, using-kyapay-tokens-01, amr-values-02, id-verification-02 and aml-methods-01 (datatracker date 2026-10-01 for all five). The datatracker lists two more documents of the family, kyapay-token-exchange-01 (2026-07-19) and kyapayprofile-02 (2026-06-20, replaced by kyapay-token), seven in all. The Technical Plenary and Advisory Committee (TPAC) breakout proposal #39 (KYAPay: Verified Agent Identity and Payments for Ubiquitous Agentic Commerce) is open on 2026-10-13 with one comment and no assigned slot; the datatracker shows no revision of kyapay-token-exchange after -01 of 2026-07-19.'
-status_as_of: 2026-10-13
+status: 'Individual Internet-Drafts named for the OAuth Working Group (WG) (draft-skyfire-oauth-*); WG stream or adoption: not found on the datatracker, 2026-10-13 and again 2026-11-09 (kyapay-token and using-kyapay-tokens are listed under "Individual Submissions" with no stream). Current revisions, read 2026-11-09: kyapay-token-03 and using-kyapay-tokens-02, both published on the datatracker on 2026-11-02. On 2026-10-02 the author announced new revisions of five drafts: kyapay-token-02, using-kyapay-tokens-01, amr-values-02, id-verification-02 and aml-methods-01 (datatracker date 2026-10-01 for all five). The datatracker lists two more documents of the family, kyapay-token-exchange-01 (2026-07-19) and kyapayprofile-02 (2026-06-20, replaced by kyapay-token), seven in all. The Technical Plenary and Advisory Committee (TPAC) breakout proposal #39 (KYAPay: Verified Agent Identity and Payments for Ubiquitous Agentic Commerce) is open on 2026-10-13 with one comment and no assigned slot; the datatracker shows no revision of kyapay-token-exchange after -01 of 2026-07-19.'
+status_as_of: 2026-11-09
 relevance: KYAPay defines a signed JWT carrying verified agent and human identity (KYA) and payment credentials (PAY), so that merchant security infrastructure can distinguish human-authorised agents from malicious bots. The author's announcement of 2026-10-02 describes the token as a "JWT token providing claims about the person or organization authorizing an agent to act, the agent platform, the agent instance, and optionally a payment method". On the oauth list the token is discussed among bot managers, CDNs and site policy engines.
 committed_next:
 - what: The author invites review of the updated drafts on the oauth list and at IETF 127 (14 to 20 November 2026).
@@ -33,17 +33,17 @@ sources:
   read: 2026-10-03
   class: third-party
 - url: https://datatracker.ietf.org/doc/draft-skyfire-oauth-kyapay-token/
-  read: 2026-10-13
+  read: 2026-11-09
   class: decision
 - url: https://datatracker.ietf.org/doc/draft-skyfire-oauth-using-kyapay-tokens/
-  read: 2026-10-13
+  read: 2026-11-09
   class: decision
-- url: https://www.ietf.org/archive/id/draft-skyfire-oauth-kyapay-token-02.txt
-  read: 2026-10-14
+- url: https://www.ietf.org/archive/id/draft-skyfire-oauth-kyapay-token-03.txt
+  read: 2026-11-09
   class: third-party
-verified: 2026-10-14
+verified: 2026-11-09
 evidence:
-  read: 'Datatracker search for draft-skyfire and the pages of kyapay-token and using-kyapay-tokens, 2026-10-13 (seven documents: kyapay-token-02, using-kyapay-tokens-01, amr-values-02, id-verification-02, aml-methods-01, kyapay-token-exchange-01, kyapayprofile-02); datatracker listing of 2026-10-02 (it named four, kyapay-token-02, token-exchange-01, using-kyapay-tokens-01, kyapayprofile-02); the announcement of 2026-10-02 on the oauth list names five; oauth list from 2026-08-01, subject filter (142 of 505 messages), KYAPay threads read.'
+  read: '2026-11-09: the datatracker records of kyapay-token and using-kyapay-tokens (revisions and stream) and the text of kyapay-token-03, whose introduction keeps the purpose stated in the first sentence of the relevance (the -02 text, read 2026-10-14, is superseded).'
   not_read: The pages of the other five drafts on the datatracker (stream and state), skyfire-xyz repositories; IETF 126 session; kyapay.org beyond main page; adopters named in the announcement; threads excluded by the subject filter.
   not_found: 'Not found in the messages read, 2026-10-03: the merchant''s own identity, product identity, prices, checkout.'
 open_proposals:

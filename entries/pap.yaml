@@ -3,11 +3,11 @@ name: Personal Agent Protocol (PAP, "Poppy"), published by Sierra with Meta
 org: Industry
 kind: specification
 tier: core
-status: 'Draft 0.1 of the specification is published at personalagentprotocol.org (announced 2026-10-06, draft published 2026-10-09; the pages read on 2026-10-13 are marked "Updated Oct 12, 2026"), under the Apache License 2.0 with the names and the logo excluded; a further 35 design partners were named on 2026-10-09. Governance is worded two ways, not reconciled here. Sierra, 2026-10-06: "an open standard Meta and Sierra are developing along with industry partners at Genesys, Instinct, Rocket, Shopify, Stripe, and Walmart". Decagon, 2026-10-06: "join the Personal Agent Protocol working group announced by the team behind Meta''s Muse to help shape an industry standard". No standards body or governing organisation is named in the pages of the site read on 2026-10-13.'
-status_as_of: 2026-10-13
+status: 'Draft 0.1 of the specification is published at personalagentprotocol.org (announced 2026-10-06, draft published 2026-10-09; the pages read on 2026-10-13 are marked "Updated Oct 12, 2026"), under the Apache License 2.0 with the names and the logo excluded; a further 35 design partners were named on 2026-10-09. Governance is worded two ways, not reconciled here. Sierra, 2026-10-06: "an open standard Meta and Sierra are developing along with industry partners at Genesys, Instinct, Rocket, Shopify, Stripe, and Walmart". Decagon, 2026-10-06: "join the Personal Agent Protocol working group announced by the team behind Meta''s Muse to help shape an industry standard". No standards body or governing organisation is named in the pages of the site read on 2026-10-13. Read 2026-11-09, as of 2026-11-06: in the specification''s repository (personal-agent-protocol/personal-agent-protocol, created 2026-10-14) version 0.2 was published on 2026-10-26 and version 0.3 on 2026-11-05, which opened draft 0.4; a reference implementation is not published by 2026-11-06, and the Demos page at the commit that published 0.3 lists demos "built by the community" that "have not been officially reviewed or endorsed by the Personal Agent Protocol authors or partners"; a public record of design workshops is not found (2026-11-09). Sierra''s landing page now says "40+ design partners".'
+status_as_of: 2026-11-09
 relevance: 'Discovery is one well-known document: "A Company MUST publish its poppy.json document at https://{domain}/.well-known/poppy.json over HTTPS". The well-known URL "MAY redirect" to where the document is hosted, and "Personal Agents MUST follow redirects, and every redirect MUST be to an HTTPS URL"; the UCP specification says the opposite for its profile (see seam S1). poppy.json is not in the Internet Assigned Numbers Authority (IANA) well-known URI registry (not found in the registry XML, 2026-10-13). The agent is identified by a URL: "A Personal Agent''s client_id MUST be an HTTPS URL that returns its metadata document", which carries a jwks_uri and a token_endpoint_auth_method of private_key_jwt; the Company can register, allow-list, block or revoke client ids. The operations extension, section 8 ("What a confirmation proves"), says what a confirmation does not show: "It doesn''t prove that the User saw the terms or approved them." The announcement of 2026-10-06 says the protocol "defines how personal agents interact with businesses": it "starts on the website, where a personal agent can discover what the company offers and how to reach it", the session "is built on OAuth", and the customer decides whether the agent has read-only or write access. Context, not part of the protocol: Retail Insight Network reported on 2026-09-23 that Shopify and Meta partnered so that Meta''s assistant Muse can complete purchases across Shopify''s merchants through Shop Pay.'
 committed_next:
-- what: Design workshops and a reference implementation "over the next month" (Sierra blog, 2026-10-09).
+- what: Design workshops and a reference implementation "over the next month" (Sierra blog, 2026-10-09); on 2026-11-06 the reference implementation was not published and no public record of the workshops was found.
   when: approx. 2026-11-09
   source: https://sierra.ai/blog/poppy
   class: statement
@@ -43,6 +43,15 @@ sources:
 - url: https://www.retail-insight-network.com/news/shopify-meta-deal-ai-agent-shopping/
   read: 2026-10-08
   class: third-party
+- url: https://github.com/personal-agent-protocol/personal-agent-protocol/commit/2289293
+  read: 2026-11-09
+  class: decision
+- url: https://github.com/personal-agent-protocol/personal-agent-protocol/blob/2289293/content/shared/demos.mdx
+  read: 2026-11-09
+  class: statement
+- url: https://sierra.ai/personal-agent-protocol
+  read: 2026-11-09
+  class: statement
 overlaps:
 - ucp
 - mcp-core
@@ -50,8 +59,8 @@ seams:
 - S1
 - S3
 - S4
-verified: 2026-10-13
+verified: 2026-11-09
 evidence:
-  read: 'On 2026-10-13: the specification, the operations extension, the extensions page, the Path to 1.0 page, the home page and the licence page of personalagentprotocol.org (each marked "Updated Oct 12, 2026" where the page carries a date), the Sierra blog of 2026-10-09, the Decagon blog of 2026-10-06 and the IANA well-known URI registry XML. On 2026-10-08: the Sierra announcement of 2026-10-06 in full, one trade article on it and one on the Shopify and Meta agreement.'
+  read: 'On 2026-11-09: the commits of the specification''s repository to 2026-11-06 (publication of 0.2 and 0.3), its Demos page at commit 2289293, Sierra''s landing page and blog sitemap (no post on PAP after 2026-10-09).'
   not_read: The sections of the specification beyond the discovery, agent identity and confirmation texts quoted, the PACT specification, any Meta publication on the protocol, the TechRepublic article on Meta's Muse (not retrievable on 2026-10-08).
   not_found: 'Not found, 2026-10-13: poppy.json in the IANA well-known URI registry XML; a standards body, foundation or working group in the pages of the site read (home, specification, extensions, operations, Path to 1.0, licence); UCP, A2A and Web Bot Auth in the same pages.'

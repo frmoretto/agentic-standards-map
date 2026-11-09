@@ -3,8 +3,8 @@ name: Agentic Resource Discovery (ARD)
 org: Independent
 kind: specification
 tier: core
-status: 'Specification v0.91 on main (header "Status: Proposal", dated 2026-08-26; header unchanged and last change to spec/ard.md on 2026-10-12, read 2026-10-13); no tag or release in ard-spec (not found, 2026-10-13); Maintainers decide by majority vote; an Oversight Board (Google, Hugging Face, Microsoft, Amazon, Cisco) is published. On 2026-10-11 and 2026-10-12 the maintainers merged PRs #97, #99, #104, #105, #106 and #80 (namespace segments in Appendix C, base URL and search endpoint in section 5.3, ADR 0010, recognized media types in section 3.3, CDDL for explore facets, attestation scopes in section 4.5.2). PR #111, "feat(spec): add informative observability guidance", was merged on 2026-10-25 (commit f073b1e): it adds section 5.5 "Observability (Informative)" to spec/ard.md, non-normative guidance on W3C Trace Context headers for registry operations (search, explore, agents) and on federated registries as trust boundaries (read 2026-11-02).'
-status_as_of: 2026-11-02
+status: 'Specification v0.91 on main (header "Status: Proposal", dated 2026-08-26; header unchanged and last change to spec/ard.md on 2026-10-12, read 2026-10-13); no tag or release in ard-spec (not found, 2026-10-13); Maintainers decide by majority vote; an Oversight Board (Google, Hugging Face, Microsoft, Amazon, Cisco) is published. On 2026-10-11 and 2026-10-12 the maintainers merged PRs #97, #99, #104, #105, #106 and #80 (namespace segments in Appendix C, base URL and search endpoint in section 5.3, ADR 0010, recognized media types in section 3.3, CDDL for explore facets, attestation scopes in section 4.5.2). PR #111, "feat(spec): add informative observability guidance", was merged on 2026-10-25 (commit f073b1e): it adds section 5.5 "Observability (Informative)" to spec/ard.md, non-normative guidance on W3C Trace Context headers for registry operations (search, explore, agents) and on federated registries as trust boundaries (read 2026-11-02). At the IETF, three individual Internet-Drafts of 2026-10-30 (datatracker, read 2026-11-09) take ARD to the DAWN working group: draft-jimenez-dawn-ard-initial-contact-00 (Jiménez, Bu, Arkko; Standards Track) on how a client finds a manifest, through a Service Binding (SVCB) record at `_index._agents.<domain>`, DNS-SD `_ard._tcp`, the well-known URI `ard.json` or the link relation `ard`, following at most one redirect; draft-bu-dawn-ard-discovery-00 on the entries, the Trust Manifest and a federated search interface; and draft-bu-dawn-ard-architecture-00. All three are on the DAWN agenda for IETF 127 (agenda revision of 2026-11-06). Appendix B of the initial-contact draft lists as open issues publishing the manifest as an API catalog profile (RFC 9727), and the underscored DNS labels, since it uses `_index._agents` where the ARD specification lists `_entries._agents` and `_search._agents` (text read 2026-11-04). Implementations declared by third parties in ard-spec issues (read 2026-11-09): allagents.app answers as an ARD registry since 2026-10-29 (issue #112, open, no reply); kansei-link.com publishes a manifest of 28 official MCP servers of Japanese SaaS vendors (issue #109, closed by its author as not planned on 2026-10-16). In spec/schemas/ard-entry.schema.json the property of an entry is spelled `TrustManifest` while the CDDL and the examples use `trustManifest` (main at f073b1e, read 2026-11-04; also noted in issue #110); PR #116, which changes the key, was approved on 2026-11-05 and is not merged on 2026-11-09. Lighthouse PR #17484, merged on 2026-11-03, adds `agentmap` to the directives its robots-txt audit accepts, after issue #17480 reported that the audit flagged the `Agentmap` line that its ard-schema gatherer reads.'
+status_as_of: 2026-11-09
 relevance: 'Agentic Resource Discovery (ARD) defines a manifest of typed entries (A2A agent cards, MCP servers, other resources by media type): "A consumer resolving a domain''s entries MUST fetch /.well-known/ard.json"; "a publisher on the predecessor path SHOULD move to ard.json". The chair recorded in issue #61 (2026-07-09): "We decided that at least for now, we will only have a loose coupling between ARD entries and ai-catalog entries." The decision is recorded as ADR 0010 (status Accepted, meeting of 2026-07-09, merged by PR #104 on 2026-10-11): "Loose coupling between ARD and `ai-catalog`". Commerce enters through a "local-business storefront" example (PR #60); issue #20 says "Resources discovered via ARD may require payment or have access restrictions." and "Deferred from v0.9." Lighthouse PR #17295 (merged on 2026-10-09) makes the robots-txt and llms-txt audits fail on HTTP 429, because Google''s robots.txt specification makes an exception for 429 "to be treated as a server error"; on PR #17260 (ard-schema) a reviewer wrote on 2026-10-07 "status code 200 is too restrictive. See how other audits (robots-txt, llms-txt) handle status codes."'
 committed_next:
 - what: 'Lookup by identifier (PR #74, still open on 2026-10-13): "We will merge this into main and ensure it gets synced into the v0.91 draft structure as well."'
@@ -16,7 +16,7 @@ committed_next:
   source: https://agenticresourcediscovery.org/governance/
   class: normative
 boundary: 'Payment and access signalling were "Deferred from v0.9." (issue #20, still open on 2026-10-13). A maintainer wrote there on 2026-10-11 "With v0.91 and #86 merged, the core mechanism for access and monetization signaling is now in place", carried as namespaced JSON-LD terms rather than payment fields in the base entry; on issue #78 (discovery results and referrals must not confer contact or invocation authority, open) a maintainer wrote "discovery is not authorization" and proposed an editorial clarification in section 3.6 without new normative rules (2026-10-11).'
-participation: 'The author of this map took part in Lighthouse audit issue #17251 on ARD support (closed as completed on 2026-10-09), PR #17260, issue #17271 and PR #17272, and opened PR #100 on ard-spec (merged on 2026-10-11, with a comment of the author on 2026-10-10) and Lighthouse Discussion #17441 (2026-10-25, on the llms-txt gatherer and on structured alternates in the Link header); see Disclosure.'
+participation: 'The author of this map took part in Lighthouse audit issue #17251 on ARD support (closed as completed on 2026-10-09), PR #17260, issue #17271 and PR #17272, and opened PR #100 on ard-spec (merged on 2026-10-11, with a comment of the author on 2026-10-10), Lighthouse Discussion #17441 (2026-10-25, on the llms-txt gatherer and on structured alternates in the Link header) and PR #116 on ard-spec (2026-11-04, the schema key above). The acknowledgments of draft-jimenez-dawn-ard-initial-contact-00 say that "The depth limit and the fixed outcomes follow a discussion on the DAWN list started by Enrique Somoza and continued by Francesco Marinoni Moretto and Balazs Nemethi."; see Disclosure.'
 sources:
 - url: https://github.com/ards-project/ard-spec/blob/main/spec/ard.md
   read: 2026-10-13
@@ -45,6 +45,36 @@ sources:
 - url: https://github.com/ards-project/ard-spec/pull/111
   read: 2026-11-02
   class: decision
+- url: https://datatracker.ietf.org/doc/draft-jimenez-dawn-ard-initial-contact/
+  read: 2026-11-09
+  class: third-party
+- url: https://www.ietf.org/archive/id/draft-jimenez-dawn-ard-initial-contact-00.txt
+  read: 2026-11-04
+  class: third-party
+- url: https://datatracker.ietf.org/doc/draft-bu-dawn-ard-discovery/
+  read: 2026-11-09
+  class: third-party
+- url: https://datatracker.ietf.org/doc/draft-bu-dawn-ard-architecture/
+  read: 2026-11-09
+  class: third-party
+- url: https://datatracker.ietf.org/meeting/127/materials/agenda-127-dawn-07
+  read: 2026-11-09
+  class: decision
+- url: https://github.com/ards-project/ard-spec/issues/112
+  read: 2026-11-09
+  class: third-party
+- url: https://github.com/ards-project/ard-spec/issues/109
+  read: 2026-11-09
+  class: third-party
+- url: https://github.com/ards-project/ard-spec/blob/f073b1ea9b01a5f068d0b0986426f2ea49fa30b2/spec/schemas/ard-entry.schema.json
+  read: 2026-11-04
+  class: normative
+- url: https://github.com/ards-project/ard-spec/pull/116
+  read: 2026-11-09
+  class: third-party
+- url: https://github.com/GoogleChrome/lighthouse/pull/17484
+  read: 2026-11-09
+  class: decision
 - url: https://github.com/ards-project/ard-spec/pull/60
   read: 2026-10-03
   class: third-party
@@ -58,9 +88,9 @@ overlaps:
 - ucp
 seams:
 - S1
-verified: 2026-11-02
+verified: 2026-11-09
 evidence:
-  read: 'On 2026-11-02: PR #111 of ard-spec (title, merge, diff of spec/ard.md).'
+  read: 'On 2026-11-09: the datatracker records of the three DAWN drafts (all of 2026-10-30, no later revision), the DAWN agenda for IETF 127 (revision -07 of 2026-11-06), ard-spec issues #109, #112, #113, #114 and PR #116, Lighthouse issue #17480 and PR #17484.'
   not_read: The Discord, Lighthouse files on main, ADR files other than ADR 0010 beyond titles, the comments of ard-spec issues and pull requests other than those named, ard-docs after 2026-09-13.
   not_found: 'Not found in both repositories: UCP, commerce, merchant, GTIN, Know Your Agent (KYA) (2026-10-03, not repeated). Not found in ard-spec: a tag or release (2026-10-03 and again 2026-10-13).'
 open_proposals:

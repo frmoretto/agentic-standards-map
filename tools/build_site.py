@@ -43,8 +43,7 @@ DEFAULT_REPO = "https://github.com/frmoretto/agentic-standards-map"
 SITE_TITLE = "Agentic standards map"
 SITE_NAME = "Agentic Standards Map"   # the name in the header of every page and in the breadcrumb of the entries
 TAGLINE = "Who is standardising agentic commerce, where, and what they have committed to next."   # under the name in the header of every page; also the second line of public/README.md
-INTRO_STRIP = ("An open, dated map of who is standardising agentic commerce (W3C, IETF, GS1, AAIF and the industry protocols) and what each "
-               "venue has committed to next. Every statement points to a public source. Maintained by %s.<br><strong>New here?</strong> Start with the %s.")
+INTRO_STRIP = "Maintained by %s. <strong>New here?</strong> Start with the %s."   # the tagline in the header already says what the map is
 AUTHOR = "Francesco Marinoni Moretto"
 ORCID_ID = "0009-0004-0096-4712"
 ORCID = "https://orcid.org/" + ORCID_ID
@@ -69,7 +68,7 @@ CLASSES = {"normative": "normative text", "decision": "official decision or comm
 MATRIX_COLS = [("governance", "Owner / governance"), ("version_state", "Version and state"), ("signs", "What it signs"),
                ("signer", "Who signs"), ("record", "Receipt or record"), ("dispute", "Dispute"), ("source", "Source")]
 # the latest version that has a tag: updated by hand when a release is made (with RELEASED_TAG of tools/export_public.py)
-LATEST_RELEASE = ("1.3", "v1.3")
+LATEST_RELEASE = ("1.4", "v1.4")
 MATRIX_ORDER = ["ap2", "ucp", "acp", "x402", "visa-tap", "verifiable-intent", "emvco-agentic-payments-framework"]
 NOTE_PAGES = [  # (source file in the export, page, title, description)
     ("notes/intro.md", "intro.html", "Introduction", "Why the map exists, who it is for and how to read it."),
@@ -561,6 +560,8 @@ header.site,footer.site{padding-left:max(var(--pad),calc((100% - var(--measure))
 header.site{padding-top:.6rem;padding-bottom:.6rem;background:linear-gradient(var(--line),var(--line)) center bottom/min(var(--measure),100%) 1px no-repeat}
 header.site{display:flex;flex-wrap:wrap;row-gap:.2rem}
 header.site a{margin-right:1rem;color:var(--accent);text-decoration:none;font-weight:600;white-space:nowrap}header.site a.brand{flex-basis:100%;font-size:1.85rem;font-weight:700;margin-bottom:.2rem}header.site .menuw{flex-basis:100%;overflow:hidden}header.site nav.menu{display:flex;flex-wrap:wrap;row-gap:.2rem;margin-left:-.75rem}header.site nav.menu a{margin-right:.75rem;padding-left:.75rem}header.site nav.menu a::before{content:"";display:inline-block;height:.6em;vertical-align:0;border-left:1px solid var(--sep);margin-left:-.75rem;margin-right:calc(.75rem - 1px)}header.site .cadence{flex-basis:100%;margin:0;font-size:.85rem;color:var(--muted)}header.site h1.brand{flex-basis:100%;margin:0;font-size:inherit;line-height:inherit}header.site .tagline{flex-basis:100%;margin:0 0 .3rem;font-size:.95rem;color:var(--muted)}header.site .cadence a{margin-right:0;font-weight:400;text-decoration:underline}footer.site .cadence{margin:0 0 .4rem}
+header.site .brandrow{flex-basis:100%;display:flex;flex-wrap:wrap;align-items:center;column-gap:.7rem;row-gap:.25rem;margin-bottom:.2rem}header.site .brandrow a.brand,header.site .brandrow h1.brand{flex-basis:auto;margin-bottom:0}
+header.site .pill{display:inline-block;margin-right:0;padding:.05rem .6rem;border:1px solid var(--accent);border-radius:1rem;background:var(--chip);color:var(--accent);font-size:.85rem;font-weight:600;line-height:1.5;white-space:nowrap;text-decoration:none}header.site a.pill:hover,header.site a.pill:focus{text-decoration:underline}
 div.strip{max-width:var(--measure);margin:.8rem auto 0;padding:.55rem var(--pad);background:var(--strip);border-radius:.4rem;font-size:.9rem}div.strip p{margin:0}
 @media (max-width:56rem){div.strip{border-radius:0;margin-top:0}}
 p.crumbs{font-size:.85rem;color:var(--muted);margin:.6rem 0 -.4rem}p.crumbs+h1::before{content:"\\25B8";content:"\\25B8" / "";margin-right:.35em}
@@ -598,6 +599,7 @@ class Site:
         self.pages = {}  # path -> dict(title, desc, lastmod)
         self.out = Path(a.out)
         self.version = ""   # the version named in the first line of the README ("*Version 1.0.1 (2026-10-14) · site updated ...*"), shown in the footer
+        self.version_date = ""   # the date in the same line, shown with the number in the header pill
         self.archived = {}  # source URL -> Wayback Machine snapshot URL, from notes/archived-sources.csv
 
     def base(self, path=""):
@@ -644,12 +646,25 @@ class Site:
         parts = re.split(r'(<script type="application/ld\+json">.*?</script>)', page, flags=re.S)
         return "".join(p if p.startswith('<script type="application/ld+json">') else re.sub(r"(<a\b[^>]*>)(.*?)</a>", fix, p, flags=re.S) for p in parts)
 
+    def version_pill(self):
+        """The current version next to the name in the header, from the version line of the README (never written by hand).
+        Links to the version DOI if given, else to the concept DOI, else no link; absent if the README names no version."""
+        if not self.version:
+            return ""
+        text = "v%s" % esc(self.version) + (" &middot; %s" % esc(self.version_date) if self.version_date else "")
+        doi, which = (self.a.version_doi, "version DOI") if self.a.version_doi else (self.a.doi, "concept DOI, always resolves to the latest release")
+        if doi:
+            return '<a class="pill" href="https://doi.org/%s" rel="noopener" title="Version %s; DOI %s (%s)">%s</a>' % (
+                attr(doi), esc(self.version), esc(doi), which, text)
+        return '<span class="pill" title="Version %s">%s</span>' % (esc(self.version), text)
+
     def write(self, path, body, title, desc, lastmod, jsonld=None, depth=0, alternates=None):
         rel = "../" * depth
         alt = "".join('<link rel="alternate" type="%s" href="%s">\n' % (attr(t_), attr(h_)) for t_, h_ in (alternates or []))
         nav = '<a class="brand" href="%sindex.html">%s</a>' % (rel, esc(SITE_NAME))
         if path == "index.html":   # one h1 per page: on the home page it is the name in the header, elsewhere the title of the page
             nav = '<h1 class="brand">%s</h1>' % nav
+        nav = '<div class="brandrow">%s%s</div>' % (nav, self.version_pill())   # the pill sits outside the h1: it is not part of the name
         nav += '<p class="tagline">%s</p>' % esc(TAGLINE)
         nav += '<div class="menuw"><nav class="menu" aria-label="Site">%s</nav></div>' % "".join(  # the wrapper hides the separator at the start of each row
             '<a href="%s%s">%s</a>' % (rel, h, t) for h, t in (("index.html#entries", "Entries"), ("graph.html", "Graph"), ("seams.html", "Seams"),
@@ -1032,8 +1047,10 @@ def main():
         out.mkdir(parents=True)
         (out / "style.css").write_text(CSS, encoding="utf-8", newline="\n")
         site = Site(a, entries, src, sha, today, lastmods)
-        _v = re.search(r"\*Version ([0-9][0-9.]*)[ ,(]", (src / "README.md").read_text(encoding="utf-8"))
+        _readme = (src / "README.md").read_text(encoding="utf-8")
+        _v = re.search(r"\*Version ([0-9][0-9.]*) \((\d{4}-\d{2}-\d{2})\)", _readme) or re.search(r"\*Version ([0-9][0-9.]*)[ ,(]", _readme)
         site.version = _v.group(1) if _v else ""
+        site.version_date = _v.group(2) if _v and _v.lastindex == 2 else ""   # shown in the header pill with the number
         site.archived = load_archived(src)
         newest = max(d(e["verified"]) for e in entries.values())
         unmapped = []

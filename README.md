@@ -8,7 +8,7 @@ Every statement is dated and points to a public source. The map makes no predict
 
 This map documents public standardisation activity, specifications and declared commitments. It does not measure market adoption, transaction volume, cross-protocol interoperability or the reliability of deployed implementations. Implementation claims are reported only where supported by dated public evidence and are not treated as evidence of interoperability.
 
-*Version 1.3 (2026-11-02) · site updated 2026-11-02. The map is updated as venues move; each entry carries its own read date.*
+*Version 1.4 (2026-11-09) · site updated 2026-11-09. The map is updated as venues move; each entry carries its own read date.*
 
 DOI (all versions): [10.5281/zenodo.23357361](https://doi.org/10.5281/zenodo.23357361)
 
@@ -26,11 +26,11 @@ DOI (all versions): [10.5281/zenodo.23357361](https://doi.org/10.5281/zenodo.233
 
 ## Next on the calendar
 
-- **approx. 2 Nov** Charter refinement of the Digital Policy WG ends
-- **5 Nov** Public comments on the proposed maintenance charter of the Decentralized Identifier
 - **approx. 10 Nov** Charter refinement of the Agentic Web WG ends
 - **14 to 20 Nov** IETF 127, San Francisco
 - **16 Nov** IETF 127: agentproto session, 14:00 to 16:00 San Francisco time, room Continental 5
+- **17 Nov** IETF 127: AUDIT BoF session, 09:00 to 10:30 San Francisco time, room Continental 6
+- **17 Nov** IETF 127: vcon session, 11:00 to 12:30 San Francisco time, room Golden Gate 2
 
 Full 60-day calendar: [Calendar](map-bundle.md#part-calendar)
 
@@ -68,7 +68,7 @@ Corrections and missing sources: [open an issue on the repository](https://githu
 
 ### How to cite
 
-Marinoni Moretto, F. (2026). Agentic Standards Map (Version 1.3) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23882108
+Marinoni Moretto, F. (2026). Agentic Standards Map (Version 1.4) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23357361
 
 Please cite the entry id, the date it was read and the DOI. To cite the map in general, use https://doi.org/10.5281/zenodo.23357361.
 
