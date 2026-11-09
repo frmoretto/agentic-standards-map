@@ -61,6 +61,6 @@
   "not_found": "The string 19987 is not found in the EPCIS and CBV PDF texts, the EPCIS archive and artefacts pages, the CBV archive page, the /epcis/ page or the gs1/EPCIS README (2026-11-09)."
  },
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/gs1-epcis.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/765ac9d98ddcef84bc8cfe6c593c52aa8ddcf80d/entries/gs1-epcis.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/c5e03ffd5fc9fe2bb8d62e49610c610c1c886890/entries/gs1-epcis.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }

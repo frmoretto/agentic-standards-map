@@ -4,7 +4,7 @@
  "org": "IETF",
  "kind": "work-item",
  "tier": "context",
- "status": "Working Group (WG) document draft-ietf-wimse-aims-00 (2026-09-15), Informational; adopted 2026-09-09, expires 2027-03-19; replaces draft-klrc-aiagent-auth. The datatracker record of 2026-10-13 gives revision 00 (time 2026-09-15 14:40 UTC) and no later revision. On 2026-11-02 the datatracker still gives revision 00. The individual draft draft-zambo-aer1 (AER-1, revision -26 posted 2026-10-23; datatracker, read 2026-11-02) specifies \"a small vocabulary for recording one AI agent tool call as a portable, independently checkable execution receipt\"; it is not a WG document, and its author proposed it in issue #19 of this map's repository. Its author publishes a conformance corpus at zambo.dev/aer1/corpus.json (format aer1-evaluated-corpus/1, kit 1.5.7, referring to draft-zambo-aer1-26, 143 vectors and 146 checks, with SHA-256 digests in the index; read 2026-11-03 and again 2026-11-09, unchanged); the index shows that the corpus exists, not that the checks pass, and its scripts were not run. A companion individual draft, draft-zambo-aer1-wimse-mapping, is at revision -02 of 2026-11-01 (datatracker, read 2026-11-09; text not read). The individual draft draft-hulea-wimse-agent-mandate-00 (2026-10-24, not a WG document) cites draft-ietf-wimse-aims and defines how a relying party in one administrative domain validates the mandate under which an agent acts for a principal in another domain, adding evidence that the delegator was entitled to grant it, kept separate from the grant itself; its examples include an agent initiating a payment at a bank (text read 2026-11-02; revision -01 of 2026-11-01 is on the datatracker, read 2026-11-09, and its text was not read for this map).",
+ "status": "Working Group (WG) document draft-ietf-wimse-aims-01 (2026-11-02), expires 2027-05-06; Informational; adopted 2026-09-09; replaces draft-klrc-aiagent-auth. Revision -01 adds sections on long-lived sessions and streams and on interaction with policy-based systems (\"A common policy language is therefore not required for the mechanisms in this document to interoperate across trust domains\"; for an external policy decision point, \"A common interface for that interaction is defined by the OpenID AuthZEN Authorization API\"), makes deprovisioning an explicit stage of the lifecycle, and says that posture assessed at provisioning does not by itself establish that it still holds at the time of a request. The individual draft draft-zambo-aer1 (AER-1, revision -26 posted 2026-10-23; datatracker, read 2026-11-02) specifies \"a small vocabulary for recording one AI agent tool call as a portable, independently checkable execution receipt\"; it is not a WG document, and its author proposed it in issue #19 of this map's repository. Its author publishes a conformance corpus at zambo.dev/aer1/corpus.json (format aer1-evaluated-corpus/1, kit 1.5.7, referring to draft-zambo-aer1-26, 143 vectors and 146 checks, with SHA-256 digests in the index; read 2026-11-03 and again 2026-11-09, unchanged); the index shows that the corpus exists, not that the checks pass, and its scripts were not run. A companion individual draft, draft-zambo-aer1-wimse-mapping, is at revision -02 of 2026-11-01 (datatracker, read 2026-11-09; text not read). The individual draft draft-hulea-wimse-agent-mandate-00 (2026-10-24, not a WG document) cites draft-ietf-wimse-aims and defines how a relying party in one administrative domain validates the mandate under which an agent acts for a principal in another domain, adding evidence that the delegator was entitled to grant it, kept separate from the grant itself; its examples include an agent initiating a payment at a bank (text read 2026-11-02; revision -01 of 2026-11-01 is on the datatracker, read 2026-11-09, and its text was not read for this map).",
  "status_as_of": "2026-11-09",
  "relevance": "The draft \"proposes best practices for authentication and authorization of AI agent interactions\"; commerce, merchant, seller or purchase text: not found in -00, 2026-10-02. ACP and AP2 appear only in the references.",
  "committed_next": [
@@ -26,6 +26,11 @@
    "url": "https://www.ietf.org/archive/id/draft-ietf-wimse-aims-00.txt",
    "archived": "https://web.archive.org/web/20261015050331/https://www.ietf.org/archive/id/draft-ietf-wimse-aims-00.txt",
    "read": "2026-10-02",
+   "class": "normative"
+  },
+  {
+   "url": "https://www.ietf.org/archive/id/draft-ietf-wimse-aims-01.txt",
+   "read": "2026-11-09",
    "class": "normative"
   },
   {
@@ -67,11 +72,11 @@
  ],
  "verified": "2026-11-09",
  "evidence": {
-  "read": "On 2026-11-09: zambo.dev/aer1/corpus.json (format, kit, draft and counts as stated in the index, identical to the reading of 2026-11-03), the datatracker records of draft-zambo-aer1 (-26 still the latest), draft-zambo-aer1-wimse-mapping (-02) and draft-hulea-wimse-agent-mandate (-01).",
-  "not_read": "Issues of the draft repository; section numbers quoted by participants are from an earlier draft, not checked against -00.",
+  "read": "On 2026-11-09: the datatracker record of draft-ietf-wimse-aims (revision 01, time 2026-11-02 18:20 UTC, expires 2027-05-06) and the text of -01, compared with the text of -00 (sections 9.3 and 10.4 are new, and Appendix A, Document History, lists the changes); commerce, merchant, seller or purchase text in -01: none outside the [ACP] and [AP2] references, as in -00; also zambo.dev/aer1/corpus.json (format, kit, draft and counts as stated in the index, identical to the reading of 2026-11-03), the datatracker records of draft-zambo-aer1 (-26 still the latest), draft-zambo-aer1-wimse-mapping (-02) and draft-hulea-wimse-agent-mandate (-01).",
+  "not_read": "Issues of the draft repository, including those linked from Appendix A of -01; section numbers quoted by participants are from an earlier draft, not checked against -00.",
   "not_found": "Not found in the AIMS threads read, 2026-10-03: commerce or merchant text."
  },
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/ietf-wimse-aims.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/765ac9d98ddcef84bc8cfe6c593c52aa8ddcf80d/entries/ietf-wimse-aims.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/c5e03ffd5fc9fe2bb8d62e49610c610c1c886890/entries/ietf-wimse-aims.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }
