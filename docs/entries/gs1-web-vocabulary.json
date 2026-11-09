@@ -45,6 +45,6 @@
   "not_found": "A \"Ratified\" label with a date for 1.18: not found on the landing page, the archive page, the ontology header or the change log (2026-11-09). An out-of-scope statement: not found on the landing page, the archive page or the ontology header (2026-11-09); the individual term definitions were not read for one."
  },
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/gs1-web-vocabulary.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/1314e9acd417b7ae4221e25919d5d4d29aad0050/entries/gs1-web-vocabulary.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/6e12e3576b220896c8488618dbe5aab20411af1f/entries/gs1-web-vocabulary.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }

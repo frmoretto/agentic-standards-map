@@ -46,6 +46,6 @@
   "not_found": "Not found in the announcement, 2026-10-02: commerce, merchant, product. Counts in the text of the arXiv version, 2026-10-06: Web Bot Auth 8 times (one a reference, one an IETF proposal described as a \"passport for agents\"), Agent Payments Protocol (AP2) 3, commerce 2 and AuthZEN 1; not found, 2026-10-06: UCP, ACP, x402, TAP."
  },
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/oidf-authzen-agents.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/1314e9acd417b7ae4221e25919d5d4d29aad0050/entries/oidf-authzen-agents.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/6e12e3576b220896c8488618dbe5aab20411af1f/entries/oidf-authzen-agents.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }

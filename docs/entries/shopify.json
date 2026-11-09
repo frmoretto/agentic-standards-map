@@ -96,6 +96,6 @@
   "not_found": "Not found, 2026-10-08: setup.shopify.com in the shopify.dev pages read (the MCP developer page and the changelog index); a page of Shopify describing the merchant MCP. Not found in the README, SKILL.md and transactions.md of Shopify/shop at d1e8c7c (2026-10-13): beta, preview, experimental, a list of supported countries, and a confirmation sent to the shopper on a durable medium."
  },
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/shopify.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/1314e9acd417b7ae4221e25919d5d4d29aad0050/entries/shopify.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/6e12e3576b220896c8488618dbe5aab20411af1f/entries/shopify.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }
