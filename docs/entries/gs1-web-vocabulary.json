@@ -4,7 +4,7 @@
  "org": "GS1",
  "kind": "specification",
  "tier": "context",
- "status": "Version 1.18: the ontology carries owl:versionInfo \"1.18\" and dct:modified 2026-06-01, and the archive on ref.gs1.org lists version 1.18.0 published 2026-06-01. A ratification label with a date for 1.18 is not found in the pages read, and the newest entry of the change log is 1.17.0 (2026-11-09).",
+ "status": "Version 1.18: the ontology carries owl:versionInfo \"1.18\" and dct:modified 2026-06-01, and the archive on ref.gs1.org lists version 1.18.0 published 2026-06-01. A ratification label with a date for 1.18 is not found in the pages read. The change log, read 2026-11-09, gives no dates, and its newest entry is 1.17.0, so it does not yet list 1.18.",
  "status_as_of": "2026-11-09",
  "relevance": "The vocabulary \"is designed as an extension to schema.org\" and defines parties and a product offer; gs1:Product, gs1:Offer and gs1:Organization carry skos:exactMatch mappings to the schema.org terms of the same name, and gs1:gtin to schema:gtin14. It also holds the link types used in GS1 Digital Link, under the namespace https://ref.gs1.org/voc/, with data in JSON-LD and Turtle and JSON-LD context files that the landing page labels \"provisional\".",
  "sources": [
@@ -45,6 +45,6 @@
   "not_found": "A \"Ratified\" label with a date for 1.18: not found on the landing page, the archive page, the ontology header or the change log (2026-11-09). An out-of-scope statement: not found on the landing page, the archive page or the ontology header (2026-11-09); the individual term definitions were not read for one."
  },
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/gs1-web-vocabulary.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/6e12e3576b220896c8488618dbe5aab20411af1f/entries/gs1-web-vocabulary.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/765ac9d98ddcef84bc8cfe6c593c52aa8ddcf80d/entries/gs1-web-vocabulary.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }

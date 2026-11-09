@@ -36,6 +36,6 @@
   "not_found": "On 2026-11-09: the commit history of w3c-wg-draft-charter-2026/ in w3c/odrl (the draft of this entry last changed on 2026-10-05; the second draft added on 2026-11-03, retitled on 2026-11-04, last changed on 2026-11-06), the second draft at commit 2bad2c5 (not found: agent, commerce, merchant, product), and the minutes of the TPAC session of 2026-10-28. Not found in the charter text, 2026-10-02: agent, commerce, merchant, product."
  },
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/w3c-digital-policy-wg.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/6e12e3576b220896c8488618dbe5aab20411af1f/entries/w3c-digital-policy-wg.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/765ac9d98ddcef84bc8cfe6c593c52aa8ddcf80d/entries/w3c-digital-policy-wg.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }
