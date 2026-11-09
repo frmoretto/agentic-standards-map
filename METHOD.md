@@ -55,6 +55,7 @@ Archive copies: snapshots of the cited sources were requested on 2026-10-14 from
 **Since 1.4 (not a numbered version).** Corrections to the living version, for the next numbered version.
 
 - `gs1-web-vocabulary`: the status in 1.4 gave the reading date of the GS1 Web Vocabulary change log, 2026-11-09, in parentheses after its newest entry, 1.17.0, so that it read as the date of that version; the change log gives no dates and does not yet list 1.18 (read again on 2026-11-09).
+- `ietf-wimse-aims`: the status in 1.4 gave revision 00 as the latest, from a reading on the morning of 2026-11-02; revision 01 was posted at 18:20 UTC the same day and expires 2027-05-06. The status now gives -01 and what it changes (read on 2026-11-09).
 
 **1.4 (2026-11-09).** Two entries added (`gs1-epcis`, `gs1-web-vocabulary`); corrections and additions to the living version. Facts dated after Friday 2026-11-06 are deferred to 1.5, except corrections of the state of a source already cited (the move of the agentproto use cases draft to the working group stream on 2026-11-07) and contributions of the author of this map.
 
