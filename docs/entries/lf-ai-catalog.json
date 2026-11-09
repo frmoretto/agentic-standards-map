@@ -4,8 +4,8 @@
  "org": "Linux Foundation",
  "kind": "specification",
  "tier": "core",
- "status": "Pre-v1 specification in \"a temporary working repo maintained by the Linux Foundation\", governed by a Technical Steering Committee with four initial seats. The well-known path is optional by design (ADR-0011). On 2026-10-13 the README of main still says \"This is a temporary working repo maintained by the Linux Foundation\" and \"This project will be moved to a permanent location a later date with a permanent governance model.\"; the last commit of main is of 2026-10-08 (PR #119, implementation classifications); issue #46 (project location) was closed as completed on 2026-10-03 without a comment. PR #110 (did:web verification of signed Entry Trust Manifests) was merged on 2026-10-01.",
- "status_as_of": "2026-10-13",
+ "status": "Pre-v1 specification in \"a temporary working repo maintained by the Linux Foundation\", governed by a Technical Steering Committee with four initial seats. The well-known path is optional by design (ADR-0011). On 2026-10-13 the README of main still says \"This is a temporary working repo maintained by the Linux Foundation\" and \"This project will be moved to a permanent location a later date with a permanent governance model.\"; the last commit of main is of 2026-10-08 (PR #119, implementation classifications); issue #46 (project location) was closed as completed on 2026-10-03 without a comment. PR #110 (did:web verification of signed Entry Trust Manifests) was merged on 2026-10-01. Read 2026-11-09: PR #117, \"Support independently signed Trust Manifest contributions\", was merged on 2026-10-28; PR #91 (ADR-0021, multiple identities via alsoKnownAs) was closed without merge on 2026-10-29; issue #59 (urn:air naming) is open, with participants agreeing in the thread on 2026-11-05 to use \";\".",
+ "status_as_of": "2026-11-09",
  "relevance": "ADR-0011 (accepted 2026-04-02) says a well-known URI \"should be registered as a conventional discovery location\" but \"is not mandatory\", so catalogues may be served from any URL. Publisher identity is the most developed theme: urn:air anchored to a domain and did:web verification of signed trust manifests (PR #110, merged 2026-10-01), whose text says \"This establishes publisher-domain control, not publisher reputation.\" Terms of service and privacy policy URLs are fields of the trust manifest (termsOfServiceUrl, privacyPolicyUrl); the maintainers' wording on Agentic Resource Discovery (ARD) is \"Documents the decision to loosely couple ARD and AI-Catalog\" (PR #77).",
  "committed_next": [
   {
@@ -84,9 +84,9 @@
   "S1",
   "S2"
  ],
- "verified": "2026-10-13",
+ "verified": "2026-11-09",
  "evidence": {
-  "read": "On 2026-10-13: the README and GOVERNANCE.md of main, the head of main, the list of ADR files, the state of PRs #91, #110, #117, #119 and issues #46, #59, #83, #86, #101, #114.",
+  "read": "On 2026-11-09: the state of PRs #91 and #117 and of issue #59 (thread to 2026-11-05).",
   "not_read": "The Google document linked in PR #77, recordings, the Discord, other ADR files, the password-protected meeting page.",
   "not_found": "Not found in the items (2026-10-03): commerce, seller, GTIN."
  },
@@ -132,31 +132,15 @@
    "archived": "https://web.archive.org/web/20261015052112/https://github.com/Agent-Card/ai-catalog/issues/101"
   },
   {
-   "what": "PR #91: ADR-0021, multiple identities via alsoKnownAs (open, 11 comments; on main the number ADR-0021 is already used by \"Separate Artifact Identity from Registry Coordinates\", status Proposed, 2026-08-26).",
-   "author": "a participant",
-   "date": "2026-07-24",
-   "state": "open",
-   "url": "https://github.com/Agent-Card/ai-catalog/pull/91",
-   "archived": "https://web.archive.org/web/20261015052155/https://github.com/Agent-Card/ai-catalog/pull/91"
-  },
-  {
    "what": "Issue #114: measurement of did:web host identifiers.",
    "author": "a participant",
    "date": "2026-09-13",
    "state": "open",
    "url": "https://github.com/Agent-Card/ai-catalog/issues/114",
    "archived": "https://web.archive.org/web/20261015052246/https://github.com/Agent-Card/ai-catalog/issues/114"
-  },
-  {
-   "what": "PR #117: trust metadata grouped by contributor, generalized signatures (not a draft on 2026-10-13; open, 6 comments).",
-   "author": "a participant",
-   "date": "2026-09-13",
-   "state": "open",
-   "url": "https://github.com/Agent-Card/ai-catalog/pull/117",
-   "archived": "https://web.archive.org/web/20261015052329/https://github.com/Agent-Card/ai-catalog/pull/117"
   }
  ],
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/lf-ai-catalog.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/ee12c5a4da1a47088a553c0f5681639758e51118/entries/lf-ai-catalog.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/1314e9acd417b7ae4221e25919d5d4d29aad0050/entries/lf-ai-catalog.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }

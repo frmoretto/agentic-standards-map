@@ -4,8 +4,8 @@
  "org": "W3C",
  "kind": "specification",
  "tier": "context",
- "status": "Draft Community Group Report, dated 9 October 2026 on the page read on 2026-10-13 (2026-09-30 on 2026-10-03), no numbered version; on 2026-10-08 PR #338, \"Remove declarative API from spec\", was merged (the specification now focuses on the imperative registerTool() API); the draft Agentic Web Working Group (WG) charter lists WebMCP as its normative deliverable.",
- "status_as_of": "2026-10-13",
+ "status": "Draft Community Group Report, dated 9 October 2026 on the page read on 2026-10-13 (2026-09-30 on 2026-10-03), no numbered version; on 2026-10-08 PR #338, \"Remove declarative API from spec\", was merged (the specification now focuses on the imperative registerTool() API); the draft Agentic Web Working Group (WG) charter lists WebMCP as its normative deliverable. At TPAC, the Web Machine Learning CG meeting of 2026-10-27 recorded resolutions (draft minutes, read 2026-11-09), among them: to explore making the API \"a more generic communication tool\"; agreement on the ModelContextClient API shape (issue #227); \"Declarative WebMCP work continues in the explainer form within this repo, advancement to spec stage will be considered once implementation experience is available\"; and that general \"Web Security and Privacy Guidance for Agent Implementers\" belongs in a group chartered for that work.",
+ "status_as_of": "2026-11-09",
  "relevance": "Draft: \"The WebMCP API enables web applications to provide JavaScript-based tools to AI agents.\"; an editor wrote on 2026-09-25 that identity and delegation proposals \"are beyond the scope of the simple WebMCP API\".",
  "sources": [
   {
@@ -27,6 +27,11 @@
    "class": "decision"
   },
   {
+   "url": "https://www.w3.org/2026/10/27-webmachinelearning-minutes.html",
+   "read": "2026-11-09",
+   "class": "decision"
+  },
+  {
    "url": "https://github.com/WebKit/standards-positions/issues/670",
    "archived": "https://web.archive.org/web/20261014063001/https://github.com/WebKit/standards-positions/issues/670",
    "read": "2026-10-03",
@@ -42,9 +47,9 @@
  "seams": [
   "S3"
  ],
- "verified": "2026-10-13",
+ "verified": "2026-11-09",
  "evidence": {
-  "read": "On 2026-10-13: the draft report page and the latest commits of the repository (to 2026-10-09), PR #338 and issues #65, #192 and #257.",
+  "read": "On 2026-11-09: the draft minutes of the WebML CG meeting of 2026-10-27 (resolutions).",
   "not_read": "Minutes pages, section 6.2 of the specification, items #165, #204, #255, #272, #273 and #312 in full."
  },
  "open_proposals": [
@@ -58,6 +63,6 @@
   }
  ],
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/w3c-webmcp-cg-report.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/ee12c5a4da1a47088a553c0f5681639758e51118/entries/w3c-webmcp-cg-report.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/1314e9acd417b7ae4221e25919d5d4d29aad0050/entries/w3c-webmcp-cg-report.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }

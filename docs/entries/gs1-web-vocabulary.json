@@ -1,0 +1,50 @@
+{
+ "id": "gs1-web-vocabulary",
+ "name": "GS1 Web Vocabulary",
+ "org": "GS1",
+ "kind": "specification",
+ "tier": "context",
+ "status": "Version 1.18: the ontology carries owl:versionInfo \"1.18\" and dct:modified 2026-06-01, and the archive on ref.gs1.org lists version 1.18.0 published 2026-06-01. A ratification label with a date for 1.18 is not found in the pages read, and the newest entry of the change log is 1.17.0 (2026-11-09).",
+ "status_as_of": "2026-11-09",
+ "relevance": "The vocabulary \"is designed as an extension to schema.org\" and defines parties and a product offer; gs1:Product, gs1:Offer and gs1:Organization carry skos:exactMatch mappings to the schema.org terms of the same name, and gs1:gtin to schema:gtin14. It also holds the link types used in GS1 Digital Link, under the namespace https://ref.gs1.org/voc/, with data in JSON-LD and Turtle and JSON-LD context files that the landing page labels \"provisional\".",
+ "sources": [
+  {
+   "url": "https://ref.gs1.org/voc/",
+   "read": "2026-11-09",
+   "class": "normative"
+  },
+  {
+   "url": "https://ref.gs1.org/voc/data/gs1Voc.jsonld",
+   "read": "2026-11-09",
+   "class": "normative"
+  },
+  {
+   "url": "https://ref.gs1.org/voc/data/archive",
+   "read": "2026-11-09",
+   "class": "decision"
+  },
+  {
+   "url": "https://ref.gs1.org/voc/data/changeLog.json",
+   "read": "2026-11-09",
+   "class": "decision"
+  }
+ ],
+ "overlaps": [
+  "schemaorg-baseline",
+  "gs1-digital-link",
+  "gs1-conformant-resolver",
+  "gs1-epcis"
+ ],
+ "seams": [
+  "S2"
+ ],
+ "verified": "2026-11-09",
+ "evidence": {
+  "read": "On 2026-11-09, on ref.gs1.org: the landing page /voc/ (\"New terms are developed and ratified according to the Global Standards Management Process\"; \"JSON-LD context resources (provisional)\"), the ontology gs1Voc.jsonld (header: owl:versionInfo \"1.18\", dct:modified 2026-06-01, dct:issued 2017-11-20, voaf:extends, voaf:specializes and voaf:hasEquivalencesWith schema:; description: \"The vocabulary builds on and refers to schema.org where appropriate.\"), the archive page (\"Version 1.18.0 Published 2026-06-01\") and changeLog.json (newest entry 1.17.0).",
+  "not_read": "Not read: gs1Voc.ttl, the two JSON-LD context files (data/GS1-WebVoc-context.jsonld, data/GS1-core-context.jsonld), and www.gs1.org (it refuses this map's reader).",
+  "not_found": "A \"Ratified\" label with a date for 1.18: not found on the landing page, the archive page, the ontology header or the change log (2026-11-09). An out-of-scope statement: not found on the landing page, the archive page or the ontology header (2026-11-09); the individual term definitions were not read for one."
+ },
+ "url": "https://frmoretto.github.io/agentic-standards-map/entries/gs1-web-vocabulary.html",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/1314e9acd417b7ae4221e25919d5d4d29aad0050/entries/gs1-web-vocabulary.yaml",
+ "licence": "https://creativecommons.org/licenses/by/4.0/"
+}

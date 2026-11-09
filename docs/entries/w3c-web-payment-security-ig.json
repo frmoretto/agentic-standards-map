@@ -4,8 +4,8 @@
  "org": "W3C",
  "kind": "venue",
  "tier": "context",
- "status": "Chartered 2025-04-01 to 2027-03-31 (shortname securepay); the draft Agentic Web charter lists the IG for \"agentic payments\".",
- "status_as_of": "2026-10-03",
+ "status": "Chartered 2025-04-01 to 2027-03-31 (shortname securepay); the draft Agentic Web charter lists the IG for \"agentic payments\". At TPAC the IG met on 2026-10-26, with agenda items on agentic payment updates from a FIDO technical working group and on the EMVCo Agentic Payments Framework, and on 2026-10-27, jointly with other groups; no resolutions are recorded in the draft minutes (read 2026-11-09). On 2026-11-02 WebKit published an explainer and \"a very early and unofficial draft\" of a payment method, digital-credential-payment, that uses the Digital Credentials API inside Payment Request (WebKit/explainers PR #160, merged the same day), after announcing it at the Web Payments WG meeting of 2026-10-29; it is not a W3C document.",
+ "status_as_of": "2026-11-09",
  "relevance": "Mission: \"enhance the security and interoperability of various Web payments technologies\"; a W3C staff member expected the e-commerce workshop to identify future workstreams for this group (webai-roadmap#45, 2026-06-11).",
  "sources": [
   {
@@ -17,6 +17,26 @@
    "url": "https://github.com/w3c/webai-roadmap/issues/45",
    "read": "2026-10-03",
    "class": "statement"
+  },
+  {
+   "url": "https://www.w3.org/2026/10/26-wpsig-minutes.html",
+   "read": "2026-11-09",
+   "class": "decision"
+  },
+  {
+   "url": "https://www.w3.org/2026/10/27-wpsig-minutes.html",
+   "read": "2026-11-09",
+   "class": "decision"
+  },
+  {
+   "url": "https://github.com/WebKit/explainers/pull/160",
+   "read": "2026-11-09",
+   "class": "third-party"
+  },
+  {
+   "url": "https://www.w3.org/2026/10/29-wpwg-minutes.html",
+   "read": "2026-11-09",
+   "class": "statement"
   }
  ],
  "overlaps": [
@@ -24,13 +44,13 @@
   "w3c-gs1-ecommerce-workshop",
   "kyapay"
  ],
- "verified": "2026-10-03",
+ "verified": "2026-11-09",
  "evidence": {
-  "read": "Charter and group page read on 2026-10-02; webai-roadmap and ai-web-impact items read on 2026-10-03.",
-  "not_read": "Member-only mailing list, wiki sub-pages, TPAC 2025 and 2026 minutes of the IG; w3c/wpsig is empty in the files read.",
+  "read": "On 2026-11-09: the draft minutes of the IG of 2026-10-26 and 2026-10-27 and of the Web Payments WG of 2026-10-29, and WebKit/explainers PR #160.",
+  "not_read": "Member-only mailing list, wiki sub-pages, TPAC 2025 minutes of the IG; w3c/wpsig is empty in the files read.",
   "not_found": "Not found in the charter text, 2026-10-02: agent."
  },
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/w3c-web-payment-security-ig.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/ee12c5a4da1a47088a553c0f5681639758e51118/entries/w3c-web-payment-security-ig.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/1314e9acd417b7ae4221e25919d5d4d29aad0050/entries/w3c-web-payment-security-ig.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }

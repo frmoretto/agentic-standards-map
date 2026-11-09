@@ -6,33 +6,36 @@
  "tier": "context",
  "status": "Release 1.7.0 ratified August 2026; the archive on ref.gs1.org lists \"Published 7 August 2026\".",
  "status_as_of": "2026-10-13",
- "relevance": "The syntax \"distinguishes between primary identification keys that express simple GS1 identifiers, such as GTIN and GLN\" and key qualifiers and attributes; a GS1 Digital Link URI \"is a particular form of URL\".",
+ "relevance": "The syntax \"distinguishes between primary identification keys that express simple GS1 identifiers, such as GTIN and GLN\" and key qualifiers and attributes; a GS1 Digital Link URI \"is a particular form of URL\". The standard says applications \"SHALL NOT assume\" that a URL in this syntax points to a resolver, and names a Resolver Description File as one test (section 2).",
  "sources": [
   {
    "url": "https://ref.gs1.org/standards/digital-link/uri-syntax/",
    "archived": "https://web.archive.org/web/20261010235715/https://ref.gs1.org/standards/digital-link/uri-syntax/",
-   "read": "2026-10-13",
+   "read": "2026-11-09",
    "class": "normative"
   },
   {
    "url": "https://ref.gs1.org/standards/digital-link/uri-syntax/archive",
    "archived": "https://web.archive.org/web/20261014065142/https://ref.gs1.org/standards/digital-link/uri-syntax/archive",
-   "read": "2026-10-13",
+   "read": "2026-11-09",
    "class": "decision"
   }
  ],
  "overlaps": [
-  "gs1-conformant-resolver"
+  "gs1-conformant-resolver",
+  "gs1-web-vocabulary",
+  "gs1-epcis"
  ],
  "seams": [
   "S2"
  ],
- "verified": "2026-10-13",
+ "verified": "2026-11-09",
  "evidence": {
-  "read": "The URI Syntax standard page and its archive on ref.gs1.org, read 2026-10-03 and again 2026-10-13 (\"Release 1.7.0, Ratified Aug 2026\"; archive: \"Published 7 August 2026\").",
-  "not_read": "The www.gs1.org standards page."
+  "read": "A rewrite of the relevance was proposed in issue #25 of this map's repository (2026-11-02) by Sven Böckelmann, who wrote: \"Disclosure: Co-chair of the GS1 Visibility Standards (EPCIS/CBV) maintenance group; maintainer of OpenEPCIS; CTO at benelog GmbH & Co.",
+  "not_read": "The www.gs1.org standards page.",
+  "not_found": "On 2026-11-09: the URI Syntax standard page (\"Release 1.7.0, Ratified Aug 2026\") and its archive (\"Published 7 August 2026\"), unchanged since 2026-10-13; the quotes of the relevance matched the HTML page verbatim; schema.org not found in the URI Syntax HTML page (2026-11-09)."
  },
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/gs1-digital-link.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/ee12c5a4da1a47088a553c0f5681639758e51118/entries/gs1-digital-link.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/1314e9acd417b7ae4221e25919d5d4d29aad0050/entries/gs1-digital-link.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }

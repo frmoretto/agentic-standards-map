@@ -4,8 +4,8 @@
  "org": "AAIF",
  "kind": "specification",
  "tier": "context",
- "status": "Hosted project of the Agentic AI Foundation (AAIF): AAIF announced on 2026-08-17 that A2A \"is joining the Agentic AI Foundation (AAIF) as a hosted project\", and the A2A blog of 2026-08-27 says it \"has officially been accepted as a Growth Stage project\"; latest release v1.0.1, 2026-05-28. Technical Steering Committee of eight company seats: Google, Microsoft, Cisco, AWS, Salesforce, ServiceNow, SAP, IBM.",
- "status_as_of": "2026-10-19",
+ "status": "Hosted project of the Agentic AI Foundation (AAIF): AAIF announced on 2026-08-17 that A2A \"is joining the Agentic AI Foundation (AAIF) as a hosted project\", and the A2A blog of 2026-08-27 says it \"has officially been accepted as a Growth Stage project\"; latest release v1.0.1, 2026-05-28. Technical Steering Committee of nine company seats since 2026-10-20 (GOVERNANCE.md, commit 98279d6, which added Bloomberg; read 2026-11-09): Google, Microsoft, Cisco, AWS, Salesforce, ServiceNow, SAP, IBM, Bloomberg.",
+ "status_as_of": "2026-11-09",
  "relevance": "The AgentCard is defined in specification/a2a.proto as \"A self-describing manifest for an agent.\"; how cards are found is in a2a-discovery. PR #2081, merged on 2026-07-30, added section 7.6.4 to the specification: \"Agents MUST NOT treat the TASK_STATE_AUTH_REQUIRED state transition, by itself, as authorization for any particular operation.\"; the PR description calls the state \"a coordination signal, not an authorization grant\".",
  "sources": [
   {
@@ -32,7 +32,7 @@
   {
    "url": "https://github.com/a2aproject/A2A/blob/main/GOVERNANCE.md",
    "archived": "https://web.archive.org/web/20261014051447/https://github.com/a2aproject/A2A/blob/main/GOVERNANCE.md",
-   "read": "2026-10-03",
+   "read": "2026-11-09",
    "class": "normative"
   },
   {
@@ -82,9 +82,9 @@
  "seams": [
   "S1"
  ],
- "verified": "2026-10-19",
+ "verified": "2026-11-09",
  "evidence": {
-  "read": "On 2026-10-19: the AAIF announcement of 2026-08-17, the A2A blog post of 2026-08-27, aaif.io/projects (Agent2Agent listed), README.md and GOVERNANCE.md of main (eight seats) and the release list (latest still v1.0.1).",
+  "read": "On 2026-11-09: GOVERNANCE.md of main and its commit 98279d6 of 2026-10-20 (eight seats became nine, Bloomberg added); the release list (latest still v1.0.1).",
   "not_read": "Technical Steering Committee (TSC) minutes and recordings, specification chapters beyond the definitions, the project's later announcements."
  },
  "open_proposals": [
@@ -97,6 +97,6 @@
   }
  ],
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/a2a-core.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/ee12c5a4da1a47088a553c0f5681639758e51118/entries/a2a-core.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/1314e9acd417b7ae4221e25919d5d4d29aad0050/entries/a2a-core.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }

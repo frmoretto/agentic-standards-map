@@ -1,0 +1,66 @@
+{
+ "id": "gs1-epcis",
+ "name": "GS1 EPCIS and Core Business Vocabulary (CBV)",
+ "org": "GS1",
+ "kind": "specification",
+ "tier": "context",
+ "status": "The EPCIS archive on ref.gs1.org gives 2.0.1 as the latest version, published 2025-07-01, while the PDF served at /standards/epcis/2.0.1/ prints \"Release 2.0, Ratified, Jun 2022\" and does not contain the string 2.0.1. The archive pairs EPCIS 2.0.1 with the Core Business Vocabulary (CBV) 2.0.0, published 2022-06-22.",
+ "status_as_of": "2026-11-09",
+ "relevance": "EPCIS data consist of \"visibility events\", each the record of a business process step acting on objects such as trade items (products), and implementations SHALL understand queries in both EPC URN and GS1 Digital Link URI syntax (sections 1, 7). The GS1 Web Vocabulary defines the link type gs1:epcis, \"A link to an EPCIS repository of visibility event data.\", and the GS1-Conformant Resolver 1.2.1 names it in an example of traceability information (section 2.5.10).",
+ "boundary": "The specification \"does not specify how the service operations or databases themselves should be implemented\" (section 1), and definitions of master data such as product catalogue data are outside its scope (section 7).",
+ "sources": [
+  {
+   "url": "https://ref.gs1.org/standards/epcis/2.0.1/",
+   "read": "2026-11-09",
+   "class": "normative"
+  },
+  {
+   "url": "https://ref.gs1.org/standards/epcis/archive",
+   "read": "2026-11-09",
+   "class": "decision"
+  },
+  {
+   "url": "https://ref.gs1.org/standards/epcis/artefacts",
+   "read": "2026-11-09",
+   "class": "normative"
+  },
+  {
+   "url": "https://ref.gs1.org/standards/cbv/2.0.0/",
+   "read": "2026-11-09",
+   "class": "normative"
+  },
+  {
+   "url": "https://ref.gs1.org/standards/cbv/archive",
+   "read": "2026-11-09",
+   "class": "decision"
+  },
+  {
+   "url": "https://ref.gs1.org/voc/data/gs1Voc.jsonld",
+   "read": "2026-11-09",
+   "class": "normative"
+  },
+  {
+   "url": "https://ref.gs1.org/standards/resolver/",
+   "archived": "https://web.archive.org/web/20261010235715/https://ref.gs1.org/standards/resolver/",
+   "read": "2026-11-09",
+   "class": "normative"
+  }
+ ],
+ "overlaps": [
+  "gs1-digital-link",
+  "gs1-conformant-resolver",
+  "gs1-web-vocabulary"
+ ],
+ "seams": [
+  "S2"
+ ],
+ "verified": "2026-11-09",
+ "evidence": {
+  "read": "On 2026-11-09, on ref.gs1.org: the EPCIS PDF served at /standards/epcis/ and at /standards/epcis/2.0.1/ (text extracted), the EPCIS archive (\"The latest version (currently version 2.0.1)\"; \"Version 2.0.1 Published 1 July 2025\"; \"Version 2.0.0 Published 22 June 2022\"), the artefacts page (titled \"EPCIS / CBV 2.0.1\", listing \"EPCIS standard 2.0.1 (PDF)\"), the CBV PDF at /standards/cbv/2.0.0/ (prints \"Release 2.0, Ratified, Jun 2022\"; section 1: \"The goal of this standard is to specify various vocabulary elements and their values for use in conjunction with the EPCIS standard\"), the CBV archive (\"Version 2.0.0 Published 22 June 2022\"), the linked-data page /epcis/, the GS1 standards disclaimer 1.1.0, and, for the quoted link type, the GS1 Web Vocabulary ontology and the GS1-Conformant Resolver page.",
+  "not_read": "ISO/IEC 19987:2024 equivalence: not stated on the ref.gs1.org pages read; iso.org not read.",
+  "not_found": "The string 19987 is not found in the EPCIS and CBV PDF texts, the EPCIS archive and artefacts pages, the CBV archive page, the /epcis/ page or the gs1/EPCIS README (2026-11-09)."
+ },
+ "url": "https://frmoretto.github.io/agentic-standards-map/entries/gs1-epcis.html",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/1314e9acd417b7ae4221e25919d5d4d29aad0050/entries/gs1-epcis.yaml",
+ "licence": "https://creativecommons.org/licenses/by/4.0/"
+}

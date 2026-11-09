@@ -4,8 +4,8 @@
  "org": "W3C",
  "kind": "charter",
  "tier": "core",
- "status": "Draft charter for a proposed Working Group, in charter refinement: the announcement on public-new-work gave approx. 2026-11-10 as the end of refinement (W3C Team estimate), and the Strategy issue #576, open on 2026-10-23 with the label \"In Charter Refinement\" and 4 comments, reads \"Expected end of charter refinement phase: unknown\". The charter file was changed on 2026-10-13 by two editorial pull requests (#888 and #887), and on 2026-10-29 and 2026-10-30 by PRs #901, #907, #908, #909 and #910, all merged (head a943ce5, read 2026-11-02): #901 generalizes the WebMCP deliverable and adds identity, delegation, measurement and interaction modes; #907 adds a threat model; #908 addresses comments on acknowledgement and outcomes; #909 allows bi-directional identity flows; #910 updates the threats after the TPAC breakout. Issues #905 (the charter does not define \"AI Agent\") and #906 (the Agent Delegation deliverable could be broadened), opened on 2026-10-30, are open. On 2026-11-02 the Strategy issue #576 is open with 13 comments and still reads \"Expected end of charter refinement phase: unknown\". According to the minutes of the AI Agent Protocol Community Group meeting of 2026-10-21, the Working Group had not been established on that day. A discussion of the charter was proposed for TPAC breakout #22 on 2026-10-30 (w3c-tpac-2026).",
- "status_as_of": "2026-11-02",
+ "status": "Draft charter for a proposed Working Group, in charter refinement: the announcement on public-new-work gave approx. 2026-11-10 as the end of refinement (W3C Team estimate), and the Strategy issue #576, open on 2026-10-23 with the label \"In Charter Refinement\" and 4 comments, reads \"Expected end of charter refinement phase: unknown\". The charter file was changed on 2026-10-13 by two editorial pull requests (#888 and #887), and on 2026-10-29 and 2026-10-30 by PRs #901, #907, #908, #909 and #910, all merged (head a943ce5, read 2026-11-02): #901 generalizes the WebMCP deliverable and adds identity, delegation, measurement and interaction modes; #907 adds a threat model; #908 addresses comments on acknowledgement and outcomes; #909 allows bi-directional identity flows; #910 updates the threats after the TPAC breakout. Issues #905 (the charter does not define \"AI Agent\") and #906 (the Agent Delegation deliverable could be broadened), opened on 2026-10-30, are open. On 2026-11-02 the Strategy issue #576 is open with 13 comments and still reads \"Expected end of charter refinement phase: unknown\". According to the minutes of the AI Agent Protocol Community Group meeting of 2026-10-21, the Working Group had not been established on that day. A discussion of the charter was proposed for TPAC breakout #22 on 2026-10-30 (w3c-tpac-2026). Read 2026-11-09, as of 2026-11-06: the charter file is still at a943ce5 (2026-10-30), with no commit after it; issue #905 was closed on 2026-11-05 after a W3C staff comment that the definition \"should be left to the group to figure out and potentially define\"; issue #906 is open without comments; PR #915 (follow-up threat model comments) was approved on 2026-11-05 and is not merged; Strategy issue #576 is labelled \"In Charter Refinement\", with 15 comments, the last of 2026-11-06 from the chair of the Semantic Agent Communication Community Group, which the charter does not name. The co-chairs' summary of breakout #22 (\"a summary, not verbatim\", posted 2026-11-02) records that the initial normative deliverable is \"Site Capabilities for Agents\", which evolves WebMCP; charter changes asked in the session (a privacy and security threat model; generic infrastructure possibly at the WHATWG; how retailers, brands and content providers can engage, a point made by GS1, with content provenance out of scope; formal liaisons); and about two weeks to comment on the charter, AC review aimed to start before the end of November and the group running early next year. The words retail, brand and content provider are not found in the charter at a943ce5 (2026-11-09). At the Web Payment Security IG meeting of 2026-10-27 a W3C staff member said \"We don't have payments on our radar in the agentic web WG at this time\" (draft minutes).",
+ "status_as_of": "2026-11-09",
  "relevance": "The draft charter proposes a Working Group \"to develop specifications that facilitate web pages and applications to be leveraged by LLMs and AI agents\", scoped to site capabilities and context for agents, agent identity and delegation, and permissions and policies for agent actions. Until 2026-10-29 its one normative deliverable was WebMCP, adopted from the Web Machine Learning Community Group. At a943ce5 the normative deliverables are Site Capabilities for Agents (initial input: WebMCP), Agent Identity, Agent Delegation, Agent Interaction Measurement and Agentic Interaction Modes, with an Agentic Web Threat Model as another deliverable; the charter lists the Web Payment Security Interest Group (IG), IETF webbotauth and IETF aipref for coordination. On 2026-08-13 a representative of Apple wrote on PR #829 \"Expect a formal objection if this is merged.\", about the earlier plan to place WebMCP in the Web Machine Learning Working Group (WG). Charter-drafts PR #888 (editorial fixes, opened by the author of this map on 2026-10-02) was merged on 2026-10-13 at 11:06 UTC by one of its reviewers, after approvals by three reviewers: a participant on 2026-10-08 with the review text \"LGTM\" (review 5463458958) and two on 2026-10-13 (GitHub, read on 2026-10-14). The W3C TAG Group Note \"User Agents\" (2026-10-22; the TAG is among the groups the draft charter lists for coordination) defines a user agent as \"any software entity that interacts with websites outside the entity itself, on behalf of its user\", names generative AI systems that act on the user's behalf among user agents, and sets the duties a user agent owes its user as protection, honesty and loyalty; it says \"Collecting payment does not change to whom the duty of loyalty is owed\" (read 2026-11-02). The Note is placed here rather than in an entry of its own because it is a statement, not a deliverable of a venue in this map, and this is the W3C venue where duties of agents acting on websites would land.",
  "committed_next": [
   {
@@ -25,7 +25,7 @@
   },
   {
    "url": "https://github.com/w3c/strategy/issues/576",
-   "read": "2026-10-23",
+   "read": "2026-11-09",
    "class": "statement"
   },
   {
@@ -75,17 +75,32 @@
   },
   {
    "url": "https://github.com/w3c/charter-drafts/issues/905",
-   "read": "2026-11-02",
+   "read": "2026-11-09",
    "class": "statement"
   },
   {
    "url": "https://github.com/w3c/charter-drafts/issues/906",
-   "read": "2026-11-02",
+   "read": "2026-11-09",
    "class": "statement"
   },
   {
    "url": "https://www.w3.org/TR/2026/NOTE-user-agents-20261022/",
    "read": "2026-11-02",
+   "class": "statement"
+  },
+  {
+   "url": "https://github.com/w3c/charter-drafts/pull/915",
+   "read": "2026-11-09",
+   "class": "third-party"
+  },
+  {
+   "url": "https://gist.github.com/yoavweiss/211c446c914a5abf03548652e31de9a8",
+   "read": "2026-11-09",
+   "class": "statement"
+  },
+  {
+   "url": "https://www.w3.org/2026/10/27-wpsig-minutes.html",
+   "read": "2026-11-09",
    "class": "statement"
   }
  ],
@@ -98,12 +113,12 @@
  "seams": [
   "S3"
  ],
- "verified": "2026-11-02",
+ "verified": "2026-11-09",
  "evidence": {
-  "read": "On 2026-11-02: the charter at a943ce5 (deliverables, out of scope, coordination), PRs #901 and #907 to #910 (titles, merge times, the description of #908), issues #905 and #906, the Strategy issue #576 (state, comments, labels), and the TAG Group Note \"User Agents\" of 2026-10-22.",
+  "read": "On 2026-11-09: the commits of 2026/agenticweb-wg.html on gh-pages (none after a943ce5), the charter at a943ce5 searched for retail, brand, content provider and Semantic Agent (none), issues #905 and #906, PR #915, Strategy issue #576 (labels and comments to 2026-11-06), the co-chairs' summary of breakout #22 and the minutes of the Web Payment Security IG of 2026-10-27.",
   "not_read": "Charter HTML in the 2026-10-03 files, list archives, meeting minutes, TPAC breakout slots."
  },
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/w3c-agenticweb-wg.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/ee12c5a4da1a47088a553c0f5681639758e51118/entries/w3c-agenticweb-wg.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/1314e9acd417b7ae4221e25919d5d4d29aad0050/entries/w3c-agenticweb-wg.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }
