@@ -42,5 +42,5 @@ seams:
 - S2
 verified: 2026-11-02
 evidence:
-  read: 'On 2026-11-02: the KYA-OS position statement (PDF, three pages; blob 7e5a195, identical at the head of main 7024354), the listing of position_statement/ (three PDFs), PR #43 (merge date), and issue #21 of this map''s repository (proposal and disclosure).'
+  read: 'On 2026-11-02: the KYA-OS position statement (PDF, three pages; blob 7e5a195, identical at the head of main 7024354), the listing of position_statement/ (three PDFs), PR #43 (merge date), and issue #21 of this map''s repository (proposal and disclosure). On 2026-10-13: the file listing and the latest commits of the workshop repository and breakout issue #34. Repository w3c/ecommerce-for-humans-and-AI-Agents-workshop: issues, pull requests and README on 2026-10-03, with the issues of tpac2026-breakouts and the items of tpac2026-miniworkshops; Sven Böckelmann''s slides (slides/Sven_Boeckelmann_benelog_trusted-resolution-v1.pptx) on 2026-10-05.'
   not_read: 'The other slide files (PRs #57 to #85) and the position-statement PDFs in position_statement/ (Fabacus, P&G); report and agenda pages, pre-recordings.'

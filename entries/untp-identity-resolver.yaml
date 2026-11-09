@@ -29,6 +29,6 @@ seams:
 - S2
 verified: 2026-10-13
 evidence:
-  read: 'On 2026-10-13: the versions page of untp.unece.org (0.7.0 still the only stable release listed; the GitLab tag list was not queried again).'
+  read: 'On 2026-10-13: the versions page of untp.unece.org (0.7.0 still the only stable release listed; the GitLab tag list was not queried again). Work in Progress and 0.7.0 specification pages, 0.7.0 OpenAPI page and versions page, in full as HTML, 2026-10-02; GitLab tag list.'
   not_read: The response diagram of the Resolver Workflow (an image).
   not_found: 'Not found in the prose of either specification page, 2026-10-02: any mention of 404.'

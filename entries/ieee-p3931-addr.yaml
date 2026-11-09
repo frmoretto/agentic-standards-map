@@ -20,6 +20,6 @@ overlaps:
 - a2a-discovery
 verified: 2026-10-13
 evidence:
-  read: 'On 2026-10-13: the active PARs page (P3931 listed as Draft Development; the PAR text adds that identity frameworks, trust scoring systems, collaborative governance policies and domain-specific business semantics are beyond its scope).'
+  read: 'On 2026-10-13: the active PARs page (P3931 listed as Draft Development; the PAR text adds that identity frameworks, trust scoring systems, collaborative governance policies and domain-specific business semantics are beyond its scope). The IEEE SA active PARs page and the SASB agenda page of 2026-03-26, read 2026-10-02.'
   not_read: Working group membership and chair; whether the work references DAWN or Agentic Resource Discovery (ARD).
   not_found: 'Not found in the PAR scope text, 2026-10-02: commerce, merchant, product.'

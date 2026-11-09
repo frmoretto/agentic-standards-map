@@ -27,6 +27,6 @@ seams:
 - S1
 verified: 2026-10-19
 evidence:
-  read: 'The change was proposed for the map in issue #9 (2026-10-18) by zeroasterisk, who disclosed: "Proposer works at Google (Google contributed A2A to the Linux Foundation and donated AP2 to the FIDO Alliance); member of the AAIF Technical Steering Committee.'
+  read: 'The change was proposed for the map in issue #9 (2026-10-18) by zeroasterisk, who disclosed: "Proposer works at Google (Google contributed A2A to the Linux Foundation and donated AP2 to the FIDO Alliance); member of the AAIF Technical Steering Committee. No commercial interest in this map." On 2026-10-13: the list of releases and the specification directory of the repository; the blog post, the governance page and the versioning page were not re-read. On 2026-10-03: specification, versioning and governance pages, blog post, README, GOVERNANCE.md, releases.'
   not_read: Full text of each specification chapter, the Specification Enhancement Proposal (SEP) process pages, licence texts beyond README and GOVERNANCE.md.
   not_found: 'On 2026-10-19: aaif.io/projects, which lists Model Context Protocol among the projects AAIF hosts, and the governance page (last modified 2026-08-05), where AAIF, Agentic AI Foundation and Linux Foundation are not found. Not found on the governance and specification pages: foundation, AAIF, Linux.'

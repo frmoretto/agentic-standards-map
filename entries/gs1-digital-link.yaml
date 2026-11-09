@@ -21,6 +21,6 @@ seams:
 - S2
 verified: 2026-11-09
 evidence:
-  read: 'A rewrite of the relevance was proposed in issue #25 of this map''s repository (2026-11-02) by Sven Böckelmann, who wrote: "Disclosure: Co-chair of the GS1 Visibility Standards (EPCIS/CBV) maintenance group; maintainer of OpenEPCIS; CTO at benelog GmbH & Co.'
+  read: 'A rewrite of the relevance was proposed in issue #25 of this map''s repository (2026-11-02) by Sven Böckelmann, who wrote: "Disclosure: Co-chair of the GS1 Visibility Standards (EPCIS/CBV) maintenance group; maintainer of OpenEPCIS; CTO at benelog GmbH & Co. KG, which sells EPCIS and Digital Link products." The relevance is written from the standard on ref.gs1.org, not from the text proposed in the issue. The URI Syntax standard page and its archive on ref.gs1.org, read 2026-10-03 and again 2026-10-13 ("Release 1.7.0, Ratified Aug 2026"; archive: "Published 7 August 2026").'
   not_read: The www.gs1.org standards page.
   not_found: 'On 2026-11-09: the URI Syntax standard page ("Release 1.7.0, Ratified Aug 2026") and its archive ("Published 7 August 2026"), unchanged since 2026-10-13; the quotes of the relevance matched the HTML page verbatim; schema.org not found in the URI Syntax HTML page (2026-11-09).'

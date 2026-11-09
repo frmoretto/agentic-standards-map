@@ -12,6 +12,6 @@ sources:
   class: decision
 verified: 2026-10-13
 evidence:
-  read: 'On 2026-10-13: the chairs listed on the W3C group data and the October 2026 index of the group''s list.'
+  read: 'On 2026-10-13: the chairs listed on the W3C group data and the October 2026 index of the group''s list. Creation notice on public-new-work read on 2026-10-02.'
   not_read: The list of the group, created on 2026-10-01.
   not_found: 'Not found on 2026-10-03 in w3c/strategy, w3c/charter-drafts or WebKit/standards-positions (from 2026-01-01): Agent-Ready Video, ARV.'

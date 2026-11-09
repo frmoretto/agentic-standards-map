@@ -45,5 +45,5 @@ overlaps:
 - ap2
 verified: 2026-10-16
 evidence:
-  read: 'On 2026-10-16: the README of agent-network-protocol/AgentNetworkProtocol, the v1.2 release notes, ANP-07, ANP-08 and ANP-10, the specification index of agent-network-protocol.com, and the editor field of the Community Group protocol draft.'
+  read: 'On 2026-10-16: the README of agent-network-protocol/AgentNetworkProtocol, the v1.2 release notes, ANP-07, ANP-08 and ANP-10, the specification index of agent-network-protocol.com, and the editor field of the Community Group protocol draft. The entry was proposed in issue #6 (2026-10-16) by the ANP maintainer, who declared there the roles of co-chair of the W3C AI Agent Protocol Community Group and founder of Vector Consensus, which builds agent connectivity infrastructure related to ANP.'
   not_read: ANP-02 to ANP-06 and the Messaging profiles beyond their status lines; the SDK and implementation repositories.

@@ -29,8 +29,8 @@ seams: [S1, S3]                # optional: the seams of notes/seams.md that name
                                # (python tools/build_map.py checks it). Not rendered in MAP.md or the bundles; the site shows it.
 verified: YYYY-MM-DD
 evidence:                      # optional; rendered as one line per entry in the appendix "Evidence and coverage"
-  read: one sentence, the corpus read (window, criterion)
-  not_read: one sentence, what was not read
+  read: the corpus read (window, criterion), in full
+  not_read: what was not read, in full
   not_found: optional; the negatives, each as "Not found in [corpus, date]: ..."
 open_proposals:                # optional; rendered in the appendix "Open proposals"
   - what: ...

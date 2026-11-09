@@ -90,7 +90,7 @@ seams:
 - S1
 verified: 2026-11-09
 evidence:
-  read: 'On 2026-11-09: the datatracker records of the three DAWN drafts (all of 2026-10-30, no later revision), the DAWN agenda for IETF 127 (revision -07 of 2026-11-06), ard-spec issues #109, #112, #113, #114 and PR #116, Lighthouse issue #17480 and PR #17484.'
+  read: 'On 2026-11-09: the datatracker records of the three DAWN drafts (all of 2026-10-30, no later revision), the DAWN agenda for IETF 127 (revision -07 of 2026-11-06), ard-spec issues #109, #112, #113, #114 and PR #116, Lighthouse issue #17480 and PR #17484. On 2026-11-04: the text of draft-jimenez-dawn-ard-initial-contact-00 (whole document, including Appendix B and the acknowledgments) and spec/schemas/ard-entry.schema.json and ard.cddl at f073b1e. On 2026-11-02: PR #111 of ard-spec (title, merge, diff of spec/ard.md). On 2026-10-13: spec/ard.md on main (header and sections 5.1 and 3), the governance page, ADR 0010, the head of ard-spec and the state of its pull requests #74, #80, #97 to #106 and issues #20, #43, #61, #78, #79, #86, #88, #92, and the state of Lighthouse #17258 to #17261, #17294, #17295, #17297, #17160 and #17271. Debate files of ard-spec and ard-docs up to 2026-09-25 and 2026-09-13; on main, spec/ard.md, READMEs, governance.md (2026-10-03).'
   not_read: The Discord, Lighthouse files on main, ADR files other than ADR 0010 beyond titles, the comments of ard-spec issues and pull requests other than those named, ard-docs after 2026-09-13.
   not_found: 'Not found in both repositories: UCP, commerce, merchant, GTIN, Know Your Agent (KYA) (2026-10-03, not repeated). Not found in ard-spec: a tag or release (2026-10-03 and again 2026-10-13).'
 open_proposals:

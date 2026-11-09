@@ -43,7 +43,7 @@ sources:
   class: third-party
 verified: 2026-11-09
 evidence:
-  read: '2026-11-09: the datatracker records of kyapay-token and using-kyapay-tokens (revisions and stream) and the text of kyapay-token-03, whose introduction keeps the purpose stated in the first sentence of the relevance (the -02 text, read 2026-10-14, is superseded).'
+  read: '2026-11-09: the datatracker records of kyapay-token and using-kyapay-tokens (revisions and stream) and the text of kyapay-token-03, whose introduction keeps the purpose stated in the first sentence of the relevance (the -02 text, read 2026-10-14, is superseded). Datatracker search for draft-skyfire and the pages of kyapay-token and using-kyapay-tokens, 2026-10-13 (seven documents: kyapay-token-02, using-kyapay-tokens-01, amr-values-02, id-verification-02, aml-methods-01, kyapay-token-exchange-01, kyapayprofile-02); datatracker listing of 2026-10-02 (it named four, kyapay-token-02, token-exchange-01, using-kyapay-tokens-01, kyapayprofile-02); the announcement of 2026-10-02 on the oauth list names five; oauth list from 2026-08-01, subject filter (142 of 505 messages), KYAPay threads read.'
   not_read: The pages of the other five drafts on the datatracker (stream and state), skyfire-xyz repositories; IETF 126 session; kyapay.org beyond main page; adopters named in the announcement; threads excluded by the subject filter.
   not_found: 'Not found in the messages read, 2026-10-03: the merchant''s own identity, product identity, prices, checkout.'
 open_proposals:

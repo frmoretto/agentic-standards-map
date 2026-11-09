@@ -26,5 +26,5 @@ overlaps:
 - w3c-agenticweb-wg
 verified: 2026-10-23
 evidence:
-  read: 'On 2026-10-23: the charter document, the group page, its charters page and its activity page on w3.org.'
+  read: 'On 2026-10-23: the charter document, the group page, its charters page and its activity page on w3.org. The description and metadata of pull request #882, read 2026-10-08.'
   not_read: The text of the Call for Participation (it is in a Member-only archive), the issue the pull request refers to in webdriver-bidi.

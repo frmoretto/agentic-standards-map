@@ -43,5 +43,5 @@ seams:
 - S4
 verified: 2026-10-13
 evidence:
-  read: 'On 2026-10-13: the Chrome and Edge pages and the issues of WebKit and Mozilla, whose quoted sentences (the Chrome description, the Edge sentence "is ready for testing", and the WebKit and Mozilla statements) were found again in the current texts; the state and labels of both issues (closed 2026-06-11 "position: oppose" and closed 2026-08-05 "position: neutral", unchanged).'
+  read: 'On 2026-10-13: the Chrome and Edge pages and the issues of WebKit and Mozilla, whose quoted sentences (the Chrome description, the Edge sentence "is ready for testing", and the WebKit and Mozilla statements) were found again in the current texts; the state and labels of both issues (closed 2026-06-11 "position: oppose" and closed 2026-08-05 "position: neutral", unchanged). On 2026-10-08: the PayPal blog, the Shopify developer changelog and the Shopify documentation page on Checkout WebMCP. WebKit/standards-positions#670 and mozilla/standards-positions#1412 with all comments, and the Chrome early-preview, Chrome origin-trial and Edge blog posts, on 2026-10-03.'
   not_read: Safari or Apple pages outside the issue, Chrome Status, other Mozilla pages, other vendors, implementation documentation.

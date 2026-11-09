@@ -155,6 +155,26 @@ def one_line(v):
     return " ".join(str(v or "").split())
 
 
+# Evidence on the entry page: published in full (from 2026-11-09). Up to this length it is shown whole; above it
+# the first sentence stays visible as the opening and the rest is in a <details> element (no script).
+# 800 characters: the median evidence is about 570 characters and the longest first sentence about 800,
+# so 40 of 64 entries show their evidence whole and the long ones (up to about 6,900) open with one sentence.
+EVIDENCE_FOLD = 800
+SENTENCE_END = re.compile(r"(?<=[a-z0-9\)])\.\s+(?=[A-Z])")   # the same split as tools/export_public.py
+
+
+def evidence_html(md, text):
+    s = one_line(text)
+    parts = SENTENCE_END.split(s)
+    if len(s) <= EVIDENCE_FOLD or len(parts) < 2:
+        return md.inline(s)
+    first = parts[0] + "."
+    rest = s[len(parts[0]) + 1:].strip()
+    n = len(parts) - 1
+    return '%s <details class="ev"><summary>The rest of the evidence (%d more %s)</summary><p>%s</p></details>' % (
+        md.inline(first), n, "sentence" if n == 1 else "sentences", md.inline(rest))
+
+
 def slug(text):
     t = re.sub(r"[^\w\s-]", "", re.sub(r"<[^>]+>", "", text).lower())
     return re.sub(r"\s+", "-", t.strip())
@@ -576,7 +596,7 @@ pre{background:var(--chip);padding:.8rem;overflow:auto}hr{border:0;border-top:1p
 th,td{border-bottom:1px solid var(--line);padding:.4rem .5rem;text-align:left;vertical-align:top;overflow-wrap:break-word}td:has(a){overflow-wrap:anywhere}
 th{background:var(--chip)}blockquote{margin:1rem 0;padding:.2rem 1rem;border-left:4px solid var(--line);color:var(--muted)}
 .chips span{display:inline-block;background:var(--chip);border-radius:1rem;padding:.1rem .7rem;margin:0 .4rem .4rem 0;font-size:.85rem}
-.verified{color:var(--muted);font-size:.9rem}td.nw,th.nw{white-space:nowrap}td.it{min-width:9rem}table.wts{min-width:42rem}dl.fields dt{font-weight:700;margin-top:1rem}dl.fields dd{margin:.2rem 0 0 0}
+.verified{color:var(--muted);font-size:.9rem}td.nw,th.nw{white-space:nowrap}td.it{min-width:9rem}table.wts{min-width:42rem}dl.fields dt{font-weight:700;margin-top:1rem}dl.fields dd{margin:.2rem 0 0 0;overflow-wrap:break-word}details.ev{margin-top:.4rem}details.ev summary{cursor:pointer;color:var(--link)}details.ev p{margin:.4rem 0 0}
 ul.sources{padding-left:1.1rem}ul.sources li{margin:.3rem 0}.cls{color:var(--muted);font-size:.85rem}.cls a.arch{color:var(--muted)}
 section.author{border-top:1px solid var(--line);margin-top:2rem;padding-top:.5rem}section.author h2{font-size:1.1rem}footer.site{border-top:1px solid var(--line);margin-top:3rem;padding-top:1rem;padding-bottom:1rem;color:var(--muted);font-size:.85rem}
 .eg svg{width:100%;height:auto}.eg .legend{font-size:.85rem;color:var(--muted)}.graph{overflow:auto;border:1px solid var(--line);margin:1rem 0}.graph svg{max-width:none;height:auto}
@@ -891,7 +911,7 @@ def entry_body(e, entries, md, seams, graph_html, archived=None):
         p.append("<h2>Evidence and coverage</h2><dl class=\"fields\">")
         for k, lab in (("read", "Read"), ("not_read", "Not read"), ("not_found", "Not found"), ("method", "Method")):
             if ev.get(k):
-                p.append("<dt>%s</dt><dd>%s</dd>" % (lab, md.inline(one_line(ev[k]))))
+                p.append("<dt>%s</dt><dd>%s</dd>" % (lab, evidence_html(md, ev[k])))
         p.append("</dl>")
     ops = e.get("open_proposals") or []
     if ops:

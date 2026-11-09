@@ -45,7 +45,7 @@ seams:
 - S1
 verified: 2026-10-23
 evidence:
-  read: 'On 2026-10-23: PR #2240 (merge, base branch, approvals), docs/topics/agent-discovery.md at merge commit 8faec73 and on main, and the state of issues #2276 and #2248.'
+  read: 'On 2026-10-23: PR #2240 (merge, base branch, approvals), docs/topics/agent-discovery.md at merge commit 8faec73 and on main, and the state of issues #2276 and #2248. On 2026-10-19: the AAIF announcement of 2026-08-17, which says A2A "is joining the Agentic AI Foundation (AAIF) as a hosted project". The change was proposed for the map in issue #8 (2026-10-18) by zeroasterisk, who disclosed: "Proposer works at Google (Google contributed A2A to the Linux Foundation and donated AP2 to the FIDO Alliance); member of the AAIF Technical Steering Committee. No commercial interest in this map." On 2026-10-15: issue #2043 (state, comments, last update) and issue #4 of this repository, in which the row was proposed. Repository items read (updated 2026-01-01 to 2026-10-02): discovery threads in full, the rest by keyword search; docs/roadmap.md and agent-discovery.md on main, 2026-10-03.'
   not_read: 'Technical Steering Committee (TSC) minutes and recordings, the diff of PR #2240, the Discord, long identity threads, replies on #2276 after 2026-10-02 (none found: the thread has three comments, the last of 2026-10-02).'
   not_found: 'On 2026-10-13 (main at commit 7c861a5): the state, comment count and last update of PR #2240 and issues #2276 and #2248, the latest release (v1.0.1, 2026-05-28), docs/topics/agent-discovery.md (the quoted sentence present; AI Catalog not found in it) and the history of GOVERNANCE.md (last change 2026-08-25). Not found in roadmap.md: discovery.'
 open_proposals:

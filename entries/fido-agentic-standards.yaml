@@ -28,6 +28,6 @@ seams:
 - S4
 verified: 2026-10-19
 evidence:
-  read: 'On 2026-10-19: the FIDO release again (page metadata: modified 2026-10-16; the sentences quoted here are unchanged) and the Google blog post of 2026-04-28.'
+  read: 'On 2026-10-19: the FIDO release again (page metadata: modified 2026-10-16; the sentences quoted here are unchanged) and the Google blog post of 2026-04-28. The change was proposed for the map in issue #12 (2026-10-18) by zeroasterisk, who disclosed: "Proposer works at Google (Google contributed A2A to the Linux Foundation and donated AP2 to the FIDO Alliance); member of the AAIF Technical Steering Committee. No commercial interest in this map.". FIDO release of 2026-04-28 in full, read again in a browser on 2026-10-14 (page metadata: published and modified 2026-04-28); blog of 2026-05-26 in full, 2026-10-03, not read again; AP2 CONTRIBUTING.md and docs/index.md, 2026-10-03.'
   not_read: Working group charters, membership, specification text.
   not_found: 'Not found in pages read, 2026-10-03: AAIF coordination; Visa TAP among contributions.'

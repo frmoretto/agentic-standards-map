@@ -53,7 +53,7 @@ seams:
 - S4
 verified: 2026-11-02
 evidence:
-  read: 'On 2026-10-13: the head of main and the README and MAINTAINERS.md of a fresh fetch of the repository (commit 7fdd78d), the tag and release lists, spec/unreleased, and the state of issues #231 and #303 and Discussions #265 and #304.'
+  read: 'On 2026-10-13: the head of main and the README and MAINTAINERS.md of a fresh fetch of the repository (commit 7fdd78d), the tag and release lists, spec/unreleased, and the state of issues #231 and #303 and Discussions #265 and #304. Repository, 2026-10-03: issues, pull requests, Discussions, main branch read (README, MAINTAINERS.md, governance, RFCs, specifications); agenticcommerce.dev; OpenAI, Stripe pages.'
   not_read: Discord, TSC meetings, GitHub organisation membership.
   not_found: 'Not found in the repository, 2026-10-03: tag, release, Web Bot Auth, KYA, Verifiable Intent.'
 open_proposals:

@@ -45,7 +45,7 @@ overlaps:
 - acp
 verified: 2026-10-16
 evidence:
-  read: 'On 2026-10-15: the documentation page "Agentic Commerce" and its change history, the written summaries of the Q3 2026 review (15 meetings, 2026-07-01 to 2026-09-30), the state of accordproject/models PR #194, the LCP and MCP sections of the APAP server README, the member list of the TSC README (last changed 2022-10-07), and the README, root listing, contributors and latest commit of mttrbrts/agentic-obligations and The-Building-Blocks/accord-x402-contract-server.'
+  read: 'On 2026-10-15: the documentation page "Agentic Commerce" and its change history, the written summaries of the Q3 2026 review (15 meetings, 2026-07-01 to 2026-09-30), the state of accordproject/models PR #194, the LCP and MCP sections of the APAP server README, the member list of the TSC README (last changed 2022-10-07), and the README, root listing, contributors and latest commit of mttrbrts/agentic-obligations and The-Building-Blocks/accord-x402-contract-server. On 2026-10-16: issue #1 of this repository, in which the entry was proposed on 2026-10-14 by the chair of the project''s TSC, who declares having written the mttrbrts/agentic-obligations prototype; the x402 prototype is by another TSC member.'
   not_read: The meeting recordings on Vimeo linked from the review, which were not opened because the host asks for a human verification step; the code and tests of the two prototype repositories; the A2A interface code of APAP.
 open_proposals:
 - what: Concerto model org.accordproject.protocol.x402@0.2.0 of x402 specification v2 (payment requirements and payloads, facilitator responses, header binding).

@@ -53,7 +53,7 @@ seams:
 - S1
 verified: 2026-11-02
 evidence:
-  read: 'On 2026-10-19: the archive page of the message of 2026-07-11 on the public-credentials list of the W3C, and issue #3 of this repository, in which the addition for draft-ranjbar-dane-did was proposed on 2026-10-15; the draft is not linked in the message.'
+  read: 'On 2026-10-19: the archive page of the message of 2026-07-11 on the public-credentials list of the W3C, and issue #3 of this repository, in which the addition for draft-ranjbar-dane-did was proposed on 2026-10-15; the draft is not linked in the message. On 2026-10-15: issue #12 of danubetech/did-method-dns (state, comments); the datatracker record of draft-ranjbar-dane-anchored-identity (revision -00, 2026-07-21, Individual Submissions, no stream), which was proposed for the map in issue #2 of this repository (2026-10-15) by its author. On 2026-10-13 also: the datatracker records (revision number and revision date) of the four related drafts, and the three messages of the archive of dns-underscore-keys. On 2026-10-13: the datatracker page (revision -02 of 2026-05-27, "(No stream defined)", expires 28 November 2026); the dnsop documents page was not re-read. Draft -02 text, datatracker page and dnsop documents page, read 2026-10-02; dnsop list (filtered by subject, 2026-08-01 to 2026-09-17) and DAWN list, read 2026-10-03.'
   not_read: A DNS-AID thread under another subject on dnsop; the texts of the four related drafts.
   not_found: 'Adoption call, objection or dated promise for the draft: not found in the lists read, 2026-10-03.'
 open_proposals:

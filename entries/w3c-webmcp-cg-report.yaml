@@ -31,7 +31,7 @@ seams:
 - S3
 verified: 2026-11-09
 evidence:
-  read: 'On 2026-11-09: the draft minutes of the WebML CG meeting of 2026-10-27 (resolutions).'
+  read: 'On 2026-11-09: the draft minutes of the WebML CG meeting of 2026-10-27 (resolutions). On 2026-10-13: the draft report page and the latest commits of the repository (to 2026-10-09), PR #338 and issues #65, #192 and #257. Repository webmachinelearning/webmcp (titles of all items, about 45 in full) and public-webmachinelearning from 2026-08-14 to 2026-10-01, read on 2026-10-03; WebKit issue #670.'
   not_read: 'Minutes pages, section 6.2 of the specification, items #165, #204, #255, #272, #273 and #312 in full.'
 open_proposals:
 - what: Proposes to "Stand up a new community group for agent-assisted user agents (name to be decided)."

@@ -61,6 +61,6 @@ seams:
 - S4
 verified: 2026-11-09
 evidence:
-  read: 'On 2026-11-09: the commits of the specification''s repository to 2026-11-06 (publication of 0.2 and 0.3), its Demos page at commit 2289293, Sierra''s landing page and blog sitemap (no post on PAP after 2026-10-09).'
+  read: 'On 2026-11-09: the commits of the specification''s repository to 2026-11-06 (publication of 0.2 and 0.3), its Demos page at commit 2289293, Sierra''s landing page and blog sitemap (no post on PAP after 2026-10-09). On 2026-10-13: the specification, the operations extension, the extensions page, the Path to 1.0 page, the home page and the licence page of personalagentprotocol.org (each marked "Updated Oct 12, 2026" where the page carries a date), the Sierra blog of 2026-10-09, the Decagon blog of 2026-10-06 and the IANA well-known URI registry XML. On 2026-10-08: the Sierra announcement of 2026-10-06 in full, one trade article on it and one on the Shopify and Meta agreement.'
   not_read: The sections of the specification beyond the discovery, agent identity and confirmation texts quoted, the PACT specification, any Meta publication on the protocol, the TechRepublic article on Meta's Muse (not retrievable on 2026-10-08).
   not_found: 'Not found, 2026-10-13: poppy.json in the IANA well-known URI registry XML; a standards body, foundation or working group in the pages of the site read (home, specification, extensions, operations, Path to 1.0, licence); UCP, A2A and Web Bot Auth in the same pages.'

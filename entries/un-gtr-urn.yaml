@@ -19,6 +19,6 @@ seams:
 - S2
 verified: 2026-10-13
 evidence:
-  read: 'On 2026-10-13: the IANA URN namespaces registry XML (updated 2026-10-12): no value gtr and no occurrence of the token.'
+  read: 'On 2026-10-13: the IANA URN namespaces registry XML (updated 2026-10-12): no value gtr and no occurrence of the token. IANA URN namespaces registry XML, the UNTP specification page and the front page of the UN/CEFACT GRID site, read 2026-10-02.'
   not_read: Drafts under other names not excluded.
   not_found: 'Not found in the IANA XML, GRID site or Internet-Draft search, 2026-10-02: an operational register.'

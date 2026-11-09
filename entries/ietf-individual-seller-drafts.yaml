@@ -34,6 +34,6 @@ overlaps:
 - ietf-dawn
 verified: 2026-11-02
 evidence:
-  read: 'On 2026-11-02: the texts of draft-hood-agtp-merchant-identity-03 and draft-hood-agtp-commerce-01 (status, dates, abstract).'
+  read: 'On 2026-11-02: the texts of draft-hood-agtp-merchant-identity-03 and draft-hood-agtp-commerce-01 (status, dates, abstract). On 2026-10-13: the datatracker records of the three drafts (anders -01 of 2026-07-04, kavian -01 of 2026-09-04, hood -02 of 2026-05-26; no later revision) and the text of hood -02. Datatracker records of the anders and kavian drafts (abstracts, about 420 characters) and the text of hood -00, read 2026-10-02; DAWN and dnsop lists searched 2026-10-03.'
   not_read: Full texts of the anders and kavian drafts, authors' next steps, WG agendas, whether the kavian draft names UCP, ACP or GS1.
   not_found: 'Not found in the DAWN list (2026-08-01 to 2026-10-02) and dnsop list text, 2026-10-03: names of the three drafts.'

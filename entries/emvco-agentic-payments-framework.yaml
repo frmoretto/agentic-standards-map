@@ -34,7 +34,7 @@ seams:
 - S4
 verified: 2026-10-13
 evidence:
-  read: 'On 2026-10-13, as HTML: the news list (71 results, newest the newsletter of 2026-10-09), the newsletter Q3 2026 and the resource page of the draft (title and page text only).'
+  read: 'On 2026-10-13, as HTML: the news list (71 results, newest the newsletter of 2026-10-09), the newsletter Q3 2026 and the resource page of the draft (title and page text only). On 2026-10-02, as HTML: press release of 2026-09-01, news list (newest item 2026-09-01), resource page (title only), EMV Insights article of 2026-09-01.'
   not_read: The draft document itself; matrix cells rest on the press release and the Insights article.
 matrix:
   governance: EMVCo, Agentic Payments Task Force; collaboration with FIDO Alliance, OpenID Foundation, OpenWallet Foundation and W3C

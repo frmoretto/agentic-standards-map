@@ -43,7 +43,7 @@ seams:
 - S4
 verified: 2026-10-13
 evidence:
-  read: 'On 2026-10-13: the repository file listing and commits to 2026-10-12, the charter targets, the August report (reporting/2026-08-report.md), issues #5 to #9, and the Running Notes document linked from the README (a Google Document shared by link): its last session heading is of 2026-07-22 and it does not mention a completed Capability Map.'
+  read: 'On 2026-10-13: the repository file listing and commits to 2026-10-12, the charter targets, the August report (reporting/2026-08-report.md), issues #5 to #9, and the Running Notes document linked from the README (a Google Document shared by link): its last session heading is of 2026-07-22 and it does not mention a completed Capability Map. Repository aaif/wg-agentic-commerce, 2026-10-02 and 2026-10-03: all issues, pull requests, discussions, branches and history since 2026-06-01; Running Notes, sessions 2026-02-18 to 2026-07-22.'
   not_read: 'Discord, the meeting record cited in PR #7, per-session Google Documents, the fork of PR #6.'
   not_found: 'Not found, 2026-10-13: Running Notes for a session after 2026-07-22; a Capability Map or Recommendations document. Not found in the product discovery notes, 2026-10-03: GS1, GTIN, schema.org.'
 open_proposals:

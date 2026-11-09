@@ -51,7 +51,7 @@ seams:
 - S2
 verified: 2026-11-09
 evidence:
-  read: 'On 2026-11-09: the state of PRs #91 and #117 and of issue #59 (thread to 2026-11-05).'
+  read: 'On 2026-11-09: the state of PRs #91 and #117 and of issue #59 (thread to 2026-11-05). On 2026-10-13: the README and GOVERNANCE.md of main, the head of main, the list of ADR files, the state of PRs #91, #110, #117, #119 and issues #46, #59, #83, #86, #101, #114. Repository items read in full; on main, README, governance files, ADR-0011, 0017, 0021, docs/implementations.md, specification by keyword.'
   not_read: 'The Google document linked in PR #77, recordings, the Discord, other ADR files, the password-protected meeting page.'
   not_found: 'Not found in the items (2026-10-03): commerce, seller, GTIN.'
 open_proposals:

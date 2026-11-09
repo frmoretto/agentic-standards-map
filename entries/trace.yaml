@@ -32,5 +32,5 @@ overlaps:
 - aaif-identity-trust
 verified: 2026-10-26
 evidence:
-  read: 'On 2026-10-26: the release list of trace-spec (tag names, release titles, dates) and the README line "Spec v0.2 is current" (gh).'
+  read: 'On 2026-10-26: the release list of trace-spec (tag names, release titles, dates) and the README line "Spec v0.2 is current" (gh). On 2026-10-21: the status paragraph of the README, the date of the latest commit of trace-spec, MAINTAINERS.md, and aaif/project-proposals issue #42 with its state, labels, assignees and all 9 comments (the last in full, the others by their opening lines). On 2026-10-13: the README of trace-spec (status paragraph), the repository metadata, the three latest commits, the release list and the file list of spec/, and the state, labels and description of aaif/project-proposals issue #42 (its comments were not read). The README, LICENSE and MAINTAINERS.md of trace-spec, the header of spec/trace-v0.2.md (first 14 lines, one sentence quoted), the release v0.11.0 of the package agentrust-trace and the Linux Foundation press release, read 2026-10-09.'
   not_read: The rest of the specification (980 lines), the schema, the conformance suite, the roadmap and governance files, the limitations file.
