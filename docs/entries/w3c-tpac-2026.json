@@ -96,10 +96,10 @@
  ],
  "verified": "2026-11-09",
  "evidence": {
-  "read": "On 2026-11-09: the draft minutes of breakouts #22, #34, #69, #71 and #84 on w3.org (attendees, resolutions and actions), the co-chairs' summary of #22 (gist, created 2026-11-02, one revision), and issue #95 of w3c/tpac2026-breakouts.",
+  "read": "On 2026-11-09: the draft minutes of breakouts #22, #34, #69, #71 and #84 on w3.org (attendees, resolutions and actions), the co-chairs' summary of #22 (gist, created 2026-11-02, one revision), and issue #95 of w3c/tpac2026-breakouts. On 2026-11-02: issues #22, #25, #34, #69, #71 and #84 of w3c/tpac2026-breakouts (state, closing, comments) and their calendar pages (status, past, links); minutes pages of W3C were not searched. On 2026-10-23: issues #22, #25, #34, #69, #71 and #84 of w3c/tpac2026-breakouts (slot written in the body, chairs, agenda field, comments of #22). Issues of w3c/tpac2026-breakouts and items of w3c/tpac2026-miniworkshops; README of tpac2026-breakouts (last commit 2026-09-30); event and news pages, read on 2026-10-03. On 2026-10-13: the README, the TPAC calendar page of breakout sessions and the breakout time slots wiki page, and the open issues of w3c/tpac2026-breakouts with the label agentic web, #17 and #37. On 2026-10-14: the TPAC calendar page of breakout sessions (85 sessions with day, time and room).",
   "not_read": "Dates of the mini-workshops (not stated in the items read); the matching of the sessions to issue numbers is by title, not by a link on the calendar page."
  },
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/w3c-tpac-2026.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/c5e03ffd5fc9fe2bb8d62e49610c610c1c886890/entries/w3c-tpac-2026.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/784f3bb16c065735a5916c70c4f6402ba3209f4b/entries/w3c-tpac-2026.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }

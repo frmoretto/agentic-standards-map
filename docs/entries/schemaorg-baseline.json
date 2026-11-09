@@ -37,10 +37,10 @@
  ],
  "verified": "2026-10-13",
  "evidence": {
-  "read": "On 2026-10-13: schema.org/docs/releases.html (30.1 dated 2026-09-16, 30.0 dated 2026-03-19, nothing later) and the GitHub release list (v30.1 published 2026-09-15 and v30.0 published 2026-03-25, a different instrument from the page; no release after v30.1; last commit on main 2026-10-01).",
+  "read": "On 2026-10-13: schema.org/docs/releases.html (30.1 dated 2026-09-16, 30.0 dated 2026-03-19, nothing later) and the GitHub release list (v30.1 published 2026-09-15 and v30.0 published 2026-03-25, a different instrument from the page; no release after v30.1; last commit on main 2026-10-01). On 2026-10-03: schema.org/version/latest, schema.org/docs/releases.html, term pages Product, Offer, Organization, LocalBusiness, LodgingBusiness, MerchantReturnPolicy, gtin.",
   "not_read": "Properties, expected types and examples on each term page, and the other terms of the vocabulary."
  },
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/schemaorg-baseline.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/c5e03ffd5fc9fe2bb8d62e49610c610c1c886890/entries/schemaorg-baseline.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/784f3bb16c065735a5916c70c4f6402ba3209f4b/entries/schemaorg-baseline.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }

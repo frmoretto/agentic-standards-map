@@ -84,7 +84,7 @@
  ],
  "verified": "2026-11-02",
  "evidence": {
-  "read": "On 2026-10-13: the head of main and the README and MAINTAINERS.md of a fresh fetch of the repository (commit 7fdd78d), the tag and release lists, spec/unreleased, and the state of issues #231 and #303 and Discussions #265 and #304.",
+  "read": "On 2026-10-13: the head of main and the README and MAINTAINERS.md of a fresh fetch of the repository (commit 7fdd78d), the tag and release lists, spec/unreleased, and the state of issues #231 and #303 and Discussions #265 and #304. Repository, 2026-10-03: issues, pull requests, Discussions, main branch read (README, MAINTAINERS.md, governance, RFCs, specifications); agenticcommerce.dev; OpenAI, Stripe pages.",
   "not_read": "Discord, TSC meetings, GitHub organisation membership.",
   "not_found": "Not found in the repository, 2026-10-03: tag, release, Web Bot Auth, KYA, Verifiable Intent."
  },
@@ -131,6 +131,6 @@
   "source": "https://github.com/agentic-commerce-protocol/agentic-commerce-protocol/blob/main/README.md"
  },
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/acp.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/c5e03ffd5fc9fe2bb8d62e49610c610c1c886890/entries/acp.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/784f3bb16c065735a5916c70c4f6402ba3209f4b/entries/acp.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }

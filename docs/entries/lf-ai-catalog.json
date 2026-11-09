@@ -86,7 +86,7 @@
  ],
  "verified": "2026-11-09",
  "evidence": {
-  "read": "On 2026-11-09: the state of PRs #91 and #117 and of issue #59 (thread to 2026-11-05).",
+  "read": "On 2026-11-09: the state of PRs #91 and #117 and of issue #59 (thread to 2026-11-05). On 2026-10-13: the README and GOVERNANCE.md of main, the head of main, the list of ADR files, the state of PRs #91, #110, #117, #119 and issues #46, #59, #83, #86, #101, #114. Repository items read in full; on main, README, governance files, ADR-0011, 0017, 0021, docs/implementations.md, specification by keyword.",
   "not_read": "The Google document linked in PR #77, recordings, the Discord, other ADR files, the password-protected meeting page.",
   "not_found": "Not found in the items (2026-10-03): commerce, seller, GTIN."
  },
@@ -141,6 +141,6 @@
   }
  ],
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/lf-ai-catalog.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/c5e03ffd5fc9fe2bb8d62e49610c610c1c886890/entries/lf-ai-catalog.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/784f3bb16c065735a5916c70c4f6402ba3209f4b/entries/lf-ai-catalog.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }

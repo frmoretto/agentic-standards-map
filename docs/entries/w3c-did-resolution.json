@@ -137,10 +137,10 @@
  ],
  "verified": "2026-11-09",
  "evidence": {
-  "read": "On 2026-11-09: the list of versions on api.w3.org (dates and URLs of the Candidate Recommendation Drafts; the text of the draft of 2026-11-03 was not read).",
+  "read": "On 2026-11-09: the list of versions on api.w3.org (dates and URLs of the Candidate Recommendation Drafts; the text of the draft of 2026-11-03 was not read). On 2026-10-13: the minutes of the DID WG call of 2026-10-08 (w3.org/2026/10/08-did-minutes.html, read in the sections on PR #344 and the poll). PR #344 with comments and reviews, issues #332 and #85, public-did-wg from 2026-08-01 and the Zoom agendas; publication history and the draft of 2026-10-01, read on 2026-10-03. On 2026-10-13: the merge data and the comments of PR #344 from 2026-10-08, the repository issues updated since 2026-10-08, the W3C publication history, the group page and the October index of public-did-wg.",
   "not_read": "Minutes pages at w3.org other than that of 2026-10-08, Google Docs with the votes and slides of PR #344, the DID WG maintenance charter; the merged text of the specification and its at-risk markings; the repository role of the account that merged the PR."
  },
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/w3c-did-resolution.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/c5e03ffd5fc9fe2bb8d62e49610c610c1c886890/entries/w3c-did-resolution.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/784f3bb16c065735a5916c70c4f6402ba3209f4b/entries/w3c-did-resolution.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }

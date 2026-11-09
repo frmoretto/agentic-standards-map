@@ -37,11 +37,11 @@
  ],
  "verified": "2026-10-15",
  "evidence": {
-  "read": "On 2026-10-13: the working group page (the Delegated Authority and KYA-OS task forces listed, with a meeting schedule; the blog post was not read again).",
+  "read": "On 2026-10-13: the working group page (the Delegated Authority and KYA-OS task forces listed, with a meeting schedule; the blog post was not read again). The working group page and the KYA-OS blog post, read 2026-10-02. On 2026-10-15: the FAQ of identity.foundation (the parent organisation of DIF) and the Project Charter and Membership Agreement of DIF, version 4.0.3 (its formal name and legal form), for the value of org.",
   "not_read": "Overlaps are inferred from topic.",
   "not_found": "Not found in the working group page, 2026-10-02: discovery, commerce, merchants, products, catalogs."
  },
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/dif-trusted-ai-agents.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/c5e03ffd5fc9fe2bb8d62e49610c610c1c886890/entries/dif-trusted-ai-agents.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/784f3bb16c065735a5916c70c4f6402ba3209f4b/entries/dif-trusted-ai-agents.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }

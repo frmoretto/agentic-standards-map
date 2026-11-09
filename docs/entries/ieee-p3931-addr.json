@@ -29,11 +29,11 @@
  ],
  "verified": "2026-10-13",
  "evidence": {
-  "read": "On 2026-10-13: the active PARs page (P3931 listed as Draft Development; the PAR text adds that identity frameworks, trust scoring systems, collaborative governance policies and domain-specific business semantics are beyond its scope).",
+  "read": "On 2026-10-13: the active PARs page (P3931 listed as Draft Development; the PAR text adds that identity frameworks, trust scoring systems, collaborative governance policies and domain-specific business semantics are beyond its scope). The IEEE SA active PARs page and the SASB agenda page of 2026-03-26, read 2026-10-02.",
   "not_read": "Working group membership and chair; whether the work references DAWN or Agentic Resource Discovery (ARD).",
   "not_found": "Not found in the PAR scope text, 2026-10-02: commerce, merchant, product."
  },
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/ieee-p3931-addr.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/c5e03ffd5fc9fe2bb8d62e49610c610c1c886890/entries/ieee-p3931-addr.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/784f3bb16c065735a5916c70c4f6402ba3209f4b/entries/ieee-p3931-addr.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }

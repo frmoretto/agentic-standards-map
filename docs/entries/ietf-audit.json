@@ -225,7 +225,7 @@
  ],
  "verified": "2026-11-09",
  "evidence": {
-  "read": "On 2026-11-09: pull request #61 of mirjak/audit-bof-preparation (commits, review suggestion of 2026-10-19 and comments to 2026-11-04), the datatracker record and the text of draft-gruszka-audit-decision-receipts-05 (abstract, sections 2 to 5, references), and the datatracker record of draft-birkholz-vcon-ai-agent-extension.",
+  "read": "On 2026-11-09: pull request #61 of mirjak/audit-bof-preparation (commits, review suggestion of 2026-10-19 and comments to 2026-11-04), the datatracker record and the text of draft-gruszka-audit-decision-receipts-05 (abstract, sections 2 to 5, references), and the datatracker record of draft-birkholz-vcon-ai-agent-extension. On 2026-10-26: the agenda of IETF 127 on the datatracker (agenda.json: day, time and room of the AUDIT BoF session) and the meeting record (time zone America/Los_Angeles). On 2026-10-23: the datatracker group page of audit, name searches for expected-records and for drafts with \"audit\" in the name, issue #64 and pull requests #61 and #62 of mirjak/audit-bof-preparation and its commits since 2026-10-13. On 2026-10-21: the datatracker page and text of draft-mih-scitt-agent-action-capsule-05 and its history page (saved copies). On 2026-10-13 also: the session request data of IETF 127 for audit (API); the three audit list messages of 2026-10-11 and 2026-10-12 on case 9, found among the 40 latest messages of the list page. On 2026-10-13: the datatracker group page of audit and a name search for expected-records, the subjects and dates of the 21 latest audit list messages (2026-10-07 to 2026-10-13) with two messages of 2026-10-10 and 2026-10-11 read, and the state of PRs #52, #53, #58, #60, #61 and the heads of the two repositories. mirjak/audit-bof-preparation items and the audit list (107 messages, 2026-08-31 to 2026-10-02, relevant threads in full), read 2026-10-03; the 16 audit list messages of 2026-10-06 and 2026-10-07 and the 12 of 2026-10-07 and 2026-10-08, read 2026-10-08; PR #61 with its one commit, read 2026-10-08; PR #61 and the charter file it changes, 2026-10-02.",
   "not_read": "The expected-record draft (announced, no text read); diffs of PR #52, #53, #58, #60; issues of mirjak/draft-audit-architecture; the audit list before 2026-09-17 for the e-commerce search.",
   "not_found": "Not found in the items read, 2026-10-02: minors, buyer age, terms of use, Know Your Agent (KYA), product identity. Not found in the 80 audit list messages (2026-09-17 to 2026-10-06): e-commerce, UCP, ACP, AP2, x402, Verifiable Intent, Visa. Not found in the files and history of the individual Internet-Draft draft-kuehlewind-audit-architecture, 2026-10-06: e-commerce. Not found on the datatracker BoF page (2026-10-02) and in the IETF 127 agenda updated 2026-10-02 (read 2026-10-06): an AUDIT session."
  },
@@ -240,6 +240,6 @@
   }
  ],
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/ietf-audit.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/c5e03ffd5fc9fe2bb8d62e49610c610c1c886890/entries/ietf-audit.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/784f3bb16c065735a5916c70c4f6402ba3209f4b/entries/ietf-audit.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }

@@ -133,7 +133,7 @@
  ],
  "verified": "2026-11-09",
  "evidence": {
-  "read": "On 2026-10-23: docs/index.md at commit b4587ac (2026-04-28) and at the head of main (e1ea56d, same text), and the FIDO page \"Agentic AI\" (published 2026-04-28, modified 2026-08-20), for point 1 of issue #11 on this map's repository.",
+  "read": "On 2026-10-23: docs/index.md at commit b4587ac (2026-04-28) and at the head of main (e1ea56d, same text), and the FIDO page \"Agentic AI\" (published 2026-04-28, modified 2026-08-20), for point 1 of issue #11 on this map's repository. On 2026-10-19: the Google blog post of 2026-04-28, the FIDO release of 2026-04-28 (page metadata: modified 2026-10-16), CONTRIBUTING.md (\"The core specification has been donated to FIDO\") and docs/faq.md of main. The change was proposed for the map in issue #11 (2026-10-18) by zeroasterisk, who disclosed: \"Proposer works at Google (Google contributed A2A to the Linux Foundation and donated AP2 to the FIDO Alliance); member of the AAIF Technical Steering Committee. No commercial interest in this map.\" On 2026-10-13: the release list (latest v0.2.0, 2026-04-28), the head of main (commit e1ea56d, 2026-04-29, unchanged since the reading of 2026-10-05), docs/index.md, docs/ap2/agent_authorization.md, checkout_receipt.json and receipt_status.json at that commit, and issue #374,. Also on 2026-10-13, at the same commit: docs/ap2/specification.md (section Checkout Mandate, which holds the sentence \"Once the Merchant has accepted or rejected the Checkout Mandate, it MUST return a Checkout Receipt.\"), flows.md (receipt passages), the Checkout Receipt section of checkout_mandate.md (which holds the schema fields), and a search of the seven documents of docs/ap2 for the words refund, cancel and fulfil(l), recounted on 2026-10-14. google-agentic-commerce/AP2, 2026-10-03: metadata, releases v0.2.0 and v0.1.0, README, CONTRIBUTING.md, docs/index.md, docs/faq.md; FIDO release of 2026-04-28 and blog of 2026-05-26, in full; at commit e1ea56d on 2026-10-05: docs/ap2/specification.md, docs/ap2/agent_authorization.md and code/sdk/schemas/ap2/checkout_receipt.json.",
   "not_read": "The mandate pages checkout_mandate.md and payment_mandate.md beyond the receipt sections, other code, commits, issues, FIDO working group charters.",
   "not_found": "Not found in the seven documents of docs/ap2 at commit e1ea56d (agent_authorization, checkout_mandate, flows, implementation_considerations, payment_mandate, security_and_privacy_considerations, specification), 2026-10-14: refund and cancel (0 occurrences each)."
  },
@@ -171,6 +171,6 @@
   }
  ],
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/ap2.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/c5e03ffd5fc9fe2bb8d62e49610c610c1c886890/entries/ap2.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/784f3bb16c065735a5916c70c4f6402ba3209f4b/entries/ap2.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }

@@ -90,7 +90,7 @@
  ],
  "verified": "2026-11-09",
  "evidence": {
-  "read": "On 2026-11-09: PR #8 and issue #11 of x402-foundation/wg-domain-discovery and PR #2979 of x402-foundation/x402 (state, author, last activity), the commits and files of wg-domain-discovery since 2026-10-25 and the list of repositories of the organisation (for a record of the call of 2026-11-02).",
+  "read": "On 2026-11-09: PR #8 and issue #11 of x402-foundation/wg-domain-discovery and PR #2979 of x402-foundation/x402 (state, author, last activity), the commits and files of wg-domain-discovery since 2026-10-25 and the list of repositories of the organisation (for a record of the call of 2026-11-02). On 2026-10-23, after issue #17 on this map's repository, whose proposer wrote \"Disclosure: I opened issue #9 in that working group (on the verifier schema), have commented there, and expect to propose a change to the verifier schema in a pull request. I have no role in PR #8, issue #11 or PR #2979. I founded Everyday AI Ltd, which measures x402 discovery manifests; no figure of ours is proposed here.\": PRs #6 and #8 and issue #11 of x402-foundation/wg-domain-discovery, PR #2979 of x402-foundation/x402, and a GitHub code search for \"/.well-known/x402\" in x402-foundation/x402 (0 results; the same search finds files with PAYMENT-REQUIRED). On 2026-10-13 (fetch of the repository, commit 6c470a8): TSC.md, README.md, the core specification header, specs/extensions/extension-offer-and-receipt.md (still \"Wire shape and field placement are not considered stable\"), docs/faq.md, and the state of PRs #1986, #3220, #3656, #3789 and issues #2887, #2906, #3500. x402-foundation/x402, 2026-10-03: main branch read (README, TSC.md, ROADMAP, specs, docs, Technical Charter), issues and pull requests updated since 2026-03-01, and the two Linux Foundation releases.",
   "not_read": "Slack, the tsc and wg-identity repositories, x402.org member and calendar pages, older items; usage figures on x402.org (self-reported)."
  },
  "open_proposals": [
@@ -161,6 +161,6 @@
   "source": "https://github.com/x402-foundation/x402/blob/main/specs/extensions/extension-offer-and-receipt.md"
  },
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/x402.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/c5e03ffd5fc9fe2bb8d62e49610c610c1c886890/entries/x402.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/784f3bb16c065735a5916c70c4f6402ba3209f4b/entries/x402.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }

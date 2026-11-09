@@ -32,11 +32,11 @@
  ],
  "verified": "2026-10-14",
  "evidence": {
-  "read": "On 2026-10-13: the datatracker record.",
+  "read": "On 2026-10-13: the datatracker record. Datatracker API record, -01 header, abstract and receipt section, mpp.dev overview, governance and FAQ (2026-10-03); lists dawn, dnsop, wimse, oauth, agentproto, audit, web-bot-auth, ai-control.",
   "not_read": "Full -01 text, payment method and intent specifications on mpp.dev, software development kit (SDK) licensing, IETF list discussion, Tempo pages. mpp.dev was not read again on 2026-10-14: its robots.txt carries the signal ai-input=no.",
   "not_found": "Not found, 2026-10-03, in -01: agent protocol, card network, AP2, x402, Verifiable Intent; in the eight lists: the draft name. The Stripe page on the Machine Payments Protocol (MPP), read 2026-10-14, describes MPP as \"co-authored by Stripe and Tempo\" and does not mention this draft; a statement by a primary source that links the draft to MPP: not found there."
  },
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/ietf-httpauth-payment.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/c5e03ffd5fc9fe2bb8d62e49610c610c1c886890/entries/ietf-httpauth-payment.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/784f3bb16c065735a5916c70c4f6402ba3209f4b/entries/ietf-httpauth-payment.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }

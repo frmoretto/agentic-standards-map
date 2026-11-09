@@ -59,7 +59,7 @@
  ],
  "verified": "2026-10-14",
  "evidence": {
-  "read": "On 2026-10-14: the release notes of V30.1 (the terms attributed to PR #4871).",
+  "read": "On 2026-10-14: the release notes of V30.1 (the terms attributed to PR #4871). On 2026-10-13: the state, comment count and last update of issues #4824, #4786, #4828, #4774, #4928, #4572, #4615, #4525 and PRs #4861, #4871, #4880, #4889, #4897; schema.org/docs/releases.html; the term page hasDigitalProductPassport. Repository items read (schemaorg/schemaorg, items active since 2026-01-01, latest 2026-09-28): the five issues, PR #4871 and related threads in full, the rest by keyword search; issue-4870.ttl on main (2026-10-03).",
   "not_read": "The well-known files named in #4824; whether the terms of PR #4871 are in release 30.1 (pending on 2026-10-03).",
   "not_found": "Not found in the repository read: a maintainer release date for the five issues."
  },
@@ -129,6 +129,6 @@
   }
  ],
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/schemaorg-open-agent-commerce-items.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/c5e03ffd5fc9fe2bb8d62e49610c610c1c886890/entries/schemaorg-open-agent-commerce-items.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/784f3bb16c065735a5916c70c4f6402ba3209f4b/entries/schemaorg-open-agent-commerce-items.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }

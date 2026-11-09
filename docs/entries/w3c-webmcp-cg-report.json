@@ -49,7 +49,7 @@
  ],
  "verified": "2026-11-09",
  "evidence": {
-  "read": "On 2026-11-09: the draft minutes of the WebML CG meeting of 2026-10-27 (resolutions).",
+  "read": "On 2026-11-09: the draft minutes of the WebML CG meeting of 2026-10-27 (resolutions). On 2026-10-13: the draft report page and the latest commits of the repository (to 2026-10-09), PR #338 and issues #65, #192 and #257. Repository webmachinelearning/webmcp (titles of all items, about 45 in full) and public-webmachinelearning from 2026-08-14 to 2026-10-01, read on 2026-10-03; WebKit issue #670.",
   "not_read": "Minutes pages, section 6.2 of the specification, items #165, #204, #255, #272, #273 and #312 in full."
  },
  "open_proposals": [
@@ -63,6 +63,6 @@
   }
  ],
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/w3c-webmcp-cg-report.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/c5e03ffd5fc9fe2bb8d62e49610c610c1c886890/entries/w3c-webmcp-cg-report.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/784f3bb16c065735a5916c70c4f6402ba3209f4b/entries/w3c-webmcp-cg-report.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }

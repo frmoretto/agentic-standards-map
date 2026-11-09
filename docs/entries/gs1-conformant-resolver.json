@@ -41,10 +41,10 @@
  ],
  "verified": "2026-11-09",
  "evidence": {
-  "read": "On 2026-11-09: the standards page (\"Release 1.2.1, Ratfied Aug 2026\", as printed) and the archive (\"Published 19 August 2026\"), unchanged since 2026-10-13; the quotes of the relevance matched the HTML page verbatim (text only, section numbers not compared); the PDF was not fetched again (read 2026-11-02).",
-  "not_read": "The www.gs1.org standards page."
+  "read": "On 2026-11-09: the standards page (\"Release 1.2.1, Ratfied Aug 2026\", as printed) and the archive (\"Published 19 August 2026\"), unchanged since 2026-10-13; the quotes of the relevance matched the HTML page verbatim (text only, section numbers not compared); the PDF was not fetched again (read 2026-11-02). A rewrite of the relevance was proposed in issue #23 of this map's repository (2026-11-02) by Sven Böckelmann, who wrote: \"Disclosure: Co-chair of the GS1 Visibility Standards (EPCIS/CBV) maintenance group; maintainer of OpenEPCIS; CTO at benelog GmbH & Co. KG, which sells EPCIS and Digital Link products.\" The relevance is written from the standard on ref.gs1.org, not from the text proposed in the issue. On 2026-11-02: the PDF again (text extracted), sections 2.2, 2.5.4, 2.5.8, 2.6 to 2.6.3, 2.9 to 2.12, 5 and the text of Figure 2-1, for the success path; the redirect status code 307 occurs only in Figure 2-1. Standards page, PDF (text extracted) and archive page of the Resolver, in full, 2026-10-03; for dates also the URI Syntax standard page and archive. On 2026-10-13 the standards page (\"Release 1.2.1, Ratfied Aug 2026\", as printed) and the archive pages of the Resolver (\"Published 19 August 2026\" for 1.2.1) and of the URI Syntax standard (\"Published 7 August 2026\" for 1.7.0): the two dates are not swapped; the 2026-08-07 of the Resolver PDF file name is the day the archive gives for Digital Link 1.7.0.",
+  "not_read": "The www.gs1.org standards page. The PDF file name contains 2026-08-07; that date is not printed in the PDF text."
  },
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/gs1-conformant-resolver.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/c5e03ffd5fc9fe2bb8d62e49610c610c1c886890/entries/gs1-conformant-resolver.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/784f3bb16c065735a5916c70c4f6402ba3209f4b/entries/gs1-conformant-resolver.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }

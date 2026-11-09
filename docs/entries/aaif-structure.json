@@ -96,11 +96,11 @@
  ],
  "verified": "2026-11-02",
  "evidence": {
-  "read": "On 2026-11-02: aaif.io/projects (ten projects), /news and the AAIF release of 2026-10-22 on 305 members, /board and /tc; landscape.aaif.io and its data file (categories, subcategories, entries); the README, commits since 2026-10-13, releases (0) and tags (0) of ws-taxonomy-landscape.",
-  "not_read": "The AAIF newsletter of 2026-10-26 (aaif.io/newsletter answered 404 on 2026-11-02); the names of the members, shown on aaif.io/members as logos.",
+  "read": "On 2026-11-02: aaif.io/projects (ten projects), /news and the AAIF release of 2026-10-22 on 305 members, /board and /tc; landscape.aaif.io and its data file (categories, subcategories, entries); the README, commits since 2026-10-13, releases (0) and tags (0) of ws-taxonomy-landscape. On 2026-10-23: aaif.io/projects (ten projects) and the AAIF news page of 2026-10-22 on the four new projects; the number of members was not read. On 2026-10-19: aaif.io/projects (six projects). The change was proposed for the map in issue #13 (2026-10-18) by zeroasterisk, who disclosed: \"Proposer works at Google (Google contributed A2A to the Linux Foundation and donated AP2 to the FIDO Alliance); member of the AAIF Technical Steering Committee. No commercial interest in this map.\" On 2026-10-13: the file listing, the commits to 2026-10-12, the releases and the issue and pull request list of ws-taxonomy-landscape, the portal page at aaif.github.io/ws-taxonomy-landscape, and the README (last changed 2026-09-16, unchanged on the Landscape sentence). On 2026-10-03: aaif.io about, tc and staff pages; the aaif technical-committee, proposals, wg-* and ws-taxonomy-landscape repositories (read in full, all branches). On 2026-10-09: the charter, README and CONTRIBUTING.md of ws-taxonomy-landscape on main (commit 6ac90f5) and pull requests #61 and #83, read.",
+  "not_read": "The AAIF newsletter of 2026-10-26 (aaif.io/newsletter answered 404 on 2026-11-02); the names of the members, shown on aaif.io/members as logos. Discord, mailing lists, recordings, Google Documents.",
   "not_found": "Not found in the proposals repositories, 2026-10-03: AI Catalog, Agentic Resource Discovery (ARD), DAWN, UCP, Verifiable Intent."
  },
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/aaif-structure.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/c5e03ffd5fc9fe2bb8d62e49610c610c1c886890/entries/aaif-structure.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/784f3bb16c065735a5916c70c4f6402ba3209f4b/entries/aaif-structure.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }

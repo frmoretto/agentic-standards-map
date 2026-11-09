@@ -42,11 +42,11 @@
  ],
  "verified": "2026-11-02",
  "evidence": {
-  "read": "On 2026-11-02: the meetings folder of w3c-cg/agent-identity (file names) and the minutes of 2026-10-20 at commit 5abd5a6 (2026-10-29).",
+  "read": "On 2026-11-02: the meetings folder of w3c-cg/agent-identity (file names) and the minutes of 2026-10-20 at commit 5abd5a6 (2026-10-29). On 2026-10-13: the October 2026 index of public-agent-identity (4 messages, subjects and dates) and the chairs listed on the W3C group data. public-agent-identity (August to October 2026) read on 2026-10-03 without quoted replies.",
   "not_read": "Group description in full, files of the repository w3c-cg/agent-identity other than the meetings folder and the minutes of 2026-10-20, the landscape document, cross-posted documents.",
   "not_found": "Not found in those messages: agenticweb, webbotauth, kyapay, dif."
  },
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/w3c-agent-identity-registry-cg.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/c5e03ffd5fc9fe2bb8d62e49610c610c1c886890/entries/w3c-agent-identity-registry-cg.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/784f3bb16c065735a5916c70c4f6402ba3209f4b/entries/w3c-agent-identity-registry-cg.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }

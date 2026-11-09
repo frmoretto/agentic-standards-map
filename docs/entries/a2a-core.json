@@ -84,7 +84,7 @@
  ],
  "verified": "2026-11-09",
  "evidence": {
-  "read": "On 2026-11-09: GOVERNANCE.md of main and its commit 98279d6 of 2026-10-20 (eight seats became nine, Bloomberg added); the release list (latest still v1.0.1).",
+  "read": "On 2026-11-09: GOVERNANCE.md of main and its commit 98279d6 of 2026-10-20 (eight seats became nine, Bloomberg added); the release list (latest still v1.0.1). On 2026-10-19: the AAIF announcement of 2026-08-17, the A2A blog post of 2026-08-27, aaif.io/projects (Agent2Agent listed), README.md and GOVERNANCE.md of main (eight seats) and the release list (latest still v1.0.1). The README still says \"The A2A Protocol is an open source project under the Linux Foundation, contributed by Google.\" The change was proposed for the map in issue #7 (2026-10-18) by zeroasterisk, who disclosed: \"Proposer works at Google (Google contributed A2A to the Linux Foundation and donated AP2 to the FIDO Alliance); member of the AAIF Technical Steering Committee. No commercial interest in this map.\" On 2026-10-16: issue #2323 and docs/topics/extension-and-binding-governance.md. On 2026-10-13: the release list (latest v1.0.1, 2026-05-28),. On 2026-10-03: a2a.proto, docs/specification.md, GOVERNANCE.md, the release list. The Linux Foundation press release of 2025-06-23 (read 2026-10-03) announces the launch of the A2A project.",
   "not_read": "Technical Steering Committee (TSC) minutes and recordings, specification chapters beyond the definitions, the project's later announcements."
  },
  "open_proposals": [
@@ -97,6 +97,6 @@
   }
  ],
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/a2a-core.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/c5e03ffd5fc9fe2bb8d62e49610c610c1c886890/entries/a2a-core.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/784f3bb16c065735a5916c70c4f6402ba3209f4b/entries/a2a-core.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }

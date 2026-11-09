@@ -42,11 +42,11 @@
  ],
  "verified": "2026-10-13",
  "evidence": {
-  "read": "On 2026-10-13: the versions page of untp.unece.org (0.7.0 still the only stable release listed; the GitLab tag list was not queried again).",
+  "read": "On 2026-10-13: the versions page of untp.unece.org (0.7.0 still the only stable release listed; the GitLab tag list was not queried again). Work in Progress and 0.7.0 specification pages, 0.7.0 OpenAPI page and versions page, in full as HTML, 2026-10-02; GitLab tag list.",
   "not_read": "The response diagram of the Resolver Workflow (an image).",
   "not_found": "Not found in the prose of either specification page, 2026-10-02: any mention of 404."
  },
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/untp-identity-resolver.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/c5e03ffd5fc9fe2bb8d62e49610c610c1c886890/entries/untp-identity-resolver.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/784f3bb16c065735a5916c70c4f6402ba3209f4b/entries/untp-identity-resolver.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }

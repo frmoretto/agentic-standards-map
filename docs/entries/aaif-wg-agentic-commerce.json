@@ -70,7 +70,7 @@
  ],
  "verified": "2026-10-13",
  "evidence": {
-  "read": "On 2026-10-13: the repository file listing and commits to 2026-10-12, the charter targets, the August report (reporting/2026-08-report.md), issues #5 to #9, and the Running Notes document linked from the README (a Google Document shared by link): its last session heading is of 2026-07-22 and it does not mention a completed Capability Map.",
+  "read": "On 2026-10-13: the repository file listing and commits to 2026-10-12, the charter targets, the August report (reporting/2026-08-report.md), issues #5 to #9, and the Running Notes document linked from the README (a Google Document shared by link): its last session heading is of 2026-07-22 and it does not mention a completed Capability Map. Repository aaif/wg-agentic-commerce, 2026-10-02 and 2026-10-03: all issues, pull requests, discussions, branches and history since 2026-06-01; Running Notes, sessions 2026-02-18 to 2026-07-22.",
   "not_read": "Discord, the meeting record cited in PR #7, per-session Google Documents, the fork of PR #6.",
   "not_found": "Not found, 2026-10-13: Running Notes for a session after 2026-07-22; a Capability Map or Recommendations document. Not found in the product discovery notes, 2026-10-03: GS1, GTIN, schema.org."
  },
@@ -93,6 +93,6 @@
   }
  ],
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/aaif-wg-agentic-commerce.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/c5e03ffd5fc9fe2bb8d62e49610c610c1c886890/entries/aaif-wg-agentic-commerce.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/784f3bb16c065735a5916c70c4f6402ba3209f4b/entries/aaif-wg-agentic-commerce.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }

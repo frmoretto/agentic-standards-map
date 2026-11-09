@@ -46,11 +46,11 @@
  ],
  "verified": "2026-11-09",
  "evidence": {
-  "read": "On 2026-11-09: the draft minutes of the IG of 2026-10-26 and 2026-10-27 and of the Web Payments WG of 2026-10-29, and WebKit/explainers PR #160.",
+  "read": "On 2026-11-09: the draft minutes of the IG of 2026-10-26 and 2026-10-27 and of the Web Payments WG of 2026-10-29, and WebKit/explainers PR #160. Charter and group page read on 2026-10-02; webai-roadmap and ai-web-impact items read on 2026-10-03.",
   "not_read": "Member-only mailing list, wiki sub-pages, TPAC 2025 minutes of the IG; w3c/wpsig is empty in the files read.",
   "not_found": "Not found in the charter text, 2026-10-02: agent."
  },
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/w3c-web-payment-security-ig.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/c5e03ffd5fc9fe2bb8d62e49610c610c1c886890/entries/w3c-web-payment-security-ig.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/784f3bb16c065735a5916c70c4f6402ba3209f4b/entries/w3c-web-payment-security-ig.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }

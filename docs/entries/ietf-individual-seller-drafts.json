@@ -53,11 +53,11 @@
  ],
  "verified": "2026-11-02",
  "evidence": {
-  "read": "On 2026-11-02: the texts of draft-hood-agtp-merchant-identity-03 and draft-hood-agtp-commerce-01 (status, dates, abstract).",
+  "read": "On 2026-11-02: the texts of draft-hood-agtp-merchant-identity-03 and draft-hood-agtp-commerce-01 (status, dates, abstract). On 2026-10-13: the datatracker records of the three drafts (anders -01 of 2026-07-04, kavian -01 of 2026-09-04, hood -02 of 2026-05-26; no later revision) and the text of hood -02. Datatracker records of the anders and kavian drafts (abstracts, about 420 characters) and the text of hood -00, read 2026-10-02; DAWN and dnsop lists searched 2026-10-03.",
   "not_read": "Full texts of the anders and kavian drafts, authors' next steps, WG agendas, whether the kavian draft names UCP, ACP or GS1.",
   "not_found": "Not found in the DAWN list (2026-08-01 to 2026-10-02) and dnsop list text, 2026-10-03: names of the three drafts."
  },
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/ietf-individual-seller-drafts.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/c5e03ffd5fc9fe2bb8d62e49610c610c1c886890/entries/ietf-individual-seller-drafts.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/784f3bb16c065735a5916c70c4f6402ba3209f4b/entries/ietf-individual-seller-drafts.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }

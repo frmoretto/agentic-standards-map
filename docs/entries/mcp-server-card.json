@@ -104,7 +104,7 @@
  ],
  "verified": "2026-11-02",
  "evidence": {
-  "read": "On 2026-11-02: the text of draft-morrison-mcp-dns-discovery-09 (abstract, sections 5.3 and 5.3.6) and issue #22 of this map's repository (proposal and disclosure).",
+  "read": "On 2026-11-02: the text of draft-morrison-mcp-dns-discovery-09 (abstract, sections 5.3 and 5.3.6) and issue #22 of this map's repository (proposal and disclosure). On 2026-10-19: the charter page of the Server Card Working Group in the MCP governance pages (last modified 2026-06-16), \"Charter for the MCP Server Card Working Group\", which names SEP-2127 and ext-server-card, and aaif.io/projects (Model Context Protocol listed). The org follows from these two pages; neither the charter page nor the extension README names AAIF. The change was proposed for the map in issue #10 (2026-10-18) by zeroasterisk, who disclosed: \"Proposer works at Google (Google contributed A2A to the Linux Foundation and donated AP2 to the FIDO Alliance); member of the AAIF Technical Steering Committee. No commercial interest in this map.\" On 2026-10-13: PR #2127 with its labels and files, the SEP file seps/2127-mcp-server-cards.md, the README of the extension repository and the state of PR #47 and issues #13, #30, #43, #44, #48 and #50. ext-server-card: README, discovery.md, all issues and PRs in full; core repository since 2026-01-01: PR #2127, notes, Discussions #2831, #2896.",
   "not_read": "Issue #1649 comments, Core Maintainer meetings, external links.",
   "not_found": "Not found there (2026-10-03): GTIN, GS1."
  },
@@ -151,6 +151,6 @@
   }
  ],
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/mcp-server-card.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/c5e03ffd5fc9fe2bb8d62e49610c610c1c886890/entries/mcp-server-card.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/784f3bb16c065735a5916c70c4f6402ba3209f4b/entries/mcp-server-card.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }

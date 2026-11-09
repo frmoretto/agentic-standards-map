@@ -67,10 +67,10 @@
  ],
  "verified": "2026-10-16",
  "evidence": {
-  "read": "On 2026-10-16: the README of agent-network-protocol/AgentNetworkProtocol, the v1.2 release notes, ANP-07, ANP-08 and ANP-10, the specification index of agent-network-protocol.com, and the editor field of the Community Group protocol draft.",
+  "read": "On 2026-10-16: the README of agent-network-protocol/AgentNetworkProtocol, the v1.2 release notes, ANP-07, ANP-08 and ANP-10, the specification index of agent-network-protocol.com, and the editor field of the Community Group protocol draft. The entry was proposed in issue #6 (2026-10-16) by the ANP maintainer, who declared there the roles of co-chair of the W3C AI Agent Protocol Community Group and founder of Vector Consensus, which builds agent connectivity infrastructure related to ANP.",
   "not_read": "ANP-02 to ANP-06 and the Messaging profiles beyond their status lines; the SDK and implementation repositories."
  },
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/anp.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/c5e03ffd5fc9fe2bb8d62e49610c610c1c886890/entries/anp.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/784f3bb16c065735a5916c70c4f6402ba3209f4b/entries/anp.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }
