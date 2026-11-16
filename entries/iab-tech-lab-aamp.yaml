@@ -3,7 +3,7 @@ name: IAB Tech Lab AAMP 3.0 and OpenProposal (agentic advertising, draft)
 org: Industry
 kind: work-item
 tier: context
-status: IAB Tech Lab announced AAMP 3.0, "the next major release of its Agentic Advertising Management Protocols framework", on 2026-09-22, with the specification OpenProposal, whose public comment period ran "until October 22, 2026". The README of IABTechLab/OpenProposal says "Nothing here is a ratified IAB Tech Lab standard.", and the specification at tag v3.0-draft-1 (2026-09-20) is headed "AAMP 3.0 · Draft for public comment" (read 2026-10-23).
+status: 'IAB Tech Lab announced AAMP 3.0, "the next major release of its Agentic Advertising Management Protocols framework", on 2026-09-22, with the specification OpenProposal, announced for public comment "until October 22, 2026"; read 2026-11-16, the press release carries the undated notice "BREAKING NEWS: Due to overwhelming feedback we are extending public comment to Tuesday, November 10, 2026.". The README of IABTechLab/OpenProposal says "Nothing here is a ratified IAB Tech Lab standard.", and the specification at tag v3.0-draft-1 (2026-09-20) is headed "AAMP 3.0 · Draft for public comment" (read 2026-10-23).'
 status_as_of: 2026-10-23
 relevance: 'The README of IABTechLab/AAMP says "AAMP is the umbrella initiative under which all of Tech Lab''s Agentic work is being developed in partnership with the advertising ecosystem."; OpenProposal "defines how sellers can represent advertising products and respond to buyer briefs in a standardized, agent-readable format", and the release describes AAMP 3.0 as a way "for buyers and sellers to move from an RFP through proposal evaluation and toward a buy commitment". Open proposals in its repositories, all open on 2026-10-23, touch discovery and agent identity: a manifest at `/.well-known/openproposal.json` (OpenProposal issue #29) and IETF Web Bot Auth as the agent identity and request-signing profile (AAMP issue #3); see Open proposals.'
 committed_next: []
@@ -18,13 +18,13 @@ sources:
   read: 2026-10-23
   class: normative
 - url: https://iabtechlab.com/press-releases/iab-tech-lab-introduces-aamp-3-0-with-openproposal/
-  read: 2026-10-23
+  read: 2026-11-16
   class: decision
 overlaps:
 - ietf-webbotauth
-verified: 2026-10-23
+verified: 2026-11-16
 evidence:
-  read: 'On 2026-10-23: the README of IABTechLab/AAMP; the README of IABTechLab/OpenProposal and the header and status of spec/openproposal-3.0.md at tag v3.0-draft-1; the IAB Tech Lab press release of 2026-09-22 ("IAB Tech Lab Introduces AAMP 3.0 to Standardize the RFP-to-Buy Process for Agentic Advertising"); issues AAMP #3 and OpenProposal #29, #61 and #62 (state, date, comments).'
+  read: 'On 2026-11-16: the IAB Tech Lab press release on AAMP 3.0 (notice above the headline). On 2026-10-23: the README of IABTechLab/AAMP; the README of IABTechLab/OpenProposal and the header and status of spec/openproposal-3.0.md at tag v3.0-draft-1; the IAB Tech Lab press release of 2026-09-22 ("IAB Tech Lab Introduces AAMP 3.0 to Standardize the RFP-to-Buy Process for Agentic Advertising"); issues AAMP #3 and OpenProposal #29, #61 and #62 (state, date, comments).'
   not_read: The rest of the OpenProposal specification, its examples, the repositories agentic-direct, buyer-agent and seller-agent, and the Agent Registry.
 open_proposals:
 - what: 'OpenProposal section 2.3: a seller may publish a static manifest of standard proposals at /.well-known/openproposal.json.'

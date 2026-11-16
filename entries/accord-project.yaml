@@ -5,7 +5,7 @@ kind: specification
 tier: context
 status: 'Open-source smart legal contract stack of Accord Project, a Series of LF Projects, LLC; its documentation page "Agentic Commerce" (no date on the page, last changed 2026-07-07 in the repository history, read 2026-10-15) describes it as the agreement layer beneath authorization and checkout protocols. The Concerto model of x402 presented on 2026-07-22 is pull request #194 of accordproject/models, open on 2026-10-15 (last update 2026-08-05).'
 status_as_of: 2026-10-15
-relevance: 'The documentation page says "Accord Project is the agreement layer" and calls its three integration patterns (an authorization credential binding a contract by hash, Concerto as schema language for a constraint registry, contract logic for terms "authorization can''t enforce") "illustrative", describing "technical fit, not partnerships or endorsements" with AP2, UCP, ACP and Verifiable Intent. Two prototypes by individual members of the project''s Technical Steering Committee (TSC), outside the project''s repositories and without licence or release, apply them with stubbed or simulated settlement: mttrbrts/agentic-obligations (last commit 2026-05-20) and The-Building-Blocks/accord-x402-contract-server (last commit 2026-07-30). They bind a contract reference in AP2 mandates and in x402 payment requirements, and the second says the x402 payment signature "does not sign the Accord `agreementHash`".'
+relevance: 'The documentation page says "Accord Project is the agreement layer" and calls its three integration patterns (an authorization credential binding a contract by hash, Concerto as schema language for a constraint registry, contract logic for terms "authorization can''t enforce") "illustrative", describing "technical fit, not partnerships or endorsements" with AP2, UCP, ACP and Verifiable Intent. Two prototypes by individual members of the project''s Technical Steering Committee (TSC), outside the project''s repositories and without licence, apply them with stubbed or simulated settlement: mttrbrts/agentic-obligations (last commit 2026-05-20 when read on 2026-10-15; on 2026-11-16 a new commit and a release, "agent-saas-authority 0.1.0") and The-Building-Blocks/accord-x402-contract-server (last commit 2026-07-30). They bind a contract reference in AP2 mandates and in x402 payment requirements, and the second says the x402 payment signature "does not sign the Accord `agreementHash`".'
 boundary: 'The documentation page: "Accord Project is not an identity, authorization, or payment layer. It does not issue credentials, perform key binding, or implement selective disclosure"; its footer says "The Accord Project is not a standards setting body or organization."'
 committed_next:
 - what: 'Q3 2026 review, "Plans & Upcoming Work": "Publish the agentic commerce blog series, starting with x402 and followed by A2A, with a docs page for each protocol". The review''s summary of the meeting of 2026-07-22 records an agreement: "The group agreed to take x402 all the way through model, example, docs and blog post before releasing the AP2, A2A and other bindings."'
@@ -29,7 +29,7 @@ sources:
   read: 2026-10-15
   class: statement
 - url: https://github.com/mttrbrts/agentic-obligations
-  read: 2026-10-15
+  read: 2026-11-16
   class: third-party
 - url: https://github.com/The-Building-Blocks/accord-x402-contract-server
   read: 2026-10-15
@@ -43,9 +43,9 @@ overlaps:
 - ap2
 - ucp
 - acp
-verified: 2026-10-16
+verified: 2026-11-16
 evidence:
-  read: 'On 2026-10-15: the documentation page "Agentic Commerce" and its change history, the written summaries of the Q3 2026 review (15 meetings, 2026-07-01 to 2026-09-30), the state of accordproject/models PR #194, the LCP and MCP sections of the APAP server README, the member list of the TSC README (last changed 2022-10-07), and the README, root listing, contributors and latest commit of mttrbrts/agentic-obligations and The-Building-Blocks/accord-x402-contract-server. On 2026-10-16: issue #1 of this repository, in which the entry was proposed on 2026-10-14 by the chair of the project''s TSC, who declares having written the mttrbrts/agentic-obligations prototype; the x402 prototype is by another TSC member.'
+  read: 'On 2026-11-16: the commits, releases and licence of mttrbrts/agentic-obligations and The-Building-Blocks/accord-x402-contract-server (GitHub API). On 2026-10-15: the documentation page "Agentic Commerce" and its change history, the written summaries of the Q3 2026 review (15 meetings, 2026-07-01 to 2026-09-30), the state of accordproject/models PR #194, the LCP and MCP sections of the APAP server README, the member list of the TSC README (last changed 2022-10-07), and the README, root listing, contributors and latest commit of mttrbrts/agentic-obligations and The-Building-Blocks/accord-x402-contract-server. On 2026-10-16: issue #1 of this repository, in which the entry was proposed on 2026-10-14 by the chair of the project''s TSC, who declares having written the mttrbrts/agentic-obligations prototype; the x402 prototype is by another TSC member.'
   not_read: The meeting recordings on Vimeo linked from the review, which were not opened because the host asks for a human verification step; the code and tests of the two prototype repositories; the A2A interface code of APAP.
 open_proposals:
 - what: Concerto model org.accordproject.protocol.x402@0.2.0 of x402 specification v2 (payment requirements and payloads, facilitator responses, header binding).

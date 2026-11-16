@@ -65,6 +65,26 @@ Archive copies: snapshots of the cited sources were requested on 2026-10-14 from
 
 **Changelog.**
 
+**Since 1.5 (not a numbered version).** Corrections to the living version, read again at the source on 2026-11-16, for the next numbered version.
+
+- `trace`: Correction to 1.5: version 1.5 said that MAINTAINERS.md no longer lists the two OPAQUE Systems spec editors; since 2026-10-15 it lists them under Emeritus and says that they remain owners of the agentrust-io organization. The status of 1.4 kept in the evidence carries a dated note.
+- `ucp`: Correction to 1.5: pull request #890, merged on 2026-11-10, was still given as a draft in the open proposals and in the payment comparison row; the row now quotes the merged text on the record against which a dispute is resolved.
+- `ucp`: nominations for the Local Services and B2B Procurement councils opened on 2026-11-14; Discussion #864 has eight comments, none from a maintainer; the Known Good page records a correction of 13 October to its checkout count.
+- `accord-project`: a new commit and a release of the mttrbrts/agentic-obligations prototype on 2026-11-16.
+- `iab-tech-lab-aamp`: the press release announces that the OpenProposal comment period was extended to 2026-11-10.
+- `w3c-did-resolution`: Candidate Recommendation Draft of 2026-11-15.
+- `ietf-webbotauth`: the working group draft is at revision -01 of 2026-10-29.
+- `kyapay`: kyapay-token-04 and using-kyapay-tokens-03 (2026-11-16).
+- `ietf-agentproto`: the charter page is now headed "Charter", no longer "Proposed Charter".
+- `mcp-core`: the specification directory also holds 2024-11-05, missing from the list read on 2026-10-13.
+- `pap`: the quotations of version 0.1 now point to the versioned pages of 0.1, since the unversioned addresses serve version 1.0; the boundary follows the Path to 1.0 page as it reads now.
+- `aaif-identity-trust`: the address of a proofable/docs commit had a wrong last character in its hash; corrected.
+- `emvco-agentic-payments-framework`: three EMVCo pages moved to /news-publications/; same content, new addresses.
+- `w3c-did-wg`: the charter of the Decentralized Identifier Working Group was approved on 2026-11-16 and runs to 16 November 2028; the entry is no longer named a proposed charter.
+- `w3c-did-methods-wg`: the charter of the DID Methods Working Group was approved on 2026-11-13 and runs to 3 November 2028; the entry is no longer named a proposed charter.
+- Disclosure: a reply of the author of this map on the list of the W3C Agent Identity Registry CG (2026-10-26).
+- Changelog of 1.5: one wording change in the line on the nine status rewrites.
+
 **1.5 (2026-11-16).** No entry added; corrections and additions to the living version. Facts dated after Friday 2026-11-13 are deferred to 1.6, except corrections of the state of a source already cited, read again at the source on 2026-11-16 (among them version 1.0 of the Personal Agent Protocol, published on 2026-11-14).
 
 Corrections:
@@ -84,7 +104,7 @@ Additions:
 - `ucp`: purchase options and subscription policy (pull request #890, merged on 2026-11-10); the reference price `list_price` (pull request #1016 with #1031, merged on 2026-11-09); the minutes of each council read in the folders, with the date each was added, at 2026-11-13.
 - `ietf-audit`: the BoF agenda for IETF 127 (2026-11-08); the number of issues and pull requests of the architecture draft repository.
 - `ietf-wimse-aims`: sections 10.1, 10.8 and 11 of revision -01.
-- Status: nine entries whose status had piled up readings (`ietf-vcon`, `ietf-agentproto`, `aaif-identity-trust`, `trace`, `ietf-webbotauth`, `w3c-did-resolution`, `ietf-audit`, `w3c-ai-agent-protocol-cg`, `ietf-dnsaid`) give the current state; the status of 1.4 is kept word for word in the evidence of each, as for `ucp` in 1.4.
+- Status: nine entries whose status had grown into a list of readings (`ietf-vcon`, `ietf-agentproto`, `aaif-identity-trust`, `trace`, `ietf-webbotauth`, `w3c-did-resolution`, `ietf-audit`, `w3c-ai-agent-protocol-cg`, `ietf-dnsaid`) give the current state; the status of 1.4 is kept word for word in the evidence of each, as for `ucp` in 1.4.
 - Calendar: the 60-day window moved to 2026-11-16, past rows removed, the IETF 127 times read again on the datatracker, the aipref sessions added.
 - Disclosure: contributions of the author of this map from 2026-11-03 to 2026-11-13.
 - Site: the home page gives the counts of entries, primary sources, links and seams, generated from the files at each build.

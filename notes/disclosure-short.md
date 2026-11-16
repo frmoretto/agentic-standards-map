@@ -20,6 +20,7 @@ The author of this map, Francesco Marinoni Moretto, has the following public int
 - A2A, issue #2276: entry `a2a-discovery`; seam S1.
 - ARD and Lighthouse (issues #17251 and #17271, PRs #17260 and #17272, ARD PR #100, merged): entry `ard`; seam S1.
 - AI Catalog, one comment on PR #117: entry `lf-ai-catalog`; seam S1.
+- W3C Agent Identity Registry CG, one reply on the list (2026-10-26): entry `w3c-agent-identity-registry-cg`.
 - IETF DAWN list: entry `ietf-dawn`; seam S1.
 - IETF Web Bot Auth, crawler best practices (cbcp): entry `ietf-webbotauth`; seam S3.
 - IETF AUDIT list and architecture draft issue #35: entry `ietf-audit`; seams S4 and the closing section on what is not established.

@@ -1,10 +1,10 @@
 id: w3c-did-methods-wg
-name: W3C DID Methods Working Group (proposed charter)
+name: W3C DID Methods Working Group
 org: W3C
 kind: charter
 tier: context
-status: Proposed charter in Advisory Committee review (2026-09-30); public comments invited through 2026-10-28.
-status_as_of: 2026-10-13
+status: 'Charter approved on 2026-11-13: the follow-up on public-new-work says that "W3C has approved the charter of the DID Methods Working Group today", and the call for participation relayed on the group''s list says "The group is chartered through 3 November 2028"; the charter page (www.w3.org/2026/11/did-methods-wg-charter.html) gives the start date 13 November 2026 and the end date 3 November 2028 (read 2026-11-16). The proposed charter had been in Advisory Committee review from 2026-09-30, with public comments invited through 2026-10-28.'
+status_as_of: 2026-11-16
 relevance: 'Mission: "to standardize DID Methods that use Web technologies"; a separate maintenance charter for the existing Decentralized Identifier (DID) Working Group (WG), whose mission includes DID Resolution, went into refinement on 2026-08-10 and was sent to the Advisory Committee on 2026-10-07, with public comments invited through 2026-11-05 (see w3c-did-wg).'
 sources:
 - url: https://www.w3.org/2026/09/proposed-did-methods-wg-charter.html
@@ -19,11 +19,20 @@ sources:
 - url: https://lists.w3.org/Archives/Public/public-new-work/2026Oct/0008.html
   read: 2026-10-13
   class: decision
+- url: https://www.w3.org/2026/11/did-methods-wg-charter.html
+  read: 2026-11-16
+  class: normative
+- url: https://lists.w3.org/Archives/Public/public-new-work/2026Nov/0006.html
+  read: 2026-11-16
+  class: decision
+- url: https://lists.w3.org/Archives/Public/public-didm-wg/2026Nov/0000.html
+  read: 2026-11-16
+  class: decision
 overlaps:
 - w3c-did-resolution
 - w3c-did-wg
-verified: 2026-10-13
+verified: 2026-11-16
 evidence:
-  read: Charter read in full on 2026-10-02; announcement of 2026-09-30 read on 2026-10-03 and again on 2026-10-13, with the announcements of 2026-08-10 (start of refinement of the DID WG maintenance charter) and 2026-10-07 (proposed DID WG charter sent to the Advisory Committee).
+  read: 'On 2026-11-16 (after version 1.5): the approved charter page in full (start and end date, chairs), the follow-up on public-new-work (message 0006) and the call for participation relayed on public-didm-wg (message 0000); the words agent, AI, commerce, merchant, payment and delegat are again absent from the approved charter text. Charter read in full on 2026-10-02; announcement of 2026-09-30 read on 2026-10-03 and again on 2026-10-13, with the announcements of 2026-08-10 (start of refinement of the DID WG maintenance charter) and 2026-10-07 (proposed DID WG charter sent to the Advisory Committee).'
   not_read: The public-review-comments list.
   not_found: 'Not found in the charter text, 2026-10-02: agent, AI, commerce, merchant, payment, delegat (word stem).'

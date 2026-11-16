@@ -11,17 +11,17 @@ relevance: 'The press release of 2026-09-01 says the draft framework for card pa
 boundary: EMVCo "may consider capabilities related to Know Your Agent (KYA) and Agentic Transaction Indicators to be included in future publications".
 committed_next: []
 sources:
-- url: https://www.emvco.com/news/emvco-requests-feedback-on-framework-for-secure-interoperable-and-scalable-card-based-agentic-payments/
-  read: 2026-10-02
+- url: https://www.emvco.com/news-publications/emvco-requests-feedback-on-framework-for-secure-interoperable-and-scalable-card-based-agentic-payments/
+  read: 2026-11-16
   class: decision
 - url: https://www.emvco.com/resources/emv-agentic-payments-framework-for-specifications-v1-0-draft-comment-period-ends-30-sept-2026/
   read: 2026-10-02
   class: statement
-- url: https://www.emvco.com/knowledge-hub/how-emvco-is-working-to-enable-secure-interoperable-and-scalable-card-based-agentic-payments/
-  read: 2026-10-02
+- url: https://www.emvco.com/news-publications/how-emvco-is-working-to-enable-secure-interoperable-and-scalable-card-based-agentic-payments/
+  read: 2026-11-16
   class: statement
-- url: https://www.emvco.com/news/emvco-newsletter-q3-2026/
-  read: 2026-10-13
+- url: https://www.emvco.com/news-publications/emvco-newsletter-q3-2026/
+  read: 2026-11-16
   class: statement
 - url: https://www.emvco.com/news/
   read: 2026-10-13
@@ -32,9 +32,9 @@ overlaps:
 - ap2
 seams:
 - S4
-verified: 2026-10-13
+verified: 2026-11-16
 evidence:
-  read: 'On 2026-10-13, as HTML: the news list (71 results, newest the newsletter of 2026-10-09), the newsletter Q3 2026 and the resource page of the draft (title and page text only). On 2026-10-02, as HTML: press release of 2026-09-01, news list (newest item 2026-09-01), resource page (title only), EMV Insights article of 2026-09-01.'
+  read: 'On 2026-11-16: three EMVCo pages at their new addresses under /news-publications/ (the old addresses answer with a redirect); each quotation of this entry found in the earlier copies is found in the copies of 2026-11-16. On 2026-10-13, as HTML: the news list (71 results, newest the newsletter of 2026-10-09), the newsletter Q3 2026 and the resource page of the draft (title and page text only). On 2026-10-02, as HTML: press release of 2026-09-01, news list (newest item 2026-09-01), resource page (title only), EMV Insights article of 2026-09-01.'
   not_read: The draft document itself; matrix cells rest on the press release and the Insights article.
 matrix:
   governance: EMVCo, Agentic Payments Task Force; collaboration with FIDO Alliance, OpenID Foundation, OpenWallet Foundation and W3C
@@ -43,4 +43,4 @@ matrix:
   signer: 'not assessed: the public-feedback draft was not read; press release and Insights article only (2026-10-02)'
   record: Intent Services register, reference, retrieve and manage consumer-authorised intent (press release); draft not read
   dispute: 'not assessed: the public-feedback draft was not read; press release and Insights article only (2026-10-02)'
-  source: https://www.emvco.com/news/emvco-requests-feedback-on-framework-for-secure-interoperable-and-scalable-card-based-agentic-payments/
+  source: https://www.emvco.com/news-publications/emvco-requests-feedback-on-framework-for-secure-interoperable-and-scalable-card-based-agentic-payments/

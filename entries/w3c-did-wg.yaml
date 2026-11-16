@@ -1,10 +1,10 @@
 id: w3c-did-wg
-name: W3C Decentralized Identifier Working Group (proposed charter)
+name: W3C Decentralized Identifier Working Group
 org: W3C
 kind: charter
 tier: context
-status: Proposed maintenance charter sent to the Advisory Committee on 2026-10-07; W3C invites public comments through 2026-11-05, and the Advisory Committee call for review closes at 23:59 UTC on 2026-11-05. The current charter of the group "is hereby extended until 31 January 2027"; the start and end dates in the proposed charter text are placeholders.
-status_as_of: 2026-10-09
+status: 'Charter approved on 2026-11-16: the announcement relayed on public-new-work and on the group''s list says that "W3C has approved the charter of the Decentralized Identifier (DID) Working Group today" and that "The group is chartered through 16 November 2028"; the charter page (www.w3.org/2026/11/did-wg-charter.html) gives the start date 16 November 2026 and the end date 16 November 2028 (read 2026-11-16). The proposed maintenance charter had been sent to the Advisory Committee on 2026-10-07, with public comments through 2026-11-05.'
+status_as_of: 2026-11-16
 relevance: 'The mission "is to maintain the specifications produced so far by the Working Group": Decentralized Identifiers and Decentralized Identifier (DID) Resolution; the listed chairs are Will Abramson and Otto Mora. Out of scope are class 4 changes to the DID specification, authentication or authorization protocols, and browser APIs; further notes "will not include DID Method specifications and will not address issues regarding any particular DID Methods". The charter text contains no occurrence of agent, payment, product or commerce (2026-10-08). The call for review says "The Controlled Identifiers (CIDs) recommendation, which is foundational to Decentralized Identifiers, is now also maintained by the DID Working Group." and "The Advisory Committee Representatives of current participants will need to have their organizations re-join the group if the revised charter gets approved."'
 sources:
 - url: https://www.w3.org/2026/10/proposed-did-wg-charter.html
@@ -16,11 +16,20 @@ sources:
 - url: https://lists.w3.org/Archives/Public/public-did-wg/2026Oct/0002.html
   read: 2026-10-09
   class: decision
+- url: https://www.w3.org/2026/11/did-wg-charter.html
+  read: 2026-11-16
+  class: normative
+- url: https://lists.w3.org/Archives/Public/public-new-work/2026Nov/0007.html
+  read: 2026-11-16
+  class: decision
+- url: https://lists.w3.org/Archives/Public/public-did-wg/2026Nov/0004.html
+  read: 2026-11-16
+  class: decision
 overlaps:
 - w3c-did-resolution
 - w3c-did-methods-wg
-verified: 2026-10-09
+verified: 2026-11-16
 evidence:
-  read: The proposed charter page in full and the announcement of 2026-10-07, read 2026-10-08.
+  read: 'On 2026-11-16 (after version 1.5): the approved charter page in full (start and end date, chairs), the call for participation relayed on public-did-wg (message 0004) and the follow-up on public-new-work (message 0007); the words agent, payment, product and commerce are again absent from the approved charter text. The proposed charter page in full and the announcement of 2026-10-07, read 2026-10-08.'
   not_read: The charter's GitHub history and issues, the public-review-comments archive, the current charter of the group.
   not_found: 'Not found, 2026-10-08: agent, payment, product, commerce.'
