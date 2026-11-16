@@ -4,7 +4,7 @@
  "org": "AAIF",
  "kind": "specification",
  "tier": "context",
- "status": "Specification version 2026-07-28 (the latest release is 2026-07-28; the specification directory holds 2025-03-26, 2025-06-18, 2025-11-25, 2026-07-28 and a draft; no later release, read 2026-10-13); the blog post of 2025-12-09 says \"Anthropic is donating MCP to the Agentic AI Foundation\".",
+ "status": "Specification version 2026-07-28 (the latest release is 2026-07-28; the specification directory holds 2024-11-05, 2025-03-26, 2025-06-18, 2025-11-25, 2026-07-28 and a draft; no later release, read 2026-10-13); the blog post of 2025-12-09 says \"Anthropic is donating MCP to the Agentic AI Foundation\".",
  "status_as_of": "2026-10-13",
  "relevance": "The specification describes MCP as \"an open protocol that enables seamless integration between LLM applications and external data sources and tools\"; discovery is in mcp-server-card and lf-ai-catalog.",
  "sources": [
@@ -39,13 +39,13 @@
  "seams": [
   "S1"
  ],
- "verified": "2026-10-19",
+ "verified": "2026-11-16",
  "evidence": {
-  "read": "The change was proposed for the map in issue #9 (2026-10-18) by zeroasterisk, who disclosed: \"Proposer works at Google (Google contributed A2A to the Linux Foundation and donated AP2 to the FIDO Alliance); member of the AAIF Technical Steering Committee. No commercial interest in this map.\" On 2026-10-13: the list of releases and the specification directory of the repository; the blog post, the governance page and the versioning page were not re-read. On 2026-10-03: specification, versioning and governance pages, blog post, README, GOVERNANCE.md, releases.",
+  "read": "On 2026-11-16: the folder docs/specification of modelcontextprotocol/modelcontextprotocol on main and at 5ea9960, the head of main on 2026-10-13 (GitHub API); 2024-11-05 was already there, missing from the list read on 2026-10-13. The change was proposed for the map in issue #9 (2026-10-18) by zeroasterisk, who disclosed: \"Proposer works at Google (Google contributed A2A to the Linux Foundation and donated AP2 to the FIDO Alliance); member of the AAIF Technical Steering Committee. No commercial interest in this map.\" On 2026-10-13: the list of releases and the specification directory of the repository; the blog post, the governance page and the versioning page were not re-read. On 2026-10-03: specification, versioning and governance pages, blog post, README, GOVERNANCE.md, releases.",
   "not_read": "Full text of each specification chapter, the Specification Enhancement Proposal (SEP) process pages, licence texts beyond README and GOVERNANCE.md.",
   "not_found": "On 2026-10-19: aaif.io/projects, which lists Model Context Protocol among the projects AAIF hosts, and the governance page (last modified 2026-08-05), where AAIF, Agentic AI Foundation and Linux Foundation are not found. Not found on the governance and specification pages: foundation, AAIF, Linux."
  },
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/mcp-core.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/2b94370f4d9a91b7a8e8d763b34c8d091b8650b5/entries/mcp-core.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/450f10bf4c7103951b42959752e0c3ab84312b82/entries/mcp-core.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }

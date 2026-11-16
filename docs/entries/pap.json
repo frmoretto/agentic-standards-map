@@ -16,24 +16,22 @@
    "class": "statement"
   }
  ],
- "boundary": "The Path to 1.0 page lists as areas \"the draft doesn't cover yet\": payments (\"How a personal agent makes payments in a way that fits the protocol, including how that works with existing payment protocols.\"), push notifications and attachments (\"such as receipts, return labels, product images, or forms for the user to fill in\").",
+ "boundary": "The Path to 1.0 page (read 2026-11-16) points to a roadmap of \"the areas we expect to work on next, including the ones the spec doesn't cover yet, such as payments, push notifications, and attachments\".",
  "sources": [
   {
-   "url": "https://personalagentprotocol.org/docs/spec",
-   "archived": "https://web.archive.org/web/20261011194420/https://personalagentprotocol.org/docs/spec",
+   "url": "https://personalagentprotocol.org/docs/0.1/spec",
    "read": "2026-11-16",
    "class": "normative"
   },
   {
-   "url": "https://personalagentprotocol.org/docs/extensions/operations",
-   "archived": "https://web.archive.org/web/20261010012107/https://personalagentprotocol.org/docs/extensions/operations",
-   "read": "2026-10-13",
+   "url": "https://personalagentprotocol.org/docs/0.1/extensions/operations",
+   "read": "2026-11-16",
    "class": "normative"
   },
   {
    "url": "https://personalagentprotocol.org/docs/open-topics",
    "archived": "https://web.archive.org/web/20261011190257/https://personalagentprotocol.org/docs/open-topics",
-   "read": "2026-10-13",
+   "read": "2026-11-16",
    "class": "statement"
   },
   {
@@ -79,6 +77,11 @@
    "class": "third-party"
   },
   {
+   "url": "https://personalagentprotocol.org/docs/1.0/spec",
+   "read": "2026-11-16",
+   "class": "normative"
+  },
+  {
    "url": "https://personalagentprotocol.org/docs/changelog",
    "read": "2026-11-16",
    "class": "normative"
@@ -115,11 +118,11 @@
  ],
  "verified": "2026-11-16",
  "evidence": {
-  "read": "On 2026-11-16: the history of content/versions/versions.json in the specification's repository (commits 4803900 and 8c02b42), the commit 8c02b42 (files changed), the releases and tags of the repository (none), the changelog page and the specification page of personalagentprotocol.org (redirect from /docs/spec to /docs/1.0/spec). Version 1.0 was published after Friday 2026-11-13 and enters as a correction of the state of a source already cited (patch level); its content is left to a later version. On 2026-11-09: the commits of the specification's repository to 2026-11-06 (publication of 0.2 and 0.3), its Demos page at commit 2289293, Sierra's landing page and blog sitemap (no post on PAP after 2026-10-09). On 2026-10-13: the specification, the operations extension, the extensions page, the Path to 1.0 page, the home page and the licence page of personalagentprotocol.org (each marked \"Updated Oct 12, 2026\" where the page carries a date), the Sierra blog of 2026-10-09, the Decagon blog of 2026-10-06 and the IANA well-known URI registry XML. On 2026-10-08: the Sierra announcement of 2026-10-06 in full, one trade article on it and one on the Shopify and Meta agreement.",
+  "read": "On 2026-11-16 (after version 1.5): the pages of version 0.1 at their versioned addresses, /docs/0.1/spec and /docs/0.1/extensions/operations, where the quotations of the relevance read on 2026-10-13 are found word for word (the unversioned addresses now serve version 1.0); and the Path to 1.0 page, now /docs/path-to-1, for the boundary. The content of version 1.0 is not read for this entry. On 2026-11-16: the history of content/versions/versions.json in the specification's repository (commits 4803900 and 8c02b42), the commit 8c02b42 (files changed), the releases and tags of the repository (none), the changelog page and the specification page of personalagentprotocol.org (redirect from /docs/spec to /docs/1.0/spec). Version 1.0 was published after Friday 2026-11-13 and enters as a correction of the state of a source already cited (patch level); its content is left to a later version. On 2026-11-09: the commits of the specification's repository to 2026-11-06 (publication of 0.2 and 0.3), its Demos page at commit 2289293, Sierra's landing page and blog sitemap (no post on PAP after 2026-10-09). On 2026-10-13: the specification, the operations extension, the extensions page, the Path to 1.0 page, the home page and the licence page of personalagentprotocol.org (each marked \"Updated Oct 12, 2026\" where the page carries a date), the Sierra blog of 2026-10-09, the Decagon blog of 2026-10-06 and the IANA well-known URI registry XML. On 2026-10-08: the Sierra announcement of 2026-10-06 in full, one trade article on it and one on the Shopify and Meta agreement.",
   "not_read": "The sections of the specification beyond the discovery, agent identity and confirmation texts quoted, the PACT specification, any Meta publication on the protocol, the TechRepublic article on Meta's Muse (not retrievable on 2026-10-08).",
   "not_found": "Not found, 2026-10-13: poppy.json in the IANA well-known URI registry XML; a standards body, foundation or working group in the pages of the site read (home, specification, extensions, operations, Path to 1.0, licence); UCP, A2A and Web Bot Auth in the same pages."
  },
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/pap.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/2b94370f4d9a91b7a8e8d763b34c8d091b8650b5/entries/pap.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/450f10bf4c7103951b42959752e0c3ab84312b82/entries/pap.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }

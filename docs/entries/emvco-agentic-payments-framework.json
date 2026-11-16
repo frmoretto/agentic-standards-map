@@ -11,9 +11,8 @@
  "committed_next": [],
  "sources": [
   {
-   "url": "https://www.emvco.com/news/emvco-requests-feedback-on-framework-for-secure-interoperable-and-scalable-card-based-agentic-payments/",
-   "archived": "https://web.archive.org/web/20261014064219/https://www.emvco.com/news/emvco-requests-feedback-on-framework-for-secure-interoperable-and-scalable-card-based-agentic-payments/",
-   "read": "2026-10-02",
+   "url": "https://www.emvco.com/news-publications/emvco-requests-feedback-on-framework-for-secure-interoperable-and-scalable-card-based-agentic-payments/",
+   "read": "2026-11-16",
    "class": "decision"
   },
   {
@@ -23,15 +22,13 @@
    "class": "statement"
   },
   {
-   "url": "https://www.emvco.com/knowledge-hub/how-emvco-is-working-to-enable-secure-interoperable-and-scalable-card-based-agentic-payments/",
-   "archived": "https://web.archive.org/web/20261014064500/https://www.emvco.com/knowledge-hub/how-emvco-is-working-to-enable-secure-interoperable-and-scalable-card-based-agentic-payments/",
-   "read": "2026-10-02",
+   "url": "https://www.emvco.com/news-publications/how-emvco-is-working-to-enable-secure-interoperable-and-scalable-card-based-agentic-payments/",
+   "read": "2026-11-16",
    "class": "statement"
   },
   {
-   "url": "https://www.emvco.com/news/emvco-newsletter-q3-2026/",
-   "archived": "https://web.archive.org/web/20261014064554/https://www.emvco.com/news/emvco-newsletter-q3-2026/",
-   "read": "2026-10-13",
+   "url": "https://www.emvco.com/news-publications/emvco-newsletter-q3-2026/",
+   "read": "2026-11-16",
    "class": "statement"
   },
   {
@@ -49,9 +46,9 @@
  "seams": [
   "S4"
  ],
- "verified": "2026-10-13",
+ "verified": "2026-11-16",
  "evidence": {
-  "read": "On 2026-10-13, as HTML: the news list (71 results, newest the newsletter of 2026-10-09), the newsletter Q3 2026 and the resource page of the draft (title and page text only). On 2026-10-02, as HTML: press release of 2026-09-01, news list (newest item 2026-09-01), resource page (title only), EMV Insights article of 2026-09-01.",
+  "read": "On 2026-11-16: three EMVCo pages at their new addresses under /news-publications/ (the old addresses answer with a redirect); each quotation of this entry found in the earlier copies is found in the copies of 2026-11-16. On 2026-10-13, as HTML: the news list (71 results, newest the newsletter of 2026-10-09), the newsletter Q3 2026 and the resource page of the draft (title and page text only). On 2026-10-02, as HTML: press release of 2026-09-01, news list (newest item 2026-09-01), resource page (title only), EMV Insights article of 2026-09-01.",
   "not_read": "The draft document itself; matrix cells rest on the press release and the Insights article."
  },
  "matrix": {
@@ -61,9 +58,9 @@
   "signer": "not assessed: the public-feedback draft was not read; press release and Insights article only (2026-10-02)",
   "record": "Intent Services register, reference, retrieve and manage consumer-authorised intent (press release); draft not read",
   "dispute": "not assessed: the public-feedback draft was not read; press release and Insights article only (2026-10-02)",
-  "source": "https://www.emvco.com/news/emvco-requests-feedback-on-framework-for-secure-interoperable-and-scalable-card-based-agentic-payments/"
+  "source": "https://www.emvco.com/news-publications/emvco-requests-feedback-on-framework-for-secure-interoperable-and-scalable-card-based-agentic-payments/"
  },
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/emvco-agentic-payments-framework.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/2b94370f4d9a91b7a8e8d763b34c8d091b8650b5/entries/emvco-agentic-payments-framework.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/450f10bf4c7103951b42959752e0c3ab84312b82/entries/emvco-agentic-payments-framework.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }

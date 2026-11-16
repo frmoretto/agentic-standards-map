@@ -7,6 +7,7 @@
  "status": "Community group created 2026-04-24; calls every two weeks on Tuesdays at 15:00 UTC; the call of 2026-10-06 had an agenda on the list (message of 2026-10-01) and minutes of 22 September were posted on 2026-10-01; minutes of the call of 2026-10-06 and a later call: not found in the October 2026 list archive (4 messages, the last of 2026-10-02), read 2026-10-13. The W3C group data list one chair. Read 2026-11-02: the group's repository w3c-cg/agent-identity holds agendas and minutes for 2026-09-08, 2026-09-22, 2026-10-06 and 2026-10-20; the minutes of 2026-10-20 (added on 2026-10-29) record a demonstration of credential registration and scope authorization by the chair, no resolutions, and the circulation of a landscape document, and announce the next meeting for 2026-11-17 at 15:00 UTC, postponed for IIW 43 and an agentic workshop.",
  "status_as_of": "2026-11-02",
  "relevance": "Develops specifications to verify an agent's identity, controlling entity and authorization scope; the chair wrote on 2026-08-26 \"We'll keep this group focused on the registry and credential layer for now\".",
+ "participation": "The author of this map took part in the group's mailing list. Reply on the list on the fields of the landscape document (2026-10-26); see Disclosure.",
  "sources": [
   {
    "url": "https://api.w3.org/groups/cg/agent-identity",
@@ -47,6 +48,6 @@
   "not_found": "Not found in those messages: agenticweb, webbotauth, kyapay, dif."
  },
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/w3c-agent-identity-registry-cg.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/2b94370f4d9a91b7a8e8d763b34c8d091b8650b5/entries/w3c-agent-identity-registry-cg.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/450f10bf4c7103951b42959752e0c3ab84312b82/entries/w3c-agent-identity-registry-cg.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }
