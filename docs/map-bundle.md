@@ -242,6 +242,7 @@ Archive copies: snapshots of the cited sources were requested on 2026-10-14 from
 - `emvco-agentic-payments-framework`: three EMVCo pages moved to /news-publications/; same content, new addresses.
 - `w3c-did-wg`: the charter of the Decentralized Identifier Working Group was approved on 2026-11-16 and runs to 16 November 2028; the entry is no longer named a proposed charter.
 - `w3c-did-methods-wg`: the charter of the DID Methods Working Group was approved on 2026-11-13 and runs to 3 November 2028; the entry is no longer named a proposed charter.
+- Presentation: the table Payment protocols compared stays within the text column on wide screens; Where things stand becomes one card per item on narrow screens; the text of the cells did not change.
 - Disclosure: a reply of the author of this map on the list of the W3C Agent Identity Registry CG (2026-10-26).
 - Changelog of 1.5: one wording change in the line on the nine status rewrites.
 
