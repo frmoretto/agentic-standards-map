@@ -8,266 +8,12 @@ X-WR-CALDESC:This calendar lists dated public events of the next 60 days de
  clared by the venues\; charter milestones beyond 60 days are listed in the
   entries only\, and the individual draft expiries listed here are marked a
  s such: they are not commitments of a venue. Events as declared by the ven
- ues on 2026-10-14\; the rows from 2026-10-22 onwards were checked again on
-  2026-10-23\, and the IETF 127 rows were read on the datatracker on 2026-1
- 0-26\; check the venue for later changes.
+ ues on 2026-11-16\; the IETF 127 rows were read again on the datatracker o
+ n 2026-11-16 (agenda.json\; times unchanged from the reading of 2026-10-26
+ )\; check the venue for later changes.
 BEGIN:VEVENT
-UID:aaif-structure-2026-10-15-0.agentic-standards-map.invalid
-DTSTAMP:20261109T000000Z
-DTSTART;VALUE=DATE:20261015
-DTEND;VALUE=DATE:20261016
-SUMMARY:Accuracy & Reliability of AI Agents: Virtual Summit\, 15:00 to 17:0
- 0 GMT\, online\, "Organized by Agentic AI…
-DESCRIPTION:Accuracy & Reliability of AI Agents: Virtual Summit\, 15:00 to 
- 17:00 GMT\, online\, "Organized by Agentic AI Foundation" (event page\, re
- ad on 2026-10-13) Source: https://home.mlops.community/public/events/accur
- acy-and-reliability-of-ai-agents-virtual-summit-77nje0s530
-URL:https://frmoretto.github.io/agentic-standards-map/entries/aaif-structur
- e.html
-END:VEVENT
-BEGIN:VEVENT
-UID:aaif-structure-2026-10-15-1.agentic-standards-map.invalid
-DTSTAMP:20261109T000000Z
-DTSTART;VALUE=DATE:20261015
-DTEND;VALUE=DATE:20261016
-SUMMARY:AAIF Taxonomy and Landscape Workstream: Ecosystem Architecture Map 
- v1.0\, target in the charter
-DESCRIPTION:AAIF Taxonomy and Landscape Workstream: Ecosystem Architecture 
- Map v1.0\, target in the charter\; the README has not accepted Landscape c
- ontributions since 2026-09-16 (PR #61) Source: https://github.com/aaif/ws-
- taxonomy-landscape/blob/main/charter/charter.md\; https://github.com/aaif/
- ws-taxonomy-landscape/blob/main/README.md\; https://github.com/aaif/ws-tax
- onomy-landscape/pull/61
-URL:https://frmoretto.github.io/agentic-standards-map/entries/aaif-structur
- e.html
-END:VEVENT
-BEGIN:VEVENT
-UID:w3c-tpac-2026-2026-10-19-2.agentic-standards-map.invalid
-DTSTAMP:20261109T000000Z
-DTSTART;VALUE=DATE:20261019
-DTEND;VALUE=DATE:20261020
-SUMMARY:approx. Schedule of the Monday to Wednesday TPAC breakouts added to
-  the TPAC calendar
-DESCRIPTION:Schedule of the Monday to Wednesday TPAC breakouts added to the
-  TPAC calendar (README: "Around 19 October we will add the schedule")\; on
-  2026-10-14 the calendar page already lists sessions marked "Tentative" So
- urce: https://github.com/w3c/tpac2026-breakouts
-URL:https://frmoretto.github.io/agentic-standards-map/entries/w3c-tpac-2026
- .html
-END:VEVENT
-BEGIN:VEVENT
-UID:ietf-dawn-2026-10-19-3.agentic-standards-map.invalid
-DTSTAMP:20261109T000000Z
-DTSTART;VALUE=DATE:20261019
-DTEND;VALUE=DATE:20261020
-SUMMARY:Comments on the proposed DAWN charter due to the IESG mailing list
-DESCRIPTION:Comments on the proposed DAWN charter due to the IESG mailing l
- ist (WG Review announcement of 2026-10-09: "The IESG has not made any dete
- rmination yet"\; external review since 2026-10-09\, read on 2026-10-13) So
- urce: https://mailarchive.ietf.org/arch/msg/ietf-announce/T8B2tMLk8fU-UE8k
- ASlDIIVLgb4/
-URL:https://frmoretto.github.io/agentic-standards-map/entries/ietf-dawn.htm
- l
-END:VEVENT
-BEGIN:VEVENT
-UID:ietf-aipref-2026-10-21-4.agentic-standards-map.invalid
-DTSTAMP:20261109T000000Z
-DTSTART;VALUE=DATE:20261021
-DTEND;VALUE=DATE:20261022
-SUMMARY:aipref virtual interim meeting\, 20:00 to 21:30 UTC\, no agenda sub
- mitted on 2026-09-30
-DESCRIPTION:aipref virtual interim meeting\, 20:00 to 21:30 UTC\, no agenda
-  submitted on 2026-09-30 (interim-2026-aipref-15) Source: https://mailarch
- ive.ietf.org/arch/msg/ai-control/H8Gycx8vy4BKierBvIhG8V2JYFQ/
-URL:https://frmoretto.github.io/agentic-standards-map/entries/ietf-aipref.h
- tml
-END:VEVENT
-BEGIN:VEVENT
-UID:ietf-dawn-2026-10-22-5.agentic-standards-map.invalid
-DTSTAMP:20261109T000000Z
-DTSTART;VALUE=DATE:20261022
-DTEND;VALUE=DATE:20261023
-SUMMARY:IESG telechat with the DAWN charter on the agenda: held
-DESCRIPTION:IESG telechat with the DAWN charter on the agenda: held\; the I
- ESG approved the charter (charter-ietf-dawn-01) and the WG is active since
-  that day (datatracker\, read on 2026-10-23) Source: https://datatracker.i
- etf.org/doc/charter-ietf-dawn/\; https://datatracker.ietf.org/group/dawn/a
- bout/
-URL:https://frmoretto.github.io/agentic-standards-map/entries/ietf-dawn.htm
- l
-END:VEVENT
-BEGIN:VEVENT
-UID:ietf-vcon-2026-10-22-6.agentic-standards-map.invalid
-DTSTAMP:20261109T000000Z
-DTSTART;VALUE=DATE:20261022
-DTEND;VALUE=DATE:20261023
-SUMMARY:vCon working group virtual interim meeting\, 14:00 to 16:00 UTC
-DESCRIPTION:vCon working group virtual interim meeting\, 14:00 to 16:00 UTC
-  (agenda: "Continue discussion on core document leading up to -05 submissi
- on before SFO including redaction PR inclusion.  Discuss charter draft sta
- tus."): held (interim-2026-vcon-05\; agenda\, slides\, bluesheets\, record
- ing and chat log on the datatracker\, no minutes on 2026-10-23) Source: ht
- tps://datatracker.ietf.org/meeting/upcoming.ics?show=vcon\; https://datatr
- acker.ietf.org/meeting/interim-2026-vcon-05/session/vcon
-URL:https://frmoretto.github.io/agentic-standards-map/entries/ietf-vcon.htm
- l
-END:VEVENT
-BEGIN:VEVENT
-UID:ietf-webbotauth-2026-10-23-7.agentic-standards-map.invalid
-DTSTAMP:20261109T000000Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:Expiry of the individual draft draft-illyes-webbotauth-cbcp-00 unle
- ss revised
-DESCRIPTION:Expiry of the individual draft draft-illyes-webbotauth-cbcp-00 
- unless revised (draft expiry\, not a WG commitment): revised on 2026-10-22
- \, revision -01 expires 2027-04-25 (datatracker\, read on 2026-10-23) Sour
- ce: https://datatracker.ietf.org/doc/draft-illyes-webbotauth-cbcp/
-URL:https://frmoretto.github.io/agentic-standards-map/entries/ietf-webbotau
- th.html
-END:VEVENT
-BEGIN:VEVENT
-UID:w3c-tpac-2026-2026-10-26-8.agentic-standards-map.invalid
-DTSTAMP:20261109T000000Z
-DTSTART;VALUE=DATE:20261026
-DTEND;VALUE=DATE:20261031
-SUMMARY:TPAC 2026\, Dublin. Proposed breakouts on agents
-DESCRIPTION:TPAC 2026\, Dublin. Proposed breakouts on agents (#22 The Agent
- ic Web\, opened 2026-09-16\; #24 and #25 on the same theme\, opened 2026-0
- 9-17\; #34 Zurich workshop report\, #37 DID Methods WG pre-kickoff\, #39 K
- YAPay and others)\; provisional slots of some of them below\, listed as "T
- entative" on the TPAC calendar on 2026-10-14 Source: https://github.com/w3
- c/tpac2026-breakouts
-URL:https://frmoretto.github.io/agentic-standards-map/entries/w3c-tpac-2026
- .html
-END:VEVENT
-BEGIN:VEVENT
-UID:kyapay-2026-10-26-9.agentic-standards-map.invalid
-DTSTAMP:20261109T000000Z
-DTSTART;VALUE=DATE:20261026
-DTEND;VALUE=DATE:20261027
-SUMMARY:TPAC 2026 breakout #39\, KYAPay: Verified Agent Identity and Paymen
- ts for Ubiquitous Agentic Commerce on the…
-DESCRIPTION:TPAC 2026 breakout #39\, KYAPay: Verified Agent Identity and Pa
- yments for Ubiquitous Agentic Commerce on the Existing Web: provisional sl
- ot\, 17:00 to 18:00 GMT as listed (18:00 to 19:00 in Rome\, converted)\, S
- econd Floor - Room 3\, marked "Tentative" (TPAC calendar\, read on 2026-10
- -14) Source: https://www.w3.org/calendar/tpac2026/breakout-sessions/
-URL:https://frmoretto.github.io/agentic-standards-map/entries/kyapay.html
-END:VEVENT
-BEGIN:VEVENT
-UID:w3c-gs1-ecommerce-workshop-2026-10-28-10.agentic-standards-map.invalid
-DTSTAMP:20261109T000000Z
-DTSTART;VALUE=DATE:20261028
-DTEND;VALUE=DATE:20261029
-SUMMARY:TPAC 2026 breakout #34\, Report and follow-ups from the E-commerce 
- for Humans and AI Agents workshop…
-DESCRIPTION:TPAC 2026 breakout #34\, Report and follow-ups from the E-comme
- rce for Humans and AI Agents workshop: provisional slot\, 15:15 to 16:15 G
- MT as listed (16:15 to 17:15 in Rome\, converted)\, Second Floor - Room 1 
- and 2\, marked "Tentative" (TPAC calendar\, read on 2026-10-14) Source: ht
- tps://www.w3.org/calendar/tpac2026/breakout-sessions/
-URL:https://frmoretto.github.io/agentic-standards-map/entries/w3c-gs1-ecomm
- erce-workshop.html
-END:VEVENT
-BEGIN:VEVENT
-UID:w3c-did-methods-wg-2026-10-28-11.agentic-standards-map.invalid
-DTSTAMP:20261109T000000Z
-DTSTART;VALUE=DATE:20261028
-DTEND;VALUE=DATE:20261029
-SUMMARY:Advisory Committee review of the DID Methods WG charter closes
-DESCRIPTION:Advisory Committee review of the DID Methods WG charter closes 
- Source: https://lists.w3.org/Archives/Public/public-new-work/2026Sep/0011.
- html
-URL:https://frmoretto.github.io/agentic-standards-map/entries/w3c-did-metho
- ds-wg.html
-END:VEVENT
-BEGIN:VEVENT
-UID:w3c-tpac-2026-2026-10-29-12.agentic-standards-map.invalid
-DTSTAMP:20261109T000000Z
-DTSTART;VALUE=DATE:20261029
-DTEND;VALUE=DATE:20261030
-SUMMARY:TPAC 2026: deadline\, at noon local time\, for breakout proposals m
- ade once TPAC is under way
-DESCRIPTION:TPAC 2026: deadline\, at noon local time\, for breakout proposa
- ls made once TPAC is under way (Thursday and Friday slots\; README of w3c/
- tpac2026-breakouts\, read on 2026-10-13) Source: https://github.com/w3c/tp
- ac2026-breakouts
-URL:https://frmoretto.github.io/agentic-standards-map/entries/w3c-tpac-2026
- .html
-END:VEVENT
-BEGIN:VEVENT
-UID:aaif-structure-2026-10-29-13.agentic-standards-map.invalid
-DTSTAMP:20261109T000000Z
-DTSTART;VALUE=DATE:20261029
-DTEND;VALUE=DATE:20261030
-SUMMARY:AAIF Workflows and Process Integration group: target of the Best Pr
- actices deliverable in the charter
-DESCRIPTION:AAIF Workflows and Process Integration group: target of the Bes
- t Practices deliverable in the charter (charter.md\, "Last Updated: 2026-0
- 7-23") Source: https://github.com/aaif/wg-workflows-and-process-integratio
- n/blob/main/charter/charter.md
-URL:https://frmoretto.github.io/agentic-standards-map/entries/aaif-structur
- e.html
-END:VEVENT
-BEGIN:VEVENT
-UID:w3c-agenticweb-wg-2026-10-30-14.agentic-standards-map.invalid
-DTSTAMP:20261109T000000Z
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
-SUMMARY:TPAC 2026 breakout #22\, The Agentic Web: Friday 08:30 to 09:30 as 
- written in the issue on 2026-10-23
-DESCRIPTION:TPAC 2026 breakout #22\, The Agentic Web: Friday 08:30 to 09:30
-  as written in the issue on 2026-10-23 (no time zone given\; 08:30 to 09:3
- 0 GMT on the TPAC calendar of 2026-10-14\, 09:30 to 10:30 in Rome\, conver
- ted)\, Second Floor - Room 3 on that calendar\; additional chairs sarony a
- nd yoavweiss\; agenda not published on 2026-10-23\; a discussion of the Ag
- entic Web WG charter was proposed for it Source: https://github.com/w3c/tp
- ac2026-breakouts/issues/22\; https://www.w3.org/calendar/tpac2026/breakout
- -sessions/
-URL:https://frmoretto.github.io/agentic-standards-map/entries/w3c-agenticwe
- b-wg.html
-END:VEVENT
-BEGIN:VEVENT
-UID:w3c-digital-policy-wg-2026-11-02-15.agentic-standards-map.invalid
-DTSTAMP:20261109T000000Z
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
-SUMMARY:approx. Charter refinement of the Digital Policy WG ends
-DESCRIPTION:Charter refinement of the Digital Policy WG ends Source: https:
- //lists.w3.org/Archives/Public/public-new-work/2026Sep/0012.html
-URL:https://frmoretto.github.io/agentic-standards-map/entries/w3c-digital-p
- olicy-wg.html
-END:VEVENT
-BEGIN:VEVENT
-UID:w3c-did-wg-2026-11-05-16.agentic-standards-map.invalid
-DTSTAMP:20261109T000000Z
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261106
-SUMMARY:Public comments on the proposed maintenance charter of the Decentra
- lized Identifier
-DESCRIPTION:Public comments on the proposed maintenance charter of the Dece
- ntralized Identifier (DID) WG due\; the Advisory Committee review closes a
- t 23:59 UTC Source: https://lists.w3.org/Archives/Public/public-new-work/2
- 026Oct/0008.html
-URL:https://frmoretto.github.io/agentic-standards-map/entries/w3c-did-wg.ht
- ml
-END:VEVENT
-BEGIN:VEVENT
-UID:w3c-agenticweb-wg-2026-11-10-17.agentic-standards-map.invalid
-DTSTAMP:20261109T000000Z
-DTSTART;VALUE=DATE:20261110
-DTEND;VALUE=DATE:20261111
-SUMMARY:approx. Charter refinement of the Agentic Web WG ends
-DESCRIPTION:Charter refinement of the Agentic Web WG ends (announcement on 
- public-new-work) Source: https://lists.w3.org/Archives/Public/public-new-w
- ork/2026Oct/0002.html
-URL:https://frmoretto.github.io/agentic-standards-map/entries/w3c-agenticwe
- b-wg.html
-END:VEVENT
-BEGIN:VEVENT
-UID:ietf-webbotauth-2026-11-14-18.agentic-standards-map.invalid
-DTSTAMP:20261109T000000Z
+UID:ietf-webbotauth-2026-11-14-0.agentic-standards-map.invalid
+DTSTAMP:20261116T000000Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261121
 SUMMARY:IETF 127\, San Francisco
@@ -283,8 +29,21 @@ URL:https://frmoretto.github.io/agentic-standards-map/entries/ietf-webbotau
  th.html
 END:VEVENT
 BEGIN:VEVENT
-UID:ietf-agentproto-2026-11-16-19.agentic-standards-map.invalid
-DTSTAMP:20261109T000000Z
+UID:ietf-aipref-2026-11-16-1.agentic-standards-map.invalid
+DTSTAMP:20261116T000000Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:IETF 127: aipref session\, 11:30 to 12:30 San Francisco time\, room
+  Golden Gate 7-8
+DESCRIPTION:IETF 127: aipref session\, 11:30 to 12:30 San Francisco time\, 
+ room Golden Gate 7-8 Source: https://datatracker.ietf.org/meeting/127/agen
+ da.json
+URL:https://frmoretto.github.io/agentic-standards-map/entries/ietf-aipref.h
+ tml
+END:VEVENT
+BEGIN:VEVENT
+UID:ietf-agentproto-2026-11-16-2.agentic-standards-map.invalid
+DTSTAMP:20261116T000000Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:IETF 127: agentproto session\, 14:00 to 16:00 San Francisco time\, 
@@ -296,8 +55,8 @@ URL:https://frmoretto.github.io/agentic-standards-map/entries/ietf-agentpro
  to.html
 END:VEVENT
 BEGIN:VEVENT
-UID:ietf-audit-2026-11-17-20.agentic-standards-map.invalid
-DTSTAMP:20261109T000000Z
+UID:ietf-audit-2026-11-17-3.agentic-standards-map.invalid
+DTSTAMP:20261116T000000Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:IETF 127: AUDIT BoF session\, 09:00 to 10:30 San Francisco time\, r
@@ -309,8 +68,8 @@ URL:https://frmoretto.github.io/agentic-standards-map/entries/ietf-audit.ht
  ml
 END:VEVENT
 BEGIN:VEVENT
-UID:ietf-vcon-2026-11-17-21.agentic-standards-map.invalid
-DTSTAMP:20261109T000000Z
+UID:ietf-vcon-2026-11-17-4.agentic-standards-map.invalid
+DTSTAMP:20261116T000000Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:IETF 127: vcon session\, 11:00 to 12:30 San Francisco time\, room G
@@ -322,8 +81,8 @@ URL:https://frmoretto.github.io/agentic-standards-map/entries/ietf-vcon.htm
  l
 END:VEVENT
 BEGIN:VEVENT
-UID:ietf-webbotauth-2026-11-17-22.agentic-standards-map.invalid
-DTSTAMP:20261109T000000Z
+UID:ietf-webbotauth-2026-11-17-5.agentic-standards-map.invalid
+DTSTAMP:20261116T000000Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:IETF 127: webbotauth session\, 16:30 to 18:30 San Francisco time\, 
@@ -335,8 +94,8 @@ URL:https://frmoretto.github.io/agentic-standards-map/entries/ietf-webbotau
  th.html
 END:VEVENT
 BEGIN:VEVENT
-UID:ietf-wimse-aims-2026-11-18-23.agentic-standards-map.invalid
-DTSTAMP:20261109T000000Z
+UID:ietf-wimse-aims-2026-11-18-6.agentic-standards-map.invalid
+DTSTAMP:20261116T000000Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:IETF 127: wimse session\, 14:00 to 16:00 San Francisco time\, room 
@@ -348,8 +107,21 @@ URL:https://frmoretto.github.io/agentic-standards-map/entries/ietf-wimse-ai
  ms.html
 END:VEVENT
 BEGIN:VEVENT
-UID:ietf-wimse-aims-2026-11-19-24.agentic-standards-map.invalid
-DTSTAMP:20261109T000000Z
+UID:ietf-aipref-2026-11-19-7.agentic-standards-map.invalid
+DTSTAMP:20261116T000000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:IETF 127: aipref session\, 11:00 to 12:30 San Francisco time\, room
+  Continental 5
+DESCRIPTION:IETF 127: aipref session\, 11:00 to 12:30 San Francisco time\, 
+ room Continental 5 Source: https://datatracker.ietf.org/meeting/127/agenda
+ .json
+URL:https://frmoretto.github.io/agentic-standards-map/entries/ietf-aipref.h
+ tml
+END:VEVENT
+BEGIN:VEVENT
+UID:ietf-wimse-aims-2026-11-19-8.agentic-standards-map.invalid
+DTSTAMP:20261116T000000Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:IETF 127: wimse session\, joint session with OAUTH
@@ -360,8 +132,8 @@ URL:https://frmoretto.github.io/agentic-standards-map/entries/ietf-wimse-ai
  ms.html
 END:VEVENT
 BEGIN:VEVENT
-UID:ietf-dawn-2026-11-19-25.agentic-standards-map.invalid
-DTSTAMP:20261109T000000Z
+UID:ietf-dawn-2026-11-19-9.agentic-standards-map.invalid
+DTSTAMP:20261116T000000Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:IETF 127: dawn session\, 16:30 to 18:30 San Francisco time\, room C
@@ -371,18 +143,5 @@ DESCRIPTION:IETF 127: dawn session\, 16:30 to 18:30 San Francisco time\, ro
  son
 URL:https://frmoretto.github.io/agentic-standards-map/entries/ietf-dawn.htm
  l
-END:VEVENT
-BEGIN:VEVENT
-UID:ietf-dnsaid-2026-11-28-26.agentic-standards-map.invalid
-DTSTAMP:20261109T000000Z
-DTSTART;VALUE=DATE:20261128
-DTEND;VALUE=DATE:20261129
-SUMMARY:Expiry of the individual draft draft-mozleywilliams-dnsop-dnsaid -0
- 2 unless revised
-DESCRIPTION:Expiry of the individual draft draft-mozleywilliams-dnsop-dnsai
- d -02 unless revised (draft expiry\, not a WG commitment) Source: https://
- datatracker.ietf.org/doc/draft-mozleywilliams-dnsop-dnsaid/
-URL:https://frmoretto.github.io/agentic-standards-map/entries/ietf-dnsaid.h
- tml
 END:VEVENT
 END:VCALENDAR

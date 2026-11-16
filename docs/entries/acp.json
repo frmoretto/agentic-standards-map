@@ -6,7 +6,7 @@
  "tier": "core",
  "status": "Specification in beta, maintained by OpenAI and Stripe; MAINTAINERS.md also lists Meta (PR #236 \"ADMIN: Add Meta as TSC member\", merged 2026-04-24). Last dated version 2026-04-17; on 2026-10-13 main is still at commit 7fdd78d (2026-07-17), README badge \"Beta\", no tag or release (not found, 2026-10-13), and the directory spec/unreleased holds the changes not yet dated (checkout, cart, delegate, feed schemas and OpenAPI files).",
  "status_as_of": "2026-10-13",
- "relevance": "The README says ACP \"is an interaction model and open standard for connecting buyers, their AI agents, and businesses to complete purchases seamlessly.\" and covers agentic checkout and delegated payment over Representational State Transfer (REST) and an MCP binding. The seller enters through the checkout session's required links field (terms, privacy, return, shipping) and the unreleased product feed, whose optional barcode has a type (GTIN, UPC or EAN) and a value; requests carry a Signature header; the order schema has a receipt_url. The discovery RFC says \"Seller identity is established through authentication (Bearer token), which is unavailable at discovery time.\" The OpenAI developer documentation (developers.openai.com/commerce/specs/checkout, read 2026-10-14) is a text separate from the specification in the repository (spec/unreleased). It says \"Building with the Agentic Commerce Protocol is open to all.\" and \"Instant Checkout in ChatGPT is currently available to approved partners.\" It documents a cancel call for a checkout session, which answers 405 when the session is already canceled or completed, and an order object with a list of refunds (types store_credit and original_payment); the cancellation of a checkout session is thus not the cancellation or refund of a completed order. The page /commerce/specs/delegated-payment answered HTTP 404 on 2026-10-14.\n",
+ "relevance": "The README says ACP \"is an interaction model and open standard for connecting buyers, their AI agents, and businesses to complete purchases seamlessly.\" and covers agentic checkout and delegated payment over Representational State Transfer (REST) and an MCP binding. The seller enters through the checkout session's required links field (terms, privacy, return, shipping) and the unreleased product feed, whose optional barcode has a type (GTIN, UPC or EAN) and a value; requests carry a Signature header; the order schema has a receipt_url. The discovery RFC says \"Seller identity is established through authentication (Bearer token), which is unavailable at discovery time.\" The OpenAI developer documentation (developers.openai.com/commerce/specs/checkout, read 2026-10-14) is a text separate from the specification in the repository (spec/unreleased). It says \"Building with the Agentic Commerce Protocol is open to all.\" and \"Instant Checkout in ChatGPT is currently available to approved partners.\" On 2026-11-16 that page and /commerce/guides/key-concepts redirect (HTTP 301) to /commerce/guides/accept-payments; the date of the change is not known. The page read on 2026-10-14 documents a cancel call for a checkout session, which answers 405 when the session is already canceled or completed, and an order object with a list of refunds (types store_credit and original_payment); the cancellation of a checkout session is thus not the cancellation or refund of a completed order. The page /commerce/specs/delegated-payment answered HTTP 404 on 2026-10-14.\n",
  "boundary": "The discovery document states \"Agent identity and authorization are separate concerns\", leaving catalog discovery and agent registration outside it.",
  "committed_next": [
   {
@@ -82,9 +82,9 @@
   "S3",
   "S4"
  ],
- "verified": "2026-11-02",
+ "verified": "2026-11-16",
  "evidence": {
-  "read": "On 2026-10-13: the head of main and the README and MAINTAINERS.md of a fresh fetch of the repository (commit 7fdd78d), the tag and release lists, spec/unreleased, and the state of issues #231 and #303 and Discussions #265 and #304. Repository, 2026-10-03: issues, pull requests, Discussions, main branch read (README, MAINTAINERS.md, governance, RFCs, specifications); agenticcommerce.dev; OpenAI, Stripe pages.",
+  "read": "On 2026-11-16: the answer of developers.openai.com/commerce/specs/checkout and /commerce/guides/key-concepts (HTTP 301 to /commerce/guides/accept-payments); the target page was not read for this entry. On 2026-10-13: the head of main and the README and MAINTAINERS.md of a fresh fetch of the repository (commit 7fdd78d), the tag and release lists, spec/unreleased, and the state of issues #231 and #303 and Discussions #265 and #304. Repository, 2026-10-03: issues, pull requests, Discussions, main branch read (README, MAINTAINERS.md, governance, RFCs, specifications); agenticcommerce.dev; OpenAI, Stripe pages.",
   "not_read": "Discord, TSC meetings, GitHub organisation membership.",
   "not_found": "Not found in the repository, 2026-10-03: tag, release, Web Bot Auth, KYA, Verifiable Intent."
  },
@@ -131,6 +131,6 @@
   "source": "https://github.com/agentic-commerce-protocol/agentic-commerce-protocol/blob/main/README.md"
  },
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/acp.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/784f3bb16c065735a5916c70c4f6402ba3209f4b/entries/acp.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/24569fb2659b8fb3afafb0ca95c7f4884c308702/entries/acp.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }
