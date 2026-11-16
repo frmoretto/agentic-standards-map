@@ -68,7 +68,7 @@ CLASSES = {"normative": "normative text", "decision": "official decision or comm
 MATRIX_COLS = [("governance", "Owner / governance"), ("version_state", "Version and state"), ("signs", "What it signs"),
                ("signer", "Who signs"), ("record", "Receipt or record"), ("dispute", "Dispute"), ("source", "Source")]
 # the latest version that has a tag: updated by hand when a release is made (with RELEASED_TAG of tools/export_public.py)
-LATEST_RELEASE = ("1.4", "v1.4")
+LATEST_RELEASE = ("1.5", "v1.5")   # fallback only: the version line of the README wins
 MATRIX_ORDER = ["ap2", "ucp", "acp", "x402", "visa-tap", "verifiable-intent", "emvco-agentic-payments-framework"]
 NOTE_PAGES = [  # (source file in the export, page, title, description)
     ("notes/intro.md", "intro.html", "Introduction", "Why the map exists, who it is for and how to read it."),
@@ -835,7 +835,8 @@ def data_page_html(a, site, n_entries, newest, map_size, n_events, sha):
     else:
         cite_p = "<p>Cite the entry id and the date it was read.</p>"
     # the version that has a tag (and a DOI); the version shown on the site may be a later one, which has neither until its release is recorded here
-    rel_v, rel_tag = LATEST_RELEASE
+    # from the version line of the README (one place for the number: VERSION_NUMBER of tools/export_public.py); LATEST_RELEASE only if the README names none
+    rel_v, rel_tag = (site.version, "v" + site.version) if site.version else LATEST_RELEASE
     shown = (a.cite_version or rel_v)
     pending = "" if shown == rel_v else " The version shown on this site, %s, has no tag and no DOI of its own yet; they are recorded here when it is released." % esc(shown)
     if a.doi and a.version_doi:
@@ -1184,6 +1185,18 @@ def main():
             stamp = '<p class="verified">Entries verified up to %s; pages generated on %s from commit <a href="%s/commit/%s" rel="noopener">%s</a>.</p>' % (newest, today, attr(a.repo_url), sha, sha[:7])
         else:
             stamp = '<p class="verified">Entries verified up to %s; pages generated on %s from the <a href="%s" rel="noopener">repository</a>.</p>' % (newest, today, attr(a.repo_url))
+        # counts of the home page, generated from the files of the source folder at every build (never written by hand)
+        sys.path.insert(0, str(HERE))
+        import count_sources  # noqa: E402
+        cs = count_sources.counts(src)
+        if cs["bundle_urls"] is None or cs["seams"] is None:
+            raise SystemExit("home counts: map-bundle.md or notes/seams.md missing in the source folder")
+        if cs["entries"] != len(entries):
+            raise SystemExit("home counts: count_sources sees %d entries, the site %d" % (cs["entries"], len(entries)))
+        stamp += ('<p class="verified">%d entries (%d core, %d context), %d primary sources and %d distinct links in map-bundle.md, %d seams; '
+                  'counted from the files at each build by <a href="%s/blob/main/tools/count_sources.py" rel="noopener">tools/count_sources.py</a>.</p>' % (
+                      cs["entries"], cs["core"], cs["context"], cs["primary"], cs["bundle_urls"], cs["seams"], attr(a.repo_url)))
+        print("[CHECK] home counts: entries %d, primary %d, bundle links %d, seams %d (count_sources on %s)" % (cs["entries"], cs["primary"], cs["bundle_urls"], cs["seams"], src))
         ibody = md.render(head) + stamp + links + md.render(nextsec) + "".join(wt) + "".join(mx) + md.render(tail_a) + author_html + md.render(tail_b) + "".join(allp)
         unmapped += md.unmapped
         idesc = short_desc("Who is standardising agentic commerce, where, and what each venue has committed to next: %d dated, sourced entries across W3C, IETF, GS1, UN/CEFACT, AAIF, Linux Foundation and industry protocols." % len(entries))

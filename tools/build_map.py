@@ -456,7 +456,7 @@ if __name__ == "__main__":
         print("[SCOPE] --check looks at: tier, org, required fields, seams against notes/seams.md, source and committed_next classes, "
               "committed_next 'when' format, open_proposals state enum, verified not earlier than status_as_of or than any source read, and that every '  - url:' line of the file is a parsed source (an item pasted inside another field is refused), "
               "and that no unquoted value is cut by ' #' (read on the source text, with a self-test run first), and that no key is repeated in the same mapping (a loader that refuses it, with a self-test run first). "
-              "It does NOT check: that a URL answers, that a quote is in its source (check_sources.py does), or that the dates are true.")
+              "It does NOT check: that a URL answers, that a quote is in its source (quotes are not checked by --check), or that the dates are true.")
         sys.exit(0)
     md = render(load())
     (ROOT / "MAP.md").write_text(md, encoding="utf-8", newline="\n")

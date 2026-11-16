@@ -42,6 +42,19 @@ A negative is always written as "not found in [corpus, date]": it describes the 
 
 An Internet-Draft is not an IETF decision, and the map says which kind of draft it names. A **working group document** is a draft a working group has adopted; its name begins `draft-ietf-` followed by the group. An **individual Internet-Draft** has no working group: the datatracker lists it under "Individual Submissions" and shows no stream. Wherever the map names an individual draft it calls it individual, and an entry that exists only to list such drafts says so in its status. The datatracker states the standing of an individual draft in these words, copied on 2026-10-16 from the page https://datatracker.ietf.org/doc/draft-ranjbar-dane-did/: "This document is an Internet-Draft (I-D). Anyone may submit an I-D to the IETF. This I-D is not endorsed by the IETF and has no formal standing in the IETF standards process." The sentence holds for every individual draft in the map, including those named inside an entry whose organisation is IETF: that field names the venue of the work item (a charter, a list, a BoF), not an endorsement of the drafts the entry mentions. The group and the date of each draft named in the map were read on the datatracker (2026-10-13 to 2026-10-16).
 
+## How the entries are kept current
+
+From version 1.5 the entries are watched by automated checks that report to the author. They do not edit the map. The figures below are as of 2026-11-15.
+
+- Every day, the events of the UCP repository (issues, pull requests, discussions and merges) are collected, together with a list of 72 followed public threads, 43 of them in the UCP repository.
+- Every week, the sources cited by the entries (pages, Internet-Drafts, and specifications published from GitHub repositories) are compared with the date of reading recorded for each source in its entry.
+- Every day, the public repositories of 15 groups are checked for new or changed agendas, minutes and charters.
+- Every day, the new messages of 14 public mailing lists of the groups followed are listed: 7 of the IETF, 5 of the W3C and 2 of the OpenID Foundation.
+
+Some of these reports are summarised by a language model. A summary only points to a source; it is never a source for the map.
+
+The checks only report. A change to an entry is read again at the source by the author before it enters the map, and the entry records the date of that reading. Material that is not public never enters the map.
+
 ## Versions and citation
 
 The website is the living version and changes as venues move. Each DOI identifies a frozen snapshot: version 1.4 (2026-11-09) is the tag v1.4 of the repository and has the version DOI 10.5281/zenodo.24073152; version 1.3 (2026-11-02) is the tag v1.3 of the repository and has the version DOI 10.5281/zenodo.23882108; version 1.2 (2026-10-26) is the tag v1.2 of the repository and has the version DOI 10.5281/zenodo.23655852; version 1.1 (2026-10-19) is the tag v1.1 of the repository and has the version DOI 10.5281/zenodo.23464332; version 1.0.1 (2026-10-14) is the tag v1.0.1 and has the version DOI 10.5281/zenodo.23377309; version 1.0.0 is the tag v1.0.0 and has the version DOI 10.5281/zenodo.23357362. The concept DOI 10.5281/zenodo.23357361 always resolves to the latest version; cite the version DOI for the text you read.
@@ -51,6 +64,38 @@ Changes verified by Friday evening enter the following Monday's release; a Monda
 Archive copies: snapshots of the cited sources were requested on 2026-10-14 from the Wayback Machine of the Internet Archive, and the failed ones were requested again, in part, on 2026-10-15. Of 576 distinct URLs of the entries and notes, 357 now have a snapshot (291 saved on request, 66 that already had a copy from 2026-10-01 or later), 211 failed (206 of them with an error of the service) and 8 were not requested (a login, a token, a placeholder or a Google Doc). Where a snapshot exists, `map.json` and the JSON of the entry carry it in an `archived` field next to the URL, and the entry page links it. A snapshot is a copy kept by a third party, taken at the time shown in its address; it is not the text read on the date of reading.
 
 **Changelog.**
+
+**1.5 (2026-11-16).** No entry added; corrections and additions to the living version. Facts dated after Friday 2026-11-13 are deferred to 1.6, except corrections of the state of a source already cited, read again at the source on 2026-11-16 (among them version 1.0 of the Personal Agent Protocol, published on 2026-11-14).
+
+Corrections:
+
+- `pap`: version 0.4 published as the 1.0 release candidate (2026-11-11) and version 1.0 published and frozen on 2026-11-14; the content of 1.0 is left to a later version.
+- `ucp`: issue #858 moved from the milestone 2026-12-08 to 2027-03-30 on 2026-11-09; pull requests #897 (food checkout) and #933 merged; WooCommerce pull requests #69577 and #70680 merged; labels of the Payments working group charters #1049 and #1050.
+- `ietf-audit`: pull request #61 merged on 2026-11-10 with the VCON sentence reworded by a review suggestion; an Out-Of-Scope section added to the charter text (pull request #66).
+- `ietf-dnsaid`: the DNS-AID draft replaced on 2026-11-02 by draft-mozleywilliams-dawn-dnsaid-00.
+- `w3c-did-resolution`: Candidate Recommendation Drafts of 2026-11-09 and 2026-11-10.
+- `w3c-webmcp-cg-report`: the published report is dated 13 November 2026; the charter deliverable that takes WebMCP as initial input.
+- `w3c-agenticweb-wg`: the proposed chairs entered in the draft charter (2026-11-11); the security review label of the Strategy issue (2026-11-12).
+- `w3c-gs1-ecommerce-workshop`: the TPAC breakout held on 2026-10-28 and the draft workshop report of 2026-11-10.
+- `aaif-identity-trust`, `acp`, `shopify`, `trace`: a revised comparison record (2026-10-20), the OpenAI checkout pages now redirecting, the command-line client at 1.3.0, the maintainers file.
+
+Additions:
+
+- `ucp`: purchase options and subscription policy (pull request #890, merged on 2026-11-10); the reference price `list_price` (pull request #1016 with #1031, merged on 2026-11-09); the minutes of each council read in the folders, with the date each was added, at 2026-11-13.
+- `ietf-audit`: the BoF agenda for IETF 127 (2026-11-08); the number of issues and pull requests of the architecture draft repository.
+- `ietf-wimse-aims`: sections 10.1, 10.8 and 11 of revision -01.
+- Status: nine entries whose status had piled up readings (`ietf-vcon`, `ietf-agentproto`, `aaif-identity-trust`, `trace`, `ietf-webbotauth`, `w3c-did-resolution`, `ietf-audit`, `w3c-ai-agent-protocol-cg`, `ietf-dnsaid`) give the current state; the status of 1.4 is kept word for word in the evidence of each, as for `ucp` in 1.4.
+- Calendar: the 60-day window moved to 2026-11-16, past rows removed, the IETF 127 times read again on the datatracker, the aipref sessions added.
+- Disclosure: contributions of the author of this map from 2026-11-03 to 2026-11-13.
+- Site: the home page gives the counts of entries, primary sources, links and seams, generated from the files at each build.
+
+Deferred to 1.6:
+
+- An EU Digital Product Passport Registry note for seams S1 and S2: the addresses of the guidelines are still not in a file that can be read again.
+- The division of work between AUDIT and VCON written on the audit list on 2026-11-09: the message has not been read again by this map.
+- A2A pull request #2378, the bazatap census, AAIF identity and trust issue #21, WooCommerce pull request #70510 (merged on 2026-11-13), UCP issue #969 (no schema.org or JSON-LD text found in it).
+- Candidates read only in part by 2026-11-13: the NIST NCCoE agent identity and authorization project, LF Decentralized Trust, draft-peterson-stir-agentic, an interruption and revocation seam, AAuth and Mission-Bound Authorization.
+- Revisions and changes after 2026-11-13, among them KYAPay -04 and -03, the DID Resolution draft of 2026-11-15 and the nominations for two UCP councils.
 
 **Since 1.4 (not a numbered version).** Corrections to the living version, for the next numbered version.
 

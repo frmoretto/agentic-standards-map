@@ -8,7 +8,7 @@ Every statement is dated and points to a public source. The map makes no predict
 
 This map documents public standardisation activity, specifications and declared commitments. It does not measure market adoption, transaction volume, cross-protocol interoperability or the reliability of deployed implementations. Implementation claims are reported only where supported by dated public evidence and are not treated as evidence of interoperability.
 
-*Version 1.4 (2026-11-09) · site updated 2026-11-09. The map is updated as venues move; each entry carries its own read date.*
+*Version 1.5 (2026-11-16) · site updated 2026-11-16. The map is updated as venues move; each entry carries its own read date.*
 
 DOI (all versions): [10.5281/zenodo.23357361](https://doi.org/10.5281/zenodo.23357361)
 
@@ -26,8 +26,8 @@ DOI (all versions): [10.5281/zenodo.23357361](https://doi.org/10.5281/zenodo.233
 
 ## Next on the calendar
 
-- **approx. 10 Nov** Charter refinement of the Agentic Web WG ends
 - **14 to 20 Nov** IETF 127, San Francisco
+- **16 Nov** IETF 127: aipref session, 11:30 to 12:30 San Francisco time, room Golden Gate 7-8
 - **16 Nov** IETF 127: agentproto session, 14:00 to 16:00 San Francisco time, room Continental 5
 - **17 Nov** IETF 127: AUDIT BoF session, 09:00 to 10:30 San Francisco time, room Continental 6
 - **17 Nov** IETF 127: vcon session, 11:00 to 12:30 San Francisco time, room Golden Gate 2
@@ -68,7 +68,7 @@ Corrections and missing sources: [open an issue on the repository](https://githu
 
 ### How to cite
 
-Marinoni Moretto, F. (2026). Agentic Standards Map (Version 1.4) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24073152
+Marinoni Moretto, F. (2026). Agentic Standards Map (Version 1.5) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23357361
 
 Please cite the entry id, the date it was read and the DOI. To cite the map in general, use https://doi.org/10.5281/zenodo.23357361.
 
