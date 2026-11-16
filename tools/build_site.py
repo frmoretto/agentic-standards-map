@@ -602,14 +602,22 @@ section.author{border-top:1px solid var(--line);margin-top:2rem;padding-top:.5re
 .eg svg{width:100%;height:auto}.eg .legend{font-size:.85rem;color:var(--muted)}.graph{overflow:auto;border:1px solid var(--line);margin:1rem 0}.graph svg{max-width:none;height:auto}
 table.matrix .mmeta{font-size:.8rem;color:var(--muted);margin-top:.35rem}table.matrix .mmeta div{margin-top:.15rem}table.matrix .lab{font-weight:700}
 table.matrix td.mp{min-width:11rem}
-@media (min-width:64rem){.scroll.wide{position:relative;left:50%;transform:translateX(-50%);width:min(72rem,calc(100vw - 4rem))}td:has(a),td a{overflow-wrap:break-word}}
+@media (min-width:64rem){td:has(a),td a{overflow-wrap:break-word}}
 @media (max-width:40rem){:root{--pad:.7rem}body{font-size:15px}
 table.matrix,table.matrix tbody,table.matrix tr,table.matrix td{display:block;width:100%}
 table.matrix thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 table.matrix tr{border:1px solid var(--line);border-radius:.4rem;margin:0 0 1rem 0;padding:.2rem .6rem}
 table.matrix td{border-bottom:0;padding:.35rem 0}
 table.matrix td:not(.mp)::before{content:attr(data-label);display:block;font-weight:700;color:var(--accent);font-size:.8rem;margin-bottom:.1rem}
-table.matrix td.mp{min-width:0;font-size:1rem;border-bottom:1px solid var(--line)}}
+table.matrix td.mp{min-width:0;font-size:1rem;border-bottom:1px solid var(--line)}
+table.wts{min-width:0}table.wts,table.wts tbody,table.wts tr,table.wts td{display:block;width:100%}
+table.wts thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+table.wts tr{border:1px solid var(--line);border-radius:.4rem;margin:0 0 1rem 0;padding:.2rem .6rem}
+table.wts td{border-bottom:0;padding:.35rem 0}
+table.wts td.nw{white-space:normal}
+table.wts td:not(.it):not(:first-child)::before{content:attr(data-label);display:block;font-weight:700;color:var(--accent);font-size:.8rem;margin-bottom:.1rem}
+table.wts td.it{min-width:0;font-size:1rem;border-bottom:1px solid var(--line)}
+table.wts td.wts-empty{display:none}table.wts td:first-child{font-size:.8rem;color:var(--muted);padding-bottom:0}}
 """
 
 
@@ -1155,7 +1163,9 @@ def main():
         rows = status_rows(entries)
         wt = ['<h2 id="where-things-stand">Where things stand</h2><div class="scroll"><table class="wts"><thead><tr><th class="nw">Org</th><th>Item</th><th>State (as of)</th><th class="nw">Next dated item</th></tr></thead><tbody>']
         for e, first, nd in rows:
-            wt.append('<tr><td class="nw">%s</td><td class="it"><a href="entries/%s.html">%s</a></td><td>%s (%s)</td><td class="nw">%s</td></tr>' % (esc(e["org"]), attr(e["id"]), esc(e["name"]), md.inline(first), esc(d(e["status_as_of"])), esc(nd)))
+            # data-label for the narrow layout (one card per item under 40rem, like the matrix); an empty "Next" cell is hidden there
+            wt.append('<tr><td class="nw" data-label="Org">%s</td><td class="it" data-label="Item"><a href="entries/%s.html">%s</a></td><td data-label="State (as of)">%s (%s)</td><td class="nw%s" data-label="Next dated item">%s</td></tr>' % (
+                esc(e["org"]), attr(e["id"]), esc(e["name"]), md.inline(first), esc(d(e["status_as_of"])), " wts-empty" if nd == "-" else "", esc(nd)))
         wt.append("</tbody></table></div>")
         by = {e["id"]: e for e in entries.values()}
         # Four columns (2026-10-14). Same fields, same words, other places: governance, version and source under the protocol,
