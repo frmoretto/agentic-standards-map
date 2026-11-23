@@ -68,7 +68,7 @@ CLASSES = {"normative": "normative text", "decision": "official decision or comm
 MATRIX_COLS = [("governance", "Owner / governance"), ("version_state", "Version and state"), ("signs", "What it signs"),
                ("signer", "Who signs"), ("record", "Receipt or record"), ("dispute", "Dispute"), ("source", "Source")]
 # the latest version that has a tag: updated by hand when a release is made (with RELEASED_TAG of tools/export_public.py)
-LATEST_RELEASE = ("1.5", "v1.5")   # fallback only: the version line of the README wins
+LATEST_RELEASE = ("1.6", "v1.6")   # fallback only: the version line of the README wins
 MATRIX_ORDER = ["ap2", "ucp", "acp", "x402", "visa-tap", "verifiable-intent", "emvco-agentic-payments-framework"]
 NOTE_PAGES = [  # (source file in the export, page, title, description)
     ("notes/intro.md", "intro.html", "Introduction", "Why the map exists, who it is for and how to read it."),
@@ -854,7 +854,7 @@ def data_page_html(a, site, n_entries, newest, map_size, n_events, sha):
     else:
         citable_p = "<p>The website is the living version and changes as venues move. Version %s is the tag <code>%s</code> of the repository; a DOI for each frozen snapshot is not issued yet, and until it is, cite the entry id, the date it was read and the commit shown in the footer of the page.%s</p>" % (rel_v, rel_tag, pending)
     rows = [
-        ("<a href=\"map.json\">map.json</a>", "All entries as in the YAML (schema v2, described in entries/_schema.md) and the graph of overlaps and seams. Top-level fields: schema, schema_description, generated, source_commit, licence, entries, graph. Where a snapshot of a source exists in the Wayback Machine of the Internet Archive, the item of sources, open_proposals or committed_next carries an archived field next to its url (%d URLs). %d entries; generated %s; source commit %s; licence CC BY 4.0; size %d bytes." % (len(site.archived), n_entries, esc(site.today), esc(sha[:7] if sha else "not given"), map_size)),
+        ("<a href=\"map.json\">map.json</a>", "All entries as in the YAML (schema v2, described in entries/_schema.md) and the graph of overlaps and seams. Top-level fields: schema, schema_description, generated, version (the version of the map named in the README), doi (the version DOI once Zenodo has assigned it, otherwise the concept DOI), source_commit, licence, entries, graph. Where a snapshot of a source exists in the Wayback Machine of the Internet Archive, the item of sources, open_proposals or committed_next carries an archived field next to its url (%d URLs). %d entries; generated %s; source commit %s; licence CC BY 4.0; size %d bytes." % (len(site.archived), n_entries, esc(site.today), esc(sha[:7] if sha else "not given"), map_size)),
         ("<code>entries/&lt;id&gt;.json</code>", "One file per entry: the same object as in map.json, plus <code>url</code> (the page of the entry), <code>source_url</code> (the YAML file in the repository at the source commit) and <code>licence</code>. Example: <a href=\"entries/ap2.json\">entries/ap2.json</a>."),
         ("<a href=\"calendar.ics\">calendar.ics</a>", "The same dated events as the Calendar page (%d), in iCalendar format." % n_events),
         ("<a href=\"map-bundle.md\">map-bundle.md</a>", "The full text of the map in one Markdown file."),
@@ -866,6 +866,7 @@ def data_page_html(a, site, n_entries, newest, map_size, n_events, sha):
             "<p>The map in machine-readable form. These are plain files and standard web formats.</p>"
             "<p>This site uses generic web mechanisms (JSON files, link rel=alternate, schema.org JSON-LD, a sitemap). It does not adopt any of the discovery mechanisms described in the map, so that the map does not take a side in what it maps.</p>"
             "<h2 id=\"files\">Files</h2><div class=\"scroll\"><table><thead><tr><th>File</th><th>What it holds</th></tr></thead><tbody>%s</tbody></table></div>"
+            "<h2 id=\"views\">Thematic views</h2><p>Thematic views built on the data of this map, by its author, are published at <a href=\"https://frmoretto.github.io/agentic-standards-views/\" rel=\"noopener\">frmoretto.github.io/agentic-standards-views</a> (repository frmoretto/agentic-standards-views). They are separate readings of the map's data, with their own text, and are not part of the map or of its versions.</p>"
             "<h2 id=\"licence\">Licence</h2><p>The content is under <a href=\"%s\" rel=\"noopener\">CC BY 4.0</a>; the scripts in <code>tools/</code> are under the MIT licence. Reuse is free with attribution. Quotations from third-party texts remain under their own terms; CC BY 4.0 applies to the author's text and data.</p>"
             "<h2 id=\"cite\">How to cite</h2>%s%s"
             "<h2 id=\"counts\">Counts</h2><p>The numbers of sources quoted on the site (source references, distinct URLs, primary and third-party-only URLs) are produced by <a href=\"%s\" rel=\"noopener\">tools/count_sources.py</a>, run on the files of the repository. A source reference is one use of a URL in the field <code>sources</code> or in a <code>committed_next</code> item; a distinct URL is counted once whatever the number of uses; a URL with a fragment is a different URL. The script counts URLs and does not check that they respond.</p>"
@@ -1215,7 +1216,10 @@ def main():
         # data files
         events, stats, caldesc = calendar_events(src)
         (out / "calendar.ics").write_text(build_ics(events, site, caldesc), encoding="utf-8", newline="")
-        mapjson = {"schema": "v2", "schema_description": "entries/_schema.md", "generated": today, "source_commit": sha or "", "licence": LICENCE_URL,
+        mapjson = {"schema": "v2", "schema_description": "entries/_schema.md", "generated": today,
+                   # version and doi (from 1.6): the version named in the README version line, and the version DOI if given, else the concept DOI
+                   "version": site.version or None, "doi": (site.a.version_doi or site.a.doi or None),
+                   "source_commit": sha or "", "licence": LICENCE_URL,
                    "entries": [entry_object(entries[i], site.archived) for i in sorted(entries)],
                    "graph": {"nodes": sorted(entries), "overlap_edges": [list(x) for x in edges], "seams": {k: {"title": t, "entries": ids_} for k, (t, ids_) in seams.items()}}}
         (out / "map.json").write_text(json.dumps(mapjson, ensure_ascii=False, indent=1, default=d), encoding="utf-8", newline="\n")

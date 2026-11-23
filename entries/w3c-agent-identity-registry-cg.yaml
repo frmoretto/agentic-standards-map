@@ -3,10 +3,10 @@ name: W3C Agent Identity Registry Protocol Community Group
 org: W3C
 kind: venue
 tier: context
-status: 'Community group created 2026-04-24; calls every two weeks on Tuesdays at 15:00 UTC; the call of 2026-10-06 had an agenda on the list (message of 2026-10-01) and minutes of 22 September were posted on 2026-10-01; minutes of the call of 2026-10-06 and a later call: not found in the October 2026 list archive (4 messages, the last of 2026-10-02), read 2026-10-13. The W3C group data list one chair. Read 2026-11-02: the group''s repository w3c-cg/agent-identity holds agendas and minutes for 2026-09-08, 2026-09-22, 2026-10-06 and 2026-10-20; the minutes of 2026-10-20 (added on 2026-10-29) record a demonstration of credential registration and scope authorization by the chair, no resolutions, and the circulation of a landscape document, and announce the next meeting for 2026-11-17 at 15:00 UTC, postponed for IIW 43 and an agentic workshop.'
-status_as_of: 2026-11-02
+status: 'Community group created 2026-04-24; calls every two weeks on Tuesdays at 15:00 UTC; the call of 2026-10-06 had an agenda on the list (message of 2026-10-01) and minutes of 22 September were posted on 2026-10-01; the minutes of the call of 2026-10-06 were posted on the list on 2026-10-16 (read 2026-11-23). The W3C group data list one chair. Read 2026-11-02: the group''s repository w3c-cg/agent-identity holds agendas and minutes for 2026-09-08, 2026-09-22, 2026-10-06 and 2026-10-20; the minutes of 2026-10-20 (added on 2026-10-29) record a demonstration of credential registration and scope authorization by the chair, no resolutions, and the circulation of a landscape document. The call of 2026-11-17 was held: the chair wrote on 2026-11-19 that the notes were still being prepared, and no minutes for it are in the repository on 2026-11-23; its agenda included a receiver test matrix reviewed under FC-02, for which "Pass conditions are fixed before any run.", and the approval of the landscape document; the next call is announced for 2026-12-01 (read 2026-11-23).'
+status_as_of: 2026-11-23
 relevance: Develops specifications to verify an agent's identity, controlling entity and authorization scope; the chair wrote on 2026-08-26 "We'll keep this group focused on the registry and credential layer for now".
-participation: The author of this map took part in the group's mailing list. Reply on the list on the fields of the landscape document (2026-10-26); see Disclosure.
+participation: 'The author of this map took part in the group''s mailing list: a reply on the fields of the landscape document (2026-10-26), and two messages of 2026-11-12 and 2026-11-13 in the thread "DNS vs DID in the Trust Layer", the second proposing a column for who publishes the key set a verifier trusts; on 2026-11-15 the trust record of the AIKR Community Group added it as a proposed field, "Key publisher"; see Disclosure.'
 sources:
 - url: https://api.w3.org/groups/cg/agent-identity
   read: 2026-10-02
@@ -20,16 +20,36 @@ sources:
 - url: https://github.com/w3c-cg/agent-identity/blob/5abd5a677e74ba28d3e889498bc63a9f0e1d367c/meetings/2026/2026-10-20-minutes.md
   read: 2026-11-02
   class: statement
+- url: https://lists.w3.org/Archives/Public/public-agent-identity/2026Oct/0008.html
+  read: 2026-11-23
+  class: statement
+- url: https://github.com/w3c-cg/agent-identity/blob/d084812/meetings/2026/2026-11-17-agenda.md
+  read: 2026-11-23
+  class: statement
+- url: https://lists.w3.org/Archives/Public/public-agent-identity/2026Nov/0047.html
+  read: 2026-11-23
+  class: statement
 - url: https://lists.w3.org/Archives/Public/public-agent-identity/2026Aug/0008.html
   read: 2026-10-03
+  class: statement
+- url: https://lists.w3.org/Archives/Public/public-agent-identity/2026Nov/0007.html
+  read: 2026-11-23
+  class: statement
+- url: https://lists.w3.org/Archives/Public/public-agent-identity/2026Nov/0033.html
+  read: 2026-11-23
+  class: statement
+committed_next:
+- what: Next call of the group, announced by the chair on the list.
+  when: 2026-12-01
+  source: https://lists.w3.org/Archives/Public/public-agent-identity/2026Nov/0007.html
   class: statement
 overlaps:
 - w3c-agenticweb-wg
 - ietf-webbotauth
 - kyapay
 - dif-trusted-ai-agents
-verified: 2026-11-02
+verified: 2026-11-23
 evidence:
-  read: 'On 2026-11-02: the meetings folder of w3c-cg/agent-identity (file names) and the minutes of 2026-10-20 at commit 5abd5a6 (2026-10-29). On 2026-10-13: the October 2026 index of public-agent-identity (4 messages, subjects and dates) and the chairs listed on the W3C group data. public-agent-identity (August to October 2026) read on 2026-10-03 without quoted replies.'
+  read: 'On 2026-11-23: the list messages of 2026-10-16 (minutes of 2026-10-06), 2026-11-10 (agenda of 2026-11-17 and next call), 2026-11-12, 2026-11-13, 2026-11-15 and 2026-11-19 (call of 2026-11-17 held, notes in preparation); the agenda of 2026-11-17 at commit d084812 (2026-11-13) and the meetings folder of w3c-cg/agent-identity (no minutes of 2026-11-17). The agenda''s receiver test matrix has nine cases. The archive pages show addresses, which are not reproduced. On 2026-11-02: the meetings folder of w3c-cg/agent-identity (file names) and the minutes of 2026-10-20 at commit 5abd5a6 (2026-10-29). On 2026-10-13: the October 2026 index of public-agent-identity (4 messages, subjects and dates) and the chairs listed on the W3C group data. public-agent-identity (August to October 2026) read on 2026-10-03 without quoted replies.'
   not_read: Group description in full, files of the repository w3c-cg/agent-identity other than the meetings folder and the minutes of 2026-10-20, the landscape document, cross-posted documents.
-  not_found: 'Not found in those messages: agenticweb, webbotauth, kyapay, dif.'
+  not_found: 'Not found in those messages: agenticweb, webbotauth, kyapay, dif. Status as written in version 1.5, kept verbatim as the record of earlier readings: "minutes of the call of 2026-10-06 and a later call: not found in the October 2026 list archive (4 messages, the last of 2026-10-02), read 2026-10-13." and "and announce the next meeting for 2026-11-17 at 15:00 UTC, postponed for IIW 43 and an agentic workshop.".'

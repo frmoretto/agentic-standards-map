@@ -8,7 +8,7 @@ status_as_of: 2026-10-13
 relevance: 'Issue #4824 proposes a direct booking channel for LodgingBusiness; the author of the Vacation Rental Protocol commented on 2026-09-02: "For machine consumers that distinction should be verifiable, not only declared." PR #4871 links Product, and also Offer, to a passport by hasDigitalProductPassport, a sub-property of hasCertification; a reviewer wrote "Privacy will also need some consideration if "product" passports are not to become proxy identifiers for their holders, traders and purchasers." PR #4861 (2026-07-23) says "This puts several pending schema types and properties into GA (General Availability)."'
 committed_next: []
 boundary: 'Issue #3303 (bed and occupancy on Accommodation) was closed as not_planned on 2026-05-13.'
-participation: 'The author of this map opened issue #4928 (public registration numbers of accommodations); see Disclosure.'
+participation: 'The author of this map opened issue #4928 (public registration numbers of accommodations) and, on 2026-11-03, PR #4957 with examples for it (open on 2026-11-23); see Disclosure.'
 sources:
 - url: https://github.com/schemaorg/schemaorg/issues/4824
   read: 2026-10-02
@@ -35,9 +35,9 @@ overlaps:
 - schemaorg-baseline
 seams:
 - S2
-verified: 2026-10-14
+verified: 2026-11-23
 evidence:
-  read: 'On 2026-10-14: the release notes of V30.1 (the terms attributed to PR #4871). On 2026-10-13: the state, comment count and last update of issues #4824, #4786, #4828, #4774, #4928, #4572, #4615, #4525 and PRs #4861, #4871, #4880, #4889, #4897; schema.org/docs/releases.html; the term page hasDigitalProductPassport. Repository items read (schemaorg/schemaorg, items active since 2026-01-01, latest 2026-09-28): the five issues, PR #4871 and related threads in full, the rest by keyword search; issue-4870.ttl on main (2026-10-03).'
+  read: 'On 2026-11-23: the state of PR #4957 (GitHub API), for the participation field only. On 2026-10-14: the release notes of V30.1 (the terms attributed to PR #4871). On 2026-10-13: the state, comment count and last update of issues #4824, #4786, #4828, #4774, #4928, #4572, #4615, #4525 and PRs #4861, #4871, #4880, #4889, #4897; schema.org/docs/releases.html; the term page hasDigitalProductPassport. Repository items read (schemaorg/schemaorg, items active since 2026-01-01, latest 2026-09-28): the five issues, PR #4871 and related threads in full, the rest by keyword search; issue-4870.ttl on main (2026-10-03).'
   not_read: 'The well-known files named in #4824; whether the terms of PR #4871 are in release 30.1 (pending on 2026-10-03).'
   not_found: 'Not found in the repository read: a maintainer release date for the five issues.'
 open_proposals:

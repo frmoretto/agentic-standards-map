@@ -3,19 +3,12 @@ name: IETF AI Preferences (aipref WG)
 org: IETF
 kind: venue
 tier: core
-status: The vocabulary draft is at -08 (2026-09-13 in the datatracker history) and the attach draft was last seen at -05 (2026-08-19). A virtual interim meeting is announced for 2026-10-21. On 2026-10-13 the datatracker record gives revision 08 of the vocabulary draft (time 2026-09-14 06:18 UTC) and revision 05 of the attach draft (2026-08-19), no later revision; the interim announcement was not rechecked.
-status_as_of: 2026-10-13
+status: 'Both IETF 127 sessions were held, on 2026-11-16 (attachment draft) and 2026-11-19 (vocabulary draft), according to the agenda agenda-127-aipref-01 and the session recordings on the datatracker; no minutes were posted there by 2026-11-23, so their outcome is not reported here. The WG drafts are unchanged on the datatracker on 2026-11-23 (vocabulary -08 of 2026-09-14, attachment -05 of 2026-08-19), and on 2026-11-19 the editor merged three pull requests into the editor copy of the vocabulary draft: #252 says that preferences apply to how assets are used, not to how they are obtained, #253 that preferences are retained when assets are altered before use, including embeddings and excerpts, closing issue #246 on derived forms, and #262 removes the note linking issue 245, as decided in the discussion in San Francisco according to its description (GitHub, read 2026-11-23).'
+status_as_of: 2026-11-23
 relevance: The Working Group (WG) develops building blocks to express preferences about how content is collected and processed for AI model development, deployment and use, and the draft W3C Agentic Web charter lists it for coordination. For a seller, the vocabulary is the layer in which a publisher states what automated systems may do with its content. The editor copy of the vocabulary draft (main branch of ietf-wg-aipref/drafts, read 2026-10-03) has a section AI Use that reads "where the asset is not directly provided by the user." with a note that issue 249 asks whether referencing an asset by URL counts as direct.
-committed_next:
-- what: Virtual interim meeting, 20:00 to 21:30 UTC.
-  when: 2026-10-21
-  source: https://mailarchive.ietf.org/arch/msg/ai-control/H8Gycx8vy4BKierBvIhG8V2JYFQ/
-  class: decision
-- what: Two sessions of 1.5 hours at IETF 127 (14 to 20 November 2026), requested by the chair on 2026-09-14.
-  when: undated
-  source: https://mailarchive.ietf.org/arch/msg/ai-control/95iDQg7QAejNvt6iJiEhfbpXMbk/
-  class: statement
+committed_next: []
 boundary: A participant wrote on 2026-08-26 that caching of any form was agreed to be an implementation detail outside the document.
+participation: 'The author of this map commented on pull requests #254, #258 and #260 and issue #249 of the working group repository and opened issue #263; see Disclosure.'
 sources:
 - url: https://datatracker.ietf.org/wg/aipref/about/
   read: 2026-09-29
@@ -29,17 +22,39 @@ sources:
 - url: https://mailarchive.ietf.org/arch/msg/ai-control/H8Gycx8vy4BKierBvIhG8V2JYFQ/
   read: 2026-10-03
   class: decision
+- url: https://datatracker.ietf.org/meeting/127/materials/agenda-127-aipref-01
+  read: 2026-11-23
+  class: statement
+- url: https://github.com/ietf-wg-aipref/drafts/pull/252
+  read: 2026-11-23
+  class: decision
+- url: https://github.com/ietf-wg-aipref/drafts/pull/253
+  read: 2026-11-23
+  class: decision
+- url: https://github.com/ietf-wg-aipref/drafts/pull/262
+  read: 2026-11-23
+  class: decision
 - url: https://mailarchive.ietf.org/arch/msg/ai-control/A63f3A3k2a9GjhEtOy7J56aUorM
   read: 2026-10-03
   class: third-party
-verified: 2026-10-13
+verified: 2026-11-23
 evidence:
-  read: 'On 2026-10-13: the datatracker records of draft-ietf-aipref-vocab and draft-ietf-aipref-attach. ai-control list, 2026-08-01 to 2026-09-30 (137 messages, read without quoted replies); datatracker history of draft-ietf-aipref-vocab; editor copy of the vocabulary and attach drafts, by keyword.'
-  not_read: Posted text of -08, WG milestones page, August interim minutes, repository issues and pull requests, use-case wiki.
+  read: 'On 2026-11-23: the IETF 127 agenda of the group (agenda-127-aipref-01), the datatracker list of minutes, recordings and slides for the two sessions (no minutes), the datatracker records of the two WG drafts, of draft-kelley-aipref-training-preference-signal and of draft-ovalles-ai-terms, the subjects of the ai-control list date index for November 2026 (no interim announcement), pull requests #252, #253, #259 and #262 and issue #246 of ietf-wg-aipref/drafts (state, merge times, descriptions) and draft-ietf-aipref-vocab.md on main at dabaa95, by keyword (GitHub API); the AI Use sentence quoted in the relevance is still on main. On 2026-10-13: the datatracker records of draft-ietf-aipref-vocab and draft-ietf-aipref-attach. ai-control list, 2026-08-01 to 2026-09-30 (137 messages, read without quoted replies); datatracker history of draft-ietf-aipref-vocab; editor copy of the vocabulary and attach drafts, by keyword. Status as written in version 1.5, kept verbatim as the record of earlier readings: The vocabulary draft is at -08 (2026-09-13 in the datatracker history) and the attach draft was last seen at -05 (2026-08-19). A virtual interim meeting is announced for 2026-10-21. On 2026-10-13 the datatracker record gives revision 08 of the vocabulary draft (time 2026-09-14 06:18 UTC) and revision 05 of the attach draft (2026-08-19), no later revision; the interim announcement was not rechecked.'
+  not_read: Posted text of -08, WG milestones page, August interim minutes, repository issues and pull requests other than those named, use-case wiki; minutes of the IETF 127 sessions (none posted on 2026-11-23); the texts of the individual drafts in the open proposals beyond their datatracker records and abstracts.
   not_found: 'Not found in the ai-control list, 2026-08-01 to 2026-09-30: commerce, merchant, checkout, Know Your Agent (KYA), know your agent, minors, buyer age.'
 open_proposals:
-- what: Add a category for embeddings, indexes and cached copies (ai-embed).
+- what: 'Add a category for embeddings, indexes and cached copies (ai-embed). Issue #246 on derived forms was closed on 2026-11-19 by PR #253, which retains preferences on derived forms without adding a category.'
   author: Tyler Martin
   date: 2026-08-26
   state: open
   url: https://mailarchive.ietf.org/arch/msg/ai-control/p9kpjIxFOia7MTYnQnDVrIZH8aw
+- what: 'Individual draft draft-kelley-aipref-training-preference-signal (-01, 2026-11-16; -00 of 2026-10-30): according to its abstract, usage preferences bound to paths through ordinary robots.txt groups keyed by a per-purpose token in the User-Agent line, with no new directive.'
+  author: Kevin Kelley
+  date: 2026-11-16
+  state: draft
+  url: https://datatracker.ietf.org/doc/draft-kelley-aipref-training-preference-signal/
+- what: 'Individual draft draft-ovalles-ai-terms, "AI Terms: Per-Use Terms, Payment and Receipts for Automated AI Access to Web Content" (-03, 2026-11-19; -00 of 2026-11-16); title and datatracker record only, text not read.'
+  author: Damien Ovalles
+  date: 2026-11-19
+  state: draft
+  url: https://datatracker.ietf.org/doc/draft-ovalles-ai-terms/

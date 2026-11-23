@@ -3,8 +3,8 @@ name: Model Context Protocol (MCP), core specification
 org: AAIF
 kind: specification
 tier: context
-status: Specification version 2026-07-28 (the latest release is 2026-07-28; the specification directory holds 2024-11-05, 2025-03-26, 2025-06-18, 2025-11-25, 2026-07-28 and a draft; no later release, read 2026-10-13); the blog post of 2025-12-09 says "Anthropic is donating MCP to the Agentic AI Foundation".
-status_as_of: 2026-10-13
+status: Specification version 2026-07-28 (the latest release is 2026-07-28; the specification directory holds 2024-11-05, 2025-03-26, 2025-06-18, 2025-11-25, 2026-07-28 and a draft; no later release, read 2026-11-23); the blog post of 2025-12-09 says "Anthropic is donating MCP to the Agentic AI Foundation". The maintainers' blog of 2026-11-11 moves specification releases to the last Tuesday of March and September, the next targeted for 2027-03-30; the Events extension (SEP-3415, merged on 2026-11-19 with the label "final") lets a client subscribe to events in an upstream system so that an agent can react "without the user being present", and an extension for file uploads and downloads was described as an experimental draft on 2026-11-10 (read 2026-11-23).
+status_as_of: 2026-11-23
 relevance: The specification describes MCP as "an open protocol that enables seamless integration between LLM applications and external data sources and tools"; discovery is in mcp-server-card and lf-ai-catalog.
 sources:
 - url: https://aaif.io/projects
@@ -16,17 +16,31 @@ sources:
 - url: https://blog.modelcontextprotocol.io/posts/2025-12-09-mcp-joins-agentic-ai-foundation/
   read: 2026-10-03
   class: decision
+- url: https://blog.modelcontextprotocol.io/posts/mcp-release-cycle/
+  read: 2026-11-23
+  class: statement
+- url: https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3415
+  read: 2026-11-23
+  class: decision
 - url: https://github.com/frmoretto/agentic-standards-map/issues/9
   read: 2026-10-19
   class: third-party
+- url: https://blog.modelcontextprotocol.io/posts/exploring-file-uploads-and-downloads-in-mcp/
+  read: 2026-11-23
+  class: statement
+committed_next:
+- what: Next specification release, MCP version 2027-03-30, targeted by the maintainers in the release-cycle post of 2026-11-11.
+  when: 2027-03-30
+  source: https://blog.modelcontextprotocol.io/posts/mcp-release-cycle/
+  class: statement
 overlaps:
 - mcp-server-card
 - lf-ai-catalog
 - a2a-core
 seams:
 - S1
-verified: 2026-11-16
+verified: 2026-11-23
 evidence:
-  read: 'On 2026-11-16: the folder docs/specification of modelcontextprotocol/modelcontextprotocol on main and at 5ea9960, the head of main on 2026-10-13 (GitHub API); 2024-11-05 was already there, missing from the list read on 2026-10-13. The change was proposed for the map in issue #9 (2026-10-18) by zeroasterisk, who disclosed: "Proposer works at Google (Google contributed A2A to the Linux Foundation and donated AP2 to the FIDO Alliance); member of the AAIF Technical Steering Committee. No commercial interest in this map." On 2026-10-13: the list of releases and the specification directory of the repository; the blog post, the governance page and the versioning page were not re-read. On 2026-10-03: specification, versioning and governance pages, blog post, README, GOVERNANCE.md, releases.'
+  read: 'On 2026-11-23: the releases and the folder docs/specification of modelcontextprotocol/modelcontextprotocol (no release after 2026-07-28), PR #3415 (SEP-3415, state, labels, description), and the maintainers'' blog posts of 2026-11-10 (file uploads and downloads) and 2026-11-11 (release cycle). On 2026-11-16: the folder docs/specification of modelcontextprotocol/modelcontextprotocol on main and at 5ea9960, the head of main on 2026-10-13 (GitHub API); 2024-11-05 was already there, missing from the list read on 2026-10-13. The change was proposed for the map in issue #9 (2026-10-18) by zeroasterisk, who disclosed: "Proposer works at Google (Google contributed A2A to the Linux Foundation and donated AP2 to the FIDO Alliance); member of the AAIF Technical Steering Committee. No commercial interest in this map." On 2026-10-13: the list of releases and the specification directory of the repository; the blog post, the governance page and the versioning page were not re-read. On 2026-10-03: specification, versioning and governance pages, blog post, README, GOVERNANCE.md, releases.'
   not_read: Full text of each specification chapter, the Specification Enhancement Proposal (SEP) process pages, licence texts beyond README and GOVERNANCE.md.
   not_found: 'On 2026-10-19: aaif.io/projects, which lists Model Context Protocol among the projects AAIF hosts, and the governance page (last modified 2026-08-05), where AAIF, Agentic AI Foundation and Linux Foundation are not found. Not found on the governance and specification pages: foundation, AAIF, Linux.'

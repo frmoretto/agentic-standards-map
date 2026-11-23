@@ -65,7 +65,43 @@ Archive copies: snapshots of the cited sources were requested on 2026-10-14 from
 
 **Changelog.**
 
-**Since 1.5 (not a numbered version).** Corrections to the living version, read again at the source on 2026-11-16, for the next numbered version.
+**1.6 (2026-11-23).** One entry added (`oidf-aauth`); corrections and additions to the living version. Facts dated after Friday 2026-11-20 are deferred to 1.7, except corrections of the state of a source already cited (among them the minutes of IETF 127 posted after the meeting) and contributions of the author of this map.
+
+IETF 127 (14 to 20 November 2026), read again on the datatracker on 2026-11-23:
+
+- `ietf-agentproto`: the first session of the working group was held; the use cases draft was posted as draft-ietf-agentproto-usecases-requirements-00 (2026-11-20); no architecture draft was chosen.
+- `ietf-audit`: the BoF was held; the minutes record that no working group is chartered for now and that a second BoF is to follow; the six polls of the session as recorded by the datatracker; the expected-record draft announced for before the meeting is not found on the datatracker and leaves the next steps.
+- `ietf-webbotauth`: the changes agreed for the working group draft; tracking of users, sessions and sub-agents confirmed outside the charter.
+- `ietf-wimse-aims`, `ietf-dawn`: sessions held, with their polls; no working group draft in DAWN.
+- `kyapay`: section Issuer Records of kyapay-token-04 read; the draft was presented to the OAuth working group, with no call for adoption.
+- `ietf-aipref`, `ietf-vcon`: sessions held; no minutes were posted by 2026-11-23, so their outcome is not reported; three pull requests merged into the AIPREF vocabulary draft on 2026-11-19.
+- Calendar: the IETF 127 rows removed; the 60-day window moved to 2026-11-23.
+
+Additions:
+
+- `oidf-aauth`: the AAuth Working Group of the OpenID Foundation, from its public page (2026-11-11), charter and repository; first meeting on 2026-11-30.
+- `pap`: the content of version 1.0 (specification section 4.1, operations section 8.1, change log) and Sierra's announcement of 2026-11-13, given as Sierra's statement; an individual IETF draft built on PAP among the open proposals.
+- `ucp`: the WebMCP transport binding draft, regional working group charters (2026-11-20), food checkout announced as a draft, catalog recommendations, lodging proposals, the minutes of the Governing Council of 2026-11-13 and of the Shopping Tech Council of 2026-11-06, the feed capability approved and not merged by 2026-11-20, the Ask Operator extension.
+- `w3c-agenticweb-wg`, `w3c-did-resolution`, `mcp-core`, `browsers-webmcp`, `lf-ai-catalog`, `aaif-identity-trust`, `aaif-wg-agentic-commerce`, `emvco-agentic-payments-framework`: explainers resolved by the Web Machine Learning CG, the DID Resolution draft of 2026-11-20 on relativeRef, the Events extension and the next MCP release date, WebMCP in Brave and in the MCP Apps SDK, ADR-0028 of AI Catalog, version 1 of Agent Identity Primitives, comments on issue #5, the EMVCo article on the public review.
+- `ietf-webbotauth`: OpenAI's announcement of ChatGPT Wallet asks businesses to recognise Web Bot Auth signatures.
+- Seams: a section "Unowned seam: stopping an agent", not numbered, from the public minutes of the AAIF Security and Privacy Working Group of 2026-11-10; the seams are still four.
+- Disclosure: contributions of the author of this map not yet listed, from 2026-10-25 to 2026-11-23, among them comments on UCP, AIPREF and W3C lists, a presentation at the vcon session and interventions recorded in the AUDIT and OAuth minutes; a row of 2026-11-02 corrected.
+- `map.json`: two top-level fields, `version` and `doi` (the version DOI once assigned, else the concept DOI), next to `generated`.
+- For agents and tools: a link to the thematic views built on the data of this map, which are not part of the map.
+
+Corrections:
+
+- `ucp`: the census of 2026-10-30 by APIs.io counted 1 Wix host; Kin Lane has since corrected it on the measurements page of APIs.io (205 Wix hosts in the run of 2026-11-02, 204 of them already in the earlier list). RFC #550 and issue #904 were closed on 2026-11-20.
+- `acp`, `lf-ai-catalog`, `shopify`, `ietf-dawn`, `ietf-audit`, `ietf-dnsaid`, `mcp-server-card`, `w3c-agent-identity-registry-cg`: an open proposal closed by its author, an issue closed, the latest toolkit release, new revisions of cited drafts, the minutes of a call found on the list.
+
+Deferred to 1.7:
+
+- Facts dated after 2026-11-20: the Web Bot Auth implementation report and draft-suresh-webbotauth-verification-outcome-00, the series of EU-law issues on UCP, new comments on AAIF identity and trust issue #13, new AAIF project proposals.
+- The outcomes of the AIPREF and vcon sessions of IETF 127, until their minutes are posted.
+- Agent Name Service, WooCommerce pull request #70510, UCP pull request #1121 and the membership of the Shopping Tech Council; draft-craig-oauth-rar-payment-mandates, which no entry covers.
+- A numbered seam for stopping an agent.
+
+Published on the site after 1.5 and before 1.6 (until now under "Since 1.5"), part of 1.6:
 
 - `trace`: Correction to 1.5: version 1.5 said that MAINTAINERS.md no longer lists the two OPAQUE Systems spec editors; since 2026-10-15 it lists them under Emeritus and says that they remain owners of the agentrust-io organization. The status of 1.4 kept in the evidence carries a dated note.
 - `ucp`: Correction to 1.5: pull request #890, merged on 2026-11-10, was still given as a draft in the open proposals and in the payment comparison row; the row now quotes the merged text on the record against which a dispute is resolved.
