@@ -116,6 +116,6 @@
   "not_found": "The group's white paper (\"Agent Network Protocol White Paper\", CG-DRAFT, index.html last changed on 2026-01-14) compares MCP, A2A, ANP, Agent Connect Protocol and Agent Communication Protocol; UCP, AP2, x402 and commerce are not found in it (read 2026-11-02)."
  },
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/w3c-ai-agent-protocol-cg.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/436dd50e12608a7b973d2d11b98d787d48465c48/entries/w3c-ai-agent-protocol-cg.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/b19e196c29cc0a1499a7cdd9a405c02058c88818/entries/w3c-ai-agent-protocol-cg.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }
