@@ -4,9 +4,9 @@
  "org": "Independent",
  "kind": "position",
  "tier": "core",
- "status": "WebKit position issue #670 closed 2026-06-11 as \"position: oppose\"; Mozilla #1412 closed 2026-08-05 as \"position: neutral\". Chrome early preview 2026-02-10; Edge blog of 2026-09-21: implementation \"is ready for testing\".",
- "status_as_of": "2026-10-13",
- "relevance": "WebMCP lets a page expose tools to browsing agents; Chrome describes it as \"a standard way for exposing structured tools, ensuring AI agents can perform actions on your site with increased speed, reliability, and precision\". The WebKit reviewer wrote on 2026-06-03 \"WebKit is **opposed** to this proposal due to the following concerns:\", among them that \"it has no consent or reversibility model for consequential actions\". The Mozilla reviewer proposed a neutral position, writing that \"in an adversarial setting there is a risk that sites will provide tools that do not match the experience of a user on the page\". PayPal's blog of 2026-09-16 says it is \"extending WebMCP support through the PayPal JavaScript SDK\" for Store Sync merchants; the agent can search, prepare the cart and initiate checkout, and \"The buyer is then handed off to PayPal to sign in, choose or confirm a funding source, review the transaction, and approve payment.\" PayPal reports, as its own results of a small sandbox benchmark: \"Approximately 4.6 times less costly in model-inference usage\", \"Approximately twice as fast at the median\", and \"three structured tool calls via WebMCP instead of more than 30 interface-interaction steps\" (self-reported). Shopify's developer changelog of 2026-09-28 says \"Browser agents can now read and update Shopify checkouts using WebMCP tools for checkout\", with get_checkout, update_checkout and complete_checkout (\"Submit checkout after buyer confirmation\"); the tools \"don't expose a new API or require merchant configuration\". The Checkout WebMCP documentation says \"Before you call complete_checkout, show the buyer the current order and total, and get their permission to place it. WBA and ready_for_complete don't grant it.\"",
+ "status": "WebKit position issue #670 closed 2026-06-11 as \"position: oppose\"; Mozilla #1412 closed 2026-08-05 as \"position: neutral\" (both read 2026-10-13). Chrome early preview 2026-02-10; Edge blog of 2026-09-21: implementation \"is ready for testing\"; since 2026-11-12 (PR #383) the implementation-status page of the WebMCP repository says \"WebMCP is supported in Leo AI chat as of the Brave 1.102.2 release (expected on January 5, 2027)\", where it earlier said experimental.",
+ "status_as_of": "2026-11-23",
+ "relevance": "WebMCP lets a page expose tools to browsing agents; Chrome describes it as \"a standard way for exposing structured tools, ensuring AI agents can perform actions on your site with increased speed, reliability, and precision\". The WebKit reviewer wrote on 2026-06-03 \"WebKit is **opposed** to this proposal due to the following concerns:\", among them that \"it has no consent or reversibility model for consequential actions\". The Mozilla reviewer proposed a neutral position, writing that \"in an adversarial setting there is a risk that sites will provide tools that do not match the experience of a user on the page\". PayPal's blog of 2026-09-16 says it is \"extending WebMCP support through the PayPal JavaScript SDK\" for Store Sync merchants; the agent can search, prepare the cart and initiate checkout, and \"The buyer is then handed off to PayPal to sign in, choose or confirm a funding source, review the transaction, and approve payment.\" PayPal reports, as its own results of a small sandbox benchmark: \"Approximately 4.6 times less costly in model-inference usage\", \"Approximately twice as fast at the median\", and \"three structured tool calls via WebMCP instead of more than 30 interface-interaction steps\" (self-reported). Shopify's developer changelog of 2026-09-28 says \"Browser agents can now read and update Shopify checkouts using WebMCP tools for checkout\", with get_checkout, update_checkout and complete_checkout (\"Submit checkout after buyer confirmation\"); the tools \"don't expose a new API or require merchant configuration\". The Checkout WebMCP documentation, read 2026-11-16, adds a fourth tool, navigate_checkout, which on a three-page checkout moves to the next or to an earlier step without changing checkout details or placing an order; complete_checkout is accepted only from the last step (the tool is absent from the copy of 2026-10-08). The Checkout WebMCP documentation says \"Before you call complete_checkout, show the buyer the current order and total, and get their permission to place it. WBA and ready_for_complete don't grant it.\" Release 2.1.0 of the MCP Apps SDK (modelcontextprotocol/ext-apps, 2026-11-10) mirrors tools registered by an MCP App into the page's `document.modelContext` and serves page-registered tools over the Apps channel, and makes the draft's section on WebMCP a normative interoperability section. UCP has a draft WebMCP transport binding (PR #1073, opened 2026-11-11, open and draft on 2026-11-20, milestone 2026-12-08); see ucp.",
  "committed_next": [
   {
    "what": "Mozilla reviewer: \"willing to come back to revisit it once there is more evidence of how it will be used by sites\"",
@@ -57,8 +57,23 @@
   {
    "url": "https://shopify.dev/docs/agents/carts-and-checkout/checkout-webmcp",
    "archived": "https://web.archive.org/web/20261014063415/https://shopify.dev/docs/agents/carts-and-checkout/checkout-webmcp",
-   "read": "2026-10-08",
+   "read": "2026-11-16",
    "class": "normative"
+  },
+  {
+   "url": "https://github.com/webmachinelearning/webmcp/pull/383",
+   "read": "2026-11-23",
+   "class": "statement"
+  },
+  {
+   "url": "https://github.com/modelcontextprotocol/ext-apps/releases/tag/v2.1.0",
+   "read": "2026-11-23",
+   "class": "decision"
+  },
+  {
+   "url": "https://github.com/Universal-Commerce-Protocol/ucp/pull/1073",
+   "read": "2026-11-23",
+   "class": "third-party"
   }
  ],
  "overlaps": [
@@ -70,12 +85,12 @@
   "S3",
   "S4"
  ],
- "verified": "2026-10-13",
+ "verified": "2026-11-23",
  "evidence": {
-  "read": "On 2026-10-13: the Chrome and Edge pages and the issues of WebKit and Mozilla, whose quoted sentences (the Chrome description, the Edge sentence \"is ready for testing\", and the WebKit and Mozilla statements) were found again in the current texts; the state and labels of both issues (closed 2026-06-11 \"position: oppose\" and closed 2026-08-05 \"position: neutral\", unchanged). On 2026-10-08: the PayPal blog, the Shopify developer changelog and the Shopify documentation page on Checkout WebMCP. WebKit/standards-positions#670 and mozilla/standards-positions#1412 with all comments, and the Chrome early-preview, Chrome origin-trial and Edge blog posts, on 2026-10-03.",
+  "read": "On 2026-11-23, through gh: webmachinelearning/webmcp PR #383 (merged 2026-11-12) and implementation-status.md on main, the release v2.1.0 of modelcontextprotocol/ext-apps (notes), and UCP PR #1073 (state, draft, milestone). On 2026-11-16: the saved copy of the Shopify Checkout WebMCP documentation (navigate_checkout; the sentence quoted above is still present). On 2026-10-13: the Chrome and Edge pages and the issues of WebKit and Mozilla, whose quoted sentences (the Chrome description, the Edge sentence \"is ready for testing\", and the WebKit and Mozilla statements) were found again in the current texts; the state and labels of both issues (closed 2026-06-11 \"position: oppose\" and closed 2026-08-05 \"position: neutral\", unchanged). On 2026-10-08: the PayPal blog, the Shopify developer changelog and the Shopify documentation page on Checkout WebMCP. WebKit/standards-positions#670 and mozilla/standards-positions#1412 with all comments, and the Chrome early-preview, Chrome origin-trial and Edge blog posts, on 2026-10-03.",
   "not_read": "Safari or Apple pages outside the issue, Chrome Status, other Mozilla pages, other vendors, implementation documentation."
  },
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/browsers-webmcp.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/14d5c95b186ac264862a3dd4eccb84782145bf1e/entries/browsers-webmcp.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/436dd50e12608a7b973d2d11b98d787d48465c48/entries/browsers-webmcp.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }

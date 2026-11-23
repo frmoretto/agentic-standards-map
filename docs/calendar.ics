@@ -8,140 +8,56 @@ X-WR-CALDESC:This calendar lists dated public events of the next 60 days de
  clared by the venues\; charter milestones beyond 60 days are listed in the
   entries only\, and the individual draft expiries listed here are marked a
  s such: they are not commitments of a venue. Events as declared by the ven
- ues on 2026-11-16\; the IETF 127 rows were read again on the datatracker o
- n 2026-11-16 (agenda.json\; times unchanged from the reading of 2026-10-26
- )\; check the venue for later changes.
+ ues on 2026-11-23\; check the venue for later changes.
 BEGIN:VEVENT
-UID:ietf-webbotauth-2026-11-14-0.agentic-standards-map.invalid
-DTSTAMP:20261116T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261121
-SUMMARY:IETF 127\, San Francisco
-DESCRIPTION:IETF 127\, San Francisco (ietf.org/meeting/127\, read on 2026-1
- 0-13: "14 Nov 2026 - 20 Nov 2026")\; the sessions of the groups in this ma
- p are listed below by day (datatracker agenda of the meeting\, read on 202
- 6-10-26\; times in San Francisco time\, America/Los_Angeles\, UTC-8) Sourc
- e: https://www.ietf.org/meeting/127/\; https://datatracker.ietf.org/meetin
- g/upcoming/\; https://mailarchive.ietf.org/arch/msg/web-bot-auth/w0al4_01_
- 6Evh8AI9wXnbKz6Kc0/\; https://datatracker.ietf.org/group/webbotauth/meetin
- gs/\; https://datatracker.ietf.org/group/agentproto/meetings/
-URL:https://frmoretto.github.io/agentic-standards-map/entries/ietf-webbotau
- th.html
-END:VEVENT
-BEGIN:VEVENT
-UID:ietf-aipref-2026-11-16-1.agentic-standards-map.invalid
-DTSTAMP:20261116T000000Z
-DTSTART;VALUE=DATE:20261116
-DTEND;VALUE=DATE:20261117
-SUMMARY:IETF 127: aipref session\, 11:30 to 12:30 San Francisco time\, room
-  Golden Gate 7-8
-DESCRIPTION:IETF 127: aipref session\, 11:30 to 12:30 San Francisco time\, 
- room Golden Gate 7-8 Source: https://datatracker.ietf.org/meeting/127/agen
- da.json
-URL:https://frmoretto.github.io/agentic-standards-map/entries/ietf-aipref.h
- tml
-END:VEVENT
-BEGIN:VEVENT
-UID:ietf-agentproto-2026-11-16-2.agentic-standards-map.invalid
-DTSTAMP:20261116T000000Z
-DTSTART;VALUE=DATE:20261116
-DTEND;VALUE=DATE:20261117
-SUMMARY:IETF 127: agentproto session\, 14:00 to 16:00 San Francisco time\, 
- room Continental 5
-DESCRIPTION:IETF 127: agentproto session\, 14:00 to 16:00 San Francisco tim
- e\, room Continental 5 Source: https://datatracker.ietf.org/meeting/127/ag
- enda.json
-URL:https://frmoretto.github.io/agentic-standards-map/entries/ietf-agentpro
- to.html
-END:VEVENT
-BEGIN:VEVENT
-UID:ietf-audit-2026-11-17-3.agentic-standards-map.invalid
-DTSTAMP:20261116T000000Z
-DTSTART;VALUE=DATE:20261117
-DTEND;VALUE=DATE:20261118
-SUMMARY:IETF 127: AUDIT BoF session\, 09:00 to 10:30 San Francisco time\, r
- oom Continental 6
-DESCRIPTION:IETF 127: AUDIT BoF session\, 09:00 to 10:30 San Francisco time
- \, room Continental 6 Source: https://datatracker.ietf.org/meeting/127/age
- nda.json
-URL:https://frmoretto.github.io/agentic-standards-map/entries/ietf-audit.ht
+UID:oidf-aauth-2026-11-30-0.agentic-standards-map.invalid
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:OpenID Foundation AAuth Working Group: first meeting\, 18:00 UTC
+DESCRIPTION:OpenID Foundation AAuth Working Group: first meeting\, 18:00 UT
+ C (scope of the charter\, editor\, adoption of the contributed drafts\, ca
+ ll for co-chairs) Source: https://openid.net/wg/aauth/
+URL:https://frmoretto.github.io/agentic-standards-map/entries/oidf-aauth.ht
  ml
 END:VEVENT
 BEGIN:VEVENT
-UID:ietf-vcon-2026-11-17-4.agentic-standards-map.invalid
-DTSTAMP:20261116T000000Z
-DTSTART;VALUE=DATE:20261117
-DTEND;VALUE=DATE:20261118
-SUMMARY:IETF 127: vcon session\, 11:00 to 12:30 San Francisco time\, room G
- olden Gate 2
-DESCRIPTION:IETF 127: vcon session\, 11:00 to 12:30 San Francisco time\, ro
- om Golden Gate 2 Source: https://datatracker.ietf.org/meeting/127/agenda.j
- son
-URL:https://frmoretto.github.io/agentic-standards-map/entries/ietf-vcon.htm
- l
+UID:w3c-agent-identity-registry-cg-2026-12-01-1.agentic-standards-map.inval
+ id
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:W3C Agent Identity Registry CG: next call\, announced by the chair 
+ on the list
+DESCRIPTION:W3C Agent Identity Registry CG: next call\, announced by the ch
+ air on the list Source: https://lists.w3.org/Archives/Public/public-agent-
+ identity/2026Nov/0007.html
+URL:https://frmoretto.github.io/agentic-standards-map/entries/w3c-agent-ide
+ ntity-registry-cg.html
 END:VEVENT
 BEGIN:VEVENT
-UID:ietf-webbotauth-2026-11-17-5.agentic-standards-map.invalid
-DTSTAMP:20261116T000000Z
-DTSTART;VALUE=DATE:20261117
-DTEND;VALUE=DATE:20261118
-SUMMARY:IETF 127: webbotauth session\, 16:30 to 18:30 San Francisco time\, 
- room Continental 4
-DESCRIPTION:IETF 127: webbotauth session\, 16:30 to 18:30 San Francisco tim
- e\, room Continental 4 Source: https://datatracker.ietf.org/meeting/127/ag
- enda.json
-URL:https://frmoretto.github.io/agentic-standards-map/entries/ietf-webbotau
- th.html
+UID:ucp-2026-12-02-2.agentic-standards-map.invalid
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:UCP Bulk Product Discovery DWG: final wrap-up meeting\, according t
+ o the minutes of 2026-11-18
+DESCRIPTION:UCP Bulk Product Discovery DWG: final wrap-up meeting\, accordi
+ ng to the minutes of 2026-11-18 Source: https://github.com/Universal-Comme
+ rce-Protocol/meeting-minutes/blob/a6924cb/tc/shopping/dwg/bulk-product-dis
+ covery/2026/2026-11-18.md
+URL:https://frmoretto.github.io/agentic-standards-map/entries/ucp.html
 END:VEVENT
 BEGIN:VEVENT
-UID:ietf-wimse-aims-2026-11-18-6.agentic-standards-map.invalid
-DTSTAMP:20261116T000000Z
-DTSTART;VALUE=DATE:20261118
-DTEND;VALUE=DATE:20261119
-SUMMARY:IETF 127: wimse session\, 14:00 to 16:00 San Francisco time\, room 
- Golden Gate 4-5
-DESCRIPTION:IETF 127: wimse session\, 14:00 to 16:00 San Francisco time\, r
- oom Golden Gate 4-5 Source: https://datatracker.ietf.org/meeting/127/agend
- a.json
-URL:https://frmoretto.github.io/agentic-standards-map/entries/ietf-wimse-ai
- ms.html
-END:VEVENT
-BEGIN:VEVENT
-UID:ietf-aipref-2026-11-19-7.agentic-standards-map.invalid
-DTSTAMP:20261116T000000Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:IETF 127: aipref session\, 11:00 to 12:30 San Francisco time\, room
-  Continental 5
-DESCRIPTION:IETF 127: aipref session\, 11:00 to 12:30 San Francisco time\, 
- room Continental 5 Source: https://datatracker.ietf.org/meeting/127/agenda
- .json
-URL:https://frmoretto.github.io/agentic-standards-map/entries/ietf-aipref.h
- tml
-END:VEVENT
-BEGIN:VEVENT
-UID:ietf-wimse-aims-2026-11-19-8.agentic-standards-map.invalid
-DTSTAMP:20261116T000000Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:IETF 127: wimse session\, joint session with OAUTH
-DESCRIPTION:IETF 127: wimse session\, joint session with OAUTH (agenda note
- )\, 14:00 to 16:00 San Francisco time\, room Golden Gate 4-5 Source: https
- ://datatracker.ietf.org/meeting/127/agenda.json
-URL:https://frmoretto.github.io/agentic-standards-map/entries/ietf-wimse-ai
- ms.html
-END:VEVENT
-BEGIN:VEVENT
-UID:ietf-dawn-2026-11-19-9.agentic-standards-map.invalid
-DTSTAMP:20261116T000000Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:IETF 127: dawn session\, 16:30 to 18:30 San Francisco time\, room C
- ontinental 4
-DESCRIPTION:IETF 127: dawn session\, 16:30 to 18:30 San Francisco time\, ro
- om Continental 4 Source: https://datatracker.ietf.org/meeting/127/agenda.j
- son
-URL:https://frmoretto.github.io/agentic-standards-map/entries/ietf-dawn.htm
- l
+UID:ietf-audit-2026-12-03-3.agentic-standards-map.invalid
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:IETF AUDIT: the audit list reopens to messages
+DESCRIPTION:IETF AUDIT: the audit list reopens to messages (closed until th
+ is date by a chair's message of 2026-11-20) Source: https://mailarchive.ie
+ tf.org/arch/msg/audit/ISQ2xryc--mkqotIhif4aJN1c8o/
+URL:https://frmoretto.github.io/agentic-standards-map/entries/ietf-audit.ht
+ ml
 END:VEVENT
 END:VCALENDAR

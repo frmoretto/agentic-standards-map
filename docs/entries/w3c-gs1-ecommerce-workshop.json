@@ -16,7 +16,7 @@
   }
  ],
  "boundary": "The workshop is an event, not a standards group; no scope exclusion found in the workshop repository, 2026-10-03.",
- "participation": "The author of this map took part in the workshop with position statement #14 (issue of 2026-06-25) and PRs #51 and #73; see Disclosure.",
+ "participation": "The author of this map took part in the workshop with position statement #14 (issue of 2026-06-25) and PRs #51 and #73, and asked for corrections to the summary of his talk in the draft report, applied in PR #92 by another account (merged 2026-11-14); see Disclosure.",
  "sources": [
   {
    "url": "https://www.w3.org/2026/ecommerce-agents/",
@@ -61,12 +61,12 @@
  "seams": [
   "S2"
  ],
- "verified": "2026-11-16",
+ "verified": "2026-11-23",
  "evidence": {
-  "read": "On 2026-11-16: issue #34 of w3c/tpac2026-breakouts (slot and minutes link), PR #87 of w3c/ecommerce-for-humans-and-AI-Agents-workshop and report.html in that repository (opening note only). On 2026-11-02: the KYA-OS position statement (PDF, three pages; blob 7e5a195, identical at the head of main 7024354), the listing of position_statement/ (three PDFs), PR #43 (merge date), and issue #21 of this map's repository (proposal and disclosure). On 2026-10-13: the file listing and the latest commits of the workshop repository and breakout issue #34. Repository w3c/ecommerce-for-humans-and-AI-Agents-workshop: issues, pull requests and README on 2026-10-03, with the issues of tpac2026-breakouts and the items of tpac2026-miniworkshops; Sven Böckelmann's slides (slides/Sven_Boeckelmann_benelog_trusted-resolution-v1.pptx) on 2026-10-05.",
+  "read": "On 2026-11-23: PR #92 of w3c/ecommerce-for-humans-and-AI-Agents-workshop (\"feedback from Francesco\", merged 2026-11-14; GitHub API), for the participation field only. On 2026-11-16: issue #34 of w3c/tpac2026-breakouts (slot and minutes link), PR #87 of w3c/ecommerce-for-humans-and-AI-Agents-workshop and report.html in that repository (opening note only). On 2026-11-02: the KYA-OS position statement (PDF, three pages; blob 7e5a195, identical at the head of main 7024354), the listing of position_statement/ (three PDFs), PR #43 (merge date), and issue #21 of this map's repository (proposal and disclosure). On 2026-10-13: the file listing and the latest commits of the workshop repository and breakout issue #34. Repository w3c/ecommerce-for-humans-and-AI-Agents-workshop: issues, pull requests and README on 2026-10-03, with the issues of tpac2026-breakouts and the items of tpac2026-miniworkshops; Sven Böckelmann's slides (slides/Sven_Boeckelmann_benelog_trusted-resolution-v1.pptx) on 2026-10-05.",
   "not_read": "The other slide files (PRs #57 to #85) and the position-statement PDFs in position_statement/ (Fabacus, P&G); report and agenda pages, pre-recordings."
  },
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/w3c-gs1-ecommerce-workshop.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/14d5c95b186ac264862a3dd4eccb84782145bf1e/entries/w3c-gs1-ecommerce-workshop.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/436dd50e12608a7b973d2d11b98d787d48465c48/entries/w3c-gs1-ecommerce-workshop.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }

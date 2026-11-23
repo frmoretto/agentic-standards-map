@@ -1,0 +1,71 @@
+{
+ "id": "oidf-aauth",
+ "name": "OpenID Foundation Agent Auth (AAuth) Working Group",
+ "org": "Independent",
+ "kind": "charter",
+ "tier": "context",
+ "status": "The working group page was published on openid.net on 2026-11-11 and the group's repository, github.com/openid/aauth, was created on 2026-11-05; its first meeting is set for 2026-11-30, where, according to the agenda reproduced on the page, the group is to approve the scope in section (iii) of its charter, confirm Dick Hardt as editor and decide whether to adopt the contributed AAuth drafts as Working Group Drafts. The page says the chairs are to be confirmed at that meeting (read 2026-11-23).",
+ "status_as_of": "2026-11-23",
+ "relevance": "The charter's purpose is \"to develop specifications for agents that act on behalf of people and organizations: how an agent proves who it is and who it acts for, and how it obtains and uses authorization across trust domains\"; its scope includes missions and the person's consent to and oversight of what an agent does, and the contributed drafts include AAuth Budgets, described in the repository as \"Spending ceilings for metered resources\". Payment protocols are out of scope in the charter.",
+ "committed_next": [
+  {
+   "what": "First working group meeting (18:00 UTC): decisions on the charter scope, the editor and the adoption as Working Group Drafts of AAuth Protocol, Supervision, Events, Rich Resource Requests (R3), Budgets and HTTP Signature Keys (the last only if the IETF HTTP Working Group does not adopt it first); a call for co-chairs.",
+   "when": "2026-11-30",
+   "source": "https://openid.net/wg/aauth/",
+   "class": "decision"
+  },
+  {
+   "what": "Target dates in the charter's table of proposed specifications: AAuth Protocol 1.0 Implementers Draft in Q2 2027 and Final in Q1 2028; HTTP Signature Keys 1.0 Implementers Draft in Q1 2027.",
+   "when": "undated",
+   "source": "https://github.com/openid/aauth/blob/be91b4c/charter.md",
+   "class": "normative"
+  }
+ ],
+ "boundary": "Out of scope in the charter: how a person server or supervisor decides whether to approve a request, how the person is authenticated or identity-proofed, agent runtime and model behaviour, payment protocols, and changes to OAuth 2.0, OpenID Connect or HTTP Message Signatures (RFC 9421).",
+ "sources": [
+  {
+   "url": "https://openid.net/wg/aauth/",
+   "read": "2026-11-23",
+   "class": "decision"
+  },
+  {
+   "url": "https://github.com/openid/aauth/blob/be91b4c/charter.md",
+   "read": "2026-11-23",
+   "class": "normative"
+  },
+  {
+   "url": "https://github.com/openid/aauth",
+   "read": "2026-11-23",
+   "class": "statement"
+  },
+  {
+   "url": "https://openid.github.io/aauth/",
+   "read": "2026-11-23",
+   "class": "statement"
+  },
+  {
+   "url": "https://openid.net/wg/",
+   "archived": "https://web.archive.org/web/20261012025353/https://openid.net/wg/",
+   "read": "2026-11-16",
+   "class": "statement"
+  },
+  {
+   "url": "https://github.com/openid/aauth/blob/be91b4c/resources.md",
+   "read": "2026-11-23",
+   "class": "statement"
+  }
+ ],
+ "overlaps": [
+  "oidf-authzen-agents",
+  "ietf-wimse-aims",
+  "ietf-webbotauth"
+ ],
+ "verified": "2026-11-23",
+ "evidence": {
+  "read": "On 2026-11-23: the working group overview page and the charter page on openid.net (page metadata: overview published 2026-11-11, charter page published 2026-11-11); the repository openid/aauth (created 2026-11-05; README, charter.md and resources.md at commit be91b4c of 2026-11-12, still the last commit on 2026-11-23); the meeting calendar page at openid.github.io/aauth, which gives the next meeting as 2026-11-30 at 18:00 UTC. On 2026-11-16 (saved copy): the working groups index of openid.net, which lists the AAuth Working Group; the saved copy of 2026-10-02 does not. On 2026-11-23, datatracker records of the contributed drafts, read for another entry of this version: draft-hardt-oauth-aauth-protocol has a first revision of 2026-04-02 and revision -11 of 2026-09-25; draft-hardt-aauth-r3 -00 is of 2026-09-28; draft-rosenberg-oauth-aauth (-02 of 2026-11-01) was presented at the IETF OAuth Working Group session of 2026-11-18; its relation to the working group's drafts was not read.",
+  "not_read": "The texts of the contributed drafts, the mailing list (the agenda is cited from the public page that reproduces it), a minutes folder (not present at be91b4c), the implementations listed in resources.md, the charter page on openid.net compared line by line with charter.md."
+ },
+ "url": "https://frmoretto.github.io/agentic-standards-map/entries/oidf-aauth.html",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/436dd50e12608a7b973d2d11b98d787d48465c48/entries/oidf-aauth.yaml",
+ "licence": "https://creativecommons.org/licenses/by/4.0/"
+}

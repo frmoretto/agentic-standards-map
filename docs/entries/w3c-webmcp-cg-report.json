@@ -6,7 +6,7 @@
  "tier": "context",
  "status": "Draft Community Group Report, dated 9 October 2026 on the page read on 2026-10-13 (2026-09-30 on 2026-10-03), no numbered version; on 2026-10-08 PR #338, \"Remove declarative API from spec\", was merged (the specification now focuses on the imperative registerTool() API); the draft Agentic Web Working Group (WG) charter lists WebMCP as its normative deliverable (since the charter revision of 2026-10-29, a943ce5, as the initial input of its Site Capabilities for Agents deliverable). At TPAC, the Web Machine Learning CG meeting of 2026-10-27 recorded resolutions (draft minutes, read 2026-11-09), among them: to explore making the API \"a more generic communication tool\"; agreement on the ModelContextClient API shape (issue #227); \"Declarative WebMCP work continues in the explainer form within this repo, advancement to spec stage will be considered once implementation experience is available\"; and that general \"Web Security and Privacy Guidance for Agent Implementers\" belongs in a group chartered for that work. Read 2026-11-16: the report published on 2026-11-13 (gh-pages commit 7e35079) is dated 13 November 2026; among the pull requests merged into main since 2026-10-13 are #326 (2026-10-27), \"Document cross-origin tool exposure and two-sided opt-in in Section 6.3.4\", and #254 (2026-11-02), which adds `outputSchema` to `ModelContextTool` and `RegisteredTool`.",
  "status_as_of": "2026-11-13",
- "relevance": "Draft: \"The WebMCP API enables web applications to provide JavaScript-based tools to AI agents.\"; an editor wrote on 2026-09-25 that identity and delegation proposals \"are beyond the scope of the simple WebMCP API\".",
+ "relevance": "Draft: \"The WebMCP API enables web applications to provide JavaScript-based tools to AI agents.\"; an editor wrote on 2026-09-25 that identity and delegation proposals \"are beyond the scope of the simple WebMCP API\". UCP has a draft WebMCP transport binding (PR #1073, opened 2026-11-11, open and draft on 2026-11-20, milestone 2026-12-08); see ucp.",
  "sources": [
   {
    "url": "https://webmachinelearning.github.io/webmcp/",
@@ -51,6 +51,11 @@
    "archived": "https://web.archive.org/web/20261014063001/https://github.com/WebKit/standards-positions/issues/670",
    "read": "2026-10-03",
    "class": "third-party"
+  },
+  {
+   "url": "https://github.com/Universal-Commerce-Protocol/ucp/pull/1073",
+   "read": "2026-11-23",
+   "class": "third-party"
   }
  ],
  "overlaps": [
@@ -62,9 +67,9 @@
  "seams": [
   "S3"
  ],
- "verified": "2026-11-16",
+ "verified": "2026-11-23",
  "evidence": {
-  "read": "On 2026-11-16,: the date in index.html of the gh-pages branch at 7e35079 (2026-11-13, built from PR #381) and the titles and merge dates of the 14 pull requests merged into main from 2026-10-13 to 2026-11-13 (#337, #345, #347, #350, #352, #334, #326, #254, #371, #269, #380, #382, #383, #381); the texts of the pull requests were not read, only their titles. On 2026-11-09: the draft minutes of the WebML CG meeting of 2026-10-27 (resolutions). On 2026-10-13: the draft report page and the latest commits of the repository (to 2026-10-09), PR #338 and issues #65, #192 and #257. Repository webmachinelearning/webmcp (titles of all items, about 45 in full) and public-webmachinelearning from 2026-08-14 to 2026-10-01, read on 2026-10-03; WebKit issue #670.",
+  "read": "On 2026-11-23, through gh: UCP PR #1073 (state, draft, milestone). On 2026-11-16,: the date in index.html of the gh-pages branch at 7e35079 (2026-11-13, built from PR #381) and the titles and merge dates of the 14 pull requests merged into main from 2026-10-13 to 2026-11-13 (#337, #345, #347, #350, #352, #334, #326, #254, #371, #269, #380, #382, #383, #381); the texts of the pull requests were not read, only their titles. On 2026-11-09: the draft minutes of the WebML CG meeting of 2026-10-27 (resolutions). On 2026-10-13: the draft report page and the latest commits of the repository (to 2026-10-09), PR #338 and issues #65, #192 and #257. Repository webmachinelearning/webmcp (titles of all items, about 45 in full) and public-webmachinelearning from 2026-08-14 to 2026-10-01, read on 2026-10-03; WebKit issue #670.",
   "not_read": "Minutes pages, section 6.2 of the specification, items #165, #204, #255, #272, #273 and #312 in full."
  },
  "open_proposals": [
@@ -78,6 +83,6 @@
   }
  ],
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/w3c-webmcp-cg-report.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/14d5c95b186ac264862a3dd4eccb84782145bf1e/entries/w3c-webmcp-cg-report.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/436dd50e12608a7b973d2d11b98d787d48465c48/entries/w3c-webmcp-cg-report.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }

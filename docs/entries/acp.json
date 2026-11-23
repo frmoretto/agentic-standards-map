@@ -82,18 +82,18 @@
   "S3",
   "S4"
  ],
- "verified": "2026-11-16",
+ "verified": "2026-11-23",
  "evidence": {
-  "read": "On 2026-11-16: the answer of developers.openai.com/commerce/specs/checkout and /commerce/guides/key-concepts (HTTP 301 to /commerce/guides/accept-payments); the target page was not read for this entry. On 2026-10-13: the head of main and the README and MAINTAINERS.md of a fresh fetch of the repository (commit 7fdd78d), the tag and release lists, spec/unreleased, and the state of issues #231 and #303 and Discussions #265 and #304. Repository, 2026-10-03: issues, pull requests, Discussions, main branch read (README, MAINTAINERS.md, governance, RFCs, specifications); agenticcommerce.dev; OpenAI, Stripe pages.",
+  "read": "On 2026-11-23: the state of issue #231 (closed as not planned on 2026-11-14 at 00:21 UTC by its author; the last comments are of 2026-05-12, so no closing comment), GitHub API. On 2026-11-16: the answer of developers.openai.com/commerce/specs/checkout and /commerce/guides/key-concepts (HTTP 301 to /commerce/guides/accept-payments); the target page was not read for this entry. On 2026-10-13: the head of main and the README and MAINTAINERS.md of a fresh fetch of the repository (commit 7fdd78d), the tag and release lists, spec/unreleased, and the state of issues #231 and #303 and Discussions #265 and #304. Repository, 2026-10-03: issues, pull requests, Discussions, main branch read (README, MAINTAINERS.md, governance, RFCs, specifications); agenticcommerce.dev; OpenAI, Stripe pages.",
   "not_read": "Discord, TSC meetings, GitHub organisation membership.",
   "not_found": "Not found in the repository, 2026-10-03: tag, release, Web Bot Auth, KYA, Verifiable Intent."
  },
  "open_proposals": [
   {
-   "what": "Governance-layer binding for ACP: authorization, limits, attribution (discussion)",
+   "what": "Governance-layer binding for ACP: authorization, limits, attribution (discussion); closed by its author as not planned on 2026-11-14",
    "author": "a participant",
    "date": "2026-04-23",
-   "state": "open",
+   "state": "closed",
    "url": "https://github.com/agentic-commerce-protocol/agentic-commerce-protocol/issues/231",
    "archived": "https://web.archive.org/web/20261014060557/https://github.com/agentic-commerce-protocol/agentic-commerce-protocol/issues/231"
   },
@@ -131,6 +131,6 @@
   "source": "https://github.com/agentic-commerce-protocol/agentic-commerce-protocol/blob/main/README.md"
  },
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/acp.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/14d5c95b186ac264862a3dd4eccb84782145bf1e/entries/acp.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/436dd50e12608a7b973d2d11b98d787d48465c48/entries/acp.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }

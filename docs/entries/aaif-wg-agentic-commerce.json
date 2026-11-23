@@ -6,7 +6,7 @@
  "tier": "core",
  "status": "Charter approved 2026-05-15; Capability Map being built from contributed inputs. Charter targets: Capability Map (2026-09-01) and Recommendations to the Technical Committee on hosted projects (2026-10-01); both dates have passed, and no Capability Map or Recommendations document is found in the repository on 2026-10-13 (root: README.md, charter.md, reporting/; commits to 2026-10-12). Chairs per the August report: Ilya Grigorik (Shopify) and Rahul Bansal (OpenAI). The August report (merged by PR #7 on 2026-10-12) says the x402 session \"advanced the payment layer of the Capability Map\" and lists no decision needed from the Technical Committee; the report for September is opened as issue #9 (2026-10-12), covering deep dives on onX, MPP and the UCP August release.",
  "status_as_of": "2026-10-13",
- "relevance": "The group aligns open specifications for commerce workflows carried out by AI agents; the charter says \"The Working Group does not author competing commerce protocols\" and lists UCP, ACP, Mastercard Verifiable Intent and Visa TAP as \"Source Projects (primary inputs to the Capability Map)\". The Running Notes record on product discovery (2026-04-01) \"Finding products is different from finding where to search\". The charter lists \"Open Meetings: No\". In issue #5 (Capability Map input: cross-boundary evidence and audit row) the author of the individual Internet-Draft draft-krausz-verification-state, who discloses it, wrote on 2026-10-08 that its v_verdict \"carries verified, contradicted, indeterminate or not_evaluated\" and that \"a mapping would need to preserve the distinction between an inconclusive evaluation and one that did not occur.\"",
+ "relevance": "The group aligns open specifications for commerce workflows carried out by AI agents; the charter says \"The Working Group does not author competing commerce protocols\" and lists UCP, ACP, Mastercard Verifiable Intent and Visa TAP as \"Source Projects (primary inputs to the Capability Map)\". The Running Notes record on product discovery (2026-04-01) \"Finding products is different from finding where to search\". The charter lists \"Open Meetings: No\". In issue #5 (Capability Map input: cross-boundary evidence and audit row) the author of the individual Internet-Draft draft-krausz-verification-state, who discloses it, wrote on 2026-10-08 that its v_verdict \"carries verified, contradicted, indeterminate or not_evaluated\" and that \"a mapping would need to preserve the distinction between an inconclusive evaluation and one that did not occur.\" On 2026-11-11 the author of issue #5 wrote there that the row as written binds delegated intent and post-purchase audit but does not assert that delegated limits were checked at the execution boundary, and proposed a capability cell for an execution-boundary decision record signed by the party that enforced the limit, and a distinction between a dispatched attempt and an observed result; he placed the observation primitive with the Observability and Traceability group and the binding of delegated authority with Identity and Trust: \"That is a cross-WG dependency rather than duplication.\" (read 2026-11-23).",
  "committed_next": [],
  "boundary": "Out of scope: new commerce protocols, internals of any specific commerce system, end-user UI, marketplace design, hardware.",
  "sources": [
@@ -56,6 +56,11 @@
    "archived": "https://web.archive.org/web/20261014055733/https://github.com/aaif/wg-agentic-commerce/issues/9",
    "read": "2026-10-13",
    "class": "statement"
+  },
+  {
+   "url": "https://github.com/aaif/wg-agentic-commerce/issues/5#issuecomment-6788489602",
+   "read": "2026-11-23",
+   "class": "third-party"
   }
  ],
  "participation": "The author of this map wrote on the public working group mailing list on 2026-10-12, accepting a 30-minute slot, wrote again in the same thread on 2026-10-14, and gave a presentation of the map at the working group call of 2026-10-14; see Disclosure.",
@@ -68,9 +73,9 @@
  "seams": [
   "S4"
  ],
- "verified": "2026-10-13",
+ "verified": "2026-11-23",
  "evidence": {
-  "read": "On 2026-10-13: the repository file listing and commits to 2026-10-12, the charter targets, the August report (reporting/2026-08-report.md), issues #5 to #9, and the Running Notes document linked from the README (a Google Document shared by link): its last session heading is of 2026-07-22 and it does not mention a completed Capability Map. Repository aaif/wg-agentic-commerce, 2026-10-02 and 2026-10-03: all issues, pull requests, discussions, branches and history since 2026-06-01; Running Notes, sessions 2026-02-18 to 2026-07-22.",
+  "read": "On 2026-11-23: the comments of issue #5 of 2026-11-10 (three, by participants) and 2026-11-11 (by the issue's author), GitHub API; the issue is open. The status was not re-read on that day. On 2026-10-13: the repository file listing and commits to 2026-10-12, the charter targets, the August report (reporting/2026-08-report.md), issues #5 to #9, and the Running Notes document linked from the README (a Google Document shared by link): its last session heading is of 2026-07-22 and it does not mention a completed Capability Map. Repository aaif/wg-agentic-commerce, 2026-10-02 and 2026-10-03: all issues, pull requests, discussions, branches and history since 2026-06-01; Running Notes, sessions 2026-02-18 to 2026-07-22.",
   "not_read": "Discord, the meeting record cited in PR #7, per-session Google Documents, the fork of PR #6.",
   "not_found": "Not found, 2026-10-13: Running Notes for a session after 2026-07-22; a Capability Map or Recommendations document. Not found in the product discovery notes, 2026-10-03: GS1, GTIN, schema.org."
  },
@@ -93,6 +98,6 @@
   }
  ],
  "url": "https://frmoretto.github.io/agentic-standards-map/entries/aaif-wg-agentic-commerce.html",
- "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/14d5c95b186ac264862a3dd4eccb84782145bf1e/entries/aaif-wg-agentic-commerce.yaml",
+ "source_url": "https://github.com/frmoretto/agentic-standards-map/blob/436dd50e12608a7b973d2d11b98d787d48465c48/entries/aaif-wg-agentic-commerce.yaml",
  "licence": "https://creativecommons.org/licenses/by/4.0/"
 }
